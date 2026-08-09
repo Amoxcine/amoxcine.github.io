@@ -3,13 +3,54 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ascendant - Packwiz</title>
+  <meta name="color-scheme" content="dark">
+  <title>Ascendant - Installation</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: Inter, system-ui, sans-serif;
+      background: #101412;
+      color: #f3f6f4;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; }
+    main { width: min(760px, calc(100% - 32px)); margin: 0 auto; padding: 64px 0; }
+    h1 { margin: 0 0 8px; font-size: clamp(2.2rem, 8vw, 4.5rem); letter-spacing: 0; }
+    .subtitle { margin: 0 0 32px; color: #b7c1bb; font-size: 1.1rem; }
+    .download {
+      display: inline-block;
+      padding: 13px 18px;
+      border-radius: 6px;
+      background: #e8b44c;
+      color: #17130a;
+      font-weight: 750;
+      text-decoration: none;
+    }
+    .download:hover { background: #f3c568; }
+    section { margin-top: 48px; border-top: 1px solid #39413c; padding-top: 28px; }
+    h2 { margin: 0 0 20px; font-size: 1.35rem; }
+    ol { margin: 0; padding-left: 24px; }
+    li { margin: 0 0 14px; padding-left: 7px; line-height: 1.55; }
+    a { color: #f0c979; }
+    .note { margin-top: 28px; color: #b7c1bb; line-height: 1.55; }
+  </style>
 </head>
 <body>
   <main>
     <h1>Ascendant</h1>
-    <p>Distribution Packwiz du modpack Minecraft 1.21.1 NeoForge.</p>
-    <p><a href="pack.toml">Manifeste Packwiz</a></p>
+    <p class="subtitle">Minecraft 1.21.1 avec NeoForge</p>
+    <a class="download" href="downloads/Ascendant-Prism.zip" download>Telecharger pour Prism Launcher</a>
+
+    <section>
+      <h2>Installation</h2>
+      <ol>
+        <li>Installe et ouvre <a href="https://prismlauncher.org/download/" rel="noreferrer">Prism Launcher</a>.</li>
+        <li>Clique sur <strong>Ajouter une instance</strong>, puis sur <strong>Importer</strong>.</li>
+        <li>Choisis le fichier <strong>Ascendant-Prism.zip</strong> telecharge ci-dessus.</li>
+        <li>Clique sur <strong>OK</strong>, connecte ton compte Microsoft, puis lance <strong>Ascendant</strong>.</li>
+      </ol>
+      <p class="note">Le premier lancement telecharge le modpack. Les mises a jour suivantes sont verifiees automatiquement avant chaque demarrage.</p>
+    </section>
   </main>
 </body>
 </html>
