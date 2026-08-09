@@ -1,0 +1,1823 @@
+{
+	chapter_group.65C0000000000001.title: "Ascendant"
+	chapter_group.65C0000000000002.title: "Campagne aventure"
+	chapter_group.65C0000000000003.title: "Combat et magie"
+	chapter.65C1000000000001.title: "Bienvenue dans Ascendant"
+	chapter.65C1000000000002.title: "Mondes et voyages"
+	chapter.65C1000000000003.title: "Create"
+	chapter.65C1000000000004.title: "Combat et magie"
+	chapter.65C1000000000005.title: "Twilight Forest"
+	chapter.65C1000000000006.title: "Eternal Starlight"
+	chapter.65C1000000000007.title: "Cataclysm - Les trois actes"
+	chapter.65C1000000000008.title: "Ars Nouveau"
+	chapter.65C1000000000009.title: "Iron's Spells 'n Spellbooks"
+	chapter.65C100000000000A.title: "Apotheosis"
+	chapter.65C100000000000B.title: "Arsenal, Armory et Relics"
+	reward_table.65C6000000000001.title: "Composant Armory - Acte I"
+	reward_table.65C6000000000002.title: "Composant Armory - Acte II"
+	reward_table.65C6000000000003.title: "Composant Armory - Acte III"
+
+	quest.65C2100000000001.title: "Bienvenue dans Ascendant"
+	quest.65C2100000000001.quest_subtitle: "Un monde, plusieurs ambitions"
+	quest.65C2100000000001.quest_desc: [
+		"Ascendant réunit industrie, colonies, magie et aventure dans un même monde persistant."
+		""
+		"Aucune branche n'est obligatoire. Utilise ce livre comme une carte : choisis un projet, suis ses liens et reviens aux autres campagnes lorsque tu en as envie."
+	]
+	quest.65C2100000000002.title: "Une équipe permanente"
+	quest.65C2100000000002.quest_subtitle: "Quêtes, claims et infrastructures"
+	quest.65C2100000000002.quest_desc: [
+		"FTB Teams porte la progression commune du livre, les claims et les chunks chargés."
+		""
+		"La validation d'une quête est partagée avec toute l'équipe. Les récompenses restent réclamables individuellement par chaque membre."
+	]
+	quest.65C2100000000003.title: "Construire sans enfermer"
+	quest.65C2100000000003.quest_subtitle: "Les règles du monde"
+	quest.65C2100000000003.quest_desc: [
+		"L'industrie et l'aventure se renforcent sans devenir des péages mutuels. Les claims protègent les constructions, mais les villes doivent toujours être éclairées et défendues."
+		""
+		"Place les stockages importants au moins un chunk à l'intérieur de ta frontière revendiquée."
+	]
+	quest.65C2100000000004.title: "Choisir une direction"
+	quest.65C2100000000004.quest_subtitle: "Toutes les routes restent ouvertes"
+	quest.65C2100000000004.quest_desc: [
+		"Les nœuds ci-dessous ouvrent les grandes campagnes. Ils sont aussi disponibles dans la liste des chapitres."
+		""
+		"Technologie, colonie, combat ou exploration : commence là où ton projet prend forme."
+	]
+
+	quest.65C2200000000001.title: "Au-delà de l'Overworld"
+	quest.65C2200000000001.quest_desc: ["Les dimensions complètent l'Overworld sans le remplacer. Prépare toujours une voie de retour avant de franchir un portail."]
+	quest.65C2200000000002.title: "Ouvrir le Nether"
+	quest.65C2200000000002.quest_desc: ["Rassemble de quoi construire et rallumer un portail. Le Nether alimente autant la progression vanilla que les chaînes industrielles."]
+	quest.65C2200000000003.title: "Le Nether"
+	quest.65C2200000000003.quest_desc: ["Établis un point d'arrivée protégé. Les coordonnées sont divisées par huit entre Nether et Overworld : exploite cette propriété pour les longues liaisons."]
+	quest.65C2200000000004.title: "Un monde pour extraire"
+	quest.65C2200000000004.quest_desc: ["JAMD fournit le monde minier de la V1. Les carrières et excavations lourdes doivent y être installées afin de préserver l'Overworld."]
+	quest.65C2200000000005.title: "La dimension minière"
+	quest.65C2200000000005.quest_desc: ["Utilise ce monde pour les volumes industriels. Une Waystone peut y desservir un chantier sans modifier les restrictions des dimensions d'aventure."]
+	quest.65C2200000000006.title: "Chercher le Stronghold"
+	quest.65C2200000000006.quest_desc: ["Les Yeux de l'Ender indiquent la route du portail. Prévois du matériel de remplacement et un point de repli."]
+	quest.65C2200000000007.title: "L'End"
+	quest.65C2200000000007.quest_desc: ["L'entrée dans l'End ouvre l'accès aux ressources de fin de jeu, mais le retour normal exige d'affronter le Dragon."]
+	quest.65C2200000000008.title: "Le Dragon de l'End"
+	quest.65C2200000000008.quest_desc: ["Cette victoire ouvre les îles extérieures et plusieurs campagnes endgame. Simply Swords peut y produire un unique, avec un taux volontairement rare."]
+	quest.65C2200000000009.title: "Réseau Waystones"
+	quest.65C2200000000009.quest_desc: [
+		"Les Waystones sont personnelles à l'activation, sans coût d'expérience ni cooldown. Une même pierre peut être activée par plusieurs joueurs."
+		""
+		"La téléportation est interdite dès qu'un trajet implique Twilight Forest, Eternal Starlight ou la Pocket Dimension."
+	]
+	quest.65C220000000000A.title: "Routes établies"
+	quest.65C220000000000A.quest_desc: ["Le Nether, l'End et le monde minier sont désormais des extensions logistiques de ton projet. Les liens suivants ramènent vers Create et la campagne aventure."]
+
+	quest.65C2300000000001.title: "L'alliage d'andésite"
+	quest.65C2300000000001.quest_subtitle: "Fondation mécanique"
+	quest.65C2300000000001.quest_desc: ["L'alliage d'andésite ouvre les premiers composants cinétiques. Commence petit et garde tes lignes accessibles pour les modifier."]
+	quest.65C2300000000002.title: "Première rotation"
+	quest.65C2300000000002.quest_desc: ["Une roue à eau, des arbres et des engrenages suffisent à mettre en mouvement un premier atelier."]
+	quest.65C2300000000003.title: "Presser"
+	quest.65C2300000000003.quest_desc: ["La Presse mécanique transforme les matériaux et intervient dans de nombreuses séquences d'assemblage."]
+	quest.65C2300000000004.title: "Transport continu"
+	quest.65C2300000000004.quest_desc: ["Les courroies et dépôts rendent le flux visible. Laisse de l'espace autour des machines pour les entonnoirs et bras futurs."]
+	quest.65C2300000000005.title: "Mélanger et chauffer"
+	quest.65C2300000000005.quest_desc: ["Le Mélangeur mécanique et le Bassin forment une plateforme polyvalente pour alliages, liquides et recettes chauffées."]
+	quest.65C2300000000006.title: "La chaleur du Blaze"
+	quest.65C2300000000006.quest_desc: ["Le Blaze Burner marque le passage vers les procédés avancés. Vérifie dans JEI le niveau de chauffe demandé par chaque recette."]
+	quest.65C2300000000007.title: "Assemblage mécanique"
+	quest.65C2300000000007.quest_desc: ["Les Mechanical Crafters réalisent les grandes recettes. Leur disposition fait partie de la machine : prépare une façade extensible."]
+	quest.65C2300000000008.title: "Le rail devient réseau"
+	quest.65C2300000000008.quest_desc: ["Une station, une voie et un horaire transforment un train décoratif en outil logistique. Commence par une ligne courte et fiable."]
+	quest.65C2300000000009.title: "Pont vers l'énergie FE"
+	quest.65C2300000000009.quest_desc: ["Create Crafts & Additions convertit rotation et énergie FE. Le pont relie Create aux réseaux Powah, Mekanism et autres infrastructures électriques."]
+	quest.65C230000000000A.title: "Fret pour la colonie"
+	quest.65C230000000000A.quest_desc: ["Create: Colony Logistics relie les demandes MineColonies à un dépôt de fret. Valide d'abord un trajet simple avant d'étendre le réseau."]
+	quest.65C230000000000B.title: "Raffinerie et diesel"
+	quest.65C230000000000B.quest_desc: ["Le diesel ajoute une branche industrielle visible : extraction, distillation, stockage puis motorisation. Elle reste une spécialisation facultative."]
+	quest.65C230000000000C.title: "Infrastructure mécanique"
+	quest.65C230000000000C.quest_desc: ["Ton réseau peut maintenant produire, transporter et échanger de l'énergie. Les liens ouvrent les campagnes technologiques spécialisées et MineColonies."]
+
+	quest.65C2400000000001.title: "Construire un style de combat"
+	quest.65C2400000000001.quest_desc: ["Armes, sorts, compétences et affixes servent des styles différents. Aucun choix n'est définitif : expérimente avant d'investir les composants rares."]
+	quest.65C2400000000002.title: "Mobilité et rythme"
+	quest.65C2400000000002.quest_desc: ["Better Combat et Combat Roll changent le rythme des affrontements. Configure des touches confortables et apprends les fenêtres d'attaque sur des ennemis ordinaires."]
+	quest.65C2400000000003.title: "Compétences RPG"
+	quest.65C2400000000003.quest_desc: ["L'arbre de compétences spécialise progressivement ton personnage. Choisis une direction cohérente avec tes armes plutôt qu'une collection de bonus dispersés."]
+	quest.65C2400000000004.title: "Le carnet d'Ars Nouveau"
+	quest.65C2400000000004.quest_desc: ["Ars Nouveau privilégie la création de sorts et l'utilitaire. Le carnet intégré reste la référence pour les glyphes et les machines magiques."]
+	quest.65C2400000000005.title: "Composer un sort"
+	quest.65C2400000000005.quest_desc: ["Crée un sort adapté à un besoin concret : mobilité, extraction, contrôle ou dégâts. La polyvalence est la force principale d'Ars Nouveau."]
+	quest.65C2400000000006.title: "Un premier grimoire"
+	quest.65C2400000000006.quest_desc: ["Iron's Spells propose des sorts trouvés et appris, avec une progression davantage tournée vers le combat et l'exploration."]
+	quest.65C2400000000007.title: "Équiper ses sorts"
+	quest.65C2400000000007.quest_desc: ["Associe grimoire, armure et école de magie. Les parchemins de haut niveau se trouvent surtout dans les contenus avancés."]
+	quest.65C2400000000008.title: "Arsenal, Armory et Relics"
+	quest.65C2400000000008.quest_desc: ["Arsenal fournit les armes de classe, Armory les ensembles évolutifs et Relics des pièces rares. Leur présence augmente avec la campagne aventure."]
+	quest.65C2400000000009.title: "Reforger sans tout écraser"
+	quest.65C2400000000009.quest_desc: ["Apotheosis optimise les équipements RPG compatibles. Les signatures Cataclysm et les équipements technologiques endgame restent volontairement exclus des affixes."]
+	quest.65C240000000000A.title: "Prêt à explorer"
+	quest.65C240000000000A.quest_desc: ["Tu disposes des bases pour tester un build. Twilight Forest constitue le premier terrain de campagne, mais tu peux continuer chaque magie comme une aventure annexe."]
+
+	quest.65C2500000000001.title: "Cartographier le crépuscule"
+	quest.65C2500000000001.quest_subtitle: "Campagne aventure - Tier I"
+	quest.65C2500000000001.quest_desc: [
+		"La Magic Map révèle les grandes structures de Twilight Forest. Elle reste ton outil principal : le livre indique une direction, pas des coordonnées."
+		""
+		"Twilight est conçue comme le premier palier aventure. Évite d'y entrer immédiatement avec un équipement industriel endgame si tu souhaites conserver l'intérêt des combats."
+	]
+	quest.65C2500000000002.title: "La Twilight Forest"
+	quest.65C2500000000002.quest_desc: ["Traverse le portail et établis un camp. Les Waystones ne peuvent pas téléporter vers, depuis ou à l'intérieur de cette dimension."]
+	quest.65C2500000000003.title: "La Naga"
+	quest.65C2500000000003.quest_desc: ["Repère une cour de Naga sur la Magic Map. Observe ses déplacements et garde l'arène dégagée : cette victoire ouvre la progression principale."]
+	quest.65C2500000000004.title: "Le Twilight Lich"
+	quest.65C2500000000004.quest_desc: ["La tour du Lich demande davantage de préparation que la cour de Naga. Sa défaite ouvre trois routes que ton équipe peut accomplir dans l'ordre souhaité."]
+	quest.65C2500000000005.title: "Le Minoshroom"
+	quest.65C2500000000005.quest_subtitle: "Branche des marais"
+	quest.65C2500000000005.quest_desc: ["Descends dans le labyrinthe et conserve de quoi marquer ton trajet. Le Minoshroom garde la progression vers les profondeurs du marais."]
+	quest.65C2500000000006.title: "L'Hydre"
+	quest.65C2500000000006.quest_desc: ["Prépare résistance au feu, nourriture et espace de manœuvre. L'Hydre conclut la branche des marais."]
+	quest.65C2500000000007.title: "Les Chevaliers fantômes"
+	quest.65C2500000000007.quest_subtitle: "Branche de la forêt sombre"
+	quest.65C2500000000007.quest_desc: ["La forteresse sombre est un donjon complet. Progresse méthodiquement et sécurise le retour avant d'engager les Chevaliers."]
+	quest.65C2500000000008.title: "L'Ur-Ghast"
+	quest.65C2500000000008.quest_desc: ["La tour sombre impose une longue ascension. Emporte du matériel de rechange et lis l'arène avant d'engager son gardien."]
+	quest.65C2500000000009.title: "L'Alpha Yeti"
+	quest.65C2500000000009.quest_subtitle: "Branche des neiges"
+	quest.65C2500000000009.quest_desc: ["La caverne du Yeti ouvre la progression des hautes terres glacées. Une bonne mobilité vaut souvent davantage qu'un simple gain de dégâts."]
+	quest.65C250000000000A.title: "La Reine des neiges"
+	quest.65C250000000000A.quest_desc: ["Le palais d'Aurora conclut la branche des neiges. Prépare un combat mobile et une méthode fiable pour revenir récupérer une tombe éventuelle."]
+	quest.65C250000000000B.title: "Les trois routes réunies"
+	quest.65C250000000000B.quest_desc: ["Hydre, Ur-Ghast et Reine des neiges sont vaincus. Les hautes terres et le Final Castle deviennent l'épilogue naturel de Twilight Forest."]
+	quest.65C250000000000C.title: "Le Castle Keeper"
+	quest.65C250000000000C.quest_subtitle: "Objectif expérimental"
+	quest.65C250000000000C.quest_desc: ["Cette quête reste facultative tant que la compatibilité du Castle Keeper avec la version actuelle de Twilight Forest n'a pas passé son test complet."]
+	quest.65C250000000000D.title: "Ressusciter un boss"
+	quest.65C250000000000D.quest_subtitle: "Boucle de farm facultative"
+	quest.65C250000000000D.quest_desc: ["Twilight Forest Bosses Resurrection permet de refaire les combats. Les coûts utilisent des ressources d'aventure et doivent être confirmés dans JEI avant le départ."]
+	quest.65C250000000000E.title: "Fin du premier chapitre"
+	quest.65C250000000000E.quest_desc: ["Twilight a forgé les bases de ton build. Eternal Starlight introduit des boss plus mécaniques, des récompenses personnelles en matériaux et les premiers véritables tirages RPG avancés."]
+
+	quest.65C2600000000001.title: "Suivre la lumière"
+	quest.65C2600000000001.quest_subtitle: "Campagne aventure - Tier II"
+	quest.65C2600000000001.quest_desc: ["Le Seeking Eye accompagne la Starlight Story native. Utilise les deux systèmes ensemble : le livre relie la campagne, tandis que le mod guide l'exploration locale."]
+	quest.65C2600000000002.title: "Le Gatekeeper"
+	quest.65C2600000000002.quest_desc: ["Le Gatekeeper conserve exclusivement son butin Eternal natif. Il sert de seuil narratif et mécanique, pas de distributeur d'équipement RPG."]
+	quest.65C2600000000003.title: "Eternal Starlight"
+	quest.65C2600000000003.quest_desc: ["La dimension Starlight interdit les Waystones. Prépare une base légère près de l'accès et conserve le chemin de retour dans ton carnet de voyage."]
+	quest.65C2600000000004.title: "Lire les arènes"
+	quest.65C2600000000004.quest_desc: ["Les boss Eternal possèdent des fenêtres de vulnérabilité, des phases et des protections contre le burst. Cherche d'abord à comprendre l'arène avant d'optimiser les dégâts."]
+	quest.65C2600000000005.title: "Le Starlight Golem"
+	quest.65C2600000000005.quest_desc: ["La force brute ne suffit pas face au Golem. Observe les éléments de l'arène qui entretiennent sa protection et coordonne les rôles du groupe."]
+	quest.65C2600000000006.title: "Permafrost"
+	quest.65C2600000000006.quest_desc: ["Permafrost garde les profondeurs de la Golem Forge. Prévois mobilité et contrôle pour éviter qu'un terrain encombré ne décide du combat."]
+	quest.65C2600000000007.title: "La Lunar Monstrosity"
+	quest.65C2600000000007.quest_desc: ["La Lunar Monstrosity récompense l'observation plus que le burst. Répartis les tâches et conserve des ressources pour plusieurs tentatives."]
+	quest.65C2600000000008.title: "Maîtriser Starlight"
+	quest.65C2600000000008.quest_desc: ["Les trois rencontres majeures sont vaincues. Les matériaux personnels proviennent des coffres de boss ; les signatures rares et le paquet RPG restent partagés."]
+	quest.65C2600000000009.title: "Participant reconnu"
+	quest.65C2600000000009.quest_desc: ["Pour être enregistré dans le coffre personnel d'un boss Eternal, chaque joueur doit lui infliger au moins une instance de dégâts valide. Un support doit donc toucher le boss au moins une fois."]
+	quest.65C260000000000A.title: "Aux portes de Cataclysm"
+	quest.65C260000000000A.quest_desc: ["Ton équipement doit maintenant former un build cohérent. Cataclysm constitue l'endgame de combat actuel, organisé en trois actes souples."]
+
+	quest.65C2700000000001.title: "Cataclysm"
+	quest.65C2700000000001.quest_subtitle: "Acte I - Les machines de guerre"
+	quest.65C2700000000001.quest_desc: [
+		"Les trois actes proposent un ordre conseillé sans verrouiller physiquement les invocations. Chaque acte exige tous ses boss pour valider le chapitre."
+		""
+		"À plusieurs, les boss gagnent uniquement des points de vie selon les joueurs proches. Les dégâts, l'armure et les plafonds natifs restent inchangés."
+	]
+	quest.65C2700000000002.title: "Netherite Monstrosity"
+	quest.65C2700000000002.quest_desc: ["Une masse industrielle animée au cœur du Nether. Contrôle l'espace, garde une issue et évite d'engager le combat au milieu d'une infrastructure irremplaçable."]
+	quest.65C2700000000003.title: "Ender Guardian"
+	quest.65C2700000000003.quest_desc: ["Le Guardian teste la mobilité et le placement du groupe. Prépare le trajet jusqu'à sa structure avant de transporter l'équipement de combat."]
+	quest.65C2700000000004.title: "The Harbinger"
+	quest.65C2700000000004.quest_desc: ["Le Harbinger conclut l'Acte I. Son butin natif reste central ; le tirage RPG partagé est plus probable que sur les deux rencontres précédentes."]
+	quest.65C2700000000005.title: "Fin de l'Acte I"
+	quest.65C2700000000005.quest_subtitle: "Choisis un seul composant important"
+	quest.65C2700000000005.quest_desc: ["Chaque membre de la FTB Team peut choisir un composant Armory. Ce choix est personnel, unique pour l'acte et ne garantit aucun équipement complet."]
+	quest.65C2700000000006.title: "Ancient Remnant"
+	quest.65C2700000000006.quest_subtitle: "Acte II - Royaumes engloutis"
+	quest.65C2700000000006.quest_desc: ["L'Ancient Remnant ouvre l'Acte II. Prépare l'environnement autant que le build : l'arène et la visibilité font partie du danger."]
+	quest.65C2700000000007.title: "Scylla"
+	quest.65C2700000000007.quest_desc: ["Scylla impose une menace spécialisée. Une équipe diversifiée doit conserver mobilité, dégâts réguliers et solution de récupération des tombes."]
+	quest.65C2700000000008.title: "The Leviathan"
+	quest.65C2700000000008.quest_desc: ["Le Leviathan conclut l'Acte II. Vérifie les moyens de respiration, de déplacement et de repli avant de provoquer la rencontre."]
+	quest.65C2700000000009.title: "Fin de l'Acte II"
+	quest.65C2700000000009.quest_subtitle: "Un second choix Armory"
+	quest.65C2700000000009.quest_desc: ["Le deuxième choix permet de renforcer une voie existante ou d'ouvrir une autre spécialisation. Les matériaux de farm restent obtenus sur les boss eux-mêmes."]
+	quest.65C270000000000A.title: "Maledictus"
+	quest.65C270000000000A.quest_subtitle: "Acte III - Les souverains déchus"
+	quest.65C270000000000A.quest_desc: ["Maledictus inaugure le dernier acte. Entre avec un équipement réparé, des consommables identifiés et une stratégie de retrait claire."]
+	quest.65C270000000000B.title: "Ignis"
+	quest.65C270000000000B.quest_desc: ["Ignis conclut la campagne actuelle. Les plafonds natifs empêchent de remplacer la maîtrise du combat par un simple excès de dégâts."]
+	quest.65C270000000000C.title: "Ascendant"
+	quest.65C270000000000C.quest_subtitle: "Fin de la campagne actuelle"
+	quest.65C270000000000C.quest_desc: ["La campagne se termine ici sans fermer le monde. Répète les boss, affine les builds, développe les villes et prépare les futurs chapitres qui pourront être ajoutés après Ignis."]
+	quest.65C270000000000D.title: "Ignited Revenant"
+	quest.65C270000000000D.quest_subtitle: "Miniboss facultatif"
+	quest.65C270000000000D.quest_desc: ["Les minibosses sont des objectifs annexes et des sources privilégiées de ressources RPG ou de Relics. Ils ne bloquent jamais la campagne principale."]
+	quest.65C270000000000E.title: "Ender Golem"
+	quest.65C270000000000E.quest_subtitle: "Miniboss facultatif"
+	quest.65C270000000000E.quest_desc: ["Affronte l'Ender Golem pour compléter l'exploration des structures de l'End et tenter un butin RPG intermédiaire."]
+	quest.65C270000000000F.title: "The Prowler"
+	quest.65C270000000000F.quest_subtitle: "Miniboss facultatif"
+	quest.65C270000000000F.quest_desc: ["Le Prowler prolonge l'Acte II sans en devenir une obligation. Son rôle est d'offrir une rencontre supplémentaire et une chance de progression latérale."]
+	quest.65C2700000000010.title: "L'endgame reste ouvert"
+	quest.65C2700000000010.quest_desc: ["Le lien vers Draconic Evolution ouvre une campagne technologique endgame annexe. Les deux formes de puissance restent comparables mais différentes."]
+
+	quest.65C2800000000001.title: "Le grimoire du novice"
+	quest.65C2800000000001.quest_desc: ["Le grimoire mémorise plusieurs sorts composés de formes et d'effets. Commence par des séquences courtes dont tu comprends chaque élément."]
+	quest.65C2800000000002.title: "Imprégner la matière"
+	quest.65C2800000000002.quest_desc: ["La Chambre d'imprégnation transforme des ressources au contact de la Source. Elle constitue le premier atelier permanent d'Ars Nouveau."]
+	quest.65C2800000000003.title: "Stocker la Source"
+	quest.65C2800000000003.quest_desc: ["Les Source Jars servent de tampon entre production magique et appareils. Sépare production, stockage et consommation pour diagnostiquer les manques."]
+	quest.65C2800000000004.title: "L'appareil d'enchantement"
+	quest.65C2800000000004.quest_desc: ["Dispose les piédestaux autour de l'appareil et vérifie chaque recette dans JEI. Cette structure ouvre les objets et rituels avancés."]
+	quest.65C2800000000005.title: "Une magie d'infrastructure"
+	quest.65C2800000000005.quest_desc: ["Ars Nouveau peut maintenant soutenir exploration, construction et automatisation. Développe les familiers et rituels selon les besoins de ton projet."]
+
+	quest.65C2900000000001.title: "Inscrire les sorts"
+	quest.65C2900000000001.quest_desc: ["La Table d'inscription associe sorts et grimoires. Organise les écoles choisies autour d'un rôle de combat clair."]
+	quest.65C2900000000002.title: "Forger des parchemins"
+	quest.65C2900000000002.quest_desc: ["La Scroll Forge donne une voie de production contrôlée. Les parchemins puissants restent toutefois liés aux ressources et contenus avancés."]
+	quest.65C2900000000003.title: "L'enclume arcanique"
+	quest.65C2900000000003.quest_desc: ["L'Arcane Anvil gère l'équipement magique et les améliorations propres au mod. Consulte les coûts avant d'investir un objet rare."]
+	quest.65C2900000000004.title: "Équiper la réserve de mana"
+	quest.65C2900000000004.quest_desc: ["Les accessoires de mana prolongent un combat, mais ne remplacent ni le placement ni les consommables. Vérifie leur interaction avec ton armure RPG."]
+	quest.65C2900000000005.title: "Un véritable mage de combat"
+	quest.65C2900000000005.quest_desc: ["Ton grimoire, tes écoles et ton équipement forment maintenant un ensemble cohérent. Les donjons Eternal et Cataclysm fourniront les prochains paliers."]
+
+	quest.65C2A00000000001.title: "Première reforge"
+	quest.65C2A00000000001.quest_desc: ["La table simple introduit les affixes. Utilise-la sur un équipement remplaçable avant d'engager les ressources les plus rares."]
+	quest.65C2A00000000002.title: "Récupérer les matériaux"
+	quest.65C2A00000000002.quest_desc: ["La Salvaging Table recycle les objets à affixes inutiles. Elle transforme le farm de boss en boucle d'optimisation plutôt qu'en accumulation de déchets."]
+	quest.65C2A00000000003.title: "Tailler les gemmes"
+	quest.65C2A00000000003.quest_desc: ["Les gemmes gagnent leur valeur lorsqu'elles correspondent au build et à la catégorie de l'équipement. Ne les insère pas uniquement pour leur rareté."]
+	quest.65C2A00000000004.title: "Augmenter un équipement"
+	quest.65C2A00000000004.quest_desc: ["L'Augmenting Table approfondit la personnalisation. Arsenal et Armory peuvent utiliser cette boucle, contrairement aux signatures exclues."]
+	quest.65C2A00000000005.title: "Optimisation contrôlée"
+	quest.65C2A00000000005.quest_desc: ["Apotheosis est désormais une boucle endgame maîtrisée : trouver, comparer, recycler et reforger sans effacer l'identité des récompenses de boss."]
+
+	quest.65C2B00000000001.title: "Trois familles de butin"
+	quest.65C2B00000000001.quest_desc: ["Arsenal fournit des armes liées aux archétypes, Armory des ensembles évolutifs et Relics des accessoires rares. Chaque famille possède sa propre place dans la progression."]
+	quest.65C2B00000000002.title: "Trouver une arme Arsenal"
+	quest.65C2B00000000002.quest_desc: ["Les armes Arsenal apparaissent dans des tables ciblées selon le tier. Twilight en contient peu ; Eternal et les actes Cataclysm augmentent progressivement les chances."]
+	quest.65C2B00000000003.title: "Ouvrir Armory"
+	quest.65C2B00000000003.quest_desc: ["L'Epic Armor Upgrade est un composant structurant. Les fins d'acte Cataclysm offrent ensuite un choix personnel contrôlé, jamais un set complet."]
+	quest.65C2B00000000004.title: "Chasser les Relics"
+	quest.65C2B00000000004.quest_desc: ["Les Relics privilégient certains coffres finaux et minibosses. Cette quête reste facultative : une Relic complète un build sans devenir un passage obligatoire."]
+	quest.65C2B00000000005.title: "Définir un build"
+	quest.65C2B00000000005.quest_desc: ["Choisis un rôle, une arme, une armure et quelques synergies. Un build lisible est plus simple à améliorer qu'un inventaire rempli d'objets puissants sans direction commune."]
+	chapter.0A77000000000000.title: "QuarryPlus"
+	chapter.1F00000000000000.title: "Industrial Foregoing"
+	chapter.27624032A2B32962.title: "Applied Energistics 2"
+	chapter.4449000000000000.title: "Dimensions"
+	chapter.4D43484150544552.title: "MineColonies"
+	chapter.518958C02F451ADB.title: "Mekanism"
+	chapter.57AB783AD8DE20A1.title: "Powah"
+	chapter.5C6103E1E5034525.title: "Ender IO"
+	chapter.5E1C8A0DAADE99CD.title: "Extreme Reactors"
+	chapter.6511D794C611C9A1.title: "Draconic Evolution"
+	chapter_group.44494D454E53494F.title: "Dimensions"
+	chapter_group.4D434F4C4F4E4945.title: "Gestion de colonie"
+	chapter_group.72A9465344128AF9.title: "Technologie"
+	quest.012A03FB9A524D1D.quest_desc: [
+		"La Chambre de dissolution chimique attaque le minerai à l'acide sulfurique et produit une boue sale."
+		""
+		"Cette étape est coûteuse mais ouvre le rendement maximal de cinq lingots."
+	]
+	quest.012A03FB9A524D1D.quest_subtitle: "Niveau 3 / 5"
+	quest.012A03FB9A524D1D.title: "Dissoudre le minerai"
+	quest.015362D46481A343.quest_desc: [
+		"Le Cristal sans fil transmet l'énergie aux appareils liés."
+		""
+		"Vérifie portée, sens et nombre de connexions pour éviter qu'un appareil reste silencieusement sans alimentation."
+	]
+	quest.015362D46481A343.quest_subtitle: "Niveau 2 / 5"
+	quest.015362D46481A343.title: "Énergie sans câble"
+	quest.015FD53ADB7EE0E7.quest_desc: [
+		"Le Four électrique recuit les poussières produites par la Chambre d'enrichissement."
+		""
+		"Relie les deux machines pour obtenir une chaîne complète du minerai au lingot."
+	]
+	quest.015FD53ADB7EE0E7.quest_subtitle: "Niveau 2 / 5"
+	quest.015FD53ADB7EE0E7.title: "Refermer la chaîne"
+	quest.016D0F3C11F3BA0A.quest_desc: [
+		"L'Infuseur chimique combine deux produits chimiques en un troisième."
+		""
+		"La première chaîne importante associe hydrogène et chlore pour créer du chlorure d'hydrogène."
+	]
+	quest.016D0F3C11F3BA0A.quest_subtitle: "Niveau 3 / 5"
+	quest.016D0F3C11F3BA0A.title: "Composer les gaz"
+	quest.046D0EFECA44A57C.quest_desc: [
+		"Le Lieur de cristaux configure les liaisons du réseau d'énergie."
+		""
+		"Apprends ses commandes sur une petite installation avant de relier plusieurs sources et consommateurs."
+	]
+	quest.046D0EFECA44A57C.quest_subtitle: "Niveau 2 / 5"
+	quest.046D0EFECA44A57C.title: "Préparer le réseau cristallin"
+	quest.07685264F621EFBA.quest_desc: [
+		"Le boîtier en acier sert de châssis à de nombreuses machines."
+		""
+		"La production d'acier devient donc une priorité permanente de l'atelier."
+	]
+	quest.07685264F621EFBA.quest_subtitle: "Niveau 1 / 5"
+	quest.07685264F621EFBA.title: "Un châssis commun"
+	quest.088DBE8BB7E62CD8.quest_desc: [
+		"Place quatre Injecteurs basiques à distance égale autour du Cœur, tous tournés vers lui."
+		""
+		"Certaines recettes demandent plus de quatre ingrédients : laisse de la place pour agrandir le cercle."
+	]
+	quest.088DBE8BB7E62CD8.quest_subtitle: "Niveau 2 / 5"
+	quest.088DBE8BB7E62CD8.title: "Les premiers injecteurs"
+	quest.09C95101EB082CC5.quest_desc: [
+		"Combine deutérium et tritium, puis remplis un Hohlraum de combustible de fusion."
+		""
+		"Le Hohlraum est consommé à l'allumage : ne l'insère que lorsque le laser et le réacteur sont prêts."
+	]
+	quest.09C95101EB082CC5.quest_subtitle: "Niveau 5 / 5"
+	quest.09C95101EB082CC5.title: "Préparer l'allumage"
+	quest.0A75CEDF0D193C19.quest_desc: [
+		"Creuse jusqu'au centre de la météorite pour atteindre son cube mystérieux."
+		""
+		"Observe aussi les blocs de Certus sans défaut autour du cratère : ils constituent une source renouvelable de cristaux."
+	]
+	quest.0A75CEDF0D193C19.quest_subtitle: "Niveau 1 / 5"
+	quest.0A75CEDF0D193C19.title: "Au cœur du météore"
+	quest.0AA394B0855D7D6A.quest_desc: [
+		"Les quatre alliages de base couvrent l'essentiel des recettes."
+		""
+		"Alliage Rouge pour la logique, Énergétique pour l'énergie, Pulsant pour l'Ender, Conducteur pour le transport."
+	]
+	quest.0AA394B0855D7D6A.quest_subtitle: "Niveau 2 / 6"
+	quest.0AA394B0855D7D6A.title: "Les quatre alliages"
+	quest.0C6A1A51921E8A6D.quest_desc: [
+		"Oxyde le soufre, puis combine les produits successifs jusqu'à l'acide sulfurique."
+		""
+		"Chaque étape doit disposer de son propre stockage tampon pour diagnostiquer les blocages."
+	]
+	quest.0C6A1A51921E8A6D.quest_subtitle: "Niveau 3 / 5"
+	quest.0C6A1A51921E8A6D.title: "La cascade du soufre"
+	quest.0C89883108562837.quest_desc: [
+		"Le Cœur énergétique draconique est un composant de stockage de très haut niveau."
+		""
+		"Sa capacité n'a de sens qu'avec une production et un transfert capables de le charger réellement."
+	]
+	quest.0C89883108562837.quest_subtitle: "Niveau 5 / 5"
+	quest.0C89883108562837.title: "Un cœur énergétique draconique"
+	quest.0CB0DDB6109D87E5.quest_desc: [
+		"Utilise le Cœur du Dragon et la Fusion Crafting pour éveiller le draconium."
+		""
+		"Vérifie tous les ingrédients et la réserve d'énergie avant de lancer cette recette coûteuse."
+	]
+	quest.0CB0DDB6109D87E5.quest_subtitle: "Niveau 4 / 5"
+	quest.0CB0DDB6109D87E5.title: "Éveiller le draconium"
+	quest.0DE61CF1BECCEE50.quest_desc: [
+		"Fabrique le Plastron draconique puis installe modules de bouclier, énergie et récupération."
+		""
+		"La puissance vient des modules et de l'alimentation, pas du plastron vide : teste-le dans un environnement contrôlé."
+	]
+	quest.0DE61CF1BECCEE50.quest_subtitle: "Niveau 5 / 5"
+	quest.0DE61CF1BECCEE50.title: "Armure draconique"
+	quest.129271E7D3BBCCA1.quest_desc: [
+		"Construis le Réacteur à fusion et dirige plusieurs Lasers vers la Matrice de focalisation."
+		""
+		"Accumule l'impulsion requise, insère le Hohlraum puis vérifie que l'alimentation en combustible reste stable."
+	]
+	quest.129271E7D3BBCCA1.quest_subtitle: "Niveau 5 / 5"
+	quest.129271E7D3BBCCA1.title: "Le soleil en bouteille"
+	quest.15CDCF8E2C8675A1.quest_desc: [
+		"Le Cœur de draconium est le composant commun des premières machines."
+		""
+		"Prépare une réserve de draconium avant de lancer la branche énergétique."
+	]
+	quest.15CDCF8E2C8675A1.quest_subtitle: "Niveau 1 / 5"
+	quest.15CDCF8E2C8675A1.title: "Le composant fondamental"
+	quest.15CF9FA6303B7879.quest_desc: [
+		"Le Générateur Stirling brûle du charbon pour démarrer ton réseau."
+		""
+		"C'est une solution transitoire : passe aux réacteurs dès que possible. La Banque de Condensateurs sert de tampon."
+	]
+	quest.15CF9FA6303B7879.quest_subtitle: "Niveau 3 / 6"
+	quest.15CF9FA6303B7879.title: "Première énergie"
+	quest.1883146755F1363C.quest_desc: [
+		"Brise le cube mystérieux du météore pour récupérer les quatre matrices d'Inscriber."
+		""
+		"Conserve-les précieusement : chacune imprime une famille différente de composants."
+	]
+	quest.1883146755F1363C.quest_subtitle: "Niveau 2 / 5"
+	quest.1883146755F1363C.title: "Les quatre matrices"
+	quest.189CA1F11EE19DFF.quest_desc: [
+		"Le Broyeur SAG double tes minerais et produit les poudres du mod."
+		""
+		"Les Boulets de broyage augmentent son rendement. Chacun a une durée de vie : le Boulet en Acier Sombre est le meilleur compromis au départ."
+	]
+	quest.189CA1F11EE19DFF.quest_subtitle: "Niveau 2 / 6"
+	quest.189CA1F11EE19DFF.title: "Broyage et doublage"
+	quest.1930489D5DEDD867.quest_desc: [
+		"L'Assembleur moléculaire exécute les recettes de table de craft reçues du Fournisseur."
+		""
+		"Plusieurs Assembleurs autour d'un Fournisseur permettent de travailler plus vite."
+	]
+	quest.1930489D5DEDD867.quest_subtitle: "Niveau 3 / 5"
+	quest.1930489D5DEDD867.title: "Assembler automatiquement"
+	quest.19E96CC9EFC279A8.quest_desc: [
+		"L'Acier Sombre est le métal polyvalent d'Ender IO."
+		""
+		"Outils, armure et blocs résistants. Il s'améliore ensuite à l'Enchanteur avec des Âmes."
+	]
+	quest.19E96CC9EFC279A8.quest_subtitle: "Niveau 4 / 6"
+	quest.19E96CC9EFC279A8.title: "Acier Sombre"
+	quest.1B098C291E57F637.quest_desc: [
+		"Installe une amélioration de filtre dans une Pompe électrique pour extraire de l'eau lourde."
+		""
+		"Cette ressource lance la branche deutérium nécessaire à la fusion."
+	]
+	quest.1B098C291E57F637.quest_subtitle: "Niveau 5 / 5"
+	quest.1B098C291E57F637.title: "Extraire l'eau lourde"
+	quest.1B3CFE52B5F5BE24.quest_desc: [
+		"Le Générateur à gaz brûle très efficacement l'éthylène."
+		""
+		"L'hydrogène seul ne fournit aucun gain net : réserve-le aux recettes chimiques."
+	]
+	quest.1B3CFE52B5F5BE24.quest_subtitle: "Niveau 3 / 5"
+	quest.1B3CFE52B5F5BE24.title: "L'énergie de l'éthylène"
+	quest.1BF8ED2E2BF98FBA.quest_desc: [
+		"Le Générateur draconique produit des OP, compatibles avec l'énergie Forge du pack."
+		""
+		"Il sert au démarrage, pas aux recettes de fin de jeu qui réclameront une infrastructure bien plus puissante."
+	]
+	quest.1BF8ED2E2BF98FBA.quest_subtitle: "Niveau 1 / 5"
+	quest.1BF8ED2E2BF98FBA.title: "Produire les premiers OP"
+	quest.1CB76247E0D9CC91.quest_desc: [
+		"Le Drive accueille jusqu'à dix cellules mais ne stocke rien par lui-même."
+		""
+		"Les voyants indiquent l'état de chaque cellule ; laisse quelques emplacements libres pour grandir."
+	]
+	quest.1CB76247E0D9CC91.quest_subtitle: "Niveau 3 / 5"
+	quest.1CB76247E0D9CC91.title: "Le Drive ME"
+	quest.1CE3DD64D895C05C.quest_desc: [
+		"Transforme une boussole dans le Chargeur. Son aiguille indique la météorite la plus proche."
+		""
+		"Emporte une bonne pioche : la roche céleste est résistante."
+	]
+	quest.1CE3DD64D895C05C.quest_subtitle: "Niveau 1 / 5"
+	quest.1CE3DD64D895C05C.title: "La boussole du météore"
+	quest.1CE5A98AF78D3314.quest_desc: [
+		"L'Acier de l'End est le dernier palier du mod."
+		""
+		"Il demande un passage par l'End. La Station Agricole et le Fabricateur automatisent ensuite ta production."
+	]
+	quest.1CE5A98AF78D3314.quest_subtitle: "Niveau 6 / 6"
+	quest.1CE5A98AF78D3314.title: "Acier de l'End"
+	quest.1D062F1021853413.quest_desc: [
+		"Le Four à Alliage fusionne plusieurs ingrédients en un seul lingot."
+		""
+		"C'est la machine centrale du mod : tous les alliages passent par elle. Alimente-la avant tout le reste."
+	]
+	quest.1D062F1021853413.quest_subtitle: "Niveau 1 / 6"
+	quest.1D062F1021853413.title: "Le Four à Alliage"
+	quest.1E5C182D97AE58E4.quest_desc: [
+		"L'Uraninite est le minerai de base de Powah."
+		""
+		"Trois densités existent : pauvre, normale et dense. Cherche en profondeur, la variante dense triple le rendement."
+	]
+	quest.1E5C182D97AE58E4.quest_subtitle: "Palier 1 / 7"
+	quest.1E5C182D97AE58E4.title: "Extraire l'Uraninite"
+	quest.1EB8D2AD0175E1C9.quest_desc: [
+		"Transforme l'uranium en yellow cake, oxyde, hexafluorure puis combustible fissile."
+		""
+		"La Centrifugeuse isotopique termine la chaîne ; ne produis rien sans stockage chimique disponible."
+	]
+	quest.1EB8D2AD0175E1C9.quest_subtitle: "Niveau 4 / 5"
+	quest.1EB8D2AD0175E1C9.title: "Préparer le combustible fissile"
+	quest.1F01000000000001.quest_desc: [
+		"Le manuel décrit les machines, leurs zones de travail et leurs fluides."
+		""
+		"Garde-le près de l'atelier : Industrial Foregoing repose sur plusieurs chaînes qui se croisent."
+	]
+	quest.1F01000000000001.quest_subtitle: "Niveau 1 / 5"
+	quest.1F01000000000001.title: "Le manuel industriel"
+	quest.1F01000000000002.quest_desc: [
+		"Le Châssis Pity est la structure des premières machines."
+		""
+		"Il ouvre volontairement une progression modeste avant les cadres simples et avancés."
+	]
+	quest.1F01000000000002.quest_subtitle: "Niveau 1 / 5"
+	quest.1F01000000000002.title: "Un premier châssis"
+	quest.1F01000000000003.quest_desc: [
+		"L'Extracteur de fluide prélève lentement le latex d'une bûche placée devant sa face de travail."
+		""
+		"Le bloc est consommé à terme ; prévois une alimentation en bois et un réservoir de sortie."
+	]
+	quest.1F01000000000003.quest_subtitle: "Niveau 1 / 5"
+	quest.1F01000000000003.title: "Faire pleurer le bois"
+	quest.1F01000000000004.quest_desc: [
+		"Collecte un seau de latex pour confirmer que l'Extracteur fonctionne et que sa sortie n'est pas bloquée."
+		""
+		"Le seau sert ici de mesure fiable avant d'automatiser le transfert du fluide."
+	]
+	quest.1F01000000000004.quest_subtitle: "Niveau 1 / 5"
+	quest.1F01000000000004.title: "Un seau de latex"
+	quest.1F01000000000005.quest_desc: [
+		"L'Unité de traitement combine latex, eau et énergie pour produire de minuscules caoutchoucs secs."
+		""
+		"Les deux fluides doivent arriver dans les bons réservoirs et la sortie d'objet doit rester libre."
+	]
+	quest.1F01000000000005.quest_subtitle: "Niveau 1 / 5"
+	quest.1F01000000000005.title: "Traiter le latex"
+	quest.1F01000000000006.quest_desc: [
+		"Produis neuf petits morceaux de caoutchouc sec."
+		""
+		"Cette quantité permet de les compacter en une unité plus pratique pour les recettes suivantes."
+	]
+	quest.1F01000000000006.quest_subtitle: "Niveau 1 / 5"
+	quest.1F01000000000006.title: "Premier caoutchouc sec"
+	quest.1F01000000000007.quest_desc: [
+		"Assemble les petits morceaux en caoutchouc sec."
+		""
+		"L'étape suivante le cuira en plastique, matériau central de presque tout le mod."
+	]
+	quest.1F01000000000007.quest_subtitle: "Niveau 1 / 5"
+	quest.1F01000000000007.title: "Compacter le caoutchouc"
+	quest.1F01000000000008.quest_desc: [
+		"Fais cuire le caoutchouc sec pour obtenir du plastique."
+		""
+		"Automatise tôt cette chaîne : les machines agricoles, animales et minières en consomment continuellement."
+	]
+	quest.1F01000000000008.quest_subtitle: "Niveau 2 / 5"
+	quest.1F01000000000008.title: "L'âge du plastique"
+	quest.1F01000000000009.quest_desc: [
+		"La Chambre de dissolution combine plusieurs objets et parfois un fluide."
+		""
+		"L'ordre d'arrivée compte moins que la disponibilité simultanée de toutes les entrées."
+	]
+	quest.1F01000000000009.quest_subtitle: "Niveau 2 / 5"
+	quest.1F01000000000009.title: "Recettes sous pression"
+	quest.1F0100000000000A.quest_desc: [
+		"Le Châssis Simple ouvre les machines de production intermédiaires."
+		""
+		"Il marque la transition entre la préparation du plastique et les automatisations spécialisées."
+	]
+	quest.1F0100000000000A.quest_subtitle: "Niveau 2 / 5"
+	quest.1F0100000000000A.title: "Un cadre plus solide"
+	quest.1F0100000000000B.quest_desc: [
+		"Le Semeur plante les graines dans sa zone de travail."
+		""
+		"Place-le sous le champ, configure son rayon et filtre les emplacements pour contrôler la répartition des cultures."
+	]
+	quest.1F0100000000000B.quest_subtitle: "Niveau 2 / 5"
+	quest.1F0100000000000B.title: "Semer automatiquement"
+	quest.1F0100000000000C.quest_desc: [
+		"Le Récolteur coupe les cultures et collecte leurs produits."
+		""
+		"Renvoie les graines vers le Semeur et évacue le reste vers un stockage séparé pour créer une ferme stable."
+	]
+	quest.1F0100000000000C.quest_subtitle: "Niveau 2 / 5"
+	quest.1F0100000000000C.title: "Récolter et replanter"
+	quest.1F0100000000000D.quest_desc: [
+		"L'Outil d'emprisonnement capture une créature pour l'utiliser dans certaines machines."
+		""
+		"Choisis un lieu fermé et sûr avant toute libération ou automatisation."
+	]
+	quest.1F0100000000000D.quest_subtitle: "Niveau 3 / 5"
+	quest.1F0100000000000D.title: "Capturer une créature"
+	quest.1F0100000000000E.quest_desc: [
+		"L'Usine d'abattage transforme les créatures de sa zone en deux fluides."
+		""
+		"Confine entièrement la zone et dimensionne les réservoirs : une sortie pleine arrête la machine."
+	]
+	quest.1F0100000000000E.quest_subtitle: "Niveau 3 / 5"
+	quest.1F0100000000000E.title: "Transformer les créatures"
+	quest.1F0100000000000F.quest_desc: [
+		"Transforme la gelée rose en lingot de Pink Slime."
+		""
+		"Ce matériau vivant ouvre les cadres et machines avancés de la progression."
+	]
+	quest.1F0100000000000F.quest_subtitle: "Niveau 3 / 5"
+	quest.1F0100000000000F.title: "Exploiter la gelée rose"
+	quest.1F01000000000010.quest_desc: [
+		"Le Châssis Avancé condense plastique, fluides et Pink Slime."
+		""
+		"Il ouvre les machines les plus puissantes ; assure une production régulière de chaque ingrédient avant de les multiplier."
+	]
+	quest.1F01000000000010.quest_subtitle: "Niveau 4 / 5"
+	quest.1F01000000000010.title: "Le châssis avancé"
+	quest.1F01000000000011.quest_desc: [
+		"Le Broyeur de créatures élimine les entités de sa zone et collecte butins et essence."
+		""
+		"Sécurise la chambre, contrôle les apparitions et prévois un stockage qui ne déborde jamais."
+	]
+	quest.1F01000000000011.quest_subtitle: "Niveau 4 / 5"
+	quest.1F01000000000011.title: "Automatiser les butins"
+	quest.1F01000000000012.quest_desc: [
+		"La Base d'extraction laser reçoit l'énergie et collecte les minerais produits par les Foreuses."
+		""
+		"Biome, hauteur et lentilles modifient les probabilités : choisis l'emplacement selon la ressource recherchée."
+	]
+	quest.1F01000000000012.quest_subtitle: "Niveau 5 / 5"
+	quest.1F01000000000012.title: "La base du laser"
+	quest.1F01000000000013.quest_desc: [
+		"Place plusieurs Foreuses orientées vers la Base et alimente chacune en énergie."
+		""
+		"Les lentilles affinent les résultats ; mesure le coût énergétique avant d'augmenter le nombre de Foreuses."
+	]
+	quest.1F01000000000013.quest_subtitle: "Niveau 5 / 5"
+	quest.1F01000000000013.title: "Extraire sans creuser"
+	quest.1F4E5AD0B1D0C9AB.quest_desc: [
+		"Transforme la saumure en lithium, convertis-le en gaz puis active-le au soleil pour produire du tritium."
+		""
+		"Cette chaîne dépend de la chaleur et de la lumière ; prévois des tampons généreux."
+	]
+	quest.1F4E5AD0B1D0C9AB.quest_subtitle: "Niveau 5 / 5"
+	quest.1F4E5AD0B1D0C9AB.title: "Produire le tritium"
+	quest.1F8785366A69402C.quest_desc: [
+		"L'Éolienne produit sans combustible et devient plus efficace en altitude."
+		""
+		"Mesure sa production avant et après déplacement pour choisir un emplacement rationnel."
+	]
+	quest.1F8785366A69402C.quest_subtitle: "Niveau 2 / 5"
+	quest.1F8785366A69402C.title: "Prendre de la hauteur"
+	quest.207BB1316748E335.quest_desc: [
+		"La Chambre d'injection chimique emploie le chlorure d'hydrogène pour produire des éclats."
+		""
+		"Ajoute ensuite la chaîne x3 complète : Purification, Broyeur, Enrichissement et Fusion."
+	]
+	quest.207BB1316748E335.quest_subtitle: "Niveau 3 / 5"
+	quest.207BB1316748E335.title: "Quatre lingots par minerai"
+	quest.218AA00C4231663D.quest_desc: [
+		"Insère un cristal de Certus dans le Chargeur jusqu'à obtenir sa version chargée."
+		""
+		"Ce cristal sert notamment à fabriquer le Fluix, indispensable aux câbles."
+	]
+	quest.218AA00C4231663D.quest_subtitle: "Niveau 1 / 5"
+	quest.218AA00C4231663D.title: "Cristal chargé"
+	quest.232A1355C8DFF987.quest_desc: [
+		"Le Boîtier de Réacteur forme l'enveloppe du multibloc."
+		""
+		"Il te faut une boîte creuse et fermée. Le plus petit réacteur viable fait 3x3x3, mais 5x5x5 est un bien meilleur point de départ."
+	]
+	quest.232A1355C8DFF987.quest_subtitle: "Étape 2 / 8"
+	quest.232A1355C8DFF987.title: "Le boîtier"
+	quest.242979E96A4BCAED.quest_desc: [
+		"Le Compteur Geiger mesure la radiation de l'environnement ; le Dosimètre mesure la dose reçue par le joueur."
+		""
+		"Prends l'habitude de contrôler la zone avant et après toute intervention nucléaire."
+	]
+	quest.242979E96A4BCAED.quest_subtitle: "Niveau 4 / 5"
+	quest.242979E96A4BCAED.title: "Mesurer avant de manipuler"
+	quest.259EF6BCCE6E21CF.quest_desc: [
+		"Fais exploser une Singularité avec une perle de l'End pour créer une paire intriquée."
+		""
+		"Les deux moitiés partagent une fréquence unique : ne les mélange pas avec une autre paire."
+	]
+	quest.259EF6BCCE6E21CF.quest_subtitle: "Niveau 5 / 5"
+	quest.259EF6BCCE6E21CF.title: "Intrication explosive"
+	quest.25CBEE18498B3B6B.quest_desc: [
+		"Les Cellules de l'Ender relient deux points sans câble, même entre dimensions."
+		""
+		"Configure une paire sur le même canal avec une Carte de Liaison. La Grille de l'Ender fait la même chose pour les objets."
+	]
+	quest.25CBEE18498B3B6B.quest_subtitle: "Palier 4 / 7"
+	quest.25CBEE18498B3B6B.title: "Énergie sans fil"
+	quest.262BDAD9FD5C2A88.quest_desc: [
+		"Électrolyse l'eau lourde puis condense le deutérium gazeux en liquide."
+		""
+		"Stocke-le séparément du tritium jusqu'à la préparation du combustible de fusion."
+	]
+	quest.262BDAD9FD5C2A88.quest_subtitle: "Niveau 5 / 5"
+	quest.262BDAD9FD5C2A88.title: "Produire le deutérium"
+	quest.2639DA49D469215C.quest_desc: [
+		"Un Réservoir chimique conserve gaz, pigments, infusions et boues sans bloquer une machine."
+		""
+		"Prévois toujours un stockage ou une option de vidage pour les produits secondaires."
+	]
+	quest.2639DA49D469215C.quest_subtitle: "Niveau 2 / 5"
+	quest.2639DA49D469215C.title: "Stocker les produits chimiques"
+	quest.265AED53B0F0E084.quest_desc: [
+		"La Matrice d'induction est un multibloc rectangulaire de stockage d'énergie."
+		""
+		"Construis d'abord une petite coque complète : les cellules et fournisseurs iront dans le volume intérieur."
+	]
+	quest.265AED53B0F0E084.quest_subtitle: "Niveau 4 / 5"
+	quest.265AED53B0F0E084.title: "L'enveloppe d'induction"
+	quest.282931CA0AEAE66D.quest_desc: [
+		"Le Cristalliseur transforme la boue propre en cristaux."
+		""
+		"Réinjecte ensuite ces cristaux dans les chaînes x4, x3 et x2 pour obtenir cinq lingots par minerai."
+	]
+	quest.282931CA0AEAE66D.quest_subtitle: "Niveau 3 / 5"
+	quest.282931CA0AEAE66D.title: "Cinq lingots par minerai"
+	quest.29B3E50D188777B2.quest_desc: [
+		"Le Transfuseur d'énergie charge les objets et répartit l'énergie selon sa configuration."
+		""
+		"Utilise-le pour vérifier les capacités réelles des outils et composants avant de les emporter."
+	]
+	quest.29B3E50D188777B2.quest_subtitle: "Niveau 1 / 5"
+	quest.29B3E50D188777B2.title: "Charger et équilibrer"
+	quest.29EE94AF6B9DFD0C.quest_desc: [
+		"Le Transmetteur Personnel recharge ton équipement à distance."
+		""
+		"Lie-le à une Cellule de l'Ender et tes outils se rechargent où que tu sois."
+	]
+	quest.29EE94AF6B9DFD0C.quest_subtitle: "Palier 5 / 7"
+	quest.29EE94AF6B9DFD0C.title: "Recharge à distance"
+	quest.2B2ABD19FA13B644.quest_desc: [
+		"Le Cœur éveillé condense les ressources des paliers précédents."
+		""
+		"Il ouvre les Injecteurs éveillés, les grands stockages et l'équipement draconique."
+	]
+	quest.2B2ABD19FA13B644.quest_subtitle: "Niveau 4 / 5"
+	quest.2B2ABD19FA13B644.title: "Le Cœur éveillé"
+	quest.2C2CBD5A796C05B8.quest_desc: [
+		"Les câbles intelligents affichent les canaux utilisés. Un câble normal en porte huit, un câble dense en porte trente-deux."
+		""
+		"Utilise ces indicateurs pour diagnostiquer immédiatement un appareil hors ligne."
+	]
+	quest.2C2CBD5A796C05B8.quest_subtitle: "Niveau 3 / 5"
+	quest.2C2CBD5A796C05B8.title: "Voir circuler les canaux"
+	quest.2D55D62ECE12B219.quest_desc: [
+		"Le Réacteur consomme l'Uraninite et produit bien plus que tout le reste."
+		""
+		"Il chauffe : prévois un refroidissement. Le multibloc s'agrandit pour augmenter le rendement."
+	]
+	quest.2D55D62ECE12B219.quest_subtitle: "Palier 5 / 7"
+	quest.2D55D62ECE12B219.title: "Le Réacteur"
+	quest.2D64B87BCE839992.quest_desc: [
+		"Construis un petit Réacteur à fission mais laisse-le éteint. Prépare d'abord eau, vapeur, déchets et arrêt d'urgence."
+		""
+		"Plusieurs adaptateurs logiques doivent surveiller température, dégâts, combustible et déchets."
+	]
+	quest.2D64B87BCE839992.quest_subtitle: "Niveau 5 / 5"
+	quest.2D64B87BCE839992.title: "Construire sans allumer"
+	quest.2E6D337C5C4055ED.quest_desc: [
+		"La carte mémoire copie et applique des réglages entre appareils."
+		""
+		"Pour les tunnels P2P, Maj-clic droit mémorise l'entrée puis clic droit configure les sorties."
+	]
+	quest.2E6D337C5C4055ED.quest_subtitle: "Niveau 3 / 5"
+	quest.2E6D337C5C4055ED.title: "Mémoriser une fréquence"
+	quest.2EF71CC5FB2ED4A6.quest_desc: [
+		"La Pioche Wyvern est un support modulaire plutôt qu'un outil terminé."
+		""
+		"Sans modules de vitesse, capacité et énergie, ses performances restent volontairement limitées."
+	]
+	quest.2EF71CC5FB2ED4A6.quest_subtitle: "Niveau 3 / 5"
+	quest.2EF71CC5FB2ED4A6.title: "Un outil modulaire"
+	quest.2FEA8C6C88E8D9B0.quest_desc: [
+		"Les Tubes pressurisés déplacent les produits chimiques entre machines et réservoirs."
+		""
+		"Vérifie les connexions et les couleurs de faces avant de remplir une longue conduite."
+	]
+	quest.2FEA8C6C88E8D9B0.quest_subtitle: "Niveau 2 / 5"
+	quest.2FEA8C6C88E8D9B0.title: "Transport sous pression"
+	quest.302D797870C7D8E5.quest_desc: [
+		"Le Liant à Conduits Composite fabrique tous les conduits du mod."
+		""
+		"Énergie, fluides, objets et redstone passent dans le même bloc. La Sonde à Conduits copie une configuration d'un conduit à l'autre."
+	]
+	quest.302D797870C7D8E5.quest_subtitle: "Niveau 3 / 6"
+	quest.302D797870C7D8E5.title: "Les conduits"
+	quest.3036B0D4BDB47166.quest_desc: [
+		"Jette dans l'eau un Certus chargé, une Redstone et un Quartz du Nether. La réaction produit deux cristaux de Fluix."
+		""
+		"Le Fluix relie les composants du réseau et apparaît dans de nombreuses recettes avancées."
+	]
+	quest.3036B0D4BDB47166.quest_subtitle: "Niveau 1 / 5"
+	quest.3036B0D4BDB47166.title: "Naissance du Fluix"
+	quest.3165F665ED474B75.quest_desc: [
+		"Le Compresseur d'osmium combine de l'osmium et des matériaux enrichis pour créer des alliages avancés."
+		""
+		"Ces alliages ouvrent les niveaux supérieurs de machines et de stockage."
+	]
+	quest.3165F665ED474B75.quest_subtitle: "Niveau 2 / 5"
+	quest.3165F665ED474B75.title: "Des alliages renforcés"
+	quest.31FC18F89A0136D7.quest_desc: [
+		"Les Cellules stockent, les Câbles transportent."
+		""
+		"Chaque palier de câble a un débit maximum : un câble Basique étrangle un générateur Nitro."
+	]
+	quest.31FC18F89A0136D7.quest_subtitle: "Palier 3 / 7"
+	quest.31FC18F89A0136D7.title: "Stocker et transporter"
+	quest.3209D67912C7A4FD.quest_desc: [
+		"Le Blutonium et le Ludicrite sont les combustibles et matériaux de fin de partie."
+		""
+		"Le Ludicrite demande un mélange de plusieurs ressources rares au Fluidiseur."
+	]
+	quest.3209D67912C7A4FD.quest_subtitle: "Étape 7 / 8"
+	quest.3209D67912C7A4FD.title: "Matériaux ultimes"
+	quest.320F0A73EAD890BC.quest_desc: [
+		"Vaincs l'Ender Dragon pour obtenir son Cœur."
+		""
+		"Ce trophée est le catalyseur du Draconium éveillé ; prépare l'étape de fusion avant de le consommer."
+	]
+	quest.320F0A73EAD890BC.quest_subtitle: "Niveau 3 / 5"
+	quest.320F0A73EAD890BC.title: "Le cœur du Dragon"
+	quest.32730A76938F054B.quest_desc: [
+		"Le Yellorite est le combustible nucléaire d'Extreme Reactors."
+		""
+		"On le trouve en profondeur dans l'Overworld. Fonds le minerai brut pour obtenir des lingots de Yellorium."
+	]
+	quest.32730A76938F054B.quest_subtitle: "Étape 1 / 8"
+	quest.32730A76938F054B.title: "Trouver du Yellorite"
+	quest.35A47601E0730450.quest_desc: [
+		"Relie Accepteur, Drive, cellule et terminal avec du câble Fluix. Le terminal doit afficher le contenu de la cellule."
+		""
+		"Teste la recherche, le dépôt et la récupération d'un objet avant de poursuivre."
+	]
+	quest.35A47601E0730450.quest_subtitle: "Niveau 3 / 5"
+	quest.35A47601E0730450.title: "Premier système ME"
+	quest.366D61855998D080.quest_desc: [
+		"Charge les injecteurs, place l'objet central puis alimente la structure en énergie."
+		""
+		"Le Cœur Wyvern ouvre le premier vrai palier d'équipement et d'amélioration."
+	]
+	quest.366D61855998D080.quest_subtitle: "Niveau 2 / 5"
+	quest.366D61855998D080.title: "Première fusion Wyvern"
+	quest.379EBE79F10BE0DC.quest_desc: [
+		"Le tunnel ME P2P transporte jusqu'à trente-deux canaux à travers une seule liaison."
+		""
+		"Chaque extrémité consomme elle-même un canal et un tunnel ME ne peut pas être imbriqué dans un autre."
+	]
+	quest.379EBE79F10BE0DC.quest_subtitle: "Niveau 4 / 5"
+	quest.379EBE79F10BE0DC.title: "Compacter les canaux"
+	quest.3919CCF30BE1C163.quest_desc: [
+		"Le palier Nitro est la fin de partie de Powah."
+		""
+		"Réacteur, cellule et câbles Nitro alimentent sans difficulté un réseau AE2 complet et les machines Mekanism les plus gourmandes."
+	]
+	quest.3919CCF30BE1C163.quest_subtitle: "Palier 7 / 7"
+	quest.3919CCF30BE1C163.title: "Palier Nitro"
+	quest.397C09255A922C18.quest_desc: [
+		"Le Cœur de fabrication reçoit la recette centrale de la Fusion Crafting."
+		""
+		"Place-le dans une zone dégagée qui pourra accueillir davantage d'injecteurs aux paliers suivants."
+	]
+	quest.397C09255A922C18.quest_subtitle: "Niveau 2 / 5"
+	quest.397C09255A922C18.title: "Le cœur de fusion"
+	quest.3A2D664BA3902F87.quest_desc: [
+		"Quatre pièces rendent le multibloc fonctionnel."
+		""
+		"Le Contrôleur pilote, la Barre de Combustible reçoit le Yellorium, la Barre de Contrôle règle la puissance, la Prise d'Énergie extrait le courant."
+	]
+	quest.3A2D664BA3902F87.quest_subtitle: "Étape 2 / 8"
+	quest.3A2D664BA3902F87.title: "Les organes du réacteur"
+	quest.3A60A869839BAEA2.quest_desc: [
+		"Le Fournisseur de modèles contient les recettes encodées et distribue leurs ingrédients."
+		""
+		"Place-le contre un Assembleur moléculaire ou la machine qui doit traiter la recette."
+	]
+	quest.3A60A869839BAEA2.quest_subtitle: "Niveau 3 / 5"
+	quest.3A60A869839BAEA2.title: "Fournir les ingrédients"
+	quest.3AC5147D15355AD4.quest_desc: [
+		"La Chambre d'enrichissement double les minerais bruts en poussières."
+		""
+		"C'est le premier rendement industriel : automatise l'entrée et la sortie avant d'augmenter le débit."
+	]
+	quest.3AC5147D15355AD4.quest_subtitle: "Niveau 2 / 5"
+	quest.3AC5147D15355AD4.title: "Deux lingots par minerai"
+	quest.3C67E492ED8AB8BE.quest_desc: [
+		"Construis deux cadres de huit anneaux autour d'une chambre quantique et place une moitié intriquée dans chaque chambre."
+		""
+		"Les deux zones doivent rester chargées. Une fois actif, le pont prolonge le même réseau et ses canaux entre dimensions."
+	]
+	quest.3C67E492ED8AB8BE.quest_subtitle: "Niveau 5 / 5"
+	quest.3C67E492ED8AB8BE.title: "Deux mondes, un réseau"
+	quest.3D210E0033EBDF96.quest_desc: [
+		"Les Fournisseurs déterminent le débit, tandis que les ports connectent la Matrice au réseau."
+		""
+		"Configure au moins un port en entrée et un en sortie, puis vérifie charge et décharge."
+	]
+	quest.3D210E0033EBDF96.quest_subtitle: "Niveau 4 / 5"
+	quest.3D210E0033EBDF96.title: "Entrer et sortir l'énergie"
+	quest.3DC2FDAF85ECB47C.quest_desc: [
+		"Accorde deux tunnels à objets avec la même carte mémoire."
+		""
+		"Le P2P est directionnel : vérifie soigneusement quelle extrémité reçoit et laquelle distribue."
+	]
+	quest.3DC2FDAF85ECB47C.quest_subtitle: "Niveau 4 / 5"
+	quest.3DC2FDAF85ECB47C.title: "Un portail à objets"
+	quest.3FDB3012F1E7D6A2.quest_desc: [
+		"Infuse de l'osmium avec de la Redstone pour fabriquer des circuits de contrôle basiques."
+		""
+		"Ces circuits sont consommés par la majorité des machines ; produis-les par lots."
+	]
+	quest.3FDB3012F1E7D6A2.quest_subtitle: "Niveau 1 / 5"
+	quest.3FDB3012F1E7D6A2.title: "Le premier circuit"
+	quest.405DBE9A6169DA65.quest_desc: [
+		"Le Graphite est le modérateur de neutrons du réacteur."
+		""
+		"Il se cuit à partir de charbon. Les barres de contrôle en contiennent, et il sert aussi à régler la réaction."
+	]
+	quest.405DBE9A6169DA65.quest_subtitle: "Étape 1 / 8"
+	quest.405DBE9A6169DA65.title: "Le modérateur"
+	quest.43918265C59475BA.quest_desc: [
+		"Cristallise l'antimatière du SPS en pastilles transportables."
+		""
+		"Chaque pastille représente l'aboutissement de toute la chaîne énergétique et nucléaire."
+	]
+	quest.43918265C59475BA.quest_subtitle: "Niveau 5 / 5"
+	quest.43918265C59475BA.title: "Une pastille impossible"
+	quest.43C64234E787B02F.quest_desc: [
+		"Le Cube d'énergie absorbe les variations entre production et consommation."
+		""
+		"Place-le entre les générateurs et l'atelier, puis vérifie le sens de chaque face."
+	]
+	quest.43C64234E787B02F.quest_subtitle: "Niveau 2 / 5"
+	quest.43C64234E787B02F.title: "Garder une réserve"
+	quest.4449000000000001.quest_desc: [
+		"Dix blocs d'obsidienne et un briquet suffisent à percer vers le Nether."
+		""
+		"Verse un seau d'eau sur de la lave pour créer l'obsidienne sans descendre au fond du monde."
+	]
+	quest.4449000000000001.quest_subtitle: "Étape 1 / 4"
+	quest.4449000000000001.title: "Ouvrir la voie"
+	quest.4449000000000002.quest_desc: [
+		"Franchis le portail. La chaleur, les mobs et l'absence d'eau rendent cette dimension hostile."
+		""
+		"Note bien les coordonnées de ton portail : un pas de travers et le retour devient long."
+	]
+	quest.4449000000000002.quest_subtitle: "Étape 2 / 4"
+	quest.4449000000000002.title: "Le Nether"
+	quest.4449000000000003.quest_desc: [
+		"Le quartz se récolte en veines dans le netherrack."
+		""
+		"Il entre dans le Fluix d'AE2 et dans une quantité considérable de circuits."
+	]
+	quest.4449000000000003.quest_subtitle: "Étape 2 / 4"
+	quest.4449000000000003.title: "Le quartz du Nether"
+	quest.4449000000000004.quest_desc: [
+		"Les Blazes hantent les forteresses du Nether. Leurs bâtons donnent la poudre nécessaire aux yeux de l'End."
+		""
+		"Un générateur de Blaze automatisé rendra service bien au-delà de cette quête."
+	]
+	quest.4449000000000004.quest_subtitle: "Étape 2 / 4"
+	quest.4449000000000004.title: "Bâtons de Blaze"
+	quest.4449000000000005.quest_desc: [
+		"Les débris antiques se cachent entre les couches 8 et 22. Seule une pioche en diamant les entame."
+		""
+		"Le TNT à lit reste la méthode la plus rapide pour balayer une couche entière."
+	]
+	quest.4449000000000005.quest_subtitle: "Étape 2 / 4"
+	quest.4449000000000005.title: "Débris antiques"
+	quest.4449000000000006.quest_desc: [
+		"Les Endermen lâchent les perles. Chasse-les de nuit ou dans les plaines du Nether."
+		""
+		"Un piège à Endermen dans les terres de l'End produira bien plus que ce dont tu as besoin ici."
+	]
+	quest.4449000000000006.quest_subtitle: "Étape 3 / 4"
+	quest.4449000000000006.title: "Perles de l'Ender"
+	quest.4449000000000007.quest_desc: [
+		"Combine perle et poudre de Blaze. Lance un œil pour qu'il pointe vers le portail le plus proche."
+		""
+		"Un œil sur cinq se brise en vol : prévois large avant de partir en expédition."
+	]
+	quest.4449000000000007.quest_subtitle: "Étape 3 / 4"
+	quest.4449000000000007.title: "Les yeux de l'End"
+	quest.4449000000000008.quest_desc: [
+		"Remplis les douze cadres du portail au fond de la forteresse, puis saute."
+		""
+		"Emporte des blocs de construction et de quoi te protéger de la projection : le Dragon frappe fort."
+	]
+	quest.4449000000000008.quest_subtitle: "Étape 3 / 4"
+	quest.4449000000000008.title: "L'End"
+	quest.4449000000000009.quest_desc: [
+		"Détruis d'abord les cristaux perchés sur les tours d'obsidienne, puis attaque la bête au sol."
+		""
+		"Sa mort ouvre la passerelle vers les îles extérieures et libère un flot considérable d'expérience."
+	]
+	quest.4449000000000009.quest_subtitle: "Étape 3 / 4"
+	quest.4449000000000009.title: "Terrasser le Dragon"
+	quest.444900000000000A.quest_desc: [
+		"Draconic Evolution fait tomber un cœur de Dragon à chaque mise à mort."
+		""
+		"Rallume le Dragon avec quatre cristaux de l'End si tu en veux davantage : c'est la porte d'entrée du draconium éveillé."
+	]
+	quest.444900000000000A.quest_subtitle: "Étape 3 / 4"
+	quest.444900000000000A.title: "Le cœur du Dragon"
+	quest.444900000000000B.quest_desc: [
+		"Les îles extérieures abritent des cités et leurs navires. Coquilles de Shulker et Élytres t'y attendent."
+		""
+		"Les coquilles servent aux Sacs à dos et à de nombreux blocs de stockage : ramènes-en une pleine pile."
+	]
+	quest.444900000000000B.quest_subtitle: "Étape 3 / 4"
+	quest.444900000000000B.title: "Les cités de l'End"
+	quest.444900000000000C.quest_desc: [
+		"Huit blocs d'obsidienne autour d'une pioche en diamant donnent le Portail Minier de JAMD."
+		""
+		"Pose-le au sol et fais un clic droit : il génère lui-même son cadre et t'ouvre le passage."
+	]
+	quest.444900000000000C.quest_subtitle: "Étape 4 / 4"
+	quest.444900000000000C.title: "Le Portail Minier"
+	quest.444900000000000D.quest_desc: [
+		"Un monde entier de pierre, sans surface à préserver ni construction à épargner."
+		""
+		"C'est ici que tu poseras tes foreuses : creuse, dynamite, rase, personne ne s'en plaindra."
+	]
+	quest.444900000000000D.quest_subtitle: "Étape 4 / 4"
+	quest.444900000000000D.title: "La Dimension Minière"
+	quest.444900000000000E.quest_desc: [
+		"La densité de minerai de cette dimension n'a rien à voir avec l'Overworld."
+		""
+		"Un Pulverizer Thermal ou une Enrichment Chamber Mekanism doublera ce rendement déjà généreux."
+	]
+	quest.444900000000000E.quest_subtitle: "Étape 4 / 4"
+	quest.444900000000000E.title: "Fer et cuivre en masse"
+	quest.444900000000000F.quest_desc: [
+		"Deux ressources que la progression technique consomme sans fin."
+		""
+		"AE2 et Mekanism en réclament des piles entières : ne repars pas les poches à moitié vides."
+	]
+	quest.444900000000000F.quest_subtitle: "Étape 4 / 4"
+	quest.444900000000000F.title: "Redstone et lapis"
+	quest.4449000000000010.quest_desc: [
+		"Les veines profondes livrent l'or et le diamant nécessaires aux processeurs."
+		""
+		"Une pioche Fortune III change radicalement le rendement du diamant."
+	]
+	quest.4449000000000010.quest_subtitle: "Étape 4 / 4"
+	quest.4449000000000010.title: "Or et diamant"
+	quest.4449000000000011.quest_desc: [
+		"Délimite une zone avec les marqueurs QuarryPlus, place la Quarry contre eux et alimente-la."
+		""
+		"Sans terrain à préserver ici, tu peux voir grand dès le départ."
+	]
+	quest.4449000000000011.quest_subtitle: "Étape 4 / 4"
+	quest.4449000000000011.title: "Poser la première foreuse"
+	quest.4449000000000013.quest_desc: [
+		"Les câbles ne traversent pas les dimensions, mais le Réseau Quantique d'AE2 si."
+		""
+		"Il faut deux anneaux complets de 8 Anneaux Quantiques autour d'un Lien Quantique, reliés par une paire de Singularités Intriquées."
+	]
+	quest.4449000000000013.quest_subtitle: "Étape 4 / 4"
+	quest.4449000000000013.title: "Rapatrier le butin"
+	quest.4449000000000014.quest_desc: [
+		"Huit briques du Nether autour d'une pioche en netherite ouvrent la mine infernale."
+		""
+		"Il te faut donc d'abord fondre tes débris antiques et monter une pioche complète."
+	]
+	quest.4449000000000014.quest_subtitle: "Étape 4 / 4"
+	quest.4449000000000014.title: "Le Portail Minier Infernal"
+	quest.4449000000000015.quest_desc: [
+		"Une dimension entière de netherrack saturée de quartz, d'or et de débris antiques."
+		""
+		"Aucune forteresse, aucun Ghast : rien que du minerai à extraire en paix."
+	]
+	quest.4449000000000015.quest_subtitle: "Étape 4 / 4"
+	quest.4449000000000015.title: "La mine infernale"
+	quest.4449000000000016.quest_desc: [
+		"Huit blocs d'End Stone autour d'une pioche en diamant. Il faut donc être allé dans l'End au préalable."
+		""
+		"Ramène une bonne réserve d'End Stone lors de ton expédition au Dragon."
+	]
+	quest.4449000000000016.quest_subtitle: "Étape 4 / 4"
+	quest.4449000000000016.title: "Le Portail Minier de l'End"
+	quest.4449000000000017.quest_desc: [
+		"La dernière des trois mines, taillée dans l'End Stone."
+		""
+		"Sans vide ni chute mortelle : la version exploitable de l'End."
+	]
+	quest.4449000000000017.quest_subtitle: "Étape 4 / 4"
+	quest.4449000000000017.title: "La mine de l'End"
+	quest.4449000000000018.quest_desc: [
+		"Nether, End, et les trois mines de JAMD : tu as ouvert toutes les portes du modpack."
+		""
+		"Les foreuses tournent désormais à ta place. À toi de bâtir de quoi ne plus jamais miner à la main."
+	]
+	quest.4449000000000018.quest_subtitle: "Terminé"
+	quest.4449000000000018.title: "Aux quatre coins du monde"
+	quest.46F62D5F63E9226A.quest_desc: [
+		"Le terminal d'encodage transforme les modèles vierges en recettes."
+		""
+		"Distingue bien fabrication classique et traitement par une machine externe."
+	]
+	quest.46F62D5F63E9226A.quest_subtitle: "Niveau 3 / 5"
+	quest.46F62D5F63E9226A.title: "Encoder les recettes"
+	quest.4932175E189C9E71.quest_desc: [
+		"Le Plastron Wyvern reçoit des modules de bouclier, capacité et récupération."
+		""
+		"Teste sa consommation et recharge-le avant de considérer l'équipement comme protecteur."
+	]
+	quest.4932175E189C9E71.quest_subtitle: "Niveau 3 / 5"
+	quest.4932175E189C9E71.title: "L'armure modulaire"
+	quest.4970D189D5B5ACD3.quest_desc: [
+		"L'Alliage Vibrant marque l'entrée dans le haut de gamme."
+		""
+		"Conduits Vibrants, Condensateur Octadique et machines de fin de partie en dépendent tous."
+	]
+	quest.4970D189D5B5ACD3.quest_subtitle: "Niveau 5 / 6"
+	quest.4970D189D5B5ACD3.title: "Alliage Vibrant"
+	quest.49F4354F6AA6ADD9.quest_desc: [
+		"La Tour d'évaporation est le premier grand multibloc. Elle concentre l'eau en saumure puis la saumure en lithium."
+		""
+		"Commence avec une petite tour valide, deux valves et un contrôleur ; la hauteur augmente le débit."
+	]
+	quest.49F4354F6AA6ADD9.quest_subtitle: "Niveau 3 / 5"
+	quest.49F4354F6AA6ADD9.title: "Du sel à la saumure"
+	quest.4A0A2ADC9130E9F2.quest_desc: [
+		"Le SPS consomme du polonium et des quantités extrêmes d'énergie pour produire de l'antimatière."
+		""
+		"Relie-le à une production et un stockage capables d'absorber ses pointes de consommation."
+	]
+	quest.4A0A2ADC9130E9F2.quest_subtitle: "Niveau 5 / 5"
+	quest.4A0A2ADC9130E9F2.title: "Le supercollisionneur"
+	quest.4A800F994ACA9A84.quest_desc: [
+		"Les Injecteurs éveillés acceptent les recettes de plus haut palier du chapitre."
+		""
+		"Augmente le nombre d'injecteurs et sécurise une alimentation capable de soutenir toute la durée de fusion."
+	]
+	quest.4A800F994ACA9A84.quest_subtitle: "Niveau 5 / 5"
+	quest.4A800F994ACA9A84.title: "Fusion éveillée"
+	quest.4AF3729F319FCA73.quest_desc: [
+		"Trois générateurs passifs, trois situations."
+		""
+		"Le Panneau Solaire ne demande que du ciel. Le Furnator brûle du solide. Le Magmator consomme de la lave — le plus rentable si tu as une pompe."
+	]
+	quest.4AF3729F319FCA73.quest_subtitle: "Palier 2 / 7"
+	quest.4AF3729F319FCA73.title: "Générer de l'énergie"
+	quest.4B0B29DED24E1AE5.quest_desc: [
+		"Le Broyeur transforme de nombreux matériaux et produit aussi du biocarburant."
+		""
+		"Il servira autant au traitement des minerais qu'à la future branche de l'éthylène."
+	]
+	quest.4B0B29DED24E1AE5.quest_subtitle: "Niveau 2 / 5"
+	quest.4B0B29DED24E1AE5.title: "Broyer et recycler"
+	quest.4B438C8DE8EF77BC.quest_desc: [
+		"Le Laveur chimique utilise de l'eau pour convertir la boue sale en boue propre."
+		""
+		"Sépare clairement les conduites d'eau, de gaz et de boue pour éviter les erreurs de connexion."
+	]
+	quest.4B438C8DE8EF77BC.quest_subtitle: "Niveau 3 / 5"
+	quest.4B438C8DE8EF77BC.title: "Nettoyer les boues"
+	quest.4B58B43FEEAC7B91.quest_desc: [
+		"Encode une recette simple, range le modèle dans le Fournisseur et demande l'objet depuis le terminal."
+		""
+		"Observe l'aperçu des ingrédients manquants avant de confirmer la commande."
+	]
+	quest.4B58B43FEEAC7B91.quest_subtitle: "Niveau 4 / 5"
+	quest.4B58B43FEEAC7B91.title: "Première commande automatique"
+	quest.4D43000000000001.quest_desc: [
+		"Choisis un grand terrain relativement plat, avec du bois, de la pierre et de la nourriture à proximité."
+		""
+		"Installe ensuite un camp ou un navire de ravitaillement. Il contient les premiers matériaux, un Hôtel de Ville et l'outil de construction."
+		""
+		"Une seule structure de ravitaillement peut normalement être placée par joueur et par monde."
+	]
+	quest.4D43000000000001.title: "Le point de départ"
+	quest.4D43000000000002.quest_desc: [
+		"L'outil de construction permet de prévisualiser les bâtiments, de choisir leur style, leur rotation et leur niveau."
+		""
+		"Fais un clic droit sur le sol avec l'outil, puis explore les catégories avant de confirmer un emplacement."
+	]
+	quest.4D43000000000002.title: "L'outil de construction"
+	quest.4D43000000000003.quest_desc: [
+		"L'Hôtel de Ville fonde officiellement la colonie et définit son territoire."
+		""
+		"Prévisualise-le avec l'outil de construction. Laisse de la place autour : ce bâtiment sera amélioré plusieurs fois et restera au centre de ta gestion."
+	]
+	quest.4D43000000000003.title: "Fonder la colonie"
+	quest.4D43000000000004.quest_desc: [
+		"Le Bâtisseur réalise presque tous les projets de la colonie. Sa cabane doit donc être ton premier vrai chantier."
+		""
+		"Place le bloc avec l'outil de construction, demande la construction du niveau 1, puis fournis les matériaux réclamés dans l'interface de la cabane."
+	]
+	quest.4D43000000000004.title: "Le premier Bâtisseur"
+	quest.4D43000000000005.quest_desc: [
+		"Une Résidence augmente la capacité d'accueil de la colonie. Chaque niveau ajoute une place."
+		""
+		"Commence par une résidence proche des premiers lieux de travail. Tu pourras ensuite en répartir dans les futurs quartiers."
+	]
+	quest.4D43000000000005.title: "Loger les habitants"
+	quest.4D43000000000006.quest_desc: [
+		"La Taverne attire rapidement de nouveaux habitants et leur offre un hébergement temporaire."
+		""
+		"Construis-la tôt pour accélérer le démarrage, mais prévois quand même des Résidences permanentes."
+	]
+	quest.4D43000000000006.title: "Attirer de nouveaux colons"
+	quest.4D43000000000007.quest_desc: [
+		"Une Tour de Garde protège les habitants et étend la zone constructible de la colonie."
+		""
+		"Place la première près d'une entrée ou d'un secteur exposé. Équipe ensuite le garde avec une arme et une armure adaptées à son métier."
+	]
+	quest.4D43000000000007.title: "Première ligne de défense"
+	quest.4D43000000000008.quest_desc: [
+		"L'Entrepôt centralise les ressources de la colonie."
+		""
+		"Installe-le dans un emplacement assez central et garde de l'espace pour ses améliorations. Sans coursier, son contenu ne circulera pas encore automatiquement."
+	]
+	quest.4D43000000000008.title: "Le cœur logistique"
+	quest.4D43000000000009.quest_desc: [
+		"Le Coursier transporte les demandes et les livraisons entre l'Entrepôt et les autres bâtiments."
+		""
+		"Construis sa cabane près de l'Entrepôt. Les trajets courts améliorent fortement la réactivité de toute la colonie."
+	]
+	quest.4D43000000000009.title: "Faire circuler les ressources"
+	quest.4D4300000000000A.quest_desc: [
+		"Le Presse-papiers affiche les demandes ouvertes de la colonie."
+		""
+		"Accroupis-toi et fais un clic droit sur l'Hôtel de Ville ou un bâtiment pour le lier. C'est le meilleur outil pour repérer rapidement ce qui bloque un chantier."
+	]
+	quest.4D4300000000000A.title: "Suivre les demandes"
+	quest.4D4300000000000B.quest_desc: [
+		"Le Bûcheron fournit automatiquement les bûches et replante les arbres dans sa zone de travail."
+		""
+		"Définis une zone assez vaste et évite de la placer au milieu des futurs bâtiments."
+	]
+	quest.4D4300000000000B.title: "Une source de bois durable"
+	quest.4D4300000000000C.quest_desc: [
+		"La Mine fournit pierre, minerais et matériaux souterrains."
+		""
+		"Le Mineur creuse des niveaux de plus en plus profonds lorsque son bâtiment est amélioré. Fournis-lui de bonnes pioches et des torches."
+	]
+	quest.4D4300000000000C.title: "Creuser pour grandir"
+	quest.4D4300000000000D.quest_desc: [
+		"Le Pêcheur apporte une source de nourriture simple et renouvelable."
+		""
+		"Place sa cabane au bord d'une zone d'eau dégagée afin que le travailleur puisse atteindre ses points de pêche."
+	]
+	quest.4D4300000000000D.title: "Pêcher pour la colonie"
+	quest.4D4300000000000E.quest_desc: [
+		"La Ferme automatise la production de cultures."
+		""
+		"Construis d'abord la ferme, puis ajoute un champ à portée. Le Fermier doit disposer d'une houe et des graines correspondant à la culture choisie."
+	]
+	quest.4D4300000000000E.title: "Organiser l'agriculture"
+	quest.4D4300000000000F.quest_desc: [
+		"Le Champ définit la parcelle cultivée par le Fermier."
+		""
+		"Place-le sur un terrain plat avec une source d'eau. Dans son interface, choisis la culture et assigne-le à la Ferme."
+	]
+	quest.4D4300000000000F.title: "Le premier champ"
+	quest.4D43000000000010.quest_desc: [
+		"Le Restaurant récupère la nourriture et nourrit les citoyens affamés."
+		""
+		"Place-le au centre des habitations. Une production agricole régulière et une bonne logistique éviteront que ses stocks restent vides."
+	]
+	quest.4D43000000000010.title: "Nourrir tout le monde"
+	quest.4D43000000000011.quest_desc: [
+		"Le Composteur transforme les déchets organiques en compost utile aux métiers agricoles."
+		""
+		"Monte d'abord la Ferme au niveau 3, puis termine la recherche Biodegradable à l'Université. Ce métier limite le gaspillage des ressources végétales."
+	]
+	quest.4D43000000000011.title: "Recycler les déchets"
+	quest.4D43000000000012.quest_desc: [
+		"L'École permet aux enfants d'améliorer leurs caractéristiques avant de devenir adultes."
+		""
+		"Monte une Résidence au niveau 3, puis termine la recherche Higher Learning à l'Université. L'École prépare ensuite une main-d'œuvre plus efficace."
+	]
+	quest.4D43000000000012.title: "Former la nouvelle génération"
+	quest.4D43000000000013.quest_desc: [
+		"L'Université débloque les recherches nécessaires aux bâtiments et améliorations avancés."
+		""
+		"Construis-la puis ouvre son arbre de recherche. Les recherches consomment des ressources, du temps et parfois un niveau minimal d'Université."
+	]
+	quest.4D43000000000013.title: "Entrer dans l'âge de la recherche"
+	quest.4D43000000000014.quest_desc: [
+		"La Scierie fabrique automatiquement les composants en bois demandés par la colonie."
+		""
+		"Monte le Bûcheron au niveau 3 et termine la recherche Woodwork à l'Université. Enseigne ensuite des recettes au travailleur depuis l'interface du bâtiment."
+	]
+	quest.4D43000000000014.title: "Industrialiser le travail du bois"
+	quest.4D43000000000015.quest_desc: [
+		"Le Tailleur de pierre produit les formes de pierre nécessaires aux constructions."
+		""
+		"Monte la Mine au niveau 3 et termine la recherche Stone Cake, puis apprends-lui les recettes récurrentes pour soulager le joueur et le Bâtisseur."
+	]
+	quest.4D43000000000015.title: "Façonner la pierre"
+	quest.4D43000000000016.quest_desc: [
+		"La Fonderie transforme automatiquement minerais et métaux pour alimenter les autres artisans."
+		""
+		"Monte la Mine au niveau 2 et termine la recherche Hot à l'Université. Assure ensuite un approvisionnement en combustible et enseigne les recettes utiles."
+	]
+	quest.4D43000000000016.title: "Traiter les métaux"
+	quest.4D43000000000017.quest_desc: [
+		"La Caserne héberge plusieurs gardes et protège une zone importante."
+		""
+		"Monte une Tour de Garde au niveau 3 et termine la recherche Tactic Training, puis place la Caserne sur un axe sensible. Prévois un stock régulier d'équipement."
+	]
+	quest.4D43000000000017.title: "Structurer la défense"
+	quest.4D43000000000018.quest_desc: [
+		"Le Champ de tir entraîne les archers et améliore la spécialisation militaire."
+		""
+		"Cette étape exige une recherche universitaire. Construis-la lorsque ta production peut soutenir une défense équipée à distance."
+	]
+	quest.4D43000000000018.title: "Former les archers"
+	quest.4D43000000000019.quest_desc: [
+		"L'Académie de combat développe les combattants au corps à corps."
+		""
+		"Débloque sa recherche et construis-la en complément du Champ de tir pour disposer d'une défense polyvalente."
+	]
+	quest.4D43000000000019.title: "Former les combattants"
+	quest.4D4300000000001A.quest_desc: [
+		"L'Hôpital soigne les citoyens malades ou blessés."
+		""
+		"Après la recherche requise, garde un stock de remèdes et place le bâtiment dans une zone facilement accessible."
+	]
+	quest.4D4300000000001A.title: "Prendre soin des citoyens"
+	quest.4D4300000000001B.quest_desc: [
+		"La Cuisine du Chef prépare des plats plus élaborés pour le Restaurant."
+		""
+		"Enseigne les recettes adaptées aux ingrédients produits par la colonie et surveille les demandes via le Presse-papiers."
+	]
+	quest.4D4300000000001B.title: "Améliorer les repas"
+	quest.4D4300000000001C.quest_desc: [
+		"La Bibliothèque emploie les citoyens les plus instruits et soutient la progression scientifique."
+		""
+		"Elle fait partie de la phase avancée : termine d'abord sa recherche et assure-toi d'avoir des habitants bien formés."
+	]
+	quest.4D4300000000001C.title: "Développer le savoir"
+	quest.4D4300000000001D.quest_desc: [
+		"La Tour de l'Enchanteur permet à la colonie de travailler avec l'expérience et les enchantements."
+		""
+		"Débloque la recherche correspondante et réserve ce bâtiment à une colonie déjà stable en nourriture, logistique et défense."
+	]
+	quest.4D4300000000001D.title: "Maîtriser l'enchantement"
+	quest.4D4300000000001E.quest_desc: [
+		"Le Site mystique marque l'aboutissement de cette progression."
+		""
+		"À ce stade, ta colonie doit être autonome : ressources transformées, nourriture distribuée, citoyens formés et défenses organisées. Termine la recherche nécessaire, puis choisis un emplacement digne de ce bâtiment."
+	]
+	quest.4D4300000000001E.title: "Une colonie accomplie"
+	quest.4EF7B15079171BB2.quest_desc: [
+		"La Turbine transforme la vapeur du réacteur en énergie et condense l'eau pour la renvoyer."
+		""
+		"Vérifie toutes les capacités puis démarre la fission au taux minimal ; une sortie saturée peut interrompre le refroidissement."
+	]
+	quest.4EF7B15079171BB2.quest_subtitle: "Niveau 5 / 5"
+	quest.4EF7B15079171BB2.title: "La turbine industrielle"
+	quest.4F10C8BFA87BC0D3.quest_desc: [
+		"Le CPU de fabrication organise les commandes. Son stockage détermine la taille maximale d'un travail."
+		""
+		"Un CPU ne traite qu'une commande à la fois ; plusieurs structures permettent le parallélisme."
+	]
+	quest.4F10C8BFA87BC0D3.quest_subtitle: "Niveau 4 / 5"
+	quest.4F10C8BFA87BC0D3.title: "Le cerveau de fabrication"
+	quest.4F16FEF3727FAFC6.quest_desc: [
+		"Un réseau ad hoc est limité à huit canaux. Le Contrôleur permet d'organiser un réseau beaucoup plus grand."
+		""
+		"Chaque face du Contrôleur peut fournir jusqu'à 32 canaux avec un câble dense."
+	]
+	quest.4F16FEF3727FAFC6.quest_subtitle: "Niveau 3 / 5"
+	quest.4F16FEF3727FAFC6.title: "Dépasser huit appareils"
+	quest.50341080C6AFCFF1.quest_desc: [
+		"La Paxel réunit pioche, pelle, hache, houe et épée dans un seul outil."
+		""
+		"Cette branche est facultative pour l'industrie, mais elle montre les propriétés de l'osmium."
+	]
+	quest.50341080C6AFCFF1.quest_subtitle: "Niveau 1 / 5"
+	quest.50341080C6AFCFF1.title: "Un outil, cinq usages"
+	quest.504574A21B0F27FD.quest_desc: [
+		"Assemble ton premier réacteur passif."
+		""
+		"Le Port d'Accès Solide alimente automatiquement le combustible. Surveille la température : au-delà de 1000 °C le rendement s'effondre."
+	]
+	quest.504574A21B0F27FD.quest_subtitle: "Étape 3 / 8"
+	quest.504574A21B0F27FD.title: "Premier réacteur"
+	quest.511BAC2A0CE42342.quest_desc: [
+		"Le câble de verre Fluix transporte à la fois l'énergie et jusqu'à huit canaux."
+		""
+		"Chaque appareil connecté consomme généralement un canal ; dessine déjà ton réseau avec cette limite en tête."
+	]
+	quest.511BAC2A0CE42342.quest_subtitle: "Niveau 2 / 5"
+	quest.511BAC2A0CE42342.title: "Relier le réseau"
+	quest.511D1F4EC733FC8C.quest_desc: [
+		"Boucle le circuit : réacteur actif vers turbine, condensat renvoyé au réacteur."
+		""
+		"Une fois la boucle fermée, ta production dépasse tout ce que Powah ou Ender IO peuvent fournir."
+	]
+	quest.511D1F4EC733FC8C.quest_subtitle: "Étape 6 / 8"
+	quest.511D1F4EC733FC8C.title: "La boucle vapeur"
+	quest.513F7EBC5AA32D8B.quest_desc: [
+		"La Tablette d'information décrit les structures, modules et recettes de fusion."
+		""
+		"Consulte-la à chaque changement de palier : Draconic Evolution exige beaucoup de préparation."
+	]
+	quest.513F7EBC5AA32D8B.quest_subtitle: "Niveau 1 / 5"
+	quest.513F7EBC5AA32D8B.title: "Le guide draconique"
+	quest.521196B1E4C70473.quest_desc: [
+		"Récolte des amas de Certus arrivés à maturité. Les blocs bourgeonnants produisent de nouveaux cristaux : évite de les casser inutilement."
+		""
+		"Le Certus est la matière de base de presque tout le réseau ME."
+	]
+	quest.521196B1E4C70473.quest_subtitle: "Niveau 1 / 5"
+	quest.521196B1E4C70473.title: "Premier Certus"
+	quest.54E0BCA8A3D0EE7A.quest_desc: [
+		"Le Nucléosynthétiseur antiprotonique utilise l'antimatière pour transmuter la matière."
+		""
+		"C'est la dernière machine du chapitre : automatise son entrée sans gaspiller les précieuses pastilles."
+	]
+	quest.54E0BCA8A3D0EE7A.quest_subtitle: "Niveau 5 / 5"
+	quest.54E0BCA8A3D0EE7A.title: "Réécrire la matière"
+	quest.556916510241852E.quest_desc: [
+		"Le Condensateur rotatif convertit certains liquides en gaz et inversement."
+		""
+		"Son mode de fonctionnement change dans l'interface ; cette conversion devient centrale pour le nucléaire et la fusion."
+	]
+	quest.556916510241852E.quest_subtitle: "Niveau 3 / 5"
+	quest.556916510241852E.title: "Du liquide au gaz"
+	quest.5714343BE8C291D3.quest_desc: [
+		"Le Séparateur électrolytique transforme l'eau en hydrogène et oxygène."
+		""
+		"Active le vidage de l'excédent inutile ou stocke les deux gaz : une sortie pleine arrête toute la machine."
+	]
+	quest.5714343BE8C291D3.quest_subtitle: "Niveau 2 / 5"
+	quest.5714343BE8C291D3.title: "Scinder l'eau"
+	quest.5775AF7086B66BBF.quest_desc: [
+		"Le réacteur produit du Cyanite comme déchet."
+		""
+		"Le Retraiteur le transforme en Blutonium, un combustible bien plus dense. Rien ne se perd."
+	]
+	quest.5775AF7086B66BBF.quest_subtitle: "Étape 4 / 8"
+	quest.5775AF7086B66BBF.title: "Retraiter les déchets"
+	quest.57B200F99EE6F5FB.quest_desc: [
+		"Le verre de quartz entre dans les câbles, cellules et machines AE2."
+		""
+		"Garde une réserve de poussière de quartz : cette ressource revient souvent dans les recettes."
+	]
+	quest.57B200F99EE6F5FB.quest_subtitle: "Niveau 2 / 5"
+	quest.57B200F99EE6F5FB.title: "Verre de quartz"
+	quest.580B96D121DEC345.quest_desc: [
+		"L'Accélérateur de fabrication ajoute des coprocesseurs au CPU."
+		""
+		"Combine coprocesseurs, Assembleurs multiples et recettes bien découpées pour accélérer les grands travaux."
+	]
+	quest.580B96D121DEC345.quest_subtitle: "Niveau 4 / 5"
+	quest.580B96D121DEC345.title: "Travailler en parallèle"
+	quest.58C962C2148F410E.quest_desc: [
+		"L'Acier Énergisé et la Pâte Diélectrique sont les deux consommables du mod."
+		""
+		"La Pâte se fabrique en grande quantité et sert dans presque toutes les recettes. Prends de l'avance."
+	]
+	quest.58C962C2148F410E.quest_subtitle: "Palier 1 / 7"
+	quest.58C962C2148F410E.title: "Matériaux de base"
+	quest.5A3D81440C679346.quest_desc: [
+		"Répète le procédé avec du Certus pour créer des processeurs de calcul."
+		""
+		"Ils interviennent dans le stockage, les cellules et les composants de contrôle."
+	]
+	quest.5A3D81440C679346.quest_subtitle: "Niveau 2 / 5"
+	quest.5A3D81440C679346.title: "Faire les calculs"
+	quest.5AE974DEC8043286.quest_desc: [
+		"Installe les Barils de déchets radioactifs avant de démarrer le réacteur."
+		""
+		"Ne casse jamais un baril rempli et vide les conduites radioactives avant tout démontage."
+	]
+	quest.5AE974DEC8043286.quest_subtitle: "Niveau 4 / 5"
+	quest.5AE974DEC8043286.title: "Prévoir les déchets"
+	quest.5DA01F9529CE0EB6.quest_desc: [
+		"Assemble le composant 1k dans un boîtier de cellule."
+		""
+		"Une cellule terminée doit être placée dans un Drive ou un coffre ME pour rejoindre le réseau."
+	]
+	quest.5DA01F9529CE0EB6.quest_subtitle: "Niveau 2 / 5"
+	quest.5DA01F9529CE0EB6.title: "Cellule de stockage"
+	quest.5DEECE240E38D481.quest_desc: [
+		"Le Condenseur transforme une quantité immense de matière en Singularité. Le composant 64k active ce mode."
+		""
+		"Prévois une source automatisée d'objets bon marché : la compression demande 256 000 unités."
+	]
+	quest.5DEECE240E38D481.quest_subtitle: "Niveau 5 / 5"
+	quest.5DEECE240E38D481.title: "Compresser la matière"
+	quest.5EA7C62A56830D5A.quest_desc: [
+		"L'Activateur solaire de neutrons transforme les déchets nucléaires en polonium."
+		""
+		"Garde le circuit fermé et stocké : aucune machine radioactive ne doit être cassée pleine."
+	]
+	quest.5EA7C62A56830D5A.quest_subtitle: "Niveau 5 / 5"
+	quest.5EA7C62A56830D5A.title: "Valoriser les déchets"
+	quest.5F413FA88732F401.quest_desc: [
+		"Le Chargeur transforme certains objets grâce à l'énergie AE. Il peut être alimenté par un réseau ou temporairement avec une manivelle."
+		""
+		"Place-le de façon à pouvoir accéder à sa face ouverte."
+	]
+	quest.5F413FA88732F401.quest_subtitle: "Niveau 1 / 5"
+	quest.5F413FA88732F401.title: "Le Chargeur"
+	quest.6063E644783AAA1F.quest_desc: [
+		"Le boîtier renforcé débloque les ports de fluides et le mode actif."
+		""
+		"Un réacteur actif produit de la vapeur au lieu de l'énergie. C'est le préalable à la turbine."
+	]
+	quest.6063E644783AAA1F.quest_subtitle: "Étape 4 / 8"
+	quest.6063E644783AAA1F.title: "Passer en actif"
+	quest.648F0C6CB455D8ED.quest_desc: [
+		"L'Accepteur convertit l'énergie Forge de Mekanism ou Thermal en énergie AE."
+		""
+		"Relie une source d'énergie à l'Accepteur, puis un câble Fluix à une autre face."
+	]
+	quest.648F0C6CB455D8ED.quest_subtitle: "Niveau 2 / 5"
+	quest.648F0C6CB455D8ED.title: "Accepter l'énergie"
+	quest.64D9EBB68DC7CCEF.quest_desc: [
+		"Un modèle vierge peut mémoriser une recette de fabrication ou de traitement."
+		""
+		"Prépare-en plusieurs : chaque recette automatisée consomme son propre modèle."
+	]
+	quest.64D9EBB68DC7CCEF.quest_subtitle: "Niveau 3 / 5"
+	quest.64D9EBB68DC7CCEF.title: "Supports vierges"
+	quest.6541B92F30357F2F.quest_desc: [
+		"Transforme la poussière de draconium en lingots."
+		""
+		"Cette ressource rare sert à l'énergie, à la fusion et à tous les équipements modulaires."
+	]
+	quest.6541B92F30357F2F.quest_subtitle: "Niveau 1 / 5"
+	quest.6541B92F30357F2F.title: "Raffiner le draconium"
+	quest.655A1785DDF6F42B.quest_desc: [
+		"Imprime de l'or et du silicone, puis assemble les deux circuits avec de la Redstone."
+		""
+		"Les processeurs logiques servent aux terminaux et aux machines de base."
+	]
+	quest.655A1785DDF6F42B.quest_subtitle: "Niveau 2 / 5"
+	quest.655A1785DDF6F42B.title: "Penser logique"
+	quest.6832F811F080F86A.quest_desc: [
+		"Le Générateur thermique produit de l'énergie avec du combustible ou au contact de la lave."
+		""
+		"Utilise-le pour démarrer, puis réserve la lave aux situations où le placement reste sûr."
+	]
+	quest.6832F811F080F86A.quest_subtitle: "Niveau 1 / 5"
+	quest.6832F811F080F86A.title: "Transformer la chaleur"
+	quest.699A9D688B56A058.quest_desc: [
+		"La Chambre de réaction pressurisée combine biocarburant, eau et hydrogène pour produire de l'éthylène."
+		""
+		"Gère aussi le sous-produit solide afin que la machine ne se bloque pas."
+	]
+	quest.699A9D688B56A058.quest_subtitle: "Niveau 3 / 5"
+	quest.699A9D688B56A058.title: "Biomasse sous pression"
+	quest.6AFF931F0836D86B.quest_desc: [
+		"La Turbine convertit la vapeur en énergie, avec un rendement très supérieur au réacteur passif."
+		""
+		"L'Arbre, les Pales et le Palier forment le rotor. Vise 1800 ou 900 tr/min et reste stable."
+	]
+	quest.6AFF931F0836D86B.quest_subtitle: "Étape 5 / 8"
+	quest.6AFF931F0836D86B.title: "La Turbine"
+	quest.6D69D265C2D4C77F.quest_desc: [
+		"La Chambre de purification injecte de l'oxygène et produit des fragments sales."
+		""
+		"Enchaîne Purification, Broyeur, Enrichissement et Four électrique pour atteindre trois lingots."
+	]
+	quest.6D69D265C2D4C77F.quest_subtitle: "Niveau 3 / 5"
+	quest.6D69D265C2D4C77F.title: "Trois lingots par minerai"
+	quest.6E52786A71265180.quest_desc: [
+		"Le Générateur de Mobs reproduit indéfiniment le mob capturé."
+		""
+		"Il consomme beaucoup d'énergie. Combine-le avec l'Obélisque d'Attraction pour concentrer les spawns."
+	]
+	quest.6E52786A71265180.quest_subtitle: "Niveau 5 / 6"
+	quest.6E52786A71265180.title: "Ferme à mobs"
+	quest.6F6D264AE81C9C48.quest_desc: [
+		"L'Orbe Énergisante est le cœur du mod : c'est elle qui fabrique tout le reste."
+		""
+		"Entoure-la de Tiges Énergisantes et fournis de l'énergie. Plus tu ajoutes de tiges, plus la recette est rapide."
+	]
+	quest.6F6D264AE81C9C48.quest_subtitle: "Palier 2 / 7"
+	quest.6F6D264AE81C9C48.title: "L'Orbe Énergisante"
+	quest.6FAEE5BE84BED3A6.quest_desc: [
+		"Le Générateur Thermoélectrique produit en continu à partir d'un différentiel de température."
+		""
+		"Place-le entre de la lave et de la glace. Sortie modeste mais totalement passive et sans entretien."
+	]
+	quest.6FAEE5BE84BED3A6.quest_subtitle: "Palier 3 / 7"
+	quest.6FAEE5BE84BED3A6.title: "Thermoélectricité"
+	quest.701FF8F20819795E.quest_desc: [
+		"Améliore les Injecteurs pour accepter les recettes Wyvern et préparer le palier éveillé."
+		""
+		"La zone doit rester chargée pendant toute la fusion, sinon la progression peut s'interrompre."
+	]
+	quest.701FF8F20819795E.quest_subtitle: "Niveau 2 / 5"
+	quest.701FF8F20819795E.title: "Injecteurs Wyvern"
+	quest.705B2F05995A000F.quest_desc: [
+		"Le composant détermine la capacité d'une cellule. Le nombre de types différents stockés compte autant que le volume total."
+		""
+		"Commence petit pour comprendre le système avant d'investir dans les grandes cellules."
+	]
+	quest.705B2F05995A000F.quest_subtitle: "Niveau 2 / 5"
+	quest.705B2F05995A000F.title: "Premier composant de cellule"
+	quest.71C300101B5F26F6.quest_desc: [
+		"L'Inscriber presse les matériaux puis assemble les circuits. Ses faces d'entrée sont importantes lorsqu'il sera automatisé."
+		""
+		"Commence par tester manuellement chaque matrice."
+	]
+	quest.71C300101B5F26F6.quest_subtitle: "Niveau 2 / 5"
+	quest.71C300101B5F26F6.title: "L'Inscriber"
+	quest.7260A13B23E12185.quest_desc: [
+		"L'Énergiseur est le multibloc final : un stockage d'énergie quasi illimité."
+		""
+		"Ajoute des Cellules pour augmenter la capacité. Le Cœur Énergétique en est la pièce maîtresse."
+	]
+	quest.7260A13B23E12185.quest_subtitle: "Étape 8 / 8"
+	quest.7260A13B23E12185.title: "L'Énergiseur"
+	quest.7538AA5F80C639FE.quest_desc: [
+		"La combinaison Hazmat n'est efficace que lorsqu'elle est complète."
+		""
+		"Elle protège le joueur, pas le terrain : une fuite contamine toujours durablement la zone."
+	]
+	quest.7538AA5F80C639FE.quest_subtitle: "Niveau 4 / 5"
+	quest.7538AA5F80C639FE.title: "S'habiller pour survivre"
+	quest.75A92A73A17CA7A7.quest_desc: [
+		"Les Grains d'Infinité sont la base de tout Ender IO."
+		""
+		"Ils s'obtiennent en broyant de l'obsidienne. Prévois-en beaucoup : presque chaque recette du mod en consomme."
+	]
+	quest.75A92A73A17CA7A7.quest_subtitle: "Niveau 1 / 6"
+	quest.75A92A73A17CA7A7.title: "Grains d'Infinité"
+	quest.77861D8D2442576C.quest_desc: [
+		"Le câble universel transporte l'énergie Forge et s'adapte aux machines voisines."
+		""
+		"Utilise le Configurateur plus tard pour forcer une connexion en entrée, sortie ou déconnexion."
+	]
+	quest.77861D8D2442576C.quest_subtitle: "Niveau 1 / 5"
+	quest.77861D8D2442576C.title: "Distribuer l'énergie"
+	quest.77BC23D91687C968.quest_desc: [
+		"La Fiole d'Âme capture un mob vivant."
+		""
+		"Associée au Générateur de Mobs, elle remplace un donjon entier. Le Lieur d'Âmes sert aux recettes avancées."
+	]
+	quest.77BC23D91687C968.quest_subtitle: "Niveau 4 / 6"
+	quest.77BC23D91687C968.title: "Capturer une âme"
+	quest.7CB501BF16741158.quest_desc: [
+		"Les Cellules d'induction déterminent la capacité totale de la Matrice."
+		""
+		"Les niveaux supérieurs augmentent fortement cette capacité sans modifier la taille extérieure."
+	]
+	quest.7CB501BF16741158.quest_subtitle: "Niveau 4 / 5"
+	quest.7CB501BF16741158.title: "Stocker dans la matrice"
+	quest.7D739878538EBF52.quest_desc: [
+		"Le processeur d'ingénierie utilise un diamant. Il est plus coûteux et réservé aux composants importants."
+		""
+		"Prépare-en plusieurs avant de construire ton premier réseau."
+	]
+	quest.7D739878538EBF52.quest_subtitle: "Niveau 2 / 5"
+	quest.7D739878538EBF52.title: "Ingénierie avancée"
+	quest.7DF5D46C60B325CF.quest_desc: [
+		"Les cristaux marquent les paliers hauts du mod."
+		""
+		"Niotique, Spirité puis Nitro. Chacun se fabrique à l'Orbe Énergisante et demande plus d'énergie que le précédent."
+	]
+	quest.7DF5D46C60B325CF.quest_subtitle: "Palier 6 / 7"
+	quest.7DF5D46C60B325CF.title: "Cristaux avancés"
+	quest.7F21F24420700C68.quest_desc: [
+		"L'Infuseur métallurgique combine un matériau principal et un agent d'infusion."
+		""
+		"Apprends tout de suite à régler les faces colorées : entrée, entrée supplémentaire, sortie et énergie."
+	]
+	quest.7F21F24420700C68.quest_subtitle: "Niveau 1 / 5"
+	quest.7F21F24420700C68.title: "Infuser le métal"
+	task.0284427A849024CD.title: "Faire fonctionner la chaîne de traitement x5"
+	task.045FEC2E679A0CA6.title: "Vaincre l'Ender Dragon"
+	task.09FD17D87083509F.title: "Réaliser une transmutation à l'antimatière"
+	task.0A3C6A09FF73BF19.title: "Former une structure de fusion éveillée"
+	task.0A7A000000020002.title: "Former un rectangle avec les marqueurs"
+	task.0A7A000000030002.title: "Extraire les premiers blocs sans débordement"
+	task.0A7A0000000C0002.title: "Tester une petite excavation"
+	task.0A7A000000100002.title: "Excaver une zone avec modules actifs"
+	task.0A7A000000120002.title: "Faire fonctionner la carrière avec son module"
+	task.0F8E152359FBF46B.title: "Terminer une recette de fusion Wyvern"
+	task.10B246618CEF7007.title: "Faire tourner une ferme à mobs automatisée"
+	task.121AB7E5E1D21DF1.title: "Commander et terminer une fabrication automatique"
+	task.12809DC5099DFE17.title: "Produire de l'énergie avec de l'éthylène"
+	task.15F70EA8E20BFE49.title: "Alimenter une machine par cristal"
+	task.1D2E5E8E83AB2358.title: "Relier deux zones avec le pont quantique"
+	task.1F0A000000030002.title: "Extraire du latex d'une bûche"
+	task.1F0A000000050002.title: "Alimenter l'unité en latex, eau et énergie"
+	task.1F0A0000000C0002.title: "Faire fonctionner une boucle semis-récolte"
+	task.1F0A0000000D0002.title: "Capturer une créature adaptée"
+	task.1F0A0000000E0002.title: "Produire de la viande liquide et de la gelée rose"
+	task.1F0A000000110002.title: "Collecter butin et essence d'une créature"
+	task.1F0A000000130002.title: "Faire produire un minerai par les Foreuses laser"
+	task.202A240E361FE0C3.title: "Transformer un minerai en deux poussières"
+	task.2476A462066D8EBD.title: "Former et alimenter le SPS"
+	task.26B44EFB5A2D9623.title: "Faire tourner un réacteur en continu"
+	task.26D4667C06EC05E9.title: "Produire de l'énergie avec le Générateur"
+	task.2FA7F95BF7484D96.title: "Faire fonctionner la chaîne de traitement x3"
+	task.30A1F1ADC31ACF70.title: "Former la Turbine et recycler son eau"
+	task.30DF11350A2D7186.title: "Former le Réacteur à fission sans l'allumer"
+	task.316F3A6D30B5B152.title: "Former et tester la Matrice d'induction"
+	task.4261D7A3BB9EA88A.title: "Régler le Condenseur sur le mode Singularité"
+	task.444A000000001104.title: "Faire tourner la foreuse sur une zone délimitée"
+	task.444A000000001801.title: "Avoir visité les cinq dimensions"
+	task.45A0D2E4A2325A51.title: "Produire les premiers joules"
+	task.47E6657C0009046D.title: "Terminer le rituel de Draconium éveillé"
+	task.4D43A00000000001.title: "Installer un camp ou un navire"
+	task.4E4D681F0A2C2201.title: "Boucler réacteur actif et turbine"
+	task.55D90FB9B6E3C738.title: "Faire fonctionner la chaîne de traitement x4"
+	task.5676C58E7CB0782B.title: "Former une tour d'évaporation thermique"
+	task.5B909DC02255FF30.title: "Installer et alimenter ses modules essentiels"
+	task.5D68A35C45DD2862.title: "Transférer un objet entre les deux tunnels"
+	task.64FA5406C14C7E4C.title: "Stocker puis reprendre un objet dans le réseau"
+	task.656C6E246C065A5B.title: "Faire produire une éolienne en altitude"
+	task.667A1D13E170C814.title: "Allumer et stabiliser le Réacteur à fusion"
+	task.6B17E096D60C4B87.title: "Atteindre le cube mystérieux"
+	task.6DB1CE8BD67690A5.title: "Faire passer des canaux à travers le tunnel"
+	task.778131F448631986.title: "Démarrer un réacteur passif complet"
+	task.7E46888DECB0C3D6.title: "Former une structure de fusion basique"
+	quest.0A71000000000001.quest_desc: [
+		"Le Marqueur est la brique de base de tout QuarryPlus."
+		""
+		"Poudre de pierre lumineuse, lapis et torche de redstone. Toutes les machines et tous les modules du mod le réclament dans leur recette : fabriques-en large dès maintenant."
+	]
+	quest.0A71000000000001.quest_subtitle: "Niveau 1 / 5"
+	quest.0A71000000000001.title: "Le Marqueur"
+	quest.0A71000000000002.quest_desc: [
+		"Le Marqueur flexible se règle à la main, hauteur comprise."
+		""
+		"Commence par une petite zone visible et vérifie chaque bord avant de poser la carrière. Un clic droit ouvre le réglage des dimensions."
+	]
+	quest.0A71000000000002.quest_subtitle: "Niveau 1 / 5"
+	quest.0A71000000000002.title: "Délimiter une zone"
+	quest.0A71000000000003.quest_desc: [
+		"La Carrière excave toute la zone définie et laisse un trou permanent."
+		""
+		"Teste-la sur une petite surface, avec énergie et stockage surdimensionnés. La dimension minière est préférable aux grands chantiers."
+	]
+	quest.0A71000000000003.quest_subtitle: "Niveau 2 / 5"
+	quest.0A71000000000003.title: "La première carrière"
+	quest.0A71000000000004.quest_desc: [
+		"Le Vérificateur d'état lit ce que fait une machine et où elle en est."
+		""
+		"Indispensable quand une carrière semble bloquée : il distingue un manque d'énergie d'un stockage plein."
+	]
+	quest.0A71000000000004.quest_subtitle: "Niveau 2 / 5"
+	quest.0A71000000000004.title: "Vérifier l'état"
+	quest.0A71000000000005.quest_desc: [
+		"Le Régleur de Y fixe l'altitude à laquelle la carrière s'arrête."
+		""
+		"Évite de creuser jusqu'à la bedrock quand seule la couche des diamants t'intéresse. Gros gain de temps et d'énergie."
+	]
+	quest.0A71000000000005.quest_subtitle: "Niveau 2 / 5"
+	quest.0A71000000000005.title: "Régler la profondeur"
+	quest.0A71000000000006.quest_desc: [
+		"Le Module de pompe évacue les fluides rencontrés pendant l'excavation."
+		""
+		"Sans lui, une nappe de lave ou un océan noie le chantier et bloque la machine. C'est le premier module à installer."
+	]
+	quest.0A71000000000006.quest_subtitle: "Niveau 3 / 5"
+	quest.0A71000000000006.title: "Module de pompe"
+	quest.0A71000000000007.quest_desc: [
+		"Le Module de filtre choisit ce que la carrière ramasse et ce qu'elle laisse."
+		""
+		"Écarte la pierre et la terre : ton réseau de stockage te remerciera. Il se configure avec un livre écrit."
+	]
+	quest.0A71000000000007.quest_subtitle: "Niveau 3 / 5"
+	quest.0A71000000000007.title: "Module de filtre"
+	quest.0A71000000000008.quest_desc: [
+		"Le Module d'expérience collecte les orbes libérées par l'extraction."
+		""
+		"L'expérience s'accumule dans la machine et se récupère à la demande. Pratique avec un module anti-bedrock qui casse énormément de blocs."
+	]
+	quest.0A71000000000008.quest_subtitle: "Niveau 3 / 5"
+	quest.0A71000000000008.title: "Module d'expérience"
+	quest.0A71000000000009.quest_desc: [
+		"Le Module de répétition fait travailler la machine plusieurs fois par tick."
+		""
+		"La vitesse monte, la consommation d'énergie aussi. À réserver aux installations déjà bien alimentées."
+	]
+	quest.0A71000000000009.quest_subtitle: "Niveau 3 / 5"
+	quest.0A71000000000009.title: "Accélérer l'extraction"
+	quest.0A7100000000000A.quest_desc: [
+		"Le Déplaceur transfère les enchantements d'un outil vers une machine."
+		""
+		"C'est ainsi qu'on donne Fortune ou Toucher de soie à une carrière. Prépare une pioche enchantée avant de le poser."
+	]
+	quest.0A7100000000000A.quest_subtitle: "Niveau 3 / 5"
+	quest.0A7100000000000A.title: "Déplacer les enchantements"
+	quest.0A7100000000000B.quest_desc: [
+		"Le Module anti-bedrock autorise l'extraction de la roche-mère."
+		""
+		"Il ouvre le fond du monde. Attention dans le Nether : sous la bedrock il n'y a que le vide."
+	]
+	quest.0A7100000000000B.quest_subtitle: "Niveau 4 / 5"
+	quest.0A7100000000000B.title: "Percer la bedrock"
+	quest.0A7100000000000C.quest_desc: [
+		"Le Marqueur de chunk aligne automatiquement la zone sur les limites du chunk."
+		""
+		"Bien plus rapide que de poser des marqueurs à la main, et la zone tombe juste avec le chargement de chunks."
+	]
+	quest.0A7100000000000C.quest_subtitle: "Niveau 4 / 5"
+	quest.0A7100000000000C.title: "Marquer un chunk entier"
+	quest.0A7100000000000D.quest_desc: [
+		"Le Placeur pose des blocs depuis son inventaire."
+		""
+		"Il sert à reboucher derrière une carrière, ou à automatiser la pose de n'importe quel bloc."
+	]
+	quest.0A7100000000000D.quest_subtitle: "Niveau 4 / 5"
+	quest.0A7100000000000D.title: "Le Placeur"
+	quest.0A7100000000000E.quest_desc: [
+		"Le Placeur distant agit à plusieurs blocs de lui."
+		""
+		"Sa portée se règle dans son interface. Utile pour intervenir dans une zone déjà excavée."
+	]
+	quest.0A7100000000000E.quest_subtitle: "Niveau 4 / 5"
+	quest.0A7100000000000E.title: "Placer à distance"
+	quest.0A7100000000000F.quest_desc: [
+		"La Pompe avancée vide un océan entier et fonctionne de façon autonome."
+		""
+		"Elle remplace le module de pompe quand tu passes à l'échelle industrielle."
+	]
+	quest.0A7100000000000F.quest_subtitle: "Niveau 5 / 5"
+	quest.0A7100000000000F.title: "La Pompe avancée"
+	quest.0A71000000000010.quest_desc: [
+		"La Carrière avancée est la machine ultime du mod : elle ne laisse aucun trou."
+		""
+		"Étoile du Nether, tête de dragon et blocs de diamant et d'émeraude. Elle accepte tous les modules à la fois."
+	]
+	quest.0A71000000000010.quest_subtitle: "Niveau 5 / 5"
+	quest.0A71000000000010.title: "La Carrière avancée"
+}

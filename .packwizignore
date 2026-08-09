@@ -1,0 +1,9 @@
+.git/
+.gitignore
+.nojekyll
+index.html
+*.mrpack
+packwiz.json
+packwiz-installer.jar
+packwiz-installer-bootstrap.jar
+

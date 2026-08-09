@@ -1,0 +1,13 @@
+name = "PartiCull"
+filename = "PartiCull-neoforge-1.21.1-v2.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/lXsuozds/versions/zYxlHodS/PartiCull-neoforge-1.21.1-v2.0.jar"
+hash-format = "sha512"
+hash = "728ac9d276a9d1178ed3d2e9e0481e6cf014b0c9a96fc22a980e754571663f1444b2596b4d5d0c48a809469476a7932afa8ba75ee8219b28b10abd2c39fe71a6"
+
+[update]
+[update.modrinth]
+mod-id = "lXsuozds"
+version = "zYxlHodS"

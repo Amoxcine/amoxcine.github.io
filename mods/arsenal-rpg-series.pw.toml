@@ -1,0 +1,13 @@
+name = "Arsenal (RPG Series)"
+filename = "arsenal-neoforge-1.4.3+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4bf796e1106ce0a37712ec9310a68884cc972d91"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8473458
+project-id = 1230054

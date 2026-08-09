@@ -1,0 +1,13 @@
+name = "Ranged Weapon API"
+filename = "ranged_weapon_api-neoforge-2.3.3+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1c44e981e0bc99ddd0983577b0f28375bdf9f338"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7291834
+project-id = 962162

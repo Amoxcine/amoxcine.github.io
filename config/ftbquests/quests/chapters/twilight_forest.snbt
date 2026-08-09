@@ -1,0 +1,191 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "twilight_forest"
+	group: "65C0000000000002"
+	id: "65C1000000000005"
+	images: [ ]
+	order_index: 0
+	quest_links: [{
+		id: "65C5500000000001"
+		linked_quest: "65C2600000000001"
+		x: 0.0d
+		y: 12.0d
+	}]
+	quests: [
+		{
+			dependencies: ["65C2100000000004"]
+			id: "65C2500000000001"
+			tasks: [{
+				id: "65C3500000000001"
+				item: { count: 1, id: "twilightforest:magic_map" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["65C2500000000001"]
+			id: "65C2500000000002"
+			shape: "hexagon"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "65C3500000000002"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["65C2500000000002"]
+			id: "65C2500000000003"
+			shape: "hexagon"
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "65C3500000000003"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["65C2500000000003"]
+			id: "65C2500000000004"
+			shape: "hexagon"
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "65C3500000000004"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65C2500000000004"]
+			id: "65C2500000000005"
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "65C3500000000005"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65C2500000000005"]
+			id: "65C2500000000006"
+			shape: "hexagon"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "65C3500000000006"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["65C2500000000004"]
+			id: "65C2500000000007"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "65C3500000000007"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65C2500000000007"]
+			id: "65C2500000000008"
+			shape: "hexagon"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "65C3500000000008"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["65C2500000000004"]
+			id: "65C2500000000009"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "65C3500000000009"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65C2500000000009"]
+			id: "65C250000000000A"
+			shape: "hexagon"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "65C350000000000A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"65C2500000000006"
+				"65C2500000000008"
+				"65C250000000000A"
+			]
+			id: "65C250000000000B"
+			shape: "hexagon"
+			tasks: [{
+				id: "65C350000000000B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["65C250000000000B"]
+			id: "65C250000000000C"
+			optional: true
+			tasks: [{
+				entity: "twilight_forest_final_boss:castle_keeper"
+				id: "65C350000000000C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["65C2500000000003"]
+			id: "65C250000000000D"
+			optional: true
+			tasks: [{
+				id: "65C350000000000D"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["65C250000000000B"]
+			id: "65C250000000000E"
+			shape: "hexagon"
+			tasks: [{
+				id: "65C350000000000E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+	]
+}

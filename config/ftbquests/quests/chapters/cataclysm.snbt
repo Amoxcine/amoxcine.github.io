@@ -1,0 +1,233 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "cataclysm"
+	group: "65C0000000000002"
+	id: "65C1000000000007"
+	images: [ ]
+	order_index: 2
+	quest_links: [{
+		id: "65C5700000000001"
+		linked_quest: "513F7EBC5AA32D8B"
+		x: 6.0d
+		y: 17.0d
+	}]
+	quests: [
+		{
+			dependencies: ["65C260000000000A"]
+			id: "65C2700000000001"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "65C3700000000001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["65C2700000000001"]
+			id: "65C2700000000002"
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "65C3700000000002"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["65C2700000000001"]
+			id: "65C2700000000003"
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "65C3700000000003"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["65C2700000000001"]
+			id: "65C2700000000004"
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "65C3700000000004"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"65C2700000000002"
+				"65C2700000000003"
+				"65C2700000000004"
+			]
+			id: "65C2700000000005"
+			rewards: [{
+				id: "65C4700000000001"
+				table_id: 7333549043219431425L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["65C2700000000005"]
+			id: "65C2700000000006"
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "65C3700000000006"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["65C2700000000005"]
+			id: "65C2700000000007"
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "65C3700000000007"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["65C2700000000005"]
+			id: "65C2700000000008"
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "65C3700000000008"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"65C2700000000006"
+				"65C2700000000007"
+				"65C2700000000008"
+			]
+			id: "65C2700000000009"
+			rewards: [{
+				id: "65C4700000000002"
+				table_id: 7333549043219431426L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65C2700000000009"]
+			id: "65C270000000000A"
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "65C370000000000A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65C2700000000009"]
+			id: "65C270000000000B"
+			shape: "hexagon"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "65C370000000000B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"65C270000000000A"
+				"65C270000000000B"
+			]
+			id: "65C270000000000C"
+			rewards: [{
+				id: "65C4700000000003"
+				table_id: 7333549043219431427L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["65C2700000000002"]
+			id: "65C270000000000D"
+			optional: true
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				id: "65C370000000000D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["65C2700000000003"]
+			id: "65C270000000000E"
+			optional: true
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				id: "65C370000000000E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["65C2700000000008"]
+			id: "65C270000000000F"
+			optional: true
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				id: "65C370000000000F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65C270000000000C"]
+			id: "65C2700000000010"
+			shape: "hexagon"
+			tasks: [{
+				id: "65C3700000000010"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+	]
+}

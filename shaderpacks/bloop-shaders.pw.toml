@@ -1,0 +1,13 @@
+name = "Bloop Shaders"
+filename = "Bloop-1.8.0-Alpha-3.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Q6RQF9Oa/versions/WvrEQHFq/Bloop-1.8.0-Alpha-3.zip"
+hash-format = "sha512"
+hash = "051a57ebead36f89e7fd572a3ba9c42781c4dc4196cca2e938c7dcd3044450860b9b437931150d7e7ed367b5c47f3e7e50332b99feb1c08127b6fbd4cf10dfd1"
+
+[update]
+[update.modrinth]
+mod-id = "Q6RQF9Oa"
+version = "WvrEQHFq"

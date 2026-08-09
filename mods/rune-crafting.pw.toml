@@ -1,0 +1,13 @@
+name = "Runes"
+filename = "runes-neoforge-1.2.2+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d92afb6f63815742265bc0c3c8489c20232264f8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8401012
+project-id = 775518

@@ -1,0 +1,152 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "combat_et_magie"
+	group: "65C0000000000003"
+	id: "65C1000000000004"
+	images: [ ]
+	order_index: 0
+	quest_links: [
+		{
+			id: "65C5400000000001"
+			linked_quest: "65C2500000000001"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "65C5400000000002"
+			linked_quest: "65C2800000000001"
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			id: "65C5400000000003"
+			linked_quest: "65C2900000000001"
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			id: "65C5400000000004"
+			linked_quest: "65C2A00000000001"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			id: "65C5400000000005"
+			linked_quest: "65C2B00000000001"
+			x: 4.5d
+			y: 5.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["65C2100000000004"]
+			id: "65C2400000000001"
+			tasks: [{
+				id: "65C3400000000001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["65C2400000000001"]
+			id: "65C2400000000002"
+			tasks: [{
+				id: "65C3400000000002"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["65C2400000000002"]
+			id: "65C2400000000003"
+			tasks: [{
+				id: "65C3400000000003"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65C2400000000001"]
+			id: "65C2400000000004"
+			tasks: [{
+				id: "65C3400000000004"
+				item: { count: 1, id: "ars_nouveau:worn_notebook" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["65C2400000000004"]
+			id: "65C2400000000005"
+			tasks: [{
+				id: "65C3400000000005"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65C2400000000001"]
+			id: "65C2400000000006"
+			tasks: [{
+				id: "65C3400000000006"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 5, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:copper_spell_book" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["65C2400000000006"]
+			id: "65C2400000000007"
+			tasks: [{
+				id: "65C3400000000007"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65C2400000000001"]
+			id: "65C2400000000008"
+			tasks: [{
+				id: "65C3400000000008"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["65C2400000000008"]
+			id: "65C2400000000009"
+			tasks: [{
+				id: "65C3400000000009"
+				item: { count: 1, id: "apotheosis:reforging_table" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"65C2400000000003"
+				"65C2400000000005"
+				"65C2400000000007"
+				"65C2400000000009"
+			]
+			id: "65C240000000000A"
+			shape: "hexagon"
+			tasks: [{
+				id: "65C340000000000A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+}

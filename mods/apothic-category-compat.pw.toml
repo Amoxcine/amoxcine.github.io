@@ -1,0 +1,13 @@
+name = "Apothic Category Compat"
+filename = "apothic_compat-2.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "868506b8367be2c155acde0ef186b5a3e6ba8db9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8219980
+project-id = 1516278

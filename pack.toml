@@ -1,0 +1,12 @@
+name = "Ascendant"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "150041673ae0f4c18253b20a78a9deef5250f3dedd5462eb12427d91c75a657e"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.248"

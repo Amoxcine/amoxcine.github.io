@@ -1,0 +1,209 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enderio"
+	group: "72A9465344128AF9"
+	id: "5C6103E1E5034525"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "75A92A73A17CA7A7"
+			tasks: [{
+				count: 8L
+				id: "16BA18FE7AAB907C"
+				item: { count: 1, id: "enderio:grains_of_infinity" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["75A92A73A17CA7A7"]
+			id: "1D062F1021853413"
+			tasks: [{
+				id: "34F714F0BC97B06F"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1D062F1021853413"]
+			id: "189CA1F11EE19DFF"
+			tasks: [
+				{
+					id: "7152CF52919E06A2"
+					item: { count: 1, id: "enderio:sag_mill" }
+					type: "item"
+				}
+				{
+					id: "2DBE9B0A7A06B264"
+					item: { count: 1, id: "enderio:dark_steel_grinding_ball" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["189CA1F11EE19DFF"]
+			id: "0AA394B0855D7D6A"
+			tasks: [
+				{
+					count: 4L
+					id: "137643AE1DD51E38"
+					item: { count: 1, id: "enderio:redstone_alloy_ingot" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5CEF99D1020AFA62"
+					item: { count: 1, id: "enderio:energetic_alloy_ingot" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5229A4D2E7CF92FB"
+					item: { count: 1, id: "enderio:pulsating_alloy_ingot" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3B5095F171D72131"
+					item: { count: 1, id: "enderio:conductive_alloy_ingot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0AA394B0855D7D6A"]
+			id: "15CF9FA6303B7879"
+			tasks: [
+				{
+					id: "35F531105D316096"
+					item: { count: 1, id: "enderio:stirling_generator" }
+					type: "item"
+				}
+				{
+					id: "27B7597298F32898"
+					item: { count: 1, id: "enderio:basic_capacitor_bank" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0AA394B0855D7D6A"]
+			id: "302D797870C7D8E5"
+			tasks: [
+				{
+					count: 8L
+					id: "049D938BCBFE8878"
+					item: { count: 1, id: "enderio:conduit_binder_composite" }
+					type: "item"
+				}
+				{
+					id: "3A8A696D796D2FC1"
+					item: { count: 1, id: "enderio:conduit_probe" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15CF9FA6303B7879"]
+			id: "19E96CC9EFC279A8"
+			tasks: [{
+				count: 8L
+				id: "58BBCC10C3E0B0F5"
+				item: { count: 1, id: "enderio:dark_steel_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["302D797870C7D8E5"]
+			id: "77BC23D91687C968"
+			tasks: [
+				{
+					id: "14986578BB5808AF"
+					item: { count: 1, id: "enderio:soul_vial" }
+					type: "item"
+				}
+				{
+					id: "230946E7D709763D"
+					item: { count: 1, id: "enderio:soul_binder" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["77BC23D91687C968"]
+			id: "6E52786A71265180"
+			tasks: [
+				{
+					id: "26D9924F33E83468"
+					item: { count: 1, id: "enderio:powered_spawner" }
+					type: "item"
+				}
+				{
+					id: "10B246618CEF7007"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["19E96CC9EFC279A8"]
+			id: "4970D189D5B5ACD3"
+			tasks: [
+				{
+					count: 8L
+					id: "60D80E39226DB6F2"
+					item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
+					type: "item"
+				}
+				{
+					id: "325FABFDFB783A5D"
+					item: { count: 1, id: "enderio:octadic_capacitor" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4970D189D5B5ACD3"
+				"6E52786A71265180"
+			]
+			id: "1CE5A98AF78D3314"
+			tasks: [
+				{
+					count: 4L
+					id: "51A1CDA5AA358FA9"
+					item: { count: 1, id: "enderio:end_steel_ingot" }
+					type: "item"
+				}
+				{
+					id: "6B55556234DF2571"
+					item: { count: 1, id: "enderio:farming_station" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+}

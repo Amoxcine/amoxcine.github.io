@@ -1,0 +1,75 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "irons_spells"
+	group: "65C0000000000003"
+	id: "65C1000000000009"
+	images: [ ]
+	order_index: 2
+	quest_links: [{
+		id: "65C5900000000001"
+		linked_quest: "65C240000000000A"
+		x: 0.0d
+		y: 5.0d
+	}]
+	quests: [
+		{
+			dependencies: ["65C2400000000006"]
+			id: "65C2900000000001"
+			tasks: [{
+				id: "65C3900000000001"
+				item: { count: 1, id: "irons_spellbooks:inscription_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["65C2900000000001"]
+			id: "65C2900000000002"
+			tasks: [{
+				id: "65C3900000000002"
+				item: { count: 1, id: "irons_spellbooks:scroll_forge" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["65C2900000000001"]
+			id: "65C2900000000003"
+			tasks: [{
+				id: "65C3900000000003"
+				item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"65C2900000000002"
+				"65C2900000000003"
+			]
+			id: "65C2900000000004"
+			tasks: [{
+				id: "65C3900000000004"
+				item: { count: 1, id: "irons_spellbooks:mana_ring" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65C2900000000004"]
+			id: "65C2900000000005"
+			shape: "hexagon"
+			tasks: [{
+				id: "65C3900000000005"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+}

@@ -1,0 +1,13 @@
+name = "Wizards (RPG Series)"
+filename = "wizards-neoforge-3.0.4+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1e01bd11745a569e0951189ecd3fdef6fbdf4aa6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8555314
+project-id = 734325

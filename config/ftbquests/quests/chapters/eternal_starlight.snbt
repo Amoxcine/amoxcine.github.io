@@ -1,0 +1,139 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "eternal_starlight"
+	group: "65C0000000000002"
+	id: "65C1000000000006"
+	images: [ ]
+	order_index: 1
+	quest_links: [{
+		id: "65C5600000000001"
+		linked_quest: "65C2700000000001"
+		x: 0.0d
+		y: 9.0d
+	}]
+	quests: [
+		{
+			dependencies: ["65C250000000000E"]
+			id: "65C2600000000001"
+			tasks: [{
+				id: "65C3600000000001"
+				item: { count: 1, id: "eternal_starlight:seeking_eye" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["65C2600000000001"]
+			id: "65C2600000000002"
+			shape: "hexagon"
+			tasks: [{
+				entity: "eternal_starlight:the_gatekeeper"
+				id: "65C3600000000002"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["65C2600000000002"]
+			id: "65C2600000000003"
+			shape: "hexagon"
+			tasks: [{
+				dimension: "eternal_starlight:starlight"
+				id: "65C3600000000003"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["65C2600000000003"]
+			id: "65C2600000000004"
+			tasks: [{
+				id: "65C3600000000004"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["65C2600000000004"]
+			id: "65C2600000000005"
+			shape: "hexagon"
+			tasks: [{
+				entity: "eternal_starlight:starlight_golem"
+				id: "65C3600000000005"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65C2600000000004"]
+			id: "65C2600000000006"
+			shape: "hexagon"
+			tasks: [{
+				entity: "eternal_starlight:permafrost"
+				id: "65C3600000000006"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65C2600000000004"]
+			id: "65C2600000000007"
+			shape: "hexagon"
+			tasks: [{
+				entity: "eternal_starlight:lunar_monstrosity"
+				id: "65C3600000000007"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"65C2600000000005"
+				"65C2600000000006"
+				"65C2600000000007"
+			]
+			id: "65C2600000000008"
+			shape: "hexagon"
+			tasks: [{
+				id: "65C3600000000008"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65C2600000000002"]
+			id: "65C2600000000009"
+			optional: true
+			tasks: [{
+				id: "65C3600000000009"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["65C2600000000008"]
+			id: "65C260000000000A"
+			shape: "hexagon"
+			tasks: [{
+				id: "65C360000000000A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+}

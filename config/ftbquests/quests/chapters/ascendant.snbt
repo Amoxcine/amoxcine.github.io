@@ -1,0 +1,88 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "ascendant"
+	group: "65C0000000000001"
+	id: "65C1000000000001"
+	images: [ ]
+	order_index: 0
+	quest_links: [
+		{
+			id: "65C5100000000001"
+			linked_quest: "65C2200000000001"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "65C5100000000002"
+			linked_quest: "65C2300000000001"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "65C5100000000003"
+			linked_quest: "4D43000000000001"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "65C5100000000004"
+			linked_quest: "65C2400000000001"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "65C5100000000005"
+			linked_quest: "65C2500000000001"
+			x: 6.0d
+			y: 1.0d
+		}
+	]
+	quests: [
+		{
+			id: "65C2100000000001"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "65C3100000000001"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["65C2100000000001"]
+			id: "65C2100000000002"
+			tasks: [{
+				id: "65C3100000000002"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["65C2100000000001"]
+			id: "65C2100000000003"
+			tasks: [{
+				id: "65C3100000000003"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"65C2100000000002"
+				"65C2100000000003"
+			]
+			id: "65C2100000000004"
+			shape: "hexagon"
+			tasks: [{
+				id: "65C3100000000004"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+}

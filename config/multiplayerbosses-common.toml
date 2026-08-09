@@ -1,0 +1,21 @@
+# Cataclysm multiplayer scaling for Ascendant.
+# Only nearby players count; boss drops remain native and shared.
+"Should Scale Boss Health" = true
+"Should Scale Boss Drops" = false
+"Health Multiplier Per Player" = 0.1
+"Flat Health Multiplier" = 0.0
+"Flat Drop Multiplier" = 0
+"Should Use Loader Tags" = false
+"Should Drop Loot Bags" = false
+"Use Proximity Scaling" = true
+"Proximity Scaling Range" = 96
+"Boss Entities" = [
+    "cataclysm:netherite_monstrosity",
+    "cataclysm:ender_guardian",
+    "cataclysm:the_harbinger",
+    "cataclysm:ancient_remnant",
+    "cataclysm:scylla",
+    "cataclysm:the_leviathan",
+    "cataclysm:maledictus",
+    "cataclysm:ignis"
+]

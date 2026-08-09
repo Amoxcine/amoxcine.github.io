@@ -1,0 +1,250 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "create"
+	group: "72A9465344128AF9"
+	id: "65C1000000000003"
+	images: [ ]
+	order_index: 1
+	quest_links: [
+		{
+			id: "65C5300000000001"
+			linked_quest: "521196B1E4C70473"
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			id: "65C5300000000002"
+			linked_quest: "50341080C6AFCFF1"
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			id: "65C5300000000003"
+			linked_quest: "4D43000000000001"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "65C5300000000004"
+			linked_quest: "75A92A73A17CA7A7"
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			id: "65C5300000000005"
+			linked_quest: "1E5C182D97AE58E4"
+			x: 5.0d
+			y: 9.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["65C2100000000004"]
+			id: "65C2300000000001"
+			tasks: [{
+				count: 8L
+				id: "65C3300000000001"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["65C2300000000001"]
+			id: "65C2300000000002"
+			tasks: [
+				{
+					id: "65C3300000000002"
+					item: { count: 1, id: "create:water_wheel" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "65C3300000000003"
+					item: { count: 1, id: "create:shaft" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "65C3300000000004"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["65C2300000000002"]
+			id: "65C2300000000003"
+			tasks: [{
+				id: "65C3300000000005"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65C2300000000002"]
+			id: "65C2300000000004"
+			tasks: [
+				{
+					count: 8L
+					id: "65C3300000000006"
+					item: { count: 1, id: "create:belt_connector" }
+					type: "item"
+				}
+				{
+					id: "65C3300000000007"
+					item: { count: 1, id: "create:depot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65C2300000000002"]
+			id: "65C2300000000005"
+			tasks: [
+				{
+					id: "65C3300000000008"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "65C3300000000009"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"65C2300000000003"
+				"65C2300000000004"
+				"65C2300000000005"
+			]
+			id: "65C2300000000006"
+			shape: "hexagon"
+			tasks: [{
+				id: "65C330000000000A"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65C2300000000006"]
+			id: "65C2300000000007"
+			tasks: [{
+				count: 9L
+				id: "65C330000000000B"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65C2300000000006"]
+			id: "65C2300000000008"
+			tasks: [
+				{
+					count: 16L
+					id: "65C330000000000C"
+					item: { count: 1, id: "create:track" }
+					type: "item"
+				}
+				{
+					id: "65C330000000000D"
+					item: { count: 1, id: "create:track_station" }
+					type: "item"
+				}
+				{
+					id: "65C330000000000E"
+					item: { count: 1, id: "create:schedule" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65C2300000000006"]
+			id: "65C2300000000009"
+			tasks: [
+				{
+					id: "65C330000000000F"
+					item: { count: 1, id: "createaddition:alternator" }
+					type: "item"
+				}
+				{
+					id: "65C3300000000010"
+					item: { count: 1, id: "createaddition:electric_motor" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65C2300000000008"]
+			id: "65C230000000000A"
+			tasks: [
+				{
+					id: "65C3300000000011"
+					item: { count: 1, id: "cclogistics:freight_depot" }
+					type: "item"
+				}
+				{
+					id: "65C3300000000012"
+					item: { count: 1, id: "cclogistics:logistics_controller" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65C2300000000008"]
+			id: "65C230000000000B"
+			tasks: [
+				{
+					id: "65C3300000000013"
+					item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+					type: "item"
+				}
+				{
+					id: "65C3300000000014"
+					item: { count: 1, id: "createdieselgenerators:distillation_controller" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"65C2300000000007"
+				"65C2300000000009"
+				"65C230000000000A"
+				"65C230000000000B"
+			]
+			id: "65C230000000000C"
+			shape: "hexagon"
+			tasks: [{
+				id: "65C3300000000015"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+}
