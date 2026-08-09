@@ -10,3 +10,4 @@
 
 Packwiz telecharge le modpack au premier lancement et verifie automatiquement les mises a jour aux lancements suivants.
 
+En cas de ralentissement, consulter le [guide de performances](https://amoxcine.github.io/performances.html).

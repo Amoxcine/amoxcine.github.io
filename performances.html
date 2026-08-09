@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Ascendant - Guide de performances</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: Inter, system-ui, sans-serif;
+      background: #101412;
+      color: #f3f6f4;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; }
+    main { width: min(820px, calc(100% - 32px)); margin: 0 auto; padding: 48px 0 72px; }
+    nav { margin-bottom: 36px; }
+    a { color: #f0c979; }
+    h1 { margin: 0 0 10px; font-size: clamp(2rem, 7vw, 3.6rem); letter-spacing: 0; }
+    h2 { margin: 0 0 18px; font-size: 1.35rem; }
+    p, li, dd { line-height: 1.6; }
+    .intro { margin: 0; color: #b7c1bb; font-size: 1.08rem; }
+    section { margin-top: 42px; border-top: 1px solid #39413c; padding-top: 26px; }
+    ol, ul { margin: 0; padding-left: 24px; }
+    li { margin-bottom: 13px; padding-left: 6px; }
+    dl { margin: 0; }
+    dt { margin-top: 18px; font-weight: 750; color: #f0c979; }
+    dd { margin: 5px 0 0; color: #d6ddd8; }
+    .status { border-left: 3px solid #e8b44c; padding: 4px 0 4px 16px; }
+    .muted { color: #b7c1bb; }
+    code { color: #f4dcae; }
+  </style>
+</head>
+<body>
+  <main>
+    <nav><a href="index.html">Retour à l'installation</a></nav>
+    <h1>Performances</h1>
+    <p class="intro">Ascendant démarre avec un profil équilibré. Ne modifie les réglages que si tu rencontres réellement des ralentissements.</p>
+
+    <section>
+      <h2>Réglages fournis</h2>
+      <p class="status">Les shaders sont désactivés, la distance d'affichage est réglée sur 8 chunks, la simulation sur 6 chunks, Distant Horizons sur 100 chunks et la limite sur 120 FPS.</p>
+    </section>
+
+    <section>
+      <h2>Si le jeu manque de fluidité</h2>
+      <ol>
+        <li><strong>Désactive les shaders.</strong> Appuie sur <strong>O</strong> et vérifie qu'aucun shader n'est actif. C'est le réglage qui sollicite le plus la carte graphique.</li>
+        <li><strong>Réduis Distant Horizons.</strong> Dans ses options, passe la distance de 100 à <strong>64 chunks</strong>, puis à <strong>32</strong> si nécessaire.</li>
+        <li><strong>Limite le jeu à 60 FPS.</strong> Ce réglage réduit la charge et la chauffe lorsque la machine essaie de produire davantage d'images.</li>
+        <li><strong>Réduis les distances vanilla.</strong> Passe l'affichage de 8 à <strong>6 chunks</strong> et la simulation de 6 à <strong>4 chunks</strong>.</li>
+        <li><strong>Allège les effets.</strong> Réduis les particules, désactive les nuages et baisse la distance des entités.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Mémoire vive dans Prism</h2>
+      <p>Clic droit sur <strong>Ascendant</strong>, puis <strong>Modifier → Paramètres → Mémoire</strong>. Coche le remplacement de la mémoire pour cette instance et règle la valeur maximale.</p>
+      <dl>
+        <dt>Ordinateur avec 16 Go de RAM</dt>
+        <dd>Alloue <strong>8 192 Mio</strong> au modpack.</dd>
+        <dt>Ordinateur avec 24 ou 32 Go de RAM</dt>
+        <dd>Commence avec <strong>8 192 Mio</strong>. Passe à <strong>10 240 Mio</strong> uniquement avec shaders, Distant Horizons ou de gros chargements de monde.</dd>
+        <dt>Ordinateur avec 8 Go de RAM</dt>
+        <dd>Le pack n'est pas recommandé : Windows, Prism et Minecraft se partageraient trop peu de mémoire.</dd>
+      </dl>
+      <p class="muted">N'alloue pas toute la RAM de l'ordinateur et ne dépasse pas 10 240 Mio sans diagnostic précis. Ajouter de la RAM ne corrige pas une carte graphique saturée.</p>
+    </section>
+
+    <section>
+      <h2>Reconnaître le problème</h2>
+      <ul>
+        <li><strong>FPS faibles en permanence :</strong> commence par les shaders, Distant Horizons et les distances d'affichage.</li>
+        <li><strong>Micro-saccades en explorant :</strong> la génération du terrain et des LOD peut être en cours ; réduis Distant Horizons avant d'augmenter la RAM.</li>
+        <li><strong>Tous les joueurs ralentissent ensemble :</strong> il s'agit probablement du serveur. Les réglages graphiques du joueur ne le corrigeront pas.</li>
+        <li><strong>Fermeture avec un message de mémoire :</strong> vérifie l'allocation Prism et ferme les applications lourdes avant de relancer.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>À éviter</h2>
+      <p>Ne supprime pas de mods et n'ajoute pas d'arguments Java trouvés au hasard. Cela peut empêcher la connexion au serveur ou rendre les prochaines mises à jour instables.</p>
+    </section>
+  </main>
+</body>
+</html>
+
