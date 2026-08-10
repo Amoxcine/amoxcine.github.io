@@ -542,6 +542,11 @@ hash = "909c329fd7b50809315f8d2d03bdfb980a201e245f44421b2b51cf2e1a38e70b"
 metafile = true
 
 [[files]]
+file = "mods/moonlight.pw.toml"
+hash = "14fc787461cc4464d476454c0d06b7ecbc988e5582d51d527a43a450be9de92d"
+metafile = true
+
+[[files]]
 file = "mods/moreculling.pw.toml"
 hash = "096a419c3be0fb56ea9ae7b9d0da0aabf62fbdebb91d62eafb9c7500f2cc7e6b"
 metafile = true
@@ -709,6 +714,11 @@ metafile = true
 [[files]]
 file = "mods/structurize.pw.toml"
 hash = "b73afd4e2292b43abc27ffdffdcb83cebbecbf42a9fcded31e653013151b37eb"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "416a2346e514f4481c138ae83eb9b12df6da53184f924b32239e8e0bc603f188"
 metafile = true
 
 [[files]]
