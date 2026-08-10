@@ -1,4 +1,4 @@
-# Cataclysm multiplayer scaling for Ascendant.
+# Cataclysm and Eternal Starlight multiplayer scaling for Ascendant.
 # Only nearby players count; boss drops remain native and shared.
 "Should Scale Boss Health" = true
 "Should Scale Boss Drops" = false
@@ -17,5 +17,9 @@
     "cataclysm:scylla",
     "cataclysm:the_leviathan",
     "cataclysm:maledictus",
-    "cataclysm:ignis"
+    "cataclysm:ignis",
+    "eternal_starlight:the_gatekeeper",
+    "eternal_starlight:starlight_golem",
+    "eternal_starlight:permafrost",
+    "eternal_starlight:lunar_monstrosity"
 ]
