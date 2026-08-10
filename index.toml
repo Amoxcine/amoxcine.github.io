@@ -13,6 +13,10 @@ file = "config/Veinminer/settings.json"
 hash = "2d3ec423042fc2f85c6903b10156d53d78d07aae020a69ee85839a788e36074a"
 
 [[files]]
+file = "config/checkyourmods-server.toml"
+hash = "8facf7c0df3499aa20424799ff9d83ed55584d38e50bab3046d5eb6aaf623ef8"
+
+[[files]]
 file = "config/defaultoptions/extra/config/DistantHorizons.toml"
 hash = "9269d4582ab583ee20bc587314cb4a15429e2e2bfe10e62fed63961eef21416a"
 
