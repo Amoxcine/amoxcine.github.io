@@ -56,24 +56,12 @@
 	quest.65C2200000000002.quest_desc: ["Rassemble de quoi construire et rallumer un portail. Le Nether alimente autant la progression vanilla que les chaînes industrielles."]
 	quest.65C2200000000003.title: "Le Nether"
 	quest.65C2200000000003.quest_desc: ["Établis un point d'arrivée protégé. Les coordonnées sont divisées par huit entre Nether et Overworld : exploite cette propriété pour les longues liaisons."]
-	quest.65C2200000000004.title: "Un monde pour extraire"
-	quest.65C2200000000004.quest_desc: ["JAMD fournit le monde minier de la V1. Les carrières et excavations lourdes doivent y être installées afin de préserver l'Overworld."]
-	quest.65C2200000000005.title: "La dimension minière"
-	quest.65C2200000000005.quest_desc: ["Utilise ce monde pour les volumes industriels. Une Waystone peut y desservir un chantier sans modifier les restrictions des dimensions d'aventure."]
 	quest.65C2200000000006.title: "Chercher le Stronghold"
 	quest.65C2200000000006.quest_desc: ["Les Yeux de l'Ender indiquent la route du portail. Prévois du matériel de remplacement et un point de repli."]
 	quest.65C2200000000007.title: "L'End"
 	quest.65C2200000000007.quest_desc: ["L'entrée dans l'End ouvre l'accès aux ressources de fin de jeu, mais le retour normal exige d'affronter le Dragon."]
 	quest.65C2200000000008.title: "Le Dragon de l'End"
 	quest.65C2200000000008.quest_desc: ["Cette victoire ouvre les îles extérieures et plusieurs campagnes endgame. Simply Swords peut y produire un unique, avec un taux volontairement rare."]
-	quest.65C2200000000009.title: "Réseau Waystones"
-	quest.65C2200000000009.quest_desc: [
-		"Les Waystones sont personnelles à l'activation, sans coût d'expérience ni cooldown. Une même pierre peut être activée par plusieurs joueurs."
-		""
-		"La téléportation est interdite dès qu'un trajet implique Twilight Forest, Eternal Starlight ou la Pocket Dimension."
-	]
-	quest.65C220000000000A.title: "Routes établies"
-	quest.65C220000000000A.quest_desc: ["Le Nether, l'End et le monde minier sont désormais des extensions logistiques de ton projet. Les liens suivants ramènent vers Create et la campagne aventure."]
 
 	quest.65C2300000000001.title: "L'alliage d'andésite"
 	quest.65C2300000000001.quest_subtitle: "Fondation mécanique"

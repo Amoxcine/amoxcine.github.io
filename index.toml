@@ -74,7 +74,7 @@ hash = "b6b8d500cc60c5e4c7a4b46d0608bd29857338f0be8d11aa429ce60f54b52199"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dimensions.snbt"
-hash = "5ac7dbed56c2fedf423dc4457affa3b325b77769399a2c3b630a19f9d6bcff78"
+hash = "34890ecdd7059b3aefa9566f4f5d3ff8a7bae42d8accdcd5f4a335146823b97c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/draconic_evolution.snbt"
@@ -122,7 +122,7 @@ hash = "5e6e01ca3246c98911f2d614a6e295565e0c42a5f1141219842faef855797d02"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "d76de9f941607519ac1f52279bbac14f53c73e998aa79f0f1528780436fea084"
+hash = "7ff1f48f88c9f067d368a12314425c8bdeb5e3c2ba2aaf77bb0343067892d2c4"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/acte_1_armory.snbt"

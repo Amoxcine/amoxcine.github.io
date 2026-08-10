@@ -67,31 +67,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["65C2200000000001"]
-			id: "65C2200000000004"
-			icon: { count: 1, id: "jamd:portal_block" }
-			tasks: [{
-				id: "65C3200000000005"
-				item: { count: 1, id: "jamd:portal_block" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["65C2200000000004"]
-			id: "65C2200000000005"
-			icon: { count: 1, id: "jamd:portal_block" }
-			shape: "hexagon"
-			tasks: [{
-				dimension: "jamd:mining"
-				id: "65C3200000000006"
-				type: "dimension"
-			}]
-			x: 0.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["65C2200000000003"]
 			id: "65C2200000000006"
 			icon: { count: 1, id: "minecraft:ender_eye" }
@@ -130,34 +105,6 @@
 			}]
 			x: 4.0d
 			y: -2.0d
-		}
-		{
-			dependencies: ["65C2200000000001"]
-			id: "65C2200000000009"
-			icon: { count: 1, id: "waystones:waystone" }
-			tasks: [{
-				id: "65C320000000000A"
-				item: { count: 1, id: "waystones:waystone" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"65C2200000000003"
-				"65C2200000000005"
-				"65C2200000000008"
-			]
-			id: "65C220000000000A"
-			icon: { count: 1, id: "waystones:waystone" }
-			shape: "hexagon"
-			tasks: [{
-				id: "65C320000000000B"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 1.0d
 		}
 	]
 }
