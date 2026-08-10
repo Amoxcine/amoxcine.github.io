@@ -25,8 +25,12 @@ file = "config/defaultoptions/extra/config/sodium-options.json"
 hash = "44478bef0973f1aa587c0493568a5cbc5426233b611f14bd2be489b5b862fa7f"
 
 [[files]]
+file = "config/defaultoptions/extra/config/xaero/minimap/profiles/default.cfg"
+hash = "b6e4c11f3af09a6d22e52f752d5e1f0aa023d7d74d3c5440cfbed43d4ea95969"
+
+[[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "a61163beabd93260061350f779028e2856968413f7826f09d6df80ea89d9d25b"
+hash = "dc12ea6fba0eb76042701529edba42f999e5ae9d61bda3825a6483a3d1cfe719"
 
 [[files]]
 file = "config/defaultoptions/options.txt"

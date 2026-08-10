@@ -8,11 +8,9 @@ key_accessories.key.open_accessories_screen:key.keyboard.g:SHIFT
 key_keybinds.combat_roll.roll:key.keyboard.r:
 key_key.irons_spellbooks.spell_wheel:key.keyboard.left.alt:
 key_key.irons_spellbooks.spellbook_cast:key.keyboard.v:
-key_iris.keybind.shaderPackSelection:key.keyboard.o:
 key_iris.keybind.reload:key.keyboard.unknown:
 key_iris.keybind.toggleShaders:key.keyboard.unknown:
 key_key.partyhud.open_screen:key.keyboard.unknown:
-key_key.mekanism.key_hud:key.keyboard.h:SHIFT
 key_key.simplytooltips.cycle_tab:key.keyboard.unknown:
 key_key.simplytooltips.capture_gif:key.keyboard.unknown:
 key_key.guideme.guide:key.keyboard.unknown:
