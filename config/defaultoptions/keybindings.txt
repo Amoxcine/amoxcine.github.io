@@ -8,6 +8,9 @@ key_accessories.key.open_accessories_screen:key.keyboard.g:SHIFT
 key_keybinds.combat_roll.roll:key.keyboard.r:
 key_key.irons_spellbooks.spell_wheel:key.keyboard.left.alt:
 key_key.irons_spellbooks.spellbook_cast:key.keyboard.v:
+key_key.voice_chat:key.keyboard.o:
+key_key.push_to_talk:key.keyboard.caps.lock:
+key_key.voice_chat_group:key.keyboard.p:
 key_iris.keybind.reload:key.keyboard.unknown:
 key_iris.keybind.toggleShaders:key.keyboard.unknown:
 key_key.partyhud.open_screen:key.keyboard.unknown:
