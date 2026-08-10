@@ -1,0 +1,13 @@
+name = "WebDisplays Fork"
+filename = "webdisplays-2.6.0-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d3f7b470c5db30f60c5b97200d8f3667e97420e9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8168468
+project-id = 1417309

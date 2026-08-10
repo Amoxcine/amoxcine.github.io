@@ -665,6 +665,11 @@ hash = "53bf1c78396a51736fc24edf43ad384df191ee36fe84286956e854ffa162d9f5"
 metafile = true
 
 [[files]]
+file = "mods/rinku.pw.toml"
+hash = "a1d1e89507119eb0d064c7da1190e08d4eee5a08e627675cc31d9f8b2eb586d3"
+metafile = true
+
+[[files]]
 file = "mods/rogues-and-warriors.pw.toml"
 hash = "a24bd7b373ca27e5eb35853661a6917efff217f72178623cf4468d25014d80af"
 metafile = true
@@ -692,6 +697,11 @@ metafile = true
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
 hash = "10a4a1aabcbdebc02dc3c966f6e0d089c1e02bf7b42f50567edeaab2be3a3789"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "8eae737eb20a0488e9b57b6a59f0681d142732bcb22fc896ad4e5ff924ec5683"
 metafile = true
 
 [[files]]
@@ -807,6 +817,11 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "07a8aecb54b8aa2148d05a452e697643b1e7b2239060204b369a32018cf0df6e"
+metafile = true
+
+[[files]]
+file = "mods/webdisplays-1-21-1-fork.pw.toml"
+hash = "a6c59f48deba55d3f8e1e5dce941590152ddc4b3f8c1f77d9fafd09cedc74c3b"
 metafile = true
 
 [[files]]
