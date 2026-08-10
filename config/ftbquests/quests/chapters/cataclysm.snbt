@@ -2,10 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	filename: "cataclysm"
-	group: "65C0000000000002"
+	group: "65C0000000000101"
 	id: "65C1000000000007"
+	icon: "cataclysm:flame_eye"
 	images: [ ]
-	order_index: 2
+	order_index: 4
 	quest_links: [{
 		id: "65C5700000000001"
 		linked_quest: "513F7EBC5AA32D8B"
@@ -16,6 +17,7 @@
 		{
 			dependencies: ["65C260000000000A"]
 			id: "65C2700000000001"
+			icon: "cataclysm:flame_eye"
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -28,6 +30,7 @@
 		{
 			dependencies: ["65C2700000000001"]
 			id: "65C2700000000002"
+			icon: "cataclysm:monstrous_horn"
 			shape: "hexagon"
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
@@ -41,6 +44,7 @@
 		{
 			dependencies: ["65C2700000000001"]
 			id: "65C2700000000003"
+			icon: "cataclysm:gauntlet_of_guard"
 			shape: "hexagon"
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
@@ -54,6 +58,7 @@
 		{
 			dependencies: ["65C2700000000001"]
 			id: "65C2700000000004"
+			icon: "cataclysm:witherite_block"
 			shape: "hexagon"
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
@@ -71,6 +76,24 @@
 				"65C2700000000004"
 			]
 			id: "65C2700000000005"
+			icon: "cataclysm:monstrous_horn"
+			tasks: [
+				{
+					id: "65C3700000000101"
+					item: { count: 1, id: "cataclysm:monstrous_horn" }
+					type: "item"
+				}
+				{
+					id: "65C3700000000102"
+					item: { count: 1, id: "cataclysm:gauntlet_of_guard" }
+					type: "item"
+				}
+				{
+					id: "65C3700000000103"
+					item: { count: 1, id: "cataclysm:witherite_block" }
+					type: "item"
+				}
+			]
 			rewards: [{
 				id: "65C4700000000001"
 				table_id: 7333549043219431425L
@@ -84,6 +107,7 @@
 		{
 			dependencies: ["65C2700000000005"]
 			id: "65C2700000000006"
+			icon: "cataclysm:remnant_skull"
 			shape: "hexagon"
 			tasks: [{
 				entity: "cataclysm:ancient_remnant"
@@ -97,6 +121,7 @@
 		{
 			dependencies: ["65C2700000000005"]
 			id: "65C2700000000007"
+			icon: "cataclysm:essence_of_the_storm"
 			shape: "hexagon"
 			tasks: [{
 				entity: "cataclysm:scylla"
@@ -110,6 +135,7 @@
 		{
 			dependencies: ["65C2700000000005"]
 			id: "65C2700000000008"
+			icon: "cataclysm:abyssal_egg"
 			shape: "hexagon"
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
@@ -127,6 +153,24 @@
 				"65C2700000000008"
 			]
 			id: "65C2700000000009"
+			icon: "cataclysm:remnant_skull"
+			tasks: [
+				{
+					id: "65C3700000000104"
+					item: { count: 1, id: "cataclysm:remnant_skull" }
+					type: "item"
+				}
+				{
+					id: "65C3700000000105"
+					item: { count: 1, id: "cataclysm:essence_of_the_storm" }
+					type: "item"
+				}
+				{
+					id: "65C3700000000106"
+					item: { count: 1, id: "cataclysm:abyssal_egg" }
+					type: "item"
+				}
+			]
 			rewards: [{
 				id: "65C4700000000002"
 				table_id: 7333549043219431426L
@@ -140,6 +184,7 @@
 		{
 			dependencies: ["65C2700000000009"]
 			id: "65C270000000000A"
+			icon: "cataclysm:cursium_ingot"
 			shape: "hexagon"
 			tasks: [{
 				entity: "cataclysm:maledictus"
@@ -153,6 +198,7 @@
 		{
 			dependencies: ["65C2700000000009"]
 			id: "65C270000000000B"
+			icon: "cataclysm:ignitium_ingot"
 			shape: "hexagon"
 			tasks: [{
 				entity: "cataclysm:ignis"
@@ -169,6 +215,19 @@
 				"65C270000000000B"
 			]
 			id: "65C270000000000C"
+			icon: "minecraft:nether_star"
+			tasks: [
+				{
+					id: "65C3700000000107"
+					item: { count: 1, id: "cataclysm:cursium_ingot" }
+					type: "item"
+				}
+				{
+					id: "65C3700000000108"
+					item: { count: 1, id: "cataclysm:ignitium_ingot" }
+					type: "item"
+				}
+			]
 			rewards: [{
 				id: "65C4700000000003"
 				table_id: 7333549043219431427L
@@ -182,6 +241,7 @@
 		{
 			dependencies: ["65C2700000000002"]
 			id: "65C270000000000D"
+			icon: "cataclysm:monstrous_horn"
 			optional: true
 			tasks: [{
 				entity: "cataclysm:ignited_revenant"
@@ -195,6 +255,7 @@
 		{
 			dependencies: ["65C2700000000003"]
 			id: "65C270000000000E"
+			icon: "cataclysm:gauntlet_of_guard"
 			optional: true
 			tasks: [{
 				entity: "cataclysm:ender_golem"
@@ -208,6 +269,7 @@
 		{
 			dependencies: ["65C2700000000008"]
 			id: "65C270000000000F"
+			icon: "cataclysm:abyssal_egg"
 			optional: true
 			tasks: [{
 				entity: "cataclysm:the_prowler"
@@ -221,6 +283,7 @@
 		{
 			dependencies: ["65C270000000000C"]
 			id: "65C2700000000010"
+			icon: "minecraft:nether_star"
 			shape: "hexagon"
 			tasks: [{
 				id: "65C3700000000010"

@@ -2,8 +2,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	filename: "dimensions"
-	group: "65C0000000000001"
+	group: "65C0000000000101"
 	id: "65C1000000000002"
+	icon: "minecraft:ender_eye"
 	images: [ ]
 	order_index: 1
 	quest_links: [
@@ -24,6 +25,7 @@
 		{
 			dependencies: ["65C2100000000004"]
 			id: "65C2200000000001"
+			icon: "minecraft:ender_eye"
 			tasks: [{
 				id: "65C3200000000001"
 				type: "checkmark"
@@ -34,6 +36,7 @@
 		{
 			dependencies: ["65C2200000000001"]
 			id: "65C2200000000002"
+			icon: "minecraft:obsidian"
 			tasks: [
 				{
 					count: 10L
@@ -53,6 +56,7 @@
 		{
 			dependencies: ["65C2200000000002"]
 			id: "65C2200000000003"
+			icon: "minecraft:netherrack"
 			shape: "hexagon"
 			tasks: [{
 				dimension: "minecraft:the_nether"
@@ -65,6 +69,7 @@
 		{
 			dependencies: ["65C2200000000001"]
 			id: "65C2200000000004"
+			icon: "jamd:portal_block"
 			tasks: [{
 				id: "65C3200000000005"
 				item: { count: 1, id: "jamd:portal_block" }
@@ -76,6 +81,7 @@
 		{
 			dependencies: ["65C2200000000004"]
 			id: "65C2200000000005"
+			icon: "jamd:portal_block"
 			shape: "hexagon"
 			tasks: [{
 				dimension: "jamd:mining"
@@ -88,6 +94,7 @@
 		{
 			dependencies: ["65C2200000000003"]
 			id: "65C2200000000006"
+			icon: "minecraft:ender_eye"
 			tasks: [{
 				count: 12L
 				id: "65C3200000000007"
@@ -100,6 +107,7 @@
 		{
 			dependencies: ["65C2200000000006"]
 			id: "65C2200000000007"
+			icon: "minecraft:end_stone"
 			shape: "hexagon"
 			tasks: [{
 				dimension: "minecraft:the_end"
@@ -112,6 +120,7 @@
 		{
 			dependencies: ["65C2200000000007"]
 			id: "65C2200000000008"
+			icon: "minecraft:dragon_head"
 			shape: "hexagon"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
@@ -125,6 +134,7 @@
 		{
 			dependencies: ["65C2200000000001"]
 			id: "65C2200000000009"
+			icon: "waystones:waystone"
 			tasks: [{
 				id: "65C320000000000A"
 				item: { count: 1, id: "waystones:waystone" }
@@ -140,6 +150,7 @@
 				"65C2200000000008"
 			]
 			id: "65C220000000000A"
+			icon: "waystones:waystone"
 			shape: "hexagon"
 			tasks: [{
 				id: "65C320000000000B"

@@ -2,14 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "powah"
-	group: "72A9465344128AF9"
+	group: "65C0000000000104"
 	id: "57AB783AD8DE20A1"
+	icon: "powah:energizing_orb"
 	images: [ ]
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
 			id: "1E5C182D97AE58E4"
+			icon: "powah:uraninite_raw"
 			tasks: [{
 				count: 8L
 				id: "550A3B8ACAED2FCD"
@@ -22,6 +24,7 @@
 		{
 			dependencies: ["1E5C182D97AE58E4"]
 			id: "58C962C2148F410E"
+			icon: "powah:steel_energized"
 			tasks: [
 				{
 					count: 4L
@@ -42,6 +45,7 @@
 		{
 			dependencies: ["58C962C2148F410E"]
 			id: "6F6D264AE81C9C48"
+			icon: "powah:energizing_orb"
 			tasks: [
 				{
 					id: "2332B226E39401D7"
@@ -61,6 +65,7 @@
 		{
 			dependencies: ["6F6D264AE81C9C48"]
 			id: "4AF3729F319FCA73"
+			icon: "powah:solar_panel_basic"
 			tasks: [
 				{
 					id: "66D198BC46632DD9"
@@ -79,6 +84,7 @@
 		{
 			dependencies: ["6F6D264AE81C9C48"]
 			id: "31FC18F89A0136D7"
+			icon: "powah:energy_cell_basic"
 			tasks: [
 				{
 					id: "2C8180CD07C1811C"
@@ -98,6 +104,7 @@
 		{
 			dependencies: ["4AF3729F319FCA73"]
 			id: "6FAEE5BE84BED3A6"
+			icon: "powah:thermo_generator_basic"
 			tasks: [{
 				id: "4C87992BD5FC7ADA"
 				item: { count: 1, id: "powah:thermo_generator_basic" }
@@ -109,6 +116,7 @@
 		{
 			dependencies: ["31FC18F89A0136D7"]
 			id: "25CBEE18498B3B6B"
+			icon: "powah:ender_cell_basic"
 			tasks: [
 				{
 					count: 2L
@@ -128,6 +136,7 @@
 		{
 			dependencies: ["6FAEE5BE84BED3A6"]
 			id: "2D55D62ECE12B219"
+			icon: "powah:reactor_basic"
 			tasks: [
 				{
 					id: "6CE13862E7FB0016"
@@ -145,6 +154,7 @@
 		{
 			dependencies: ["25CBEE18498B3B6B"]
 			id: "29EE94AF6B9DFD0C"
+			icon: "powah:player_transmitter_basic"
 			tasks: [
 				{
 					id: "508153B1E16206CF"
@@ -163,6 +173,7 @@
 		{
 			dependencies: ["2D55D62ECE12B219"]
 			id: "7DF5D46C60B325CF"
+			icon: "powah:crystal_niotic"
 			tasks: [
 				{
 					count: 4L
@@ -186,6 +197,7 @@
 				"29EE94AF6B9DFD0C"
 			]
 			id: "3919CCF30BE1C163"
+			icon: "powah:crystal_nitro"
 			tasks: [
 				{
 					count: 4L

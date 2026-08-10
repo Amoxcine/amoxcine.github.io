@@ -2,14 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "draconic_evolution"
-	group: "72A9465344128AF9"
+	group: "65C0000000000104"
 	id: "6511D794C611C9A1"
+	icon: "draconicevolution:info_tablet"
 	images: [ ]
-	order_index: 4
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
 			id: "513F7EBC5AA32D8B"
+			icon: "draconicevolution:info_tablet"
 			tasks: [{
 				id: "075C9FE9F01225DE"
 				item: { count: 1, id: "draconicevolution:info_tablet" }
@@ -21,6 +23,7 @@
 		{
 			dependencies: ["513F7EBC5AA32D8B"]
 			id: "6541B92F30357F2F"
+			icon: "draconicevolution:draconium_ingot"
 			tasks: [{
 				count: 4L
 				id: "02A035836A90BAD2"
@@ -33,6 +36,7 @@
 		{
 			dependencies: ["6541B92F30357F2F"]
 			id: "15CDCF8E2C8675A1"
+			icon: "draconicevolution:draconium_core"
 			tasks: [{
 				id: "68DA8865665E6B73"
 				item: { count: 1, id: "draconicevolution:draconium_core" }
@@ -44,6 +48,7 @@
 		{
 			dependencies: ["15CDCF8E2C8675A1"]
 			id: "1BF8ED2E2BF98FBA"
+			icon: "draconicevolution:generator"
 			tasks: [
 				{
 					id: "05261179FAE4022D"
@@ -61,6 +66,7 @@
 		{
 			dependencies: ["1BF8ED2E2BF98FBA"]
 			id: "29B3E50D188777B2"
+			icon: "draconicevolution:energy_transfuser"
 			tasks: [{
 				id: "314A75859E489AB5"
 				item: { count: 1, id: "draconicevolution:energy_transfuser" }
@@ -72,6 +78,7 @@
 		{
 			dependencies: ["15CDCF8E2C8675A1"]
 			id: "046D0EFECA44A57C"
+			icon: "draconicevolution:crystal_binder"
 			tasks: [{
 				id: "670B51CD7269A0DB"
 				item: { count: 1, id: "draconicevolution:crystal_binder" }
@@ -83,6 +90,7 @@
 		{
 			dependencies: ["046D0EFECA44A57C"]
 			id: "015362D46481A343"
+			icon: "draconicevolution:basic_wireless_crystal"
 			tasks: [
 				{
 					id: "53224DA8FAAEF9B4"
@@ -103,6 +111,7 @@
 				"015362D46481A343"
 			]
 			id: "397C09255A922C18"
+			icon: "draconicevolution:crafting_core"
 			tasks: [{
 				id: "51E179D4D3079163"
 				item: { count: 1, id: "draconicevolution:crafting_core" }
@@ -114,6 +123,7 @@
 		{
 			dependencies: ["397C09255A922C18"]
 			id: "088DBE8BB7E62CD8"
+			icon: "draconicevolution:basic_crafting_injector"
 			tasks: [
 				{
 					count: 4L
@@ -132,6 +142,7 @@
 		{
 			dependencies: ["088DBE8BB7E62CD8"]
 			id: "366D61855998D080"
+			icon: "draconicevolution:wyvern_core"
 			shape: "hexagon"
 			tasks: [
 				{
@@ -150,6 +161,7 @@
 		{
 			dependencies: ["366D61855998D080"]
 			id: "701FF8F20819795E"
+			icon: "draconicevolution:wyvern_crafting_injector"
 			tasks: [{
 				count: 4L
 				id: "3343565551761186"
@@ -162,6 +174,7 @@
 		{
 			dependencies: ["701FF8F20819795E"]
 			id: "2EF71CC5FB2ED4A6"
+			icon: "draconicevolution:wyvern_pickaxe"
 			tasks: [{
 				id: "5ECAB1458040BC66"
 				item: { count: 1, id: "draconicevolution:wyvern_pickaxe" }
@@ -173,6 +186,7 @@
 		{
 			dependencies: ["701FF8F20819795E"]
 			id: "4932175E189C9E71"
+			icon: "draconicevolution:wyvern_chestpiece"
 			tasks: [{
 				id: "7B7A279EAEFC7465"
 				item: { count: 1, id: "draconicevolution:wyvern_chestpiece" }
@@ -184,6 +198,7 @@
 		{
 			dependencies: ["701FF8F20819795E"]
 			id: "320F0A73EAD890BC"
+			icon: "draconicevolution:dragon_heart"
 			tasks: [
 				{
 					id: "4198869520156733"
@@ -201,6 +216,7 @@
 		{
 			dependencies: ["320F0A73EAD890BC"]
 			id: "0CB0DDB6109D87E5"
+			icon: "draconicevolution:awakened_draconium_ingot"
 			shape: "hexagon"
 			tasks: [
 				{
@@ -220,6 +236,7 @@
 		{
 			dependencies: ["0CB0DDB6109D87E5"]
 			id: "2B2ABD19FA13B644"
+			icon: "draconicevolution:awakened_core"
 			tasks: [{
 				id: "429475B5DDF3A514"
 				item: { count: 1, id: "draconicevolution:awakened_core" }
@@ -231,6 +248,7 @@
 		{
 			dependencies: ["2B2ABD19FA13B644"]
 			id: "4A800F994ACA9A84"
+			icon: "draconicevolution:awakened_crafting_injector"
 			tasks: [
 				{
 					count: 4L
@@ -249,6 +267,7 @@
 		{
 			dependencies: ["4A800F994ACA9A84"]
 			id: "0C89883108562837"
+			icon: "draconicevolution:draconic_energy_core"
 			tasks: [{
 				id: "7D92F607680A3C05"
 				item: { count: 1, id: "draconicevolution:draconic_energy_core" }
@@ -263,6 +282,7 @@
 				"4932175E189C9E71"
 			]
 			id: "0DE61CF1BECCEE50"
+			icon: "draconicevolution:draconic_chestpiece"
 			shape: "hexagon"
 			tasks: [
 				{

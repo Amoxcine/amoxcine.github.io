@@ -1,0 +1,99 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "campagne_technologique"
+	group: "65C0000000000102"
+	icon: "minecraft:redstone"
+	id: "65C1000000000010"
+	images: [ ]
+	order_index: 0
+	quests: [
+		{
+			icon: "create:andesite_alloy"
+			id: "65C2C00000000001"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "65C3C00000000001"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["65C2C00000000001"]
+			icon: "createaddition:alternator"
+			id: "65C2C00000000002"
+			tasks: [{
+				id: "65C3C00000000002"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["65C2C00000000002"]
+			icon: "mekanism:metallurgic_infuser"
+			id: "65C2C00000000003"
+			tasks: [{
+				id: "65C3C00000000003"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65C2C00000000003"]
+			icon: "ae2:controller"
+			id: "65C2C00000000004"
+			tasks: [{
+				id: "65C3C00000000004"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65C2C00000000004"]
+			icon: "industrialforegoing:machine_frame_advanced"
+			id: "65C2C00000000005"
+			tasks: [{
+				id: "65C3C00000000005"
+				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["65C2C00000000005"]
+			icon: "bigreactors:basic_reactorcontroller"
+			id: "65C2C00000000006"
+			tasks: [{
+				id: "65C3C00000000006"
+				item: { count: 1, id: "bigreactors:basic_reactorcontroller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["65C2C00000000006"]
+			icon: "draconicevolution:awakened_core"
+			id: "65C2C00000000007"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "65C3C00000000007"
+				item: { count: 1, id: "draconicevolution:awakened_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+}

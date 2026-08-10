@@ -2,14 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "minecolonies"
-	group: "4D434F4C4F4E4945"
+	group: "65C0000000000104"
 	id: "4D43484150544552"
+	icon: "minecolonies:blockhuttownhall"
 	images: [ ]
-	order_index: 0
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
 			id: "4D43000000000001"
+			icon: "structurize:sceptergold"
 			shape: "gear"
 			tasks: [{
 				id: "4D43A00000000001"
@@ -21,6 +23,7 @@
 		{
 			dependencies: ["4D43000000000001"]
 			id: "4D43000000000002"
+			icon: "structurize:sceptergold"
 			tasks: [{
 				id: "4D43A00000000002"
 				item: { count: 1, id: "structurize:sceptergold" }
@@ -32,6 +35,7 @@
 		{
 			dependencies: ["4D43000000000002"]
 			id: "4D43000000000003"
+			icon: "minecolonies:blockhuttownhall"
 			shape: "hexagon"
 			tasks: [{
 				id: "4D43A00000000003"
@@ -44,6 +48,7 @@
 		{
 			dependencies: ["4D43000000000003"]
 			id: "4D43000000000004"
+			icon: "minecolonies:blockhutbuilder"
 			shape: "hexagon"
 			tasks: [{
 				id: "4D43A00000000004"
@@ -56,6 +61,7 @@
 		{
 			dependencies: ["4D43000000000004"]
 			id: "4D43000000000005"
+			icon: "minecolonies:blockhutcitizen"
 			tasks: [{
 				id: "4D43A00000000005"
 				item: { count: 1, id: "minecolonies:blockhutcitizen" }
@@ -67,6 +73,7 @@
 		{
 			dependencies: ["4D43000000000005"]
 			id: "4D43000000000006"
+			icon: "minecolonies:blockhuttavern"
 			tasks: [{
 				id: "4D43A00000000006"
 				item: { count: 1, id: "minecolonies:blockhuttavern" }
@@ -78,6 +85,7 @@
 		{
 			dependencies: ["4D43000000000003"]
 			id: "4D43000000000007"
+			icon: "minecolonies:blockhutguardtower"
 			tasks: [{
 				id: "4D43A00000000007"
 				item: { count: 1, id: "minecolonies:blockhutguardtower" }
@@ -89,6 +97,7 @@
 		{
 			dependencies: ["4D43000000000004"]
 			id: "4D43000000000008"
+			icon: "minecolonies:blockhutwarehouse"
 			tasks: [{
 				id: "4D43A00000000008"
 				item: { count: 1, id: "minecolonies:blockhutwarehouse" }
@@ -100,6 +109,7 @@
 		{
 			dependencies: ["4D43000000000008"]
 			id: "4D43000000000009"
+			icon: "minecolonies:blockhutdeliveryman"
 			tasks: [{
 				id: "4D43A00000000009"
 				item: { count: 1, id: "minecolonies:blockhutdeliveryman" }
@@ -111,6 +121,7 @@
 		{
 			dependencies: ["4D43000000000009"]
 			id: "4D4300000000000A"
+			icon: "minecolonies:clipboard"
 			tasks: [{
 				id: "4D43A0000000000A"
 				item: { count: 1, id: "minecolonies:clipboard" }
@@ -122,6 +133,7 @@
 		{
 			dependencies: ["4D43000000000004"]
 			id: "4D4300000000000B"
+			icon: "minecolonies:blockhutlumberjack"
 			tasks: [{
 				id: "4D43A0000000000B"
 				item: { count: 1, id: "minecolonies:blockhutlumberjack" }
@@ -133,6 +145,7 @@
 		{
 			dependencies: ["4D4300000000000B"]
 			id: "4D4300000000000C"
+			icon: "minecolonies:blockhutminer"
 			tasks: [{
 				id: "4D43A0000000000C"
 				item: { count: 1, id: "minecolonies:blockhutminer" }
@@ -144,6 +157,7 @@
 		{
 			dependencies: ["4D4300000000000B"]
 			id: "4D4300000000000D"
+			icon: "minecolonies:blockhutfisherman"
 			tasks: [{
 				id: "4D43A0000000000D"
 				item: { count: 1, id: "minecolonies:blockhutfisherman" }
@@ -155,6 +169,7 @@
 		{
 			dependencies: ["4D43000000000005"]
 			id: "4D4300000000000E"
+			icon: "minecolonies:blockhutfarmer"
 			tasks: [{
 				id: "4D43A0000000000E"
 				item: { count: 1, id: "minecolonies:blockhutfarmer" }
@@ -166,6 +181,7 @@
 		{
 			dependencies: ["4D4300000000000E"]
 			id: "4D4300000000000F"
+			icon: "minecolonies:blockhutfield"
 			tasks: [{
 				id: "4D43A0000000000F"
 				item: { count: 1, id: "minecolonies:blockhutfield" }
@@ -180,6 +196,7 @@
 				"4D4300000000000E"
 			]
 			id: "4D43000000000010"
+			icon: "minecolonies:blockhutcook"
 			tasks: [{
 				id: "4D43A00000000010"
 				item: { count: 1, id: "minecolonies:blockhutcook" }
@@ -194,6 +211,7 @@
 				"4D43000000000013"
 			]
 			id: "4D43000000000011"
+			icon: "minecolonies:blockhutcomposter"
 			tasks: [{
 				id: "4D43A00000000011"
 				item: { count: 1, id: "minecolonies:blockhutcomposter" }
@@ -208,6 +226,7 @@
 				"4D43000000000013"
 			]
 			id: "4D43000000000012"
+			icon: "minecolonies:blockhutschool"
 			tasks: [{
 				id: "4D43A00000000012"
 				item: { count: 1, id: "minecolonies:blockhutschool" }
@@ -223,6 +242,7 @@
 				"4D4300000000000C"
 			]
 			id: "4D43000000000013"
+			icon: "minecolonies:blockhutuniversity"
 			shape: "hexagon"
 			tasks: [{
 				id: "4D43A00000000013"
@@ -238,6 +258,7 @@
 				"4D43000000000013"
 			]
 			id: "4D43000000000014"
+			icon: "minecolonies:blockhutsawmill"
 			tasks: [{
 				id: "4D43A00000000014"
 				item: { count: 1, id: "minecolonies:blockhutsawmill" }
@@ -252,6 +273,7 @@
 				"4D43000000000013"
 			]
 			id: "4D43000000000015"
+			icon: "minecolonies:blockhutstonemason"
 			tasks: [{
 				id: "4D43A00000000015"
 				item: { count: 1, id: "minecolonies:blockhutstonemason" }
@@ -266,6 +288,7 @@
 				"4D43000000000013"
 			]
 			id: "4D43000000000016"
+			icon: "minecolonies:blockhutsmeltery"
 			tasks: [{
 				id: "4D43A00000000016"
 				item: { count: 1, id: "minecolonies:blockhutsmeltery" }
@@ -280,6 +303,7 @@
 				"4D43000000000013"
 			]
 			id: "4D43000000000017"
+			icon: "minecolonies:blockhutbarracks"
 			tasks: [{
 				id: "4D43A00000000017"
 				item: { count: 1, id: "minecolonies:blockhutbarracks" }
@@ -294,6 +318,7 @@
 				"4D43000000000017"
 			]
 			id: "4D43000000000018"
+			icon: "minecolonies:blockhutarchery"
 			tasks: [{
 				id: "4D43A00000000018"
 				item: { count: 1, id: "minecolonies:blockhutarchery" }
@@ -308,6 +333,7 @@
 				"4D43000000000017"
 			]
 			id: "4D43000000000019"
+			icon: "minecolonies:blockhutcombatacademy"
 			tasks: [{
 				id: "4D43A00000000019"
 				item: { count: 1, id: "minecolonies:blockhutcombatacademy" }
@@ -322,6 +348,7 @@
 				"4D43000000000013"
 			]
 			id: "4D4300000000001A"
+			icon: "minecolonies:blockhuthospital"
 			tasks: [{
 				id: "4D43A0000000001A"
 				item: { count: 1, id: "minecolonies:blockhuthospital" }
@@ -333,6 +360,7 @@
 		{
 			dependencies: ["4D43000000000010"]
 			id: "4D4300000000001B"
+			icon: "minecolonies:blockhutkitchen"
 			tasks: [{
 				id: "4D43A0000000001B"
 				item: { count: 1, id: "minecolonies:blockhutkitchen" }
@@ -344,6 +372,7 @@
 		{
 			dependencies: ["4D43000000000013"]
 			id: "4D4300000000001C"
+			icon: "minecolonies:blockhutlibrary"
 			tasks: [{
 				id: "4D43A0000000001C"
 				item: { count: 1, id: "minecolonies:blockhutlibrary" }
@@ -358,6 +387,7 @@
 				"4D4300000000001C"
 			]
 			id: "4D4300000000001D"
+			icon: "minecolonies:blockhutenchanter"
 			tasks: [{
 				id: "4D43A0000000001D"
 				item: { count: 1, id: "minecolonies:blockhutenchanter" }
@@ -376,6 +406,7 @@
 				"4D4300000000001D"
 			]
 			id: "4D4300000000001E"
+			icon: "minecolonies:blockhutmysticalsite"
 			shape: "hexagon"
 			tasks: [{
 				id: "4D43A0000000001E"

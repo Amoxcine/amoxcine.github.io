@@ -1,18 +1,20 @@
 {
-	chapter_group.65C0000000000001.title: "Ascendant"
-	chapter_group.65C0000000000002.title: "Campagne aventure"
-	chapter_group.65C0000000000003.title: "Combat et magie"
-	chapter.65C1000000000001.title: "Bienvenue dans Ascendant"
-	chapter.65C1000000000002.title: "Mondes et voyages"
+	chapter_group.65C0000000000101.title: "Campagne principale - Aventure"
+	chapter_group.65C0000000000102.title: "Campagne principale - Technologie (facultative)"
+	chapter_group.65C0000000000103.title: "Annexes - Aventure"
+	chapter_group.65C0000000000104.title: "Annexes - Technologie, industrie et colonie"
+	chapter.65C1000000000001.title: "00 - Commencer ici"
+	chapter.65C1000000000002.title: "01 - Mondes et voyages"
 	chapter.65C1000000000003.title: "Create"
 	chapter.65C1000000000004.title: "Combat et magie"
-	chapter.65C1000000000005.title: "Twilight Forest"
-	chapter.65C1000000000006.title: "Eternal Starlight"
-	chapter.65C1000000000007.title: "Cataclysm - Les trois actes"
+	chapter.65C1000000000005.title: "02 - Twilight Forest"
+	chapter.65C1000000000006.title: "03 - Eternal Starlight"
+	chapter.65C1000000000007.title: "04 - Cataclysm - Trois actes"
 	chapter.65C1000000000008.title: "Ars Nouveau"
 	chapter.65C1000000000009.title: "Iron's Spells 'n Spellbooks"
 	chapter.65C100000000000A.title: "Apotheosis"
 	chapter.65C100000000000B.title: "Arsenal, Armory et Relics"
+	chapter.65C1000000000010.title: "Progression technologique"
 	reward_table.65C6000000000001.title: "Composant Armory - Acte I"
 	reward_table.65C6000000000002.title: "Composant Armory - Acte II"
 	reward_table.65C6000000000003.title: "Composant Armory - Acte III"
@@ -20,9 +22,11 @@
 	quest.65C2100000000001.title: "Bienvenue dans Ascendant"
 	quest.65C2100000000001.quest_subtitle: "Un monde, plusieurs ambitions"
 	quest.65C2100000000001.quest_desc: [
-		"Ascendant réunit industrie, colonies, magie et aventure dans un même monde persistant."
+		"Ascendant sépare les objectifs structurants des guides détaillés afin que la progression reste lisible."
 		""
-		"Aucune branche n'est obligatoire. Utilise ce livre comme une carte : choisis un projet, suis ses liens et reviens aux autres campagnes lorsque tu en as envie."
+		"Campagne principale - Aventure : Twilight Forest, Eternal Starlight puis Cataclysm."
+		"Campagne principale - Technologie : une route facultative reliant les grands paliers industriels."
+		"Annexes : guides approfondis pour chaque mod d'aventure, de magie, d'industrie et MineColonies."
 	]
 	quest.65C2100000000002.title: "Une équipe permanente"
 	quest.65C2100000000002.quest_subtitle: "Quêtes, claims et infrastructures"
@@ -41,9 +45,9 @@
 	quest.65C2100000000004.title: "Choisir une direction"
 	quest.65C2100000000004.quest_subtitle: "Toutes les routes restent ouvertes"
 	quest.65C2100000000004.quest_desc: [
-		"Les nœuds ci-dessous ouvrent les grandes campagnes. Ils sont aussi disponibles dans la liste des chapitres."
+		"Les nœuds ci-dessous ouvrent les deux campagnes principales et quelques annexes utiles. Tous les guides détaillés restent accessibles dans la liste des chapitres."
 		""
-		"Technologie, colonie, combat ou exploration : commence là où ton projet prend forme."
+		"La campagne aventure structure l'endgame. La campagne technologique reste facultative et ne bloque jamais les boss."
 	]
 
 	quest.65C2200000000001.title: "Au-delà de l'Overworld"
@@ -194,7 +198,7 @@
 	quest.65C2700000000004.quest_desc: ["Le Harbinger conclut l'Acte I. Son butin natif reste central ; le tirage RPG partagé est plus probable que sur les deux rencontres précédentes."]
 	quest.65C2700000000005.title: "Fin de l'Acte I"
 	quest.65C2700000000005.quest_subtitle: "Choisis un seul composant important"
-	quest.65C2700000000005.quest_desc: ["Chaque membre de la FTB Team peut choisir un composant Armory. Ce choix est personnel, unique pour l'acte et ne garantit aucun équipement complet."]
+	quest.65C2700000000005.quest_desc: ["Présente les trois preuves de victoire de l'Acte I. Elles sont vérifiées dans l'inventaire sans être consommées. Chaque membre de la FTB Team peut ensuite choisir un composant Armory personnel."]
 	quest.65C2700000000006.title: "Ancient Remnant"
 	quest.65C2700000000006.quest_subtitle: "Acte II - Royaumes engloutis"
 	quest.65C2700000000006.quest_desc: ["L'Ancient Remnant ouvre l'Acte II. Prépare l'environnement autant que le build : l'arène et la visibilité font partie du danger."]
@@ -204,7 +208,7 @@
 	quest.65C2700000000008.quest_desc: ["Le Leviathan conclut l'Acte II. Vérifie les moyens de respiration, de déplacement et de repli avant de provoquer la rencontre."]
 	quest.65C2700000000009.title: "Fin de l'Acte II"
 	quest.65C2700000000009.quest_subtitle: "Un second choix Armory"
-	quest.65C2700000000009.quest_desc: ["Le deuxième choix permet de renforcer une voie existante ou d'ouvrir une autre spécialisation. Les matériaux de farm restent obtenus sur les boss eux-mêmes."]
+	quest.65C2700000000009.quest_desc: ["Présente les trois preuves de victoire de l'Acte II. Elles sont vérifiées sans être consommées. Le second choix Armory renforce une voie existante ou ouvre une autre spécialisation."]
 	quest.65C270000000000A.title: "Maledictus"
 	quest.65C270000000000A.quest_subtitle: "Acte III - Les souverains déchus"
 	quest.65C270000000000A.quest_desc: ["Maledictus inaugure le dernier acte. Entre avec un équipement réparé, des consommables identifiés et une stratégie de retrait claire."]
@@ -212,7 +216,7 @@
 	quest.65C270000000000B.quest_desc: ["Ignis conclut la campagne actuelle. Les plafonds natifs empêchent de remplacer la maîtrise du combat par un simple excès de dégâts."]
 	quest.65C270000000000C.title: "Ascendant"
 	quest.65C270000000000C.quest_subtitle: "Fin de la campagne actuelle"
-	quest.65C270000000000C.quest_desc: ["La campagne se termine ici sans fermer le monde. Répète les boss, affine les builds, développe les villes et prépare les futurs chapitres qui pourront être ajoutés après Ignis."]
+	quest.65C270000000000C.quest_desc: ["Présente un lingot de Cursium et un lingot d'Ignitium, sans consommation, pour valider la campagne actuelle. L'endgame reste ensuite ouvert aux boss, builds, villes et futurs chapitres."]
 	quest.65C270000000000D.title: "Ignited Revenant"
 	quest.65C270000000000D.quest_subtitle: "Miniboss facultatif"
 	quest.65C270000000000D.quest_desc: ["Les minibosses sont des objectifs annexes et des sources privilégiées de ressources RPG ou de Relics. Ils ne bloquent jamais la campagne principale."]
@@ -278,9 +282,6 @@
 	chapter.5C6103E1E5034525.title: "Ender IO"
 	chapter.5E1C8A0DAADE99CD.title: "Extreme Reactors"
 	chapter.6511D794C611C9A1.title: "Draconic Evolution"
-	chapter_group.44494D454E53494F.title: "Dimensions"
-	chapter_group.4D434F4C4F4E4945.title: "Gestion de colonie"
-	chapter_group.72A9465344128AF9.title: "Technologie"
 	quest.012A03FB9A524D1D.quest_desc: [
 		"La Chambre de dissolution chimique attaque le minerai à l'acide sulfurique et produit une boue sale."
 		""
@@ -1820,4 +1821,19 @@
 	]
 	quest.0A71000000000010.quest_subtitle: "Niveau 5 / 5"
 	quest.0A71000000000010.title: "La Carrière avancée"
+	quest.65C2C00000000001.title: "Fondations mécaniques"
+	quest.65C2C00000000001.quest_subtitle: "Campagne technologique facultative"
+	quest.65C2C00000000001.quest_desc: ["Produis un alliage d'andésite pour ouvrir la route technologique. Les recettes et machines détaillées restent expliquées dans l'annexe Create."]
+	quest.65C2C00000000002.title: "Convertir le mouvement en énergie"
+	quest.65C2C00000000002.quest_desc: ["L'Alternator de Create Crafts & Additions relie la force cinétique au réseau FE et rend les branches industrielles interopérables."]
+	quest.65C2C00000000003.title: "Traitement industriel"
+	quest.65C2C00000000003.quest_desc: ["Le Metallurgic Infuser marque l'entrée dans Mekanism. Il ouvre les alliages et composants nécessaires aux machines plus avancées."]
+	quest.65C2C00000000004.title: "Centraliser le réseau"
+	quest.65C2C00000000004.quest_desc: ["Le contrôleur ME transforme les stockages isolés en infrastructure numérique. L'annexe Applied Energistics 2 détaille canaux, énergie et autocraft."]
+	quest.65C2C00000000005.title: "Automatiser la production"
+	quest.65C2C00000000005.quest_desc: ["Le châssis avancé d'Industrial Foregoing représente une usine capable d'exécuter durablement les tâches répétitives."]
+	quest.65C2C00000000006.title: "Produire à grande échelle"
+	quest.65C2C00000000006.quest_desc: ["Le contrôleur de réacteur ouvre une production énergétique de grande capacité. Dimensionne-la selon les besoins réels du serveur."]
+	quest.65C2C00000000007.title: "Technologie de fin de jeu"
+	quest.65C2C00000000007.quest_desc: ["L'Awakened Core conclut cette route facultative. Draconic Evolution reste une annexe endgame et ne conditionne jamais la campagne aventure."]
 }

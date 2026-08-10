@@ -2,14 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "enderio"
-	group: "72A9465344128AF9"
+	group: "65C0000000000104"
 	id: "5C6103E1E5034525"
+	icon: "enderio:alloy_smelter"
 	images: [ ]
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			id: "75A92A73A17CA7A7"
+			icon: "enderio:grains_of_infinity"
 			tasks: [{
 				count: 8L
 				id: "16BA18FE7AAB907C"
@@ -22,6 +24,7 @@
 		{
 			dependencies: ["75A92A73A17CA7A7"]
 			id: "1D062F1021853413"
+			icon: "enderio:alloy_smelter"
 			tasks: [{
 				id: "34F714F0BC97B06F"
 				item: { count: 1, id: "enderio:alloy_smelter" }
@@ -33,6 +36,7 @@
 		{
 			dependencies: ["1D062F1021853413"]
 			id: "189CA1F11EE19DFF"
+			icon: "enderio:sag_mill"
 			tasks: [
 				{
 					id: "7152CF52919E06A2"
@@ -51,6 +55,7 @@
 		{
 			dependencies: ["189CA1F11EE19DFF"]
 			id: "0AA394B0855D7D6A"
+			icon: "enderio:redstone_alloy_ingot"
 			tasks: [
 				{
 					count: 4L
@@ -83,6 +88,7 @@
 		{
 			dependencies: ["0AA394B0855D7D6A"]
 			id: "15CF9FA6303B7879"
+			icon: "enderio:stirling_generator"
 			tasks: [
 				{
 					id: "35F531105D316096"
@@ -101,6 +107,7 @@
 		{
 			dependencies: ["0AA394B0855D7D6A"]
 			id: "302D797870C7D8E5"
+			icon: "enderio:conduit_binder_composite"
 			tasks: [
 				{
 					count: 8L
@@ -120,6 +127,7 @@
 		{
 			dependencies: ["15CF9FA6303B7879"]
 			id: "19E96CC9EFC279A8"
+			icon: "enderio:dark_steel_ingot"
 			tasks: [{
 				count: 8L
 				id: "58BBCC10C3E0B0F5"
@@ -132,6 +140,7 @@
 		{
 			dependencies: ["302D797870C7D8E5"]
 			id: "77BC23D91687C968"
+			icon: "enderio:soul_vial"
 			tasks: [
 				{
 					id: "14986578BB5808AF"
@@ -150,6 +159,7 @@
 		{
 			dependencies: ["77BC23D91687C968"]
 			id: "6E52786A71265180"
+			icon: "enderio:powered_spawner"
 			tasks: [
 				{
 					id: "26D9924F33E83468"
@@ -167,6 +177,7 @@
 		{
 			dependencies: ["19E96CC9EFC279A8"]
 			id: "4970D189D5B5ACD3"
+			icon: "enderio:vibrant_alloy_ingot"
 			tasks: [
 				{
 					count: 8L
@@ -189,6 +200,7 @@
 				"6E52786A71265180"
 			]
 			id: "1CE5A98AF78D3314"
+			icon: "enderio:end_steel_ingot"
 			tasks: [
 				{
 					count: 4L

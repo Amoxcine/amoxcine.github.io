@@ -2,8 +2,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	filename: "arsenal_armory_relics"
-	group: "65C0000000000003"
+	group: "65C0000000000103"
 	id: "65C100000000000B"
+	icon: "armory_rpgs:epic_armor_upgrade"
 	images: [ ]
 	order_index: 4
 	quest_links: [
@@ -24,6 +25,7 @@
 		{
 			dependencies: ["65C2400000000008"]
 			id: "65C2B00000000001"
+			icon: "minecraft:nether_star"
 			tasks: [{
 				id: "65C3B00000000001"
 				type: "checkmark"
@@ -34,6 +36,7 @@
 		{
 			dependencies: ["65C2B00000000001"]
 			id: "65C2B00000000002"
+			icon: "minecraft:netherite_sword"
 			tasks: [{
 				id: "65C3B00000000002"
 				type: "checkmark"
@@ -44,6 +47,7 @@
 		{
 			dependencies: ["65C2B00000000001"]
 			id: "65C2B00000000003"
+			icon: "armory_rpgs:epic_armor_upgrade"
 			tasks: [{
 				id: "65C3B00000000003"
 				item: { count: 1, id: "armory_rpgs:epic_armor_upgrade" }
@@ -55,6 +59,7 @@
 		{
 			dependencies: ["65C2B00000000001"]
 			id: "65C2B00000000004"
+			icon: "minecraft:heart_of_the_sea"
 			optional: true
 			tasks: [{
 				id: "65C3B00000000004"
@@ -69,6 +74,7 @@
 				"65C2B00000000003"
 			]
 			id: "65C2B00000000005"
+			icon: "minecraft:smithing_table"
 			shape: "hexagon"
 			tasks: [{
 				id: "65C3B00000000005"

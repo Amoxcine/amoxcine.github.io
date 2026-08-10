@@ -2,14 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mekanism"
-	group: "72A9465344128AF9"
+	group: "65C0000000000104"
 	id: "518958C02F451ADB"
+	icon: "mekanism:metallurgic_infuser"
 	images: [ ]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			id: "50341080C6AFCFF1"
+			icon: "mekanismtools:osmium_paxel"
 			tasks: [{
 				id: "3C5B71CA896FA38D"
 				item: { count: 1, id: "mekanismtools:osmium_paxel" }
@@ -20,6 +22,7 @@
 		}
 		{
 			id: "6832F811F080F86A"
+			icon: "mekanismgenerators:heat_generator"
 			tasks: [
 				{
 					id: "7159AED617F922C0"
@@ -37,6 +40,7 @@
 		{
 			dependencies: ["6832F811F080F86A"]
 			id: "7F21F24420700C68"
+			icon: "mekanism:metallurgic_infuser"
 			tasks: [{
 				id: "7B98C144DC6B4367"
 				item: { count: 1, id: "mekanism:metallurgic_infuser" }
@@ -48,6 +52,7 @@
 		{
 			dependencies: ["7F21F24420700C68"]
 			id: "3FDB3012F1E7D6A2"
+			icon: "mekanism:basic_control_circuit"
 			tasks: [{
 				count: 4L
 				id: "67E4BEDA6CC572B3"
@@ -60,6 +65,7 @@
 		{
 			dependencies: ["3FDB3012F1E7D6A2"]
 			id: "07685264F621EFBA"
+			icon: "mekanism:steel_casing"
 			tasks: [{
 				id: "22854855E02ED9A5"
 				item: { count: 1, id: "mekanism:steel_casing" }
@@ -71,6 +77,7 @@
 		{
 			dependencies: ["07685264F621EFBA"]
 			id: "77861D8D2442576C"
+			icon: "mekanism:basic_universal_cable"
 			tasks: [{
 				count: 8L
 				id: "330B0F308AC68C26"
@@ -83,6 +90,7 @@
 		{
 			dependencies: ["07685264F621EFBA"]
 			id: "3AC5147D15355AD4"
+			icon: "mekanism:enrichment_chamber"
 			shape: "hexagon"
 			tasks: [
 				{
@@ -101,6 +109,7 @@
 		{
 			dependencies: ["3AC5147D15355AD4"]
 			id: "015FD53ADB7EE0E7"
+			icon: "mekanism:energized_smelter"
 			tasks: [{
 				id: "6261350DFEC27EED"
 				item: { count: 1, id: "mekanism:energized_smelter" }
@@ -112,6 +121,7 @@
 		{
 			dependencies: ["77861D8D2442576C"]
 			id: "43C64234E787B02F"
+			icon: "mekanism:basic_energy_cube"
 			tasks: [{
 				id: "7388382DB5345813"
 				item: { count: 1, id: "mekanism:basic_energy_cube" }
@@ -123,6 +133,7 @@
 		{
 			dependencies: ["43C64234E787B02F"]
 			id: "1F8785366A69402C"
+			icon: "mekanismgenerators:wind_generator"
 			tasks: [
 				{
 					id: "5C72995B31765B98"
@@ -140,6 +151,7 @@
 		{
 			dependencies: ["07685264F621EFBA"]
 			id: "4B0B29DED24E1AE5"
+			icon: "mekanism:crusher"
 			tasks: [{
 				id: "0A3DAEFD041E7006"
 				item: { count: 1, id: "mekanism:crusher" }
@@ -151,6 +163,7 @@
 		{
 			dependencies: ["4B0B29DED24E1AE5"]
 			id: "3165F665ED474B75"
+			icon: "mekanism:osmium_compressor"
 			tasks: [{
 				id: "33C6F21A51AF8E16"
 				item: { count: 1, id: "mekanism:osmium_compressor" }
@@ -162,6 +175,7 @@
 		{
 			dependencies: ["07685264F621EFBA"]
 			id: "2639DA49D469215C"
+			icon: "mekanism:basic_chemical_tank"
 			tasks: [{
 				id: "7AE0B8A9EF1953AE"
 				item: { count: 1, id: "mekanism:basic_chemical_tank" }
@@ -173,6 +187,7 @@
 		{
 			dependencies: ["2639DA49D469215C"]
 			id: "2FEA8C6C88E8D9B0"
+			icon: "mekanism:basic_pressurized_tube"
 			tasks: [{
 				count: 8L
 				id: "12181CA66381300B"
@@ -185,6 +200,7 @@
 		{
 			dependencies: ["2FEA8C6C88E8D9B0"]
 			id: "5714343BE8C291D3"
+			icon: "mekanism:electrolytic_separator"
 			tasks: [{
 				id: "4E09AAD42EA68277"
 				item: { count: 1, id: "mekanism:electrolytic_separator" }
@@ -199,6 +215,7 @@
 				"3AC5147D15355AD4"
 			]
 			id: "6D69D265C2D4C77F"
+			icon: "mekanism:purification_chamber"
 			shape: "hexagon"
 			tasks: [
 				{
@@ -217,6 +234,7 @@
 		{
 			dependencies: ["2FEA8C6C88E8D9B0"]
 			id: "49F4354F6AA6ADD9"
+			icon: "mekanism:thermal_evaporation_controller"
 			tasks: [
 				{
 					id: "0D86EE77E6A0BE59"
@@ -246,6 +264,7 @@
 		{
 			dependencies: ["5714343BE8C291D3"]
 			id: "016D0F3C11F3BA0A"
+			icon: "mekanism:chemical_infuser"
 			tasks: [{
 				id: "140C9EF3218E1547"
 				item: { count: 1, id: "mekanism:chemical_infuser" }
@@ -260,6 +279,7 @@
 				"016D0F3C11F3BA0A"
 			]
 			id: "207BB1316748E335"
+			icon: "mekanism:chemical_injection_chamber"
 			shape: "hexagon"
 			tasks: [
 				{
@@ -278,6 +298,7 @@
 		{
 			dependencies: ["5714343BE8C291D3"]
 			id: "699A9D688B56A058"
+			icon: "mekanism:pressurized_reaction_chamber"
 			tasks: [{
 				id: "3ED6B8E2522AE0D9"
 				item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
@@ -289,6 +310,7 @@
 		{
 			dependencies: ["699A9D688B56A058"]
 			id: "1B3CFE52B5F5BE24"
+			icon: "mekanismgenerators:gas_burning_generator"
 			tasks: [
 				{
 					id: "3E332B0884FA557D"
@@ -309,6 +331,7 @@
 				"49F4354F6AA6ADD9"
 			]
 			id: "0C6A1A51921E8A6D"
+			icon: "mekanism:chemical_oxidizer"
 			tasks: [{
 				id: "4E167B8EA936A2E2"
 				item: { count: 1, id: "mekanism:chemical_oxidizer" }
@@ -323,6 +346,7 @@
 				"0C6A1A51921E8A6D"
 			]
 			id: "012A03FB9A524D1D"
+			icon: "mekanism:chemical_dissolution_chamber"
 			tasks: [{
 				id: "2F83C2A2A56290DB"
 				item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
@@ -334,6 +358,7 @@
 		{
 			dependencies: ["012A03FB9A524D1D"]
 			id: "4B438C8DE8EF77BC"
+			icon: "mekanism:chemical_washer"
 			tasks: [{
 				id: "50EAC37CA1820151"
 				item: { count: 1, id: "mekanism:chemical_washer" }
@@ -345,6 +370,7 @@
 		{
 			dependencies: ["4B438C8DE8EF77BC"]
 			id: "282931CA0AEAE66D"
+			icon: "mekanism:chemical_crystallizer"
 			shape: "hexagon"
 			tasks: [
 				{
@@ -363,6 +389,7 @@
 		{
 			dependencies: ["4B438C8DE8EF77BC"]
 			id: "556916510241852E"
+			icon: "mekanism:rotary_condensentrator"
 			tasks: [{
 				id: "61AE543F02105A8E"
 				item: { count: 1, id: "mekanism:rotary_condensentrator" }
@@ -377,6 +404,7 @@
 				"43C64234E787B02F"
 			]
 			id: "265AED53B0F0E084"
+			icon: "mekanism:induction_casing"
 			tasks: [{
 				count: 18L
 				id: "5CFC83D1E72E7211"
@@ -389,6 +417,7 @@
 		{
 			dependencies: ["265AED53B0F0E084"]
 			id: "7CB501BF16741158"
+			icon: "mekanism:basic_induction_cell"
 			tasks: [{
 				id: "6B319888FAA357AF"
 				item: { count: 1, id: "mekanism:basic_induction_cell" }
@@ -400,6 +429,7 @@
 		{
 			dependencies: ["7CB501BF16741158"]
 			id: "3D210E0033EBDF96"
+			icon: "mekanism:basic_induction_provider"
 			shape: "hexagon"
 			tasks: [
 				{
@@ -424,6 +454,7 @@
 		{
 			dependencies: ["282931CA0AEAE66D"]
 			id: "1EB8D2AD0175E1C9"
+			icon: "mekanism:isotopic_centrifuge"
 			tasks: [{
 				id: "4281C183384FD9CA"
 				item: { count: 1, id: "mekanism:isotopic_centrifuge" }
@@ -435,6 +466,7 @@
 		{
 			dependencies: ["1EB8D2AD0175E1C9"]
 			id: "242979E96A4BCAED"
+			icon: "mekanism:geiger_counter"
 			tasks: [
 				{
 					id: "2735D772992A0CA6"
@@ -453,6 +485,7 @@
 		{
 			dependencies: ["242979E96A4BCAED"]
 			id: "7538AA5F80C639FE"
+			icon: "mekanism:hazmat_mask"
 			tasks: [
 				{
 					id: "5A1738B6069B20C1"
@@ -481,6 +514,7 @@
 		{
 			dependencies: ["7538AA5F80C639FE"]
 			id: "5AE974DEC8043286"
+			icon: "mekanism:radioactive_waste_barrel"
 			tasks: [{
 				count: 4L
 				id: "32898F5FE4DFB2C1"
@@ -496,6 +530,7 @@
 				"3D210E0033EBDF96"
 			]
 			id: "2D64B87BCE839992"
+			icon: "mekanismgenerators:fission_reactor_casing"
 			shape: "hexagon"
 			tasks: [
 				{
@@ -542,6 +577,7 @@
 				"556916510241852E"
 			]
 			id: "4EF7B15079171BB2"
+			icon: "mekanismgenerators:turbine_casing"
 			shape: "hexagon"
 			tasks: [
 				{
@@ -600,6 +636,7 @@
 		{
 			dependencies: ["4EF7B15079171BB2"]
 			id: "5EA7C62A56830D5A"
+			icon: "mekanism:solar_neutron_activator"
 			tasks: [
 				{
 					id: "33BF26C1D8F37A51"
@@ -618,6 +655,7 @@
 		{
 			dependencies: ["556916510241852E"]
 			id: "1B098C291E57F637"
+			icon: "mekanism:electric_pump"
 			tasks: [
 				{
 					id: "74C5C3CE3CEE5975"
@@ -636,6 +674,7 @@
 		{
 			dependencies: ["1B098C291E57F637"]
 			id: "262BDAD9FD5C2A88"
+			icon: "mekanismgenerators:deuterium_bucket"
 			tasks: [{
 				id: "2475F1DC455BCBD5"
 				item: { count: 1, id: "mekanismgenerators:deuterium_bucket" }
@@ -647,6 +686,7 @@
 		{
 			dependencies: ["262BDAD9FD5C2A88"]
 			id: "1F4E5AD0B1D0C9AB"
+			icon: "mekanismgenerators:tritium_bucket"
 			tasks: [{
 				id: "185A00FFB3B40681"
 				item: { count: 1, id: "mekanismgenerators:tritium_bucket" }
@@ -658,6 +698,7 @@
 		{
 			dependencies: ["1F4E5AD0B1D0C9AB"]
 			id: "09C95101EB082CC5"
+			icon: "mekanismgenerators:fusion_fuel_bucket"
 			tasks: [
 				{
 					id: "6285BBE5148AEA29"
@@ -679,6 +720,7 @@
 				"4EF7B15079171BB2"
 			]
 			id: "129271E7D3BBCCA1"
+			icon: "mekanismgenerators:fusion_reactor_controller"
 			shape: "hexagon"
 			tasks: [
 				{
@@ -720,6 +762,7 @@
 				"129271E7D3BBCCA1"
 			]
 			id: "4A0A2ADC9130E9F2"
+			icon: "mekanism:sps_casing"
 			shape: "hexagon"
 			tasks: [
 				{
@@ -748,6 +791,7 @@
 		{
 			dependencies: ["4A0A2ADC9130E9F2"]
 			id: "43918265C59475BA"
+			icon: "mekanism:pellet_antimatter"
 			tasks: [{
 				id: "7BD13D288DA73278"
 				item: { count: 1, id: "mekanism:pellet_antimatter" }
@@ -759,6 +803,7 @@
 		{
 			dependencies: ["43918265C59475BA"]
 			id: "54E0BCA8A3D0EE7A"
+			icon: "mekanism:antiprotonic_nucleosynthesizer"
 			shape: "hexagon"
 			tasks: [
 				{
