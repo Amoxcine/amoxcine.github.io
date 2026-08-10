@@ -4,14 +4,14 @@
 	filename: "extreme_reactors"
 	group: "65C0000000000104"
 	id: "5E1C8A0DAADE99CD"
-	icon: "bigreactors:basic_reactorcontroller"
+	icon: { count: 1, id: "bigreactors:basic_reactorcontroller" }
 	images: [ ]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
 			id: "32730A76938F054B"
-			icon: "bigreactors:raw_yellorium"
+			icon: { count: 1, id: "bigreactors:raw_yellorium" }
 			tasks: [
 				{
 					count: 8L
@@ -32,7 +32,7 @@
 		{
 			dependencies: ["32730A76938F054B"]
 			id: "405DBE9A6169DA65"
-			icon: "bigreactors:graphite_ingot"
+			icon: { count: 1, id: "bigreactors:graphite_ingot" }
 			tasks: [{
 				count: 8L
 				id: "39ECAAD4A9B4F4A3"
@@ -45,7 +45,7 @@
 		{
 			dependencies: ["405DBE9A6169DA65"]
 			id: "232A1355C8DFF987"
-			icon: "bigreactors:basic_reactorcasing"
+			icon: { count: 1, id: "bigreactors:basic_reactorcasing" }
 			tasks: [{
 				count: 32L
 				id: "238E2347DF4654FF"
@@ -58,7 +58,7 @@
 		{
 			dependencies: ["232A1355C8DFF987"]
 			id: "3A2D664BA3902F87"
-			icon: "bigreactors:basic_reactorcontroller"
+			icon: { count: 1, id: "bigreactors:basic_reactorcontroller" }
 			tasks: [
 				{
 					id: "7041EAD16EE89B28"
@@ -88,7 +88,7 @@
 		{
 			dependencies: ["3A2D664BA3902F87"]
 			id: "504574A21B0F27FD"
-			icon: "bigreactors:basic_reactorsolidaccessport"
+			icon: { count: 1, id: "bigreactors:basic_reactorsolidaccessport" }
 			tasks: [
 				{
 					id: "10526FEAC545F547"
@@ -106,7 +106,7 @@
 		{
 			dependencies: ["504574A21B0F27FD"]
 			id: "5775AF7086B66BBF"
-			icon: "bigreactors:cyanite_ingot"
+			icon: { count: 1, id: "bigreactors:cyanite_ingot" }
 			tasks: [
 				{
 					count: 4L
@@ -132,7 +132,7 @@
 		{
 			dependencies: ["504574A21B0F27FD"]
 			id: "6063E644783AAA1F"
-			icon: "bigreactors:reinforced_reactorcasing"
+			icon: { count: 1, id: "bigreactors:reinforced_reactorcasing" }
 			tasks: [
 				{
 					count: 32L
@@ -152,7 +152,7 @@
 		{
 			dependencies: ["6063E644783AAA1F"]
 			id: "6AFF931F0836D86B"
-			icon: "bigreactors:basic_turbinecasing"
+			icon: { count: 1, id: "bigreactors:basic_turbinecasing" }
 			tasks: [
 				{
 					count: 32L
@@ -189,7 +189,7 @@
 		{
 			dependencies: ["6AFF931F0836D86B"]
 			id: "511D1F4EC733FC8C"
-			icon: "bigreactors:basic_turbinecontroller"
+			icon: { count: 1, id: "bigreactors:basic_turbinecontroller" }
 			tasks: [{
 				id: "4E4D681F0A2C2201"
 				type: "checkmark"
@@ -200,7 +200,7 @@
 		{
 			dependencies: ["5775AF7086B66BBF"]
 			id: "3209D67912C7A4FD"
-			icon: "bigreactors:blutonium_ingot"
+			icon: { count: 1, id: "bigreactors:blutonium_ingot" }
 			tasks: [
 				{
 					count: 4L
@@ -224,7 +224,7 @@
 				"511D1F4EC733FC8C"
 			]
 			id: "7260A13B23E12185"
-			icon: "bigreactors:energizercontroller"
+			icon: { count: 1, id: "bigreactors:energizercontroller" }
 			tasks: [
 				{
 					id: "718A37249FA5B615"

@@ -4,7 +4,7 @@
 	filename: "twilight_forest"
 	group: "65C0000000000101"
 	id: "65C1000000000005"
-	icon: "twilightforest:magic_map"
+	icon: { count: 1, id: "twilightforest:magic_map" }
 	images: [ ]
 	order_index: 2
 	quest_links: [{
@@ -17,7 +17,7 @@
 		{
 			dependencies: ["65C2100000000004"]
 			id: "65C2500000000001"
-			icon: "twilightforest:magic_map"
+			icon: { count: 1, id: "twilightforest:magic_map" }
 			tasks: [{
 				id: "65C3500000000001"
 				item: { count: 1, id: "twilightforest:magic_map" }
@@ -29,7 +29,7 @@
 		{
 			dependencies: ["65C2500000000001"]
 			id: "65C2500000000002"
-			icon: "twilightforest:magic_map"
+			icon: { count: 1, id: "twilightforest:magic_map" }
 			shape: "hexagon"
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
@@ -42,7 +42,7 @@
 		{
 			dependencies: ["65C2500000000002"]
 			id: "65C2500000000003"
-			icon: "twilightforest:naga_trophy"
+			icon: { count: 1, id: "twilightforest:naga_trophy" }
 			shape: "hexagon"
 			tasks: [{
 				entity: "twilightforest:naga"
@@ -56,7 +56,7 @@
 		{
 			dependencies: ["65C2500000000003"]
 			id: "65C2500000000004"
-			icon: "twilightforest:lich_trophy"
+			icon: { count: 1, id: "twilightforest:lich_trophy" }
 			shape: "hexagon"
 			tasks: [{
 				entity: "twilightforest:lich"
@@ -70,7 +70,7 @@
 		{
 			dependencies: ["65C2500000000004"]
 			id: "65C2500000000005"
-			icon: "twilightforest:minoshroom_trophy"
+			icon: { count: 1, id: "twilightforest:minoshroom_trophy" }
 			tasks: [{
 				entity: "twilightforest:minoshroom"
 				id: "65C3500000000005"
@@ -83,7 +83,7 @@
 		{
 			dependencies: ["65C2500000000005"]
 			id: "65C2500000000006"
-			icon: "twilightforest:hydra_trophy"
+			icon: { count: 1, id: "twilightforest:hydra_trophy" }
 			shape: "hexagon"
 			tasks: [{
 				entity: "twilightforest:hydra"
@@ -97,7 +97,7 @@
 		{
 			dependencies: ["65C2500000000004"]
 			id: "65C2500000000007"
-			icon: "twilightforest:knight_phantom_trophy"
+			icon: { count: 1, id: "twilightforest:knight_phantom_trophy" }
 			tasks: [{
 				entity: "twilightforest:knight_phantom"
 				id: "65C3500000000007"
@@ -110,7 +110,7 @@
 		{
 			dependencies: ["65C2500000000007"]
 			id: "65C2500000000008"
-			icon: "twilightforest:ur_ghast_trophy"
+			icon: { count: 1, id: "twilightforest:ur_ghast_trophy" }
 			shape: "hexagon"
 			tasks: [{
 				entity: "twilightforest:ur_ghast"
@@ -124,7 +124,7 @@
 		{
 			dependencies: ["65C2500000000004"]
 			id: "65C2500000000009"
-			icon: "twilightforest:alpha_yeti_trophy"
+			icon: { count: 1, id: "twilightforest:alpha_yeti_trophy" }
 			tasks: [{
 				entity: "twilightforest:alpha_yeti"
 				id: "65C3500000000009"
@@ -137,7 +137,7 @@
 		{
 			dependencies: ["65C2500000000009"]
 			id: "65C250000000000A"
-			icon: "twilightforest:snow_queen_trophy"
+			icon: { count: 1, id: "twilightforest:snow_queen_trophy" }
 			shape: "hexagon"
 			tasks: [{
 				entity: "twilightforest:snow_queen"
@@ -155,7 +155,7 @@
 				"65C250000000000A"
 			]
 			id: "65C250000000000B"
-			icon: "twilightforest:magic_map"
+			icon: { count: 1, id: "twilightforest:magic_map" }
 			shape: "hexagon"
 			tasks: [{
 				id: "65C350000000000B"
@@ -167,7 +167,7 @@
 		{
 			dependencies: ["65C250000000000B"]
 			id: "65C250000000000C"
-			icon: "twilightforest:magic_map"
+			icon: { count: 1, id: "twilightforest:magic_map" }
 			optional: true
 			tasks: [{
 				entity: "twilight_forest_final_boss:castle_keeper"
@@ -181,7 +181,7 @@
 		{
 			dependencies: ["65C2500000000003"]
 			id: "65C250000000000D"
-			icon: "minecraft:nether_star"
+			icon: { count: 1, id: "minecraft:nether_star" }
 			optional: true
 			tasks: [{
 				id: "65C350000000000D"
@@ -193,7 +193,7 @@
 		{
 			dependencies: ["65C250000000000B"]
 			id: "65C250000000000E"
-			icon: "twilightforest:magic_map"
+			icon: { count: 1, id: "twilightforest:magic_map" }
 			shape: "hexagon"
 			tasks: [{
 				id: "65C350000000000E"

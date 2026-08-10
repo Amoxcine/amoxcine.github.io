@@ -4,7 +4,7 @@
 	filename: "apotheosis"
 	group: "65C0000000000103"
 	id: "65C100000000000A"
-	icon: "apotheosis:simple_reforging_table"
+	icon: { count: 1, id: "apotheosis:simple_reforging_table" }
 	images: [ ]
 	order_index: 3
 	quest_links: [{
@@ -17,7 +17,7 @@
 		{
 			dependencies: ["65C2400000000009"]
 			id: "65C2A00000000001"
-			icon: "apotheosis:simple_reforging_table"
+			icon: { count: 1, id: "apotheosis:simple_reforging_table" }
 			tasks: [{
 				id: "65C3A00000000001"
 				item: { count: 1, id: "apotheosis:simple_reforging_table" }
@@ -29,7 +29,7 @@
 		{
 			dependencies: ["65C2A00000000001"]
 			id: "65C2A00000000002"
-			icon: "apotheosis:salvaging_table"
+			icon: { count: 1, id: "apotheosis:salvaging_table" }
 			tasks: [{
 				id: "65C3A00000000002"
 				item: { count: 1, id: "apotheosis:salvaging_table" }
@@ -41,7 +41,7 @@
 		{
 			dependencies: ["65C2A00000000001"]
 			id: "65C2A00000000003"
-			icon: "apotheosis:gem_cutting_table"
+			icon: { count: 1, id: "apotheosis:gem_cutting_table" }
 			tasks: [{
 				id: "65C3A00000000003"
 				item: { count: 1, id: "apotheosis:gem_cutting_table" }
@@ -56,7 +56,7 @@
 				"65C2A00000000003"
 			]
 			id: "65C2A00000000004"
-			icon: "apotheosis:augmenting_table"
+			icon: { count: 1, id: "apotheosis:augmenting_table" }
 			tasks: [{
 				id: "65C3A00000000004"
 				item: { count: 1, id: "apotheosis:augmenting_table" }
@@ -68,7 +68,7 @@
 		{
 			dependencies: ["65C2A00000000004"]
 			id: "65C2A00000000005"
-			icon: "apotheosis:augmenting_table"
+			icon: { count: 1, id: "apotheosis:augmenting_table" }
 			shape: "hexagon"
 			tasks: [{
 				id: "65C3A00000000005"

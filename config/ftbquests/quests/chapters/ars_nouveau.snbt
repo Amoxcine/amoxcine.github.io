@@ -4,7 +4,7 @@
 	filename: "ars_nouveau"
 	group: "65C0000000000103"
 	id: "65C1000000000008"
-	icon: "ars_nouveau:novice_spell_book"
+	icon: { count: 1, id: "ars_nouveau:novice_spell_book" }
 	images: [ ]
 	order_index: 1
 	quest_links: [{
@@ -17,7 +17,7 @@
 		{
 			dependencies: ["65C2400000000004"]
 			id: "65C2800000000001"
-			icon: "ars_nouveau:novice_spell_book"
+			icon: { count: 1, id: "ars_nouveau:novice_spell_book" }
 			tasks: [{
 				id: "65C3800000000001"
 				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
@@ -29,7 +29,7 @@
 		{
 			dependencies: ["65C2800000000001"]
 			id: "65C2800000000002"
-			icon: "ars_nouveau:imbuement_chamber"
+			icon: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 			tasks: [{
 				id: "65C3800000000002"
 				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
@@ -41,7 +41,7 @@
 		{
 			dependencies: ["65C2800000000001"]
 			id: "65C2800000000003"
-			icon: "ars_nouveau:source_jar"
+			icon: { count: 1, id: "ars_nouveau:source_jar" }
 			tasks: [{
 				id: "65C3800000000003"
 				item: { count: 1, id: "ars_nouveau:source_jar" }
@@ -56,7 +56,7 @@
 				"65C2800000000003"
 			]
 			id: "65C2800000000004"
-			icon: "ars_nouveau:arcane_core"
+			icon: { count: 1, id: "ars_nouveau:arcane_core" }
 			tasks: [
 				{
 					id: "65C3800000000004"
@@ -75,7 +75,7 @@
 		{
 			dependencies: ["65C2800000000004"]
 			id: "65C2800000000005"
-			icon: "ars_nouveau:source_jar"
+			icon: { count: 1, id: "ars_nouveau:source_jar" }
 			shape: "hexagon"
 			tasks: [{
 				id: "65C3800000000006"

@@ -4,7 +4,7 @@
 	filename: "create"
 	group: "65C0000000000104"
 	id: "65C1000000000003"
-	icon: "create:mechanical_crafter"
+	icon: { count: 1, id: "create:mechanical_crafter" }
 	images: [ ]
 	order_index: 0
 	quest_links: [
@@ -43,7 +43,7 @@
 		{
 			dependencies: ["65C2100000000004"]
 			id: "65C2300000000001"
-			icon: "create:andesite_alloy"
+			icon: { count: 1, id: "create:andesite_alloy" }
 			tasks: [{
 				count: 8L
 				id: "65C3300000000001"
@@ -56,7 +56,7 @@
 		{
 			dependencies: ["65C2300000000001"]
 			id: "65C2300000000002"
-			icon: "create:water_wheel"
+			icon: { count: 1, id: "create:water_wheel" }
 			tasks: [
 				{
 					id: "65C3300000000002"
@@ -82,7 +82,7 @@
 		{
 			dependencies: ["65C2300000000002"]
 			id: "65C2300000000003"
-			icon: "create:mechanical_press"
+			icon: { count: 1, id: "create:mechanical_press" }
 			tasks: [{
 				id: "65C3300000000005"
 				item: { count: 1, id: "create:mechanical_press" }
@@ -94,7 +94,7 @@
 		{
 			dependencies: ["65C2300000000002"]
 			id: "65C2300000000004"
-			icon: "create:belt_connector"
+			icon: { count: 1, id: "create:belt_connector" }
 			tasks: [
 				{
 					count: 8L
@@ -114,7 +114,7 @@
 		{
 			dependencies: ["65C2300000000002"]
 			id: "65C2300000000005"
-			icon: "create:mechanical_mixer"
+			icon: { count: 1, id: "create:mechanical_mixer" }
 			tasks: [
 				{
 					id: "65C3300000000008"
@@ -137,7 +137,7 @@
 				"65C2300000000005"
 			]
 			id: "65C2300000000006"
-			icon: "create:blaze_burner"
+			icon: { count: 1, id: "create:blaze_burner" }
 			shape: "hexagon"
 			tasks: [{
 				id: "65C330000000000A"
@@ -150,7 +150,7 @@
 		{
 			dependencies: ["65C2300000000006"]
 			id: "65C2300000000007"
-			icon: "create:mechanical_crafter"
+			icon: { count: 1, id: "create:mechanical_crafter" }
 			tasks: [{
 				count: 9L
 				id: "65C330000000000B"
@@ -163,7 +163,7 @@
 		{
 			dependencies: ["65C2300000000006"]
 			id: "65C2300000000008"
-			icon: "create:track"
+			icon: { count: 1, id: "create:track" }
 			tasks: [
 				{
 					count: 16L
@@ -188,7 +188,7 @@
 		{
 			dependencies: ["65C2300000000006"]
 			id: "65C2300000000009"
-			icon: "createaddition:alternator"
+			icon: { count: 1, id: "createaddition:alternator" }
 			tasks: [
 				{
 					id: "65C330000000000F"
@@ -207,7 +207,7 @@
 		{
 			dependencies: ["65C2300000000008"]
 			id: "65C230000000000A"
-			icon: "cclogistics:freight_depot"
+			icon: { count: 1, id: "cclogistics:freight_depot" }
 			tasks: [
 				{
 					id: "65C3300000000011"
@@ -226,7 +226,7 @@
 		{
 			dependencies: ["65C2300000000008"]
 			id: "65C230000000000B"
-			icon: "createdieselgenerators:diesel_engine"
+			icon: { count: 1, id: "createdieselgenerators:diesel_engine" }
 			tasks: [
 				{
 					id: "65C3300000000013"
@@ -250,7 +250,7 @@
 				"65C230000000000B"
 			]
 			id: "65C230000000000C"
-			icon: "create:mechanical_crafter"
+			icon: { count: 1, id: "create:mechanical_crafter" }
 			shape: "hexagon"
 			tasks: [{
 				id: "65C3300000000015"

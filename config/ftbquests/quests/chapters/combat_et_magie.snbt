@@ -4,7 +4,7 @@
 	filename: "combat_et_magie"
 	group: "65C0000000000103"
 	id: "65C1000000000004"
-	icon: "minecraft:diamond_sword"
+	icon: { count: 1, id: "minecraft:diamond_sword" }
 	images: [ ]
 	order_index: 0
 	quest_links: [
@@ -43,7 +43,7 @@
 		{
 			dependencies: ["65C2100000000004"]
 			id: "65C2400000000001"
-			icon: "minecraft:iron_sword"
+			icon: { count: 1, id: "minecraft:iron_sword" }
 			tasks: [{
 				id: "65C3400000000001"
 				type: "checkmark"
@@ -54,7 +54,7 @@
 		{
 			dependencies: ["65C2400000000001"]
 			id: "65C2400000000002"
-			icon: "minecraft:rabbit_foot"
+			icon: { count: 1, id: "minecraft:rabbit_foot" }
 			tasks: [{
 				id: "65C3400000000002"
 				type: "checkmark"
@@ -65,7 +65,7 @@
 		{
 			dependencies: ["65C2400000000002"]
 			id: "65C2400000000003"
-			icon: "minecraft:experience_bottle"
+			icon: { count: 1, id: "minecraft:experience_bottle" }
 			tasks: [{
 				id: "65C3400000000003"
 				type: "checkmark"
@@ -76,7 +76,7 @@
 		{
 			dependencies: ["65C2400000000001"]
 			id: "65C2400000000004"
-			icon: "ars_nouveau:worn_notebook"
+			icon: { count: 1, id: "ars_nouveau:worn_notebook" }
 			tasks: [{
 				id: "65C3400000000004"
 				item: { count: 1, id: "ars_nouveau:worn_notebook" }
@@ -88,7 +88,7 @@
 		{
 			dependencies: ["65C2400000000004"]
 			id: "65C2400000000005"
-			icon: "ars_nouveau:novice_spell_book"
+			icon: { count: 1, id: "ars_nouveau:novice_spell_book" }
 			tasks: [{
 				id: "65C3400000000005"
 				type: "checkmark"
@@ -99,7 +99,7 @@
 		{
 			dependencies: ["65C2400000000001"]
 			id: "65C2400000000006"
-			icon: "irons_spellbooks:copper_spell_book"
+			icon: { count: 1, id: "irons_spellbooks:copper_spell_book" }
 			tasks: [{
 				id: "65C3400000000006"
 				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 5, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:copper_spell_book" }
@@ -111,7 +111,7 @@
 		{
 			dependencies: ["65C2400000000006"]
 			id: "65C2400000000007"
-			icon: "irons_spellbooks:mana_ring"
+			icon: { count: 1, id: "irons_spellbooks:mana_ring" }
 			tasks: [{
 				id: "65C3400000000007"
 				type: "checkmark"
@@ -122,7 +122,7 @@
 		{
 			dependencies: ["65C2400000000001"]
 			id: "65C2400000000008"
-			icon: "armory_rpgs:epic_armor_upgrade"
+			icon: { count: 1, id: "armory_rpgs:epic_armor_upgrade" }
 			tasks: [{
 				id: "65C3400000000008"
 				type: "checkmark"
@@ -133,7 +133,7 @@
 		{
 			dependencies: ["65C2400000000008"]
 			id: "65C2400000000009"
-			icon: "apotheosis:reforging_table"
+			icon: { count: 1, id: "apotheosis:reforging_table" }
 			tasks: [{
 				id: "65C3400000000009"
 				item: { count: 1, id: "apotheosis:reforging_table" }
@@ -150,7 +150,7 @@
 				"65C2400000000009"
 			]
 			id: "65C240000000000A"
-			icon: "minecraft:shield"
+			icon: { count: 1, id: "minecraft:shield" }
 			shape: "hexagon"
 			tasks: [{
 				id: "65C340000000000A"

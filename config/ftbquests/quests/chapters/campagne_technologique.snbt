@@ -3,13 +3,13 @@
 	default_quest_shape: "square"
 	filename: "campagne_technologique"
 	group: "65C0000000000102"
-	icon: "minecraft:redstone"
+	icon: { count: 1, id: "minecraft:redstone" }
 	id: "65C1000000000010"
 	images: [ ]
 	order_index: 0
 	quests: [
 		{
-			icon: "create:andesite_alloy"
+			icon: { count: 1, id: "create:andesite_alloy" }
 			id: "65C2C00000000001"
 			shape: "hexagon"
 			size: 1.5d
@@ -23,7 +23,7 @@
 		}
 		{
 			dependencies: ["65C2C00000000001"]
-			icon: "createaddition:alternator"
+			icon: { count: 1, id: "createaddition:alternator" }
 			id: "65C2C00000000002"
 			tasks: [{
 				id: "65C3C00000000002"
@@ -35,7 +35,7 @@
 		}
 		{
 			dependencies: ["65C2C00000000002"]
-			icon: "mekanism:metallurgic_infuser"
+			icon: { count: 1, id: "mekanism:metallurgic_infuser" }
 			id: "65C2C00000000003"
 			tasks: [{
 				id: "65C3C00000000003"
@@ -47,7 +47,7 @@
 		}
 		{
 			dependencies: ["65C2C00000000003"]
-			icon: "ae2:controller"
+			icon: { count: 1, id: "ae2:controller" }
 			id: "65C2C00000000004"
 			tasks: [{
 				id: "65C3C00000000004"
@@ -59,7 +59,7 @@
 		}
 		{
 			dependencies: ["65C2C00000000004"]
-			icon: "industrialforegoing:machine_frame_advanced"
+			icon: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
 			id: "65C2C00000000005"
 			tasks: [{
 				id: "65C3C00000000005"
@@ -71,7 +71,7 @@
 		}
 		{
 			dependencies: ["65C2C00000000005"]
-			icon: "bigreactors:basic_reactorcontroller"
+			icon: { count: 1, id: "bigreactors:basic_reactorcontroller" }
 			id: "65C2C00000000006"
 			tasks: [{
 				id: "65C3C00000000006"
@@ -83,7 +83,7 @@
 		}
 		{
 			dependencies: ["65C2C00000000006"]
-			icon: "draconicevolution:awakened_core"
+			icon: { count: 1, id: "draconicevolution:awakened_core" }
 			id: "65C2C00000000007"
 			shape: "hexagon"
 			size: 2.0d
