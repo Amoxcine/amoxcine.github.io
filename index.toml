@@ -545,6 +545,11 @@ hash = "2d8016aab6d4b3410b7a35003aa9d778dad45379c89dc9490cd6c3f3bcec9f6f"
 metafile = true
 
 [[files]]
+file = "mods/mcef.pw.toml"
+hash = "aad064a266f7dcb5f8f91c7138a0b2d03bd1502676cdc6d20ecba779d0506e71"
+metafile = true
+
+[[files]]
 file = "mods/mekanism-generators.pw.toml"
 hash = "0ec2ceb5602df266d2e07bdc0bc409cdd3d325a6b5136554787779cdf8057a27"
 metafile = true

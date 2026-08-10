@@ -1,0 +1,13 @@
+name = "MCEF (Minecraft Chromium Embedded Framework)"
+filename = "mcef-neoforge-2.1.6-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "efc74c3bf0784f2c75004440bb1ea4ed15e2385c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5828243
+project-id = 636236
