@@ -177,6 +177,11 @@ hash = "f3d66527c4f82b44d9409f643332bc15f91b85f033afe147e3d8b421c0ea6d1e"
 metafile = true
 
 [[files]]
+file = "mods/antixray-forge.pw.toml"
+hash = "efacd037ea07f6f57120e2eb685c88a7212d5d7ddb19475a1aa884edf1ecd3c0"
+metafile = true
+
+[[files]]
 file = "mods/apotheosis.pw.toml"
 hash = "8d6dcc9a218a6f300acd74a1d25d562f9a190a3c626251ac1bc3582a8b7aa644"
 metafile = true
@@ -264,6 +269,11 @@ metafile = true
 [[files]]
 file = "mods/bundle-api.pw.toml"
 hash = "6ba13de15147a3668b8b9272807da65e081dc1516f5581ce050c4aae8c2c109f"
+metafile = true
+
+[[files]]
+file = "mods/checkyourmods.pw.toml"
+hash = "5fd383da6bd0903cfa599b857b8f49efb17bce003b266f071b96afc43913daad"
 metafile = true
 
 [[files]]

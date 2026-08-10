@@ -1,0 +1,13 @@
+name = "CheckYourMods"
+filename = "checkyourmods-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mBtn08Gy/versions/Ev5SDtVF/checkyourmods-1.0.0.jar"
+hash-format = "sha512"
+hash = "6894ffc1fad3e15c5401d217cb5db504ca940cc2582c82efceb026d6d535583d8367047db4f0471e8eb1974ef8e904e4d169ad825b72019266ce2edb73d4470c"
+
+[update]
+[update.modrinth]
+mod-id = "mBtn08Gy"
+version = "Ev5SDtVF"
