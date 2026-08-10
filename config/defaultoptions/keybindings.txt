@@ -1,5 +1,5 @@
-key_gui.xaero_open_map:key.keyboard.m:
-key_key.ftbchunks.map:key.keyboard.m:SHIFT
+key_gui.xaero_open_map:key.keyboard.semicolon:
+key_key.ftbchunks.map:key.keyboard.semicolon:SHIFT
 key_key.ftbquests.quests:key.keyboard.j:
 key_key.puffish_skills.open:key.keyboard.k:
 key_gui.xaero_new_waypoint:key.keyboard.b:
