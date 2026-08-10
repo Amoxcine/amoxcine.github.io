@@ -862,6 +862,34 @@ hash = "f60046584d023aaa0af0e8a1f3f021acb13121f2130f7c66b85e704da4d72643"
 metafile = true
 
 [[files]]
+file = "moonlight-global-datapacks/ascendant_eternal_loot/data/eternal_starlight/loot_table/bosses/lunar_monstrosity.json"
+hash = "b0ee38cdf7b1a58bebab28e8ea230cd865ccca5e60991cbbd41449eb6ba496b5"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_eternal_loot/data/eternal_starlight/loot_table/bosses/permafrost.json"
+hash = "217347697c6a4aa4af235677c67fbe197b690d1bfa58031bf270c96e48795b0e"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_eternal_loot/data/eternal_starlight/loot_table/bosses/starlight_golem.json"
+hash = "14a8a661418edfb60dbf84fa721c8213d4b226461d1ddde31b5cfd612c53a4f1"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_eternal_loot/data/eternal_starlight/loot_table/entities/lunar_monstrosity.json"
+hash = "d8df6cf6266d3d68ce1938f532a54ba2793f63a39039afc32dd6555da3837e7c"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_eternal_loot/data/eternal_starlight/loot_table/entities/permafrost.json"
+hash = "c5eaa87241efecdc823f5e701ce0a4e1a3ff4c66597503b1f965b759b336e210"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_eternal_loot/data/eternal_starlight/loot_table/entities/starlight_golem.json"
+hash = "df52722deeb958b9e516ee36148460d362f6dbcab6a5ceb947d6f5f0524732e1"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_eternal_loot/pack.mcmeta"
+hash = "e04480f1820f3f83a14baa7d2132aba29282dce0a9416cba95a305d778a76e44"
+
+[[files]]
 file = "shaderpacks/bliss-shader.pw.toml"
 hash = "8ffd81a5e0b4c3bc2daf0d86714ef56df4beb1ed87a5c41c4e9bbb94a7006bc1"
 metafile = true

@@ -1,0 +1,5 @@
+{"type":"minecraft:entity","pools":[
+{"rolls":1,"entries":[{"type":"minecraft:item","name":"eternal_starlight:moonring_bow"}]},
+{"rolls":1,"conditions":[{"condition":"minecraft:random_chance","chance":0.75}],"entries":[{"type":"minecraft:item","name":"eternal_starlight:crescent_spear"}]},
+{"rolls":1,"entries":[{"type":"minecraft:item","name":"eternal_starlight:crescent_pendant"}]}
+],"random_sequence":"eternal_starlight:entities/lunar_monstrosity"}

@@ -1,0 +1,12 @@
+{"type":"minecraft:empty","pools":[
+{"rolls":1,"entries":[{"type":"minecraft:loot_table","value":"eternal_starlight:bosses/boss_common"}]},
+{"rolls":1,"entries":[{"type":"minecraft:item","name":"eternal_starlight:tenacious_petal","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:uniform","min":10,"max":15},"add":false}]}]},
+{"rolls":1,"entries":[{"type":"minecraft:item","name":"eternal_starlight:tenacious_vine","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:uniform","min":10,"max":15},"add":false}]}]},
+{"rolls":1,"entries":[{"type":"minecraft:item","name":"eternal_starlight:soul_dew","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:uniform","min":3,"max":4},"add":false}]}]},
+{"rolls":1,"entries":[{"type":"minecraft:item","name":"eternal_starlight:tangled_skull","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:uniform","min":5,"max":8},"add":false}]}]},
+{"rolls":1,"conditions":[{"condition":"minecraft:random_chance","chance":0.75}],"entries":[{"type":"minecraft:item","name":"eternal_starlight:wand_of_teleportation"}]},
+{"rolls":1,"entries":[{"type":"minecraft:item","name":"eternal_starlight:twining_armor_trim_smithing_template"}]},
+{"rolls":1,"conditions":[{"condition":"minecraft:random_chance","chance":0.5}],"entries":[{"type":"minecraft:item","name":"eternal_starlight:music_disc_moonlight"}]},
+{"rolls":1,"conditions":[{"condition":"minecraft:random_chance","chance":0.5}],"entries":[{"type":"minecraft:item","name":"eternal_starlight:music_disc_fake_light"}]},
+{"rolls":1,"conditions":[{"condition":"minecraft:random_chance","chance":0.5}],"entries":[{"type":"minecraft:item","name":"eternal_starlight:starlit_painting","functions":[{"function":"minecraft:set_components","components":{"minecraft:entity_data":{"id":"eternal_starlight:painting","variant":"eternal_starlight:monstrous"}}}]}]}
+],"random_sequence":"eternal_starlight:bosses/lunar_monstrosity"}

@@ -1,0 +1,6 @@
+{"type":"minecraft:empty","pools":[
+{"rolls":1,"entries":[{"type":"minecraft:loot_table","value":"eternal_starlight:bosses/boss_common"}]},
+{"rolls":1,"entries":[{"type":"minecraft:item","name":"eternal_starlight:oxidized_golem_steel_nugget","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:uniform","min":5,"max":12},"add":false}]}]},
+{"rolls":1,"entries":[{"type":"minecraft:item","name":"eternal_starlight:frozen_tube","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:uniform","min":12,"max":18},"add":false}]}]},
+{"rolls":1,"conditions":[{"condition":"minecraft:random_chance","chance":0.5}],"entries":[{"type":"minecraft:item","name":"eternal_starlight:starlit_painting","functions":[{"function":"minecraft:set_components","components":{"minecraft:entity_data":{"id":"eternal_starlight:painting","variant":"eternal_starlight:absolute_zero"}}}]}]}
+],"random_sequence":"eternal_starlight:bosses/permafrost"}
