@@ -138,7 +138,7 @@ hash = "9b967a21652b28e528e130a7c64a4fd75a30929f72599c842f89f34f9db65eb5"
 
 [[files]]
 file = "config/multiplayerbosses-common.toml"
-hash = "1a6755f82e686b55e6ceaf1f972b8704e626a9618f4448e8af904cfea9443d57"
+hash = "968433588987d21673c4774e908afdfd77756272fa9096f8e4744102a031369e"
 
 [[files]]
 file = "config/tectonic.json"
