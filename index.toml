@@ -420,6 +420,11 @@ hash = "0141bc647b652e57375c9ce070a511f68b0bd24fe601c410c1a45dac9e8d443c"
 metafile = true
 
 [[files]]
+file = "mods/framedblocks.pw.toml"
+hash = "401e1738b00110910e243d520022a158e8f11bf018fc27e485c012f3720ce97f"
+metafile = true
+
+[[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
 hash = "0922cfee3b7351e62fb22ccc6e5a59f35fd99fe80737dc861ada3b5407ecdf87"
 metafile = true
@@ -722,6 +727,16 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "8b237735f64f339d35d40eaceb76cdf137fd05a49b452d2a8c3434cada762e11"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "9c7d4acea388b933530ca1be37195a32f3cd11402cca6ec67e76f37af04d46ea"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "5afcc0246b46a14f8d208818cc6d2197000edb3f3c5684811a79d5d88cbb7e13"
 metafile = true
 
 [[files]]
