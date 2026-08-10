@@ -196,9 +196,9 @@
 	quest.65C2700000000003.quest_desc: ["Le Guardian teste la mobilité et le placement du groupe. Prépare le trajet jusqu'à sa structure avant de transporter l'équipement de combat."]
 	quest.65C2700000000004.title: "The Harbinger"
 	quest.65C2700000000004.quest_desc: ["Le Harbinger conclut l'Acte I. Son butin natif reste central ; le tirage RPG partagé est plus probable que sur les deux rencontres précédentes."]
-	quest.65C2700000000005.title: "Fin de l'Acte I"
-	quest.65C2700000000005.quest_subtitle: "Choisis un seul composant important"
-	quest.65C2700000000005.quest_desc: ["Présente les trois preuves de victoire de l'Acte I. Elles sont vérifiées dans l'inventaire sans être consommées. Chaque membre de la FTB Team peut ensuite choisir un composant Armory personnel."]
+	quest.65C27A0000000005.title: "Fin de l'Acte I"
+	quest.65C27A0000000005.quest_subtitle: "Choisis un seul composant important"
+	quest.65C27A0000000005.quest_desc: ["Présente les trois preuves de victoire de l'Acte I. Elles sont vérifiées dans l'inventaire sans être consommées. Chaque membre de la FTB Team peut ensuite choisir un composant Armory personnel."]
 	quest.65C2700000000006.title: "Ancient Remnant"
 	quest.65C2700000000006.quest_subtitle: "Acte II - Royaumes engloutis"
 	quest.65C2700000000006.quest_desc: ["L'Ancient Remnant ouvre l'Acte II. Prépare l'environnement autant que le build : l'arène et la visibilité font partie du danger."]
@@ -206,17 +206,17 @@
 	quest.65C2700000000007.quest_desc: ["Scylla impose une menace spécialisée. Une équipe diversifiée doit conserver mobilité, dégâts réguliers et solution de récupération des tombes."]
 	quest.65C2700000000008.title: "The Leviathan"
 	quest.65C2700000000008.quest_desc: ["Le Leviathan conclut l'Acte II. Vérifie les moyens de respiration, de déplacement et de repli avant de provoquer la rencontre."]
-	quest.65C2700000000009.title: "Fin de l'Acte II"
-	quest.65C2700000000009.quest_subtitle: "Un second choix Armory"
-	quest.65C2700000000009.quest_desc: ["Présente les trois preuves de victoire de l'Acte II. Elles sont vérifiées sans être consommées. Le second choix Armory renforce une voie existante ou ouvre une autre spécialisation."]
+	quest.65C27A0000000009.title: "Fin de l'Acte II"
+	quest.65C27A0000000009.quest_subtitle: "Un second choix Armory"
+	quest.65C27A0000000009.quest_desc: ["Présente les trois preuves de victoire de l'Acte II. Elles sont vérifiées sans être consommées. Le second choix Armory renforce une voie existante ou ouvre une autre spécialisation."]
 	quest.65C270000000000A.title: "Maledictus"
 	quest.65C270000000000A.quest_subtitle: "Acte III - Les souverains déchus"
 	quest.65C270000000000A.quest_desc: ["Maledictus inaugure le dernier acte. Entre avec un équipement réparé, des consommables identifiés et une stratégie de retrait claire."]
 	quest.65C270000000000B.title: "Ignis"
 	quest.65C270000000000B.quest_desc: ["Ignis conclut la campagne actuelle. Les plafonds natifs empêchent de remplacer la maîtrise du combat par un simple excès de dégâts."]
-	quest.65C270000000000C.title: "Ascendant"
-	quest.65C270000000000C.quest_subtitle: "Fin de la campagne actuelle"
-	quest.65C270000000000C.quest_desc: ["Présente un lingot de Cursium et un lingot d'Ignitium, sans consommation, pour valider la campagne actuelle. L'endgame reste ensuite ouvert aux boss, builds, villes et futurs chapitres."]
+	quest.65C27A000000000C.title: "Ascendant"
+	quest.65C27A000000000C.quest_subtitle: "Fin de la campagne actuelle"
+	quest.65C27A000000000C.quest_desc: ["Présente un lingot de Cursium et un lingot d'Ignitium, sans consommation, pour valider la campagne actuelle. L'endgame reste ensuite ouvert aux boss, builds, villes et futurs chapitres."]
 	quest.65C270000000000D.title: "Ignited Revenant"
 	quest.65C270000000000D.quest_subtitle: "Miniboss facultatif"
 	quest.65C270000000000D.quest_desc: ["Les minibosses sont des objectifs annexes et des sources privilégiées de ressources RPG ou de Relics. Ils ne bloquent jamais la campagne principale."]

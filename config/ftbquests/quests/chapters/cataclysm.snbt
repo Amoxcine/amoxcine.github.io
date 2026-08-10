@@ -75,7 +75,7 @@
 				"65C2700000000003"
 				"65C2700000000004"
 			]
-			id: "65C2700000000005"
+			id: "65C27A0000000005"
 			icon: { count: 1, id: "cataclysm:monstrous_horn" }
 			tasks: [
 				{
@@ -105,7 +105,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["65C2700000000005"]
+			dependencies: ["65C27A0000000005"]
 			id: "65C2700000000006"
 			icon: { count: 1, id: "cataclysm:remnant_skull" }
 			shape: "hexagon"
@@ -119,7 +119,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["65C2700000000005"]
+			dependencies: ["65C27A0000000005"]
 			id: "65C2700000000007"
 			icon: { count: 1, id: "cataclysm:essence_of_the_storm" }
 			shape: "hexagon"
@@ -133,7 +133,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["65C2700000000005"]
+			dependencies: ["65C27A0000000005"]
 			id: "65C2700000000008"
 			icon: { count: 1, id: "cataclysm:abyssal_egg" }
 			shape: "hexagon"
@@ -152,7 +152,7 @@
 				"65C2700000000007"
 				"65C2700000000008"
 			]
-			id: "65C2700000000009"
+			id: "65C27A0000000009"
 			icon: { count: 1, id: "cataclysm:remnant_skull" }
 			tasks: [
 				{
@@ -182,7 +182,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["65C2700000000009"]
+			dependencies: ["65C27A0000000009"]
 			id: "65C270000000000A"
 			icon: { count: 1, id: "cataclysm:cursium_ingot" }
 			shape: "hexagon"
@@ -196,7 +196,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["65C2700000000009"]
+			dependencies: ["65C27A0000000009"]
 			id: "65C270000000000B"
 			icon: { count: 1, id: "cataclysm:ignitium_ingot" }
 			shape: "hexagon"
@@ -214,7 +214,7 @@
 				"65C270000000000A"
 				"65C270000000000B"
 			]
-			id: "65C270000000000C"
+			id: "65C27A000000000C"
 			icon: { count: 1, id: "minecraft:nether_star" }
 			tasks: [
 				{
@@ -281,7 +281,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["65C270000000000C"]
+			dependencies: ["65C27A000000000C"]
 			id: "65C2700000000010"
 			icon: { count: 1, id: "minecraft:nether_star" }
 			shape: "hexagon"

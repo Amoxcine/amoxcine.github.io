@@ -62,7 +62,7 @@ hash = "f912e1eaf8b6ded442d2e5b6bfaf29271afa430934163d5a08143008886bf415"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cataclysm.snbt"
-hash = "3624be63c40c804b8dad2cf640414d94bab5bfc1d12220977ca0e338d13b0218"
+hash = "bb027910354a9d79b33785fb9361952ccc409a00407d2f0fd5b6fb32a057c810"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat_et_magie.snbt"
@@ -122,7 +122,7 @@ hash = "5e6e01ca3246c98911f2d614a6e295565e0c42a5f1141219842faef855797d02"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "c152f264f4c808a0ca0876683ca0fa82358db55072f0a5e4bd94e99bf18ec843"
+hash = "d76de9f941607519ac1f52279bbac14f53c73e998aa79f0f1528780436fea084"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/acte_1_armory.snbt"
