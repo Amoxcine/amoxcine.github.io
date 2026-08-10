@@ -670,11 +670,6 @@ hash = "53bf1c78396a51736fc24edf43ad384df191ee36fe84286956e854ffa162d9f5"
 metafile = true
 
 [[files]]
-file = "mods/rinku.pw.toml"
-hash = "a1d1e89507119eb0d064c7da1190e08d4eee5a08e627675cc31d9f8b2eb586d3"
-metafile = true
-
-[[files]]
 file = "mods/rogues-and-warriors.pw.toml"
 hash = "a24bd7b373ca27e5eb35853661a6917efff217f72178623cf4468d25014d80af"
 metafile = true
