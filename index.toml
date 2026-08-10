@@ -326,6 +326,11 @@ hash = "c1758e37c8a2e8f884f5c1b8b11f71bbe0bd18c40df00c93c93d4341b943405a"
 metafile = true
 
 [[files]]
+file = "mods/create-framed.pw.toml"
+hash = "4744275b4d8f42696051832986adc4b007fcca77dc3a4dda4bb4cd77a946f544"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
 metafile = true
@@ -757,6 +762,11 @@ metafile = true
 [[files]]
 file = "mods/spell-power.pw.toml"
 hash = "1c58c757001374e1c58ae4adc2ddaec6d9c706964d82d305e2d5bede8cdd0242"
+metafile = true
+
+[[files]]
+file = "mods/storage-drawers.pw.toml"
+hash = "9f0cd1d096b591cb49077fbe4f95a1e24a93354cd9b4d77e74c49af2d29381cf"
 metafile = true
 
 [[files]]
