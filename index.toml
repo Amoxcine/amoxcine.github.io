@@ -130,7 +130,7 @@ hash = "5e6e01ca3246c98911f2d614a6e295565e0c42a5f1141219842faef855797d02"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "df0c463b3a449af8561562ef4ae27513879fc3a573727f0620e5cce21f70a99f"
+hash = "450a1bd4d9383f8fb48e40b9c568343fbb51ffa0da56f6753d21b483a7f4f119"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/acte_1_armory.snbt"
