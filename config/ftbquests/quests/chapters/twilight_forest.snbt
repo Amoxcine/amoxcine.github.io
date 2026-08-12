@@ -4,18 +4,95 @@
 	filename: "twilight_forest"
 	group: "65C0000000000101"
 	id: "65C1000000000005"
-	icon: { count: 1, id: "twilightforest:magic_map" }
+	icon: { count: 1, id: "twilightforest:filled_magic_map" }
 	images: [ ]
 	order_index: 2
 	quest_links: [{
 		id: "65C5500000000001"
 		linked_quest: "65C2600000000001"
 		x: 0.0d
-		y: 12.0d
+		y: 51.0d
 	}]
 	quests: [
 		{
 			dependencies: ["65C2100000000004"]
+			id: "65C250000000000F"
+			icon: { count: 1, id: "minecraft:diamond" }
+			tasks: [{
+				id: "65C350000000000F"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["65C250000000000F"]
+			id: "65C2500000000002"
+			icon: { count: 1, id: "twilightforest:twilight_portal_miniature_structure" }
+			shape: "hexagon"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "65C3500000000002"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["65C2500000000002"]
+			id: "65C2500000000010"
+			icon: { count: 1, id: "twilightforest:raven_feather" }
+			tasks: [{
+				id: "65C3500000000010"
+				item: { count: 1, id: "twilightforest:raven_feather" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["65C2500000000002"]
+			id: "65C2500000000011"
+			icon: { count: 1, id: "twilightforest:torchberries" }
+			tasks: [{
+				id: "65C3500000000011"
+				item: { count: 1, id: "twilightforest:torchberries" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["65C2500000000002"]
+			id: "65C2500000000012"
+			icon: { count: 1, id: "minecraft:glowstone_dust" }
+			tasks: [{
+				id: "65C3500000000012"
+				item: { count: 1, id: "minecraft:glowstone_dust" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -18.0d
+		}
+		{
+			dependencies: [
+				"65C2500000000010"
+				"65C2500000000011"
+				"65C2500000000012"
+			]
+			id: "65C2500000000013"
+			icon: { count: 1, id: "twilightforest:magic_map_focus" }
+			tasks: [{
+				id: "65C3500000000013"
+				item: { count: 1, id: "twilightforest:magic_map_focus" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["65C2500000000013"]
 			id: "65C2500000000001"
 			icon: { count: 1, id: "twilightforest:magic_map" }
 			tasks: [{
@@ -24,150 +101,576 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -10.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["65C2500000000001"]
-			id: "65C2500000000002"
-			icon: { count: 1, id: "twilightforest:magic_map" }
-			shape: "hexagon"
+			id: "65C2500000000014"
+			icon: { count: 1, id: "twilightforest:filled_magic_map" }
 			tasks: [{
-				dimension: "twilightforest:twilight_forest"
-				id: "65C3500000000002"
-				type: "dimension"
+				id: "65C3500000000014"
+				item: { count: 1, id: "twilightforest:filled_magic_map" }
+				type: "item"
 			}]
 			x: 0.0d
-			y: -8.0d
+			y: -11.0d
 		}
 		{
-			dependencies: ["65C2500000000002"]
+			dependencies: ["65C2500000000014"]
 			id: "65C2500000000003"
 			icon: { count: 1, id: "twilightforest:naga_trophy" }
 			shape: "hexagon"
 			tasks: [{
+				id: "65C3600000000003"
+				structure: "twilightforest:naga_courtyard"
+				type: "structure"
+			}
+			{
 				entity: "twilightforest:naga"
 				id: "65C3500000000003"
 				type: "kill"
 				value: 1L
 			}]
 			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["65C2500000000003"]
+			id: "65C2500000000015"
+			icon: { count: 1, id: "twilightforest:naga_scale" }
+			optional: true
+			tasks: [{
+				id: "65C3500000000015"
+				item: { count: 1, id: "twilightforest:naga_scale" }
+				type: "item"
+			}]
+			x: -1.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["65C2500000000003"]
+			id: "65C2500000000016"
+			icon: { count: 1, id: "twilightforest:naga_trophy" }
+			optional: true
+			tasks: [{
+				id: "65C3500000000016"
+				item: { count: 1, id: "twilightforest:naga_trophy" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["65C2500000000003"]
+			id: "65C2500000000017"
+			icon: { count: 1, id: "twilightforest:naga_courtyard_miniature_structure" }
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+				id: "65C3500000000017"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65C2500000000017"]
 			id: "65C2500000000004"
 			icon: { count: 1, id: "twilightforest:lich_trophy" }
 			shape: "hexagon"
 			tasks: [{
+				id: "65C3600000000004"
+				structure: "twilightforest:lich_tower"
+				type: "structure"
+			}
+			{
 				entity: "twilightforest:lich"
 				id: "65C3500000000004"
 				type: "kill"
 				value: 1L
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["65C2500000000004"]
+			id: "65C2500000000018"
+			icon: { count: 1, id: "twilightforest:lich_trophy" }
+			optional: true
+			tasks: [{
+				id: "65C3500000000018"
+				item: { count: 1, id: "twilightforest:lich_trophy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["65C2500000000004"]
+			id: "65C2500000000019"
+			icon: { count: 1, id: "twilightforest:lich_tower_miniature_structure" }
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				id: "65C3500000000019"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65C2500000000019"]
+			id: "65C250000000001A"
+			icon: { count: 1, id: "twilightforest:maze_map_focus" }
+			optional: true
+			tasks: [{
+				id: "65C350000000001A"
+				item: { count: 1, id: "twilightforest:maze_map_focus" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["65C250000000001A"]
+			id: "65C250000000001B"
+			icon: { count: 1, id: "twilightforest:maze_map" }
+			optional: true
+			tasks: [{
+				id: "65C350000000001B"
+				item: { count: 1, id: "twilightforest:maze_map" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["65C2500000000019"]
 			id: "65C2500000000005"
 			icon: { count: 1, id: "twilightforest:minoshroom_trophy" }
+			shape: "hexagon"
 			tasks: [{
+				id: "65C3600000000005"
+				structure: "twilightforest:labyrinth"
+				type: "structure"
+			}
+			{
 				entity: "twilightforest:minoshroom"
 				id: "65C3500000000005"
 				type: "kill"
 				value: 1L
 			}]
-			x: -5.0d
-			y: -1.5d
+			x: -9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["65C2500000000005"]
+			id: "65C250000000001C"
+			icon: { count: 1, id: "twilightforest:meef_stroganoff" }
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+				id: "65C350000000001C"
+				type: "advancement"
+			}]
+			x: -9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["65C250000000001C"]
 			id: "65C2500000000006"
 			icon: { count: 1, id: "twilightforest:hydra_trophy" }
 			shape: "hexagon"
 			tasks: [{
+				id: "65C3600000000006"
+				structure: "twilightforest:hydra_lair"
+				type: "structure"
+			}
+			{
 				entity: "twilightforest:hydra"
 				id: "65C3500000000006"
 				type: "kill"
 				value: 1L
 			}]
-			x: -5.0d
-			y: 1.0d
+			x: -9.0d
+			y: 14.0d
 		}
 		{
-			dependencies: ["65C2500000000004"]
-			id: "65C2500000000007"
-			icon: { count: 1, id: "twilightforest:knight_phantom_trophy" }
+			dependencies: ["65C2500000000006"]
+			id: "65C250000000001D"
+			icon: { count: 1, id: "twilightforest:fiery_blood" }
+			optional: true
 			tasks: [{
-				entity: "twilightforest:knight_phantom"
-				id: "65C3500000000007"
-				type: "kill"
-				value: 1L
+				id: "65C350000000001D"
+				item: { count: 1, id: "twilightforest:fiery_blood" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["65C2500000000006"]
+			id: "65C250000000001E"
+			icon: { count: 1, id: "twilightforest:hydra_trophy" }
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				id: "65C350000000001E"
+				type: "advancement"
+			}]
+			x: -9.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["65C2500000000019"]
+			id: "65C250000000001F"
+			icon: { count: 1, id: "twilightforest:trophy_pedestal" }
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:progress_trophy_pedestal"
+				criterion: ""
+				id: "65C350000000001F"
+				type: "advancement"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["65C250000000001F"]
+			id: "65C2500000000007"
+			icon: { count: 1, id: "twilightforest:knight_phantom_trophy" }
+			shape: "hexagon"
+			tasks: [{
+				id: "65C3600000000007"
+				structure: "twilightforest:knight_stronghold"
+				type: "structure"
+			}
+			{
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+				id: "65C3500000000007"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["65C2500000000007"]
+			id: "65C2500000000020"
+			icon: { count: 1, id: "twilightforest:knight_phantom_trophy" }
+			optional: true
+			tasks: [{
+				id: "65C3500000000020"
+				item: { count: 1, id: "twilightforest:knight_phantom_trophy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["65C2500000000007"]
+			id: "65C2500000000021"
+			icon: { count: 1, id: "twilightforest:carminite" }
+			tasks: [{
+				id: "65C3500000000021"
+				item: { count: 1, id: "twilightforest:carminite" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["65C2500000000021"]
+			id: "65C2500000000022"
+			icon: { count: 1, id: "twilightforest:ghast_trap" }
+			tasks: [{
+				advancement: "twilightforest:ghast_trap"
+				criterion: ""
+				id: "65C3500000000022"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["65C2500000000022"]
 			id: "65C2500000000008"
 			icon: { count: 1, id: "twilightforest:ur_ghast_trophy" }
 			shape: "hexagon"
 			tasks: [{
+				id: "65C3600000000008"
+				structure: "twilightforest:dark_tower"
+				type: "structure"
+			}
+			{
 				entity: "twilightforest:ur_ghast"
 				id: "65C3500000000008"
 				type: "kill"
 				value: 1L
 			}]
 			x: 0.0d
-			y: 1.0d
+			y: 19.0d
 		}
 		{
-			dependencies: ["65C2500000000004"]
+			dependencies: ["65C2500000000008"]
+			id: "65C2500000000023"
+			icon: { count: 1, id: "twilightforest:ur_ghast_trophy" }
+			optional: true
+			tasks: [{
+				id: "65C3500000000023"
+				item: { count: 1, id: "twilightforest:ur_ghast_trophy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["65C2500000000008"]
+			id: "65C2500000000024"
+			icon: { count: 1, id: "twilightforest:dark_tower_miniature_structure" }
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:progress_ur_ghast"
+				criterion: ""
+				id: "65C3500000000024"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["65C2500000000019"]
 			id: "65C2500000000009"
 			icon: { count: 1, id: "twilightforest:alpha_yeti_trophy" }
+			shape: "hexagon"
 			tasks: [{
+				id: "65C3600000000009"
+				structure: "twilightforest:yeti_cave"
+				type: "structure"
+			}
+			{
 				entity: "twilightforest:alpha_yeti"
 				id: "65C3500000000009"
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["65C2500000000009"]
+			id: "65C2500000000025"
+			icon: { count: 1, id: "twilightforest:alpha_yeti_fur" }
+			optional: true
+			tasks: [{
+				id: "65C3500000000025"
+				item: { count: 1, id: "twilightforest:alpha_yeti_fur" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["65C2500000000009"]
+			id: "65C2500000000026"
+			icon: { count: 1, id: "twilightforest:alpha_yeti_fur" }
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:progress_yeti"
+				criterion: ""
+				id: "65C3500000000026"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["65C2500000000026"]
 			id: "65C250000000000A"
 			icon: { count: 1, id: "twilightforest:snow_queen_trophy" }
 			shape: "hexagon"
 			tasks: [{
+				id: "65C360000000000A"
+				structure: "twilightforest:aurora_palace"
+				type: "structure"
+			}
+			{
 				entity: "twilightforest:snow_queen"
 				id: "65C350000000000A"
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 9.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["65C250000000000A"]
+			id: "65C2500000000027"
+			icon: { count: 1, id: "twilightforest:snow_queen_trophy" }
+			optional: true
+			tasks: [{
+				id: "65C3500000000027"
+				item: { count: 1, id: "twilightforest:snow_queen_trophy" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["65C250000000000A"]
+			id: "65C2500000000028"
+			icon: { count: 1, id: "twilightforest:snow_queen_trophy" }
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+				id: "65C3500000000028"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 19.0d
 		}
 		{
 			dependencies: [
-				"65C2500000000006"
-				"65C2500000000008"
-				"65C250000000000A"
+				"65C250000000001E"
+				"65C2500000000024"
+				"65C2500000000028"
 			]
 			id: "65C250000000000B"
-			icon: { count: 1, id: "twilightforest:magic_map" }
+			icon: { count: 1, id: "twilightforest:uberous_soil" }
 			shape: "hexagon"
 			tasks: [{
+				advancement: "twilightforest:progress_merge"
+				criterion: ""
 				id: "65C350000000000B"
-				type: "checkmark"
+				type: "advancement"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 26.0d
 		}
 		{
 			dependencies: ["65C250000000000B"]
+			id: "65C2500000000029"
+			icon: { count: 1, id: "twilightforest:magic_beans" }
+			tasks: [{
+				id: "65C3600000000029"
+				structure: "twilightforest:troll_cave"
+				type: "structure"
+			}
+			{
+				advancement: "twilightforest:troll"
+				criterion: ""
+				id: "65C3500000000029"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["65C2500000000029"]
+			id: "65C250000000002A"
+			icon: { count: 1, id: "twilightforest:magic_beans" }
+			tasks: [{
+				id: "65C350000000002A"
+				item: { count: 1, id: "twilightforest:magic_beans" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 31.0d
+		}
+		{
+			dependencies: ["65C2500000000029"]
+			id: "65C250000000002B"
+			icon: { count: 1, id: "twilightforest:uberous_soil" }
+			tasks: [{
+				id: "65C350000000002B"
+				item: { count: 1, id: "twilightforest:uberous_soil" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 31.0d
+		}
+		{
+			dependencies: [
+				"65C250000000002A"
+				"65C250000000002B"
+			]
+			id: "65C250000000002C"
+			icon: { count: 1, id: "twilightforest:huge_stalk" }
+			tasks: [{
+				advancement: "twilightforest:beanstalk"
+				criterion: ""
+				id: "65C350000000002C"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["65C250000000002C"]
+			id: "65C250000000002D"
+			icon: { count: 1, id: "twilightforest:giant_pickaxe" }
+			tasks: [{
+				id: "65C360000000002D"
+				structure: "twilightforest:giant_house"
+				type: "structure"
+			}
+			{
+				entity: "twilightforest:giant_miner"
+				id: "65C350000000002D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["65C250000000002D"]
+			id: "65C250000000002E"
+			icon: { count: 1, id: "twilightforest:giant_pickaxe" }
+			tasks: [{
+				id: "65C350000000002E"
+				item: { count: 1, id: "twilightforest:giant_pickaxe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 38.0d
+		}
+		{
+			dependencies: ["65C250000000002E"]
+			id: "65C250000000002F"
+			icon: { count: 1, id: "twilightforest:lamp_of_cinders" }
+			shape: "hexagon"
+			tasks: [{
+				id: "65C350000000002F"
+				item: { count: 1, id: "twilightforest:lamp_of_cinders" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["65C250000000002F"]
+			id: "65C2500000000030"
+			icon: { count: 1, id: "twilightforest:castle_brick" }
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:progression_end"
+				criterion: ""
+				id: "65C3500000000030"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 43.0d
+		}
+		{
+			dependencies: ["65C2500000000030"]
 			id: "65C250000000000C"
-			icon: { count: 1, id: "twilightforest:magic_map" }
+			icon: { count: 1, id: "twilight_forest_final_boss:castle_keeper_spawn_egg" }
 			optional: true
 			tasks: [{
 				entity: "twilight_forest_final_boss:castle_keeper"
@@ -176,31 +679,32 @@
 				value: 1L
 			}]
 			x: -3.0d
-			y: 7.0d
+			y: 46.0d
 		}
 		{
 			dependencies: ["65C2500000000003"]
 			id: "65C250000000000D"
-			icon: { count: 1, id: "minecraft:nether_star" }
+			icon: { count: 1, id: "tfbr:respawn_naga" }
 			optional: true
 			tasks: [{
 				id: "65C350000000000D"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 7.0d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["65C250000000000B"]
+			dependencies: ["65C2500000000030"]
 			id: "65C250000000000E"
-			icon: { count: 1, id: "twilightforest:magic_map" }
+			icon: { count: 1, id: "twilightforest:lamp_of_cinders" }
 			shape: "hexagon"
 			tasks: [{
 				id: "65C350000000000E"
-				type: "checkmark"
+				item: { count: 1, id: "twilightforest:lamp_of_cinders" }
+				type: "item"
 			}]
 			x: 0.0d
-			y: 9.0d
+			y: 48.0d
 		}
 	]
 }

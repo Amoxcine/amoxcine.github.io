@@ -122,7 +122,7 @@ hash = "e97a6e7c19efa6dc079f6a703d8189dc557e7d86d081950cb80e12263ce1d7a5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/twilight_forest.snbt"
-hash = "daecd1a3564dfff7a4d7cac49fb10df585a32d51d25d89a316b6644cb4789563"
+hash = "77b26ab6d4e1efdba1561a1c478440bcd525f424d8a5fc078800b84dcf9ff77b"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -130,7 +130,7 @@ hash = "5e6e01ca3246c98911f2d614a6e295565e0c42a5f1141219842faef855797d02"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "7ff1f48f88c9f067d368a12314425c8bdeb5e3c2ba2aaf77bb0343067892d2c4"
+hash = "df0c463b3a449af8561562ef4ae27513879fc3a573727f0620e5cce21f70a99f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/acte_1_armory.snbt"

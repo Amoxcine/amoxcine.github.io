@@ -110,44 +110,300 @@
 	quest.65C240000000000A.title: "Prêt à explorer"
 	quest.65C240000000000A.quest_desc: ["Tu disposes des bases pour tester un build. Twilight Forest constitue le premier terrain de campagne, mais tu peux continuer chaque magie comme une aventure annexe."]
 
-	quest.65C2500000000001.title: "Cartographier le crépuscule"
-	quest.65C2500000000001.quest_subtitle: "Campagne aventure - Tier I"
-	quest.65C2500000000001.quest_desc: [
-		"La Magic Map révèle les grandes structures de Twilight Forest. Elle reste ton outil principal : le livre indique une direction, pas des coordonnées."
+	quest.65C250000000000F.title: "Préparer le portail"
+	quest.65C250000000000F.quest_subtitle: "Campagne aventure - Tier I"
+	quest.65C250000000000F.quest_desc: [
+		"Creuse un bassin de 2 x 2 blocs, profond d'un bloc, puis remplis les quatre cases avec des sources d'eau."
 		""
-		"Twilight est conçue comme le premier palier aventure. Évite d'y entrer immédiatement avec un équipement industriel endgame si tu souhaites conserver l'intérêt des combats."
+		"Entoure complètement le bassin de terre ou d'herbe portant des fleurs, champignons, fougères, feuilles ou jeunes pousses. Jette ensuite un diamant dans l'eau."
+		""
+		"La foudre d'activation peut provoquer un incendie dans Ascendant : écarte les blocs inflammables et recule après avoir jeté le diamant."
 	]
-	quest.65C2500000000002.title: "La Twilight Forest"
-	quest.65C2500000000002.quest_desc: ["Traverse le portail et établis un camp. Les Waystones ne peuvent pas téléporter vers, depuis ou à l'intérieur de cette dimension."]
+	quest.65C2500000000002.title: "Franchir le portail"
+	quest.65C2500000000002.quest_desc: [
+		"Entre dans la Twilight Forest. Le portail de retour apparaît normalement près de ton point d'arrivée."
+		""
+		"Pose immédiatement un repère sur ta carte et sécurise les alentours. Les Waystones ne fonctionnent ni vers, ni depuis, ni à l'intérieur de cette dimension."
+		""
+		"La progression native est individuelle : chaque joueur doit participer et ramasser les objets-clés des boss pour lever ses propres protections de biome."
+	]
+	quest.65C2500000000010.title: "Une plume de corbeau"
+	quest.65C2500000000010.quest_desc: [
+		"Cherche un Forest Raven à la surface de la Twilight Forest. Ces petits corbeaux noirs laissent parfois une Raven Feather."
+		""
+		"Cette ressource n'est pas disponible avant l'entrée dans la dimension : elle constitue la première étape de la Magic Map."
+	]
+	quest.65C2500000000011.title: "Des Torchberries"
+	quest.65C2500000000011.quest_desc: [
+		"Explore une petite grotte ou les racines sous les arbres. Les Torchberries poussent sous terre et émettent une faible lumière."
+		""
+		"Récolte-en au moins une pour le Magic Map Focus."
+	]
+	quest.65C2500000000012.title: "Une poussière lumineuse"
+	quest.65C2500000000012.quest_desc: [
+		"Il faut une Glowstone Dust pour compléter le focus. Tu peux l'avoir apportée du Nether ou en récupérer par une autre source du modpack."
+		""
+		"Consulte JEI si tu ne connais pas encore les moyens disponibles dans Ascendant."
+	]
+	quest.65C2500000000013.title: "Le Magic Map Focus"
+	quest.65C2500000000013.quest_desc: [
+		"Assemble sans forme imposée une Raven Feather, une Torchberry et une Glowstone Dust."
+		""
+		"Le résultat est le cœur de la carte magique."
+	]
+	quest.65C2500000000001.title: "La Blank Magic Map"
+	quest.65C2500000000001.quest_desc: [
+		"Place le Magic Map Focus au centre d'une table de craft et entoure-le de huit feuilles de papier."
+		""
+		"Tu obtiens une Blank Magic Map. Elle n'affiche encore rien : elle doit être ouverte dans la Twilight Forest."
+	]
+	quest.65C2500000000014.title: "Ouvrir la Magic Map"
+	quest.65C2500000000014.quest_desc: [
+		"Utilise la Blank Magic Map pendant que tu te trouves dans la Twilight Forest. Elle devient une Filled Magic Map centrée sur ta position."
+		""
+		"Ses symboles représentent les principaux donjons. La carte indique où chercher, mais elle ne remplace pas l'exploration du terrain."
+	]
 	quest.65C2500000000003.title: "La Naga"
-	quest.65C2500000000003.quest_desc: ["Repère une cour de Naga sur la Magic Map. Observe ses déplacements et garde l'arène dégagée : cette victoire ouvre la progression principale."]
+	quest.65C2500000000003.quest_desc: [
+		"Repère une grande cour carrée sur la Magic Map. La Naga est le premier boss obligatoire."
+		""
+		"Combats dans l'arène, reste mobile et évite ses charges. Elle raccourcit à mesure qu'elle perd des points de vie."
+		""
+		"Après la victoire, ne quitte pas l'arène avant que chaque joueur concerné ait ramassé ou touché les écailles et le trophée."
+	]
+	quest.65C2500000000015.title: "Les écailles de Naga"
+	quest.65C2500000000015.quest_subtitle: "Butin facultatif"
+	quest.65C2500000000015.quest_desc: [
+		"Ramasse une Naga Scale. Avec la progression renforcée active, cet objet participe au déblocage de la tour du Lich."
+		""
+		"En multijoueur, faites circuler les objets-clés entre les participants avant de les ranger."
+	]
+	quest.65C2500000000016.title: "Le trophée de Naga"
+	quest.65C2500000000016.quest_subtitle: "Butin facultatif"
+	quest.65C2500000000016.quest_desc: [
+		"Conserve le Naga Trophy. Il prouve la victoire et pourra aussi servir plus tard à ouvrir la forteresse des Chevaliers fantômes."
+	]
+	quest.65C2500000000017.title: "La tour du Lich est accessible"
+	quest.65C2500000000017.quest_desc: [
+		"L'advancement natif de la Naga confirme que le jeu a enregistré la victoire et ses objets-clés."
+		""
+		"Si la quête reste incomplète, vérifie que ton personnage a bien participé au combat et pris en main le trophée ainsi qu'une écaille."
+	]
 	quest.65C2500000000004.title: "Le Twilight Lich"
-	quest.65C2500000000004.quest_desc: ["La tour du Lich demande davantage de préparation que la cour de Naga. Sa défaite ouvre trois routes que ton équipe peut accomplir dans l'ordre souhaité."]
+	quest.65C2500000000004.quest_desc: [
+		"Trouve une haute tour coiffée de plusieurs petites tours. Monte avec des blocs, de la nourriture et une arme à distance."
+		""
+		"Au début du combat, renvoie les projectiles du véritable Lich pour briser ses boucliers. Ignore ses copies transparentes. Il invoque ensuite des créatures, puis termine au corps à corps."
+		""
+		"Sa défaite ouvre trois branches indépendantes : marais, forêt sombre et neiges."
+	]
+	quest.65C2500000000018.title: "Le trophée du Lich"
+	quest.65C2500000000018.quest_subtitle: "Butin facultatif"
+	quest.65C2500000000018.quest_desc: [
+		"Ramasse le Lich Trophy et vérifie aussi le coffre ou les objets tombés au sol. Le Lich fournit notamment l'un de ses sceptres."
+		""
+		"Fais toucher le trophée et le butin aux autres participants pour que leur progression personnelle soit reconnue."
+	]
+	quest.65C2500000000019.title: "Trois routes s'ouvrent"
+	quest.65C2500000000019.quest_desc: [
+		"La victoire du Lich déverrouille les trois branches affichées ci-dessous. Tu peux les terminer dans l'ordre de ton choix."
+		""
+		"Marais : Minoshroom puis Hydre. Forêt sombre : Chevaliers fantômes puis Ur-Ghast. Neiges : Alpha Yeti puis Reine des neiges."
+	]
+	quest.65C250000000001A.title: "Maze Map Focus"
+	quest.65C250000000001A.quest_subtitle: "Aide facultative pour le labyrinthe"
+	quest.65C250000000001A.quest_desc: [
+		"Les Minotaurs et certains coffres du labyrinthe peuvent fournir un Maze Map Focus."
+		""
+		"Il n'est pas obligatoire, mais il réduit fortement le risque de tourner en rond dans ce donjon à deux niveaux."
+	]
+	quest.65C250000000001B.title: "La Maze Map"
+	quest.65C250000000001B.quest_subtitle: "Aide facultative pour le labyrinthe"
+	quest.65C250000000001B.quest_desc: [
+		"Entoure un Maze Map Focus de huit feuilles de papier, puis active la carte à l'intérieur du labyrinthe."
+		""
+		"Sans cette carte, marque les intersections avec des blocs faciles à reconnaître et garde toujours un chemin de retour."
+	]
 	quest.65C2500000000005.title: "Le Minoshroom"
 	quest.65C2500000000005.quest_subtitle: "Branche des marais"
-	quest.65C2500000000005.quest_desc: ["Descends dans le labyrinthe et conserve de quoi marquer ton trajet. Le Minoshroom garde la progression vers les profondeurs du marais."]
+	quest.65C2500000000005.quest_desc: [
+		"Cherche un tertre donnant accès au Labyrinth dans un Twilight Swamp. Le Minoshroom se trouve au deuxième niveau, pas au premier."
+		""
+		"Emporte beaucoup de nourriture, des torches et de quoi marquer les passages. Les murs du labyrinthe résistent fortement au minage ordinaire."
+		""
+		"Après le combat, ramasse surtout le Meef Stroganoff : le tuer seul ne suffit pas à ouvrir le Fire Swamp."
+	]
+	quest.65C250000000001C.title: "Manger le Meef Stroganoff"
+	quest.65C250000000001C.quest_desc: [
+		"Mange une portion de Meef Stroganoff obtenue sur le Minoshroom. Cette consommation, et non la seule mort du boss, lève la protection du Fire Swamp."
+		""
+		"Chaque joueur doit effectuer cette action sur son propre personnage."
+	]
 	quest.65C2500000000006.title: "L'Hydre"
-	quest.65C2500000000006.quest_desc: ["Prépare résistance au feu, nourriture et espace de manœuvre. L'Hydre conclut la branche des marais."]
+	quest.65C2500000000006.quest_desc: [
+		"Cherche une grande colline éventrée au centre d'un Fire Swamp. Prépare résistance au feu, nourriture et espace de déplacement."
+		""
+		"Vise les têtes lorsqu'elles ouvrent la gueule pour attaquer. Les coups portés au corps sont beaucoup moins utiles. Évite de rester face à plusieurs têtes."
+		""
+		"La victoire termine la branche des marais."
+	]
+	quest.65C250000000001D.title: "Le sang ardent"
+	quest.65C250000000001D.quest_subtitle: "Butin facultatif"
+	quest.65C250000000001D.quest_desc: [
+		"Ramasse du Fiery Blood dans le butin de l'Hydre. Conserve-le : il sert à fabriquer l'équipement Fiery et matérialise cette étape de progression."
+	]
+	quest.65C250000000001E.title: "Branche des marais terminée"
+	quest.65C250000000001E.quest_desc: [
+		"L'advancement de l'Hydre confirme que cette route est validée. Il faudra aussi terminer les routes de la forêt sombre et des neiges pour entrer dans les Highlands sans pluie acide."
+	]
+	quest.65C250000000001F.title: "Ouvrir la forteresse sombre"
+	quest.65C250000000001F.quest_subtitle: "Branche de la forêt sombre"
+	quest.65C250000000001F.quest_desc: [
+		"Dans la Dark Forest, cherche une Goblin Knight Stronghold souterraine. L'entrée protégée contient un Trophy Pedestal."
+		""
+		"Pose n'importe quel trophée de boss Twilight sur le piédestal. Lorsque le jeu valide l'action, la protection de l'entrée disparaît. Tu peux ensuite récupérer ton trophée."
+	]
 	quest.65C2500000000007.title: "Les Chevaliers fantômes"
-	quest.65C2500000000007.quest_subtitle: "Branche de la forêt sombre"
-	quest.65C2500000000007.quest_desc: ["La forteresse sombre est un donjon complet. Progresse méthodiquement et sécurise le retour avant d'engager les Chevaliers."]
+	quest.65C2500000000007.quest_desc: [
+		"Explore la forteresse jusqu'à une grande salle funéraire. Le combat oppose l'équipe à plusieurs Knight Phantoms : une seule élimination ne suffit pas."
+		""
+		"Reste en mouvement pendant leurs formations et élimine tout le groupe. Un coffre de récompense apparaît lorsque la rencontre est réellement terminée."
+	]
+	quest.65C2500000000020.title: "Le trophée des Chevaliers"
+	quest.65C2500000000020.quest_subtitle: "Butin facultatif"
+	quest.65C2500000000020.quest_desc: [
+		"Récupère le Knight Phantom Trophy dans le coffre apparu après le combat. Cette victoire lève la protection de la Dark Tower."
+	]
+	quest.65C2500000000021.title: "Trouver de la Carminite"
+	quest.65C2500000000021.quest_desc: [
+		"Entre dans la Dark Tower située au centre d'une Dark Forest et récupère de la Carminite dans le donjon."
+		""
+		"Prévois une longue ascension, des blocs, de la nourriture et du matériel de rechange. La tour contient des mécanismes et des salles dangereuses."
+	]
+	quest.65C2500000000022.title: "Activer un Ghast Trap"
+	quest.65C2500000000022.quest_desc: [
+		"Dans les parties supérieures de la tour, élimine des Carminite Ghastlings près d'un Ghast Trap pour le charger. Lorsqu'il est prêt, active-le avec un signal de redstone."
+		""
+		"Le piège attire et immobilise les ghasts. Comprendre ce mécanisme prépare directement le combat contre l'Ur-Ghast."
+	]
 	quest.65C2500000000008.title: "L'Ur-Ghast"
-	quest.65C2500000000008.quest_desc: ["La tour sombre impose une longue ascension. Emporte du matériel de rechange et lis l'arène avant d'engager son gardien."]
+	quest.65C2500000000008.quest_desc: [
+		"L'Ur-Ghast attend au sommet de la Dark Tower. Utilise les Ghast Traps de l'arène : charge-les avec les créatures invoquées, puis active-les pour attirer le boss au sol."
+		""
+		"Détruis rapidement les groupes de ghasts et évite de rester sous les attaques de zone. La victoire termine la branche de la forêt sombre."
+	]
+	quest.65C2500000000023.title: "Le trophée de l'Ur-Ghast"
+	quest.65C2500000000023.quest_subtitle: "Butin facultatif"
+	quest.65C2500000000023.quest_desc: [
+		"Ramasse l'Ur-Ghast Trophy et fais-le circuler entre les participants. Le coffre ou les objets de victoire peuvent apparaître sur l'arène supérieure."
+	]
+	quest.65C2500000000024.title: "Branche sombre terminée"
+	quest.65C2500000000024.quest_desc: [
+		"L'advancement de l'Ur-Ghast confirme la fin de cette route. Termine également l'Hydre et la Reine des neiges pour déverrouiller les Highlands."
+	]
 	quest.65C2500000000009.title: "L'Alpha Yeti"
 	quest.65C2500000000009.quest_subtitle: "Branche des neiges"
-	quest.65C2500000000009.quest_desc: ["La caverne du Yeti ouvre la progression des hautes terres glacées. Une bonne mobilité vaut souvent davantage qu'un simple gain de dégâts."]
+	quest.65C2500000000009.quest_desc: [
+		"Dans une Snowy Forest, cherche une grande Yeti Lair ouverte sur plusieurs côtés. L'Alpha Yeti vit au centre parmi des groupes de Yetis."
+		""
+		"Reste mobile pour éviter ses charges, ses projections et les blocs de glace. Éliminer le boss permet ensuite d'affronter la Reine des neiges."
+	]
+	quest.65C2500000000025.title: "La fourrure d'Alpha Yeti"
+	quest.65C2500000000025.quest_subtitle: "Butin facultatif"
+	quest.65C2500000000025.quest_desc: [
+		"Ramasse l'Alpha Yeti Fur. Cet objet est le jalon qui lève la tempête de neige protégeant le Glacier et l'Aurora Palace."
+		""
+		"Chaque joueur doit le prendre en main pour garantir sa progression personnelle."
+	]
+	quest.65C2500000000026.title: "Le Glacier est accessible"
+	quest.65C2500000000026.quest_desc: [
+		"L'advancement de l'Alpha Yeti confirme que le Glacier est déverrouillé. Si le blizzard persiste pour un joueur, faites-lui toucher la fourrure et le trophée."
+	]
 	quest.65C250000000000A.title: "La Reine des neiges"
-	quest.65C250000000000A.quest_desc: ["Le palais d'Aurora conclut la branche des neiges. Prépare un combat mobile et une méthode fiable pour revenir récupérer une tombe éventuelle."]
+	quest.65C250000000000A.quest_desc: [
+		"L'Aurora Palace se trouve au centre d'un Glacier. Grimpe jusqu'aux salles supérieures en surveillant les passages et les ouvertures dans le sol."
+		""
+		"La Snow Queen alterne plusieurs comportements aériens et des attaques de glace. Reste mobile, garde une option à distance et frappe pendant ses fenêtres accessibles."
+	]
+	quest.65C2500000000027.title: "Le trophée de la Reine"
+	quest.65C2500000000027.quest_subtitle: "Butin facultatif"
+	quest.65C2500000000027.quest_desc: [
+		"Ramasse le Snow Queen Trophy et partage le contact avec les autres participants. Cette victoire termine la branche des neiges."
+	]
+	quest.65C2500000000028.title: "Branche des neiges terminée"
+	quest.65C2500000000028.quest_desc: [
+		"L'advancement de la Snow Queen confirme cette route. Les Highlands ne deviennent sûrs qu'après la validation simultanée de l'Hydre, de l'Ur-Ghast et de la Reine."
+	]
 	quest.65C250000000000B.title: "Les trois routes réunies"
-	quest.65C250000000000B.quest_desc: ["Hydre, Ur-Ghast et Reine des neiges sont vaincus. Les hautes terres et le Final Castle deviennent l'épilogue naturel de Twilight Forest."]
+	quest.65C250000000000B.quest_desc: [
+		"Hydre, Ur-Ghast et Reine des neiges sont vaincus. L'advancement natif commun confirme que la pluie acide des Twilight Highlands est levée."
+		""
+		"Si un joueur subit encore la protection, il lui manque au moins un advancement individuel malgré la progression commune des quêtes FTB."
+	]
+	quest.65C2500000000029.title: "Dans la grotte des Trolls"
+	quest.65C2500000000029.quest_desc: [
+		"Explore une Troll Cave sous les Highlands et élimine au moins un Cave Troll dans la structure."
+		""
+		"Cherche ensuite les grandes cavités, les coffres et les zones d'obsidienne. Les prochaines ressources se trouvent dans ce réseau souterrain."
+	]
+	quest.65C250000000002A.title: "Les Magic Beans"
+	quest.65C250000000002A.quest_desc: [
+		"Récupère des Magic Beans sur les Trolls ou dans les coffres des Troll Caves. Ne les plante pas sur un bloc ordinaire : elles exigent de l'Uberous Soil."
+	]
+	quest.65C250000000002B.title: "L'Uberous Soil"
+	quest.65C250000000002B.quest_desc: [
+		"Trouve un bloc d'Uberous Soil dans les Troll Caves. Il sert de sol à la tige magique permettant d'atteindre les nuages."
+		""
+		"Place-le dans un espace ouvert vers le ciel avant d'utiliser les Magic Beans."
+	]
+	quest.65C250000000002C.title: "Faire pousser la tige géante"
+	quest.65C250000000002C.quest_desc: [
+		"Utilise les Magic Beans directement sur l'Uberous Soil. Une immense tige pousse jusqu'aux Giant Clouds."
+		""
+		"Monte prudemment et prévois une solution contre les chutes."
+	]
+	quest.65C250000000002D.title: "Le Giant Miner"
+	quest.65C250000000002D.quest_desc: [
+		"Dans la maison sur les nuages, affronte un Giant Miner. Les géants ressemblent à des versions immenses de joueurs et disposent d'une grande portée."
+		""
+		"Le Giant Miner fournit l'outil nécessaire pour ouvrir le coffre-fort final des Troll Caves."
+	]
+	quest.65C250000000002E.title: "La Giant Pickaxe"
+	quest.65C250000000002E.quest_desc: [
+		"Ramasse la Giant Pickaxe, puis redescends dans les Troll Caves. Une pioche normale ne permet pas d'ouvrir correctement la grande chambre de Giant Obsidian."
+	]
+	quest.65C250000000002F.title: "La Lamp of Cinders"
+	quest.65C250000000002F.quest_desc: [
+		"Utilise la Giant Pickaxe sur le coffre-fort de Giant Obsidian et récupère la Lamp of Cinders."
+		""
+		"Cette lampe est l'objet final de la progression native fonctionnelle : elle brûle les épais Thorns qui encerclent le Final Plateau."
+	]
+	quest.65C2500000000030.title: "Atteindre le Final Plateau"
+	quest.65C2500000000030.quest_desc: [
+		"Va vers les Thornlands, équipe la Lamp of Cinders et utilise-la sur les blocs de Thorns pour ouvrir un passage."
+		""
+		"Atteins ensuite le biome Final Plateau et le Final Castle. L'advancement natif valide la fin de la progression Twilight Forest standard."
+	]
 	quest.65C250000000000C.title: "Le Castle Keeper"
-	quest.65C250000000000C.quest_subtitle: "Objectif expérimental"
-	quest.65C250000000000C.quest_desc: ["Cette quête reste facultative tant que la compatibilité du Castle Keeper avec la version actuelle de Twilight Forest n'a pas passé son test complet."]
+	quest.65C250000000000C.quest_subtitle: "Épilogue facultatif ajouté par Ascendant"
+	quest.65C250000000000C.quest_desc: [
+		"Twilight Forest laisse normalement le Final Castle sans boss terminé. Ascendant ajoute le Castle Keeper pour offrir un véritable combat d'épilogue."
+		""
+		"Cette quête reste facultative : l'extension a été conçue pour Twilight Forest 4.7 alors qu'Ascendant utilise la série 4.8. Le serveur démarre avec elle, mais le combat doit encore être validé en situation réelle."
+	]
 	quest.65C250000000000D.title: "Ressusciter un boss"
 	quest.65C250000000000D.quest_subtitle: "Boucle de farm facultative"
-	quest.65C250000000000D.quest_desc: ["Twilight Forest Bosses Resurrection permet de refaire les combats. Les coûts utilisent des ressources d'aventure et doivent être confirmés dans JEI avant le départ."]
+	quest.65C250000000000D.quest_desc: [
+		"Twilight Forest Bosses Resurrection crée automatiquement un piédestal sous le coffre de victoire de la Naga, du Lich, de l'Hydre, de l'Ur-Ghast ou de la Snow Queen."
+		""
+		"Interagis avec le piédestal : il indique les blocs à placer autour et l'objet à déposer au sommet. La validation est manuelle car le piédestal n'entre pas dans ton inventaire."
+	]
 	quest.65C250000000000E.title: "Fin du premier chapitre"
-	quest.65C250000000000E.quest_desc: ["Twilight a forgé les bases de ton build. Eternal Starlight introduit des boss plus mécaniques, des récompenses personnelles en matériaux et les premiers véritables tirages RPG avancés."]
+	quest.65C250000000000E.quest_desc: [
+		"Tu as atteint le Final Plateau et obtenu la Lamp of Cinders. La campagne Twilight Forest principale est terminée, même si tu peux encore explorer ses structures facultatives et affronter le Castle Keeper."
+		""
+		"Eternal Starlight constitue le prochain palier aventure d'Ascendant."
+	]
 
 	quest.65C2600000000001.title: "Suivre la lumière"
 	quest.65C2600000000001.quest_subtitle: "Campagne aventure - Tier II"
