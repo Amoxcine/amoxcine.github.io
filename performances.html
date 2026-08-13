@@ -3,86 +3,50 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark">
-  <title>Ascendant - Guide de performances</title>
+  <meta name="description" content="Réglages de performances du modpack Ascendant.">
+  <title>Ascendant | Performances</title>
   <style>
-    :root {
-      color-scheme: dark;
-      font-family: Inter, system-ui, sans-serif;
-      background: #0D0B1A;
-      color: #F1EFFA;
-    }
-    * { box-sizing: border-box; }
-    body { margin: 0; min-height: 100vh; }
-    main { width: min(820px, calc(100% - 32px)); margin: 0 auto; padding: 48px 0 72px; }
-    nav { margin-bottom: 36px; }
-    a { color: #C0A6FF; }
-    h1 { margin: 0 0 10px; font-size: clamp(2rem, 7vw, 3.6rem); letter-spacing: 0; }
-    h2 { margin: 0 0 18px; font-size: 1.35rem; }
-    p, li, dd { line-height: 1.6; }
-    .intro { margin: 0; color: #ABA3C9; font-size: 1.08rem; }
-    section { margin-top: 42px; border-top: 1px solid #332C52; padding-top: 26px; }
-    ol, ul { margin: 0; padding-left: 24px; }
-    li { margin-bottom: 13px; padding-left: 6px; }
-    dl { margin: 0; }
-    dt { margin-top: 18px; font-weight: 750; color: #C0A6FF; }
-    dd { margin: 5px 0 0; color: #D3CDEA; }
-    .status { border-left: 3px solid #7C5CE0; padding: 4px 0 4px 16px; }
-    .muted { color: #ABA3C9; }
-    code { color: #D9C7FF; }
+    :root { color-scheme: dark; font-family: Inter, system-ui, sans-serif; background: #101619; color: #eef4f3; } * { box-sizing: border-box; } body { margin: 0; min-width: 320px; } a { color: #8fd8c7; } .wrap { width: min(920px, calc(100% - 32px)); margin: 0 auto; } header { border-bottom: 1px solid #2b3a3d; } .topbar { min-height: 62px; display: flex; align-items: center; justify-content: space-between; gap: 24px; } .brand { color: #f4c969; font-weight: 800; letter-spacing: .08em; text-decoration: none; } nav { display: flex; flex-wrap: wrap; gap: 18px; } nav a { color: #c5d4d3; text-decoration: none; font-size: .94rem; } nav a[aria-current="page"] { color: #f4c969; } main { padding: 68px 0 72px; } h1 { margin: 0; font-size: clamp(2.4rem, 5vw, 4.3rem); letter-spacing: 0; } .intro { max-width: 740px; margin: 20px 0 0; color: #c5d4d3; font-size: 1.08rem; line-height: 1.65; } section { padding: 40px 0; border-bottom: 1px solid #2b3a3d; } h2 { margin: 0 0 14px; font-size: clamp(1.4rem, 3vw, 1.9rem); } p, li, dd { color: #c5d4d3; line-height: 1.6; } .setting-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; } .setting { padding: 16px; border: 1px solid #2b3a3d; border-radius: 6px; background: #152023; } .setting strong { display: block; color: #f4c969; margin-bottom: 5px; } ol, ul { margin: 0; padding-left: 24px; } li { margin-bottom: 12px; padding-left: 5px; } dl { margin: 0; } dt { margin-top: 18px; color: #f4c969; font-weight: 800; } dd { margin: 5px 0 0; } .notice { border-left: 3px solid #8fd8c7; padding: 4px 0 4px 16px; } footer { padding: 26px 0 46px; color: #9cafae; font-size: .9rem; } @media (max-width: 680px) { .topbar { padding: 14px 0; align-items: flex-start; flex-direction: column; gap: 10px; } main { padding-top: 50px; } .setting-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
-  <main>
-    <nav><a href="index.html">Retour à l'installation</a></nav>
+  <header><div class="wrap topbar"><a class="brand" href="index.html">ASCENDANT</a><nav aria-label="Navigation principale"><a href="index.html">Installation</a><a href="quetes.html">Quêtes</a><a href="mods.html">Mods</a><a aria-current="page" href="performances.html">Performances</a></nav></div></header>
+  <main class="wrap">
     <h1>Performances</h1>
-    <p class="intro">Ascendant démarre avec un profil équilibré. Ne modifie les réglages que si tu rencontres réellement des ralentissements.</p>
-
+    <p class="intro">Ascendant est déjà livré avec Sodium, Iris, Distant Horizons, ModernFix et plusieurs optimiseurs. Les réglages par défaut privilégient une bonne fluidité ; change un seul paramètre à la fois, puis teste dans la même zone.</p>
     <section>
       <h2>Réglages fournis</h2>
-      <p class="status">Les shaders sont désactivés, la distance d'affichage est réglée sur 8 chunks, la simulation sur 6 chunks, Distant Horizons sur 100 chunks et la limite sur 120 FPS.</p>
+      <div class="setting-grid">
+        <div class="setting"><strong>Shaders</strong><span>Désactivés par défaut. Iris est installé pour les activer uniquement si ta carte graphique le permet.</span></div>
+        <div class="setting"><strong>Distances vanilla</strong><span>Affichage : 8 chunks. Simulation : 6 chunks. Elles influencent directement le chargement et le serveur.</span></div>
+        <div class="setting"><strong>Distant Horizons</strong><span>Distance LOD : 100 chunks. Les LOD améliorent la vue lointaine mais sollicitent surtout le processeur et la carte graphique au début.</span></div>
+        <div class="setting"><strong>Images par seconde</strong><span>VSync désactivée et limite à 120 FPS. Baisser cette limite réduit la chauffe et la consommation.</span></div>
+      </div>
     </section>
-
     <section>
-      <h2>Si le jeu manque de fluidité</h2>
+      <h2>Si le jeu ralentit</h2>
       <ol>
-        <li><strong>Désactive les shaders.</strong> Appuie sur <strong>O</strong> et vérifie qu'aucun shader n'est actif. C'est le réglage qui sollicite le plus la carte graphique.</li>
-        <li><strong>Réduis Distant Horizons.</strong> Dans ses options, passe la distance de 100 à <strong>64 chunks</strong>, puis à <strong>32</strong> si nécessaire.</li>
-        <li><strong>Limite le jeu à 60 FPS.</strong> Ce réglage réduit la charge et la chauffe lorsque la machine essaie de produire davantage d'images.</li>
-        <li><strong>Réduis les distances vanilla.</strong> Passe l'affichage de 8 à <strong>6 chunks</strong> et la simulation de 6 à <strong>4 chunks</strong>.</li>
-        <li><strong>Allège les effets.</strong> Réduis les particules, désactive les nuages et baisse la distance des entités.</li>
+        <li><strong>Désactive tout shader actif.</strong> Ouvre les options vidéo d'Iris et choisis <strong>Aucun</strong>. C'est l'action qui a le plus d'effet sur la carte graphique.</li>
+        <li><strong>Réduis Distant Horizons.</strong> Dans les options vidéo, ouvre les réglages Distant Horizons et passe de 100 à <strong>64 chunks</strong>, puis à <strong>32</strong> si nécessaire.</li>
+        <li><strong>Limite les FPS à 60.</strong> C'est utile pour une machine qui chauffe, un ordinateur portable ou un écran 60 Hz.</li>
+        <li><strong>Réduis les distances vanilla.</strong> Passe l'affichage à <strong>6</strong> et la simulation à <strong>4</strong> chunks. Cela aide aussi le serveur quand plusieurs joueurs explorent.</li>
+        <li><strong>Allège les effets.</strong> Réduis les particules, désactive les nuages et diminue la distance des entités avant de modifier la mémoire vive.</li>
       </ol>
     </section>
-
     <section>
-      <h2>Mémoire vive dans Prism</h2>
-      <p>Clic droit sur <strong>Ascendant</strong>, puis <strong>Modifier → Paramètres → Mémoire</strong>. Coche le remplacement de la mémoire pour cette instance et règle la valeur maximale.</p>
-      <dl>
-        <dt>Ordinateur avec 16 Go de RAM</dt>
-        <dd>Alloue <strong>8 192 Mio</strong> au modpack.</dd>
-        <dt>Ordinateur avec 24 ou 32 Go de RAM</dt>
-        <dd>Commence avec <strong>8 192 Mio</strong>. Passe à <strong>10 240 Mio</strong> uniquement avec shaders, Distant Horizons ou de gros chargements de monde.</dd>
-        <dt>Ordinateur avec 8 Go de RAM</dt>
-        <dd>Le pack n'est pas recommandé : Windows, Prism et Minecraft se partageraient trop peu de mémoire.</dd>
-      </dl>
-      <p class="muted">N'alloue pas toute la RAM de l'ordinateur et ne dépasse pas 10 240 Mio sans diagnostic précis. Ajouter de la RAM ne corrige pas une carte graphique saturée.</p>
+      <h2>Comprendre Distant Horizons</h2>
+      <p class="notice">Distant Horizons affiche des versions simplifiées du terrain lointain, appelées LOD. Il ne charge pas les vrais chunks de jeu à cette distance et ne remplace pas la génération serveur. Lors d'une première exploration, la construction des LOD peut provoquer des micro-saccades temporaires sur le client.</p>
     </section>
-
     <section>
-      <h2>Reconnaître le problème</h2>
-      <ul>
-        <li><strong>FPS faibles en permanence :</strong> commence par les shaders, Distant Horizons et les distances d'affichage.</li>
-        <li><strong>Micro-saccades en explorant :</strong> la génération du terrain et des LOD peut être en cours ; réduis Distant Horizons avant d'augmenter la RAM.</li>
-        <li><strong>Tous les joueurs ralentissent ensemble :</strong> il s'agit probablement du serveur. Les réglages graphiques du joueur ne le corrigeront pas.</li>
-        <li><strong>Fermeture avec un message de mémoire :</strong> vérifie l'allocation Prism et ferme les applications lourdes avant de relancer.</li>
-      </ul>
+      <h2>Mémoire dans Prism Launcher</h2>
+      <p>Dans Prism : clic droit sur <strong>Ascendant</strong>, puis <strong>Modifier</strong>, <strong>Paramètres</strong> et <strong>Mémoire</strong>. Coche le remplacement de mémoire pour l'instance, puis règle la valeur maximale.</p>
+      <dl><dt>16 Go de RAM dans l'ordinateur</dt><dd>Alloue 8 192 Mio au pack.</dd><dt>24 ou 32 Go de RAM</dt><dd>Commence à 8 192 Mio. Passe à 10 240 Mio seulement avec shaders, Distant Horizons intensif ou une zone très chargée.</dd><dt>8 Go de RAM</dt><dd>Le pack n'est pas recommandé : Windows et Minecraft ne disposeraient pas d'une marge suffisante.</dd></dl>
     </section>
-
     <section>
-      <h2>À éviter</h2>
-      <p>Ne supprime pas de mods et n'ajoute pas d'arguments Java trouvés au hasard. Cela peut empêcher la connexion au serveur ou rendre les prochaines mises à jour instables.</p>
+      <h2>Identifier la cause</h2>
+      <ul><li><strong>FPS faibles partout :</strong> la limite est généralement graphique. Vérifie shaders, Distant Horizons et distances.</li><li><strong>Saccades en exploration :</strong> le terrain ou les LOD sont en cours de création. Réduis d'abord Distant Horizons.</li><li><strong>Tout le monde ralentit au même moment :</strong> c'est probablement le serveur ; les réglages graphiques locaux ne résoudront pas le problème.</li><li><strong>Erreur de mémoire :</strong> vérifie l'allocation Prism et ferme les applications lourdes, sans allouer toute la RAM de l'ordinateur.</li></ul>
     </section>
   </main>
+  <footer class="wrap">Ne retire pas des mods ni n'ajoute des arguments Java trouvés au hasard : cela peut rendre l'instance instable ou incompatible avec le serveur.</footer>
 </body>
 </html>
-

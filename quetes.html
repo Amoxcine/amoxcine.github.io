@@ -3,38 +3,40 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark">
-  <title>Ascendant - Quetes</title>
+  <meta name="description" content="Guide des campagnes de quêtes du modpack Ascendant.">
+  <title>Ascendant | Quêtes</title>
   <style>
-    :root { color-scheme: dark; font-family: Inter, system-ui, sans-serif; background: #0D0B1A; color: #F1EFFA; }
-    * { box-sizing: border-box; } body { margin: 0; min-height: 100vh; }
-    main { width: min(860px, calc(100% - 32px)); margin: 0 auto; padding: 52px 0 72px; }
-    a { color: #C0A6FF; } .back { display: inline-block; margin-bottom: 34px; }
-    h1 { margin: 0 0 8px; font-size: 2.7rem; letter-spacing: 0; }
-    .intro, .note { color: #ABA3C9; line-height: 1.55; }
-    section { margin-top: 38px; border-top: 1px solid #332C52; padding-top: 22px; }
-    h2 { margin: 0 0 10px; font-size: 1.35rem; } ul { margin: 0; padding-left: 22px; }
-    li { margin: 0 0 10px; line-height: 1.5; } .note { margin-top: 34px; }
+    :root { color-scheme: dark; font-family: Inter, system-ui, sans-serif; background: #101619; color: #eef4f3; } * { box-sizing: border-box; } body { margin: 0; min-width: 320px; } a { color: #8fd8c7; } .wrap { width: min(1000px, calc(100% - 32px)); margin: 0 auto; } header { border-bottom: 1px solid #2b3a3d; } .topbar { min-height: 62px; display: flex; align-items: center; justify-content: space-between; gap: 24px; } .brand { color: #f4c969; font-weight: 800; letter-spacing: .08em; text-decoration: none; } nav { display: flex; flex-wrap: wrap; gap: 18px; } nav a { color: #c5d4d3; text-decoration: none; font-size: .94rem; } nav a[aria-current="page"] { color: #f4c969; } main { padding: 68px 0 72px; } h1 { margin: 0; font-size: clamp(2.4rem, 5vw, 4.3rem); letter-spacing: 0; } .intro { max-width: 735px; margin: 20px 0 0; color: #c5d4d3; font-size: 1.08rem; line-height: 1.65; } section { padding: 42px 0; border-bottom: 1px solid #2b3a3d; } h2 { margin: 0 0 8px; font-size: clamp(1.4rem, 3vw, 1.9rem); } .section-note { margin: 0 0 22px; color: #9cafae; line-height: 1.55; } .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(235px, 1fr)); gap: 12px; } article { padding: 17px; border: 1px solid #2b3a3d; border-radius: 6px; background: #152023; } h3 { margin: 0 0 7px; font-size: 1.04rem; } p, li { color: #c5d4d3; line-height: 1.55; } ul { margin: 0; padding-left: 24px; } li { margin-bottom: 10px; } .notice { border-left: 3px solid #8fd8c7; padding: 4px 0 4px 16px; } footer { padding: 26px 0 46px; color: #9cafae; font-size: .9rem; } @media (max-width: 680px) { .topbar { padding: 14px 0; align-items: flex-start; flex-direction: column; gap: 10px; } main { padding-top: 50px; } }
   </style>
 </head>
 <body>
-  <main>
-    <a class="back" href="index.html">Retour a l'installation</a>
-    <h1>Quetes</h1>
-    <p class="intro">Le livre de quetes est un guide de progression partageable en equipe. Il indique des pistes et des objectifs, sans imposer une seule facon de jouer.</p>
+  <header><div class="wrap topbar"><a class="brand" href="index.html">ASCENDANT</a><nav aria-label="Navigation principale"><a href="index.html">Installation</a><a aria-current="page" href="quetes.html">Quêtes</a><a href="mods.html">Mods</a><a href="performances.html">Performances</a></nav></div></header>
+  <main class="wrap">
+    <h1>Quêtes et progression</h1>
+    <p class="intro">Le livre FTB Quests est le guide de jeu principal. Les quêtes expliquent pourquoi un objectif compte, donnent les prérequis utiles et relient les systèmes entre eux, sans fournir une solution complète ni imposer une seule manière de jouer.</p>
     <section>
-      <h2>Campagne aventure</h2>
-      <ul><li>Explorer, preparer son equipement et apprendre les systemes de combat et de magie.</li><li>Suivre l'ordre conseille : Twilight Forest, Eternal Starlight, puis Cataclysm.</li><li>Les boss Cataclysm sont organises en trois actes souples ; Ignis termine la campagne actuelle.</li></ul>
+      <h2>Campagne aventure</h2><p class="section-note">Une progression conseillée, avec de la liberté à l'intérieur de chaque étape. La campagne se termine actuellement avec Ignis ; d'autres boss pourront s'ajouter plus tard.</p>
+      <div class="grid">
+        <article><h3>Préparation</h3><p>Découvre la survie du pack, le combat, l'équipement, les tombes et les outils nécessaires avant d'entrer dans les dimensions dangereuses.</p></article>
+        <article><h3>Twilight Forest</h3><p>La première grande expédition. Les quêtes détaillent les matériaux, les accès et l'ordre de progression afin qu'un joueur débutant puisse comprendre quoi chercher.</p></article>
+        <article><h3>Eternal Starlight</h3><p>Une étape de transition plus hostile : exploration de donjons, équipement de niveau supérieur et boss adaptés au groupe.</p></article>
+        <article><h3>Cataclysm</h3><p>Le final actuel. Les boss sont répartis en trois actes ; l'ordre est recommandé, mais chaque acte laisse du choix dans les objectifs.</p></article>
+      </div>
     </section>
     <section>
-      <h2>Campagne technologique</h2>
-      <ul><li>Construire une base, une colonie ou un reseau industriel selon ses envies.</li><li>Les branches Create, AE2, Mekanism, Ender IO, Powah, Extreme Reactors et Industrial Foregoing peuvent etre suivies independamment.</li><li>MineColonies dispose de sa propre campagne annexe.</li></ul>
+      <h2>Campagne technologique</h2><p class="section-note">Elle est volontairement facultative : construire une usine, une base logistique ou une colonie n'est pas exigé pour avancer dans la campagne aventure.</p>
+      <div class="grid">
+        <article><h3>Créer sa base</h3><p>Les premières quêtes portent sur les machines ou réseaux réellement importants, plutôt que sur la récolte automatique de chaque ressource.</p></article>
+        <article><h3>Automatiser</h3><p>Create, AE2, Mekanism, Ender IO, Powah!, Extreme Reactors et Industrial Foregoing peuvent être explorés dans l'ordre qui sert ta base.</p></article>
+        <article><h3>Construire une colonie</h3><p>MineColonies possède une branche séparée. Les validations confirment les bâtiments construits sans exiger que tout le serveur adopte ce mod.</p></article>
+      </div>
     </section>
     <section>
-      <h2>Branches annexes</h2>
-      <ul><li>Ars Nouveau, Iron's Spells, Apotheosis et la RPG Series pour les builds et l'equipement.</li><li>Les quetes relient les branches lorsque cela aide la progression, sans bloquer les autres activites.</li><li>De nouvelles campagnes peuvent etre ajoutees plus tard sans supprimer la progression existante.</li></ul>
+      <h2>Branches annexes</h2><p class="section-note">Elles complètent un style de jeu ou aident à préparer une campagne principale, sans bloquer les autres activités.</p>
+      <ul><li><strong>Ars Nouveau :</strong> magie modulaire, glyphes, rituels et automatisation magique.</li><li><strong>Iron's Spells 'n Spellbooks :</strong> sorts de combat, écoles de magie et équipement de mage.</li><li><strong>Apotheosis et RPG Series :</strong> optimisation d'équipement, classes, armes, reliques et talents.</li><li><strong>Technologies spécialisées :</strong> chaque mod industriel peut accueillir de nouvelles quêtes sans modifier les quêtes déjà terminées.</li></ul>
     </section>
-    <p class="note">Les details, prerequis et recompenses restent dans le livre FTB Quests en jeu pour eviter de transformer cette page en solution complete.</p>
+    <section><h2>Jouer en équipe</h2><p class="notice">Les quêtes sont partageables via les équipes FTB. Les récompenses et validations restent définies par chaque quête ; le livre indique explicitement lorsqu'un objectif demande une action personnelle ou une construction du groupe.</p></section>
   </main>
+  <footer class="wrap">Pour découvrir les systèmes sans divulgâcher les objectifs, consulte aussi la page <a href="mods.html">Mods et repères</a>.</footer>
 </body>
 </html>

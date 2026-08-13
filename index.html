@@ -3,61 +3,87 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark">
-  <title>Ascendant - Installation</title>
+  <meta name="description" content="Installation et mise a jour du modpack Minecraft Ascendant.">
+  <title>Ascendant | Installation</title>
   <style>
-    :root {
-      color-scheme: dark;
-      font-family: Inter, system-ui, sans-serif;
-      background: #0D0B1A;
-      color: #F1EFFA;
-    }
+    :root { color-scheme: dark; font-family: Inter, system-ui, sans-serif; background: #101619; color: #eef4f3; }
     * { box-sizing: border-box; }
-    body { margin: 0; min-height: 100vh; }
-    main { width: min(760px, calc(100% - 32px)); margin: 0 auto; padding: 64px 0; }
-    h1 { margin: 0 0 8px; font-size: clamp(2.2rem, 8vw, 4.5rem); letter-spacing: 0; }
-    .subtitle { margin: 0 0 32px; color: #ABA3C9; font-size: 1.1rem; }
-    .download {
-      display: inline-block;
-      padding: 13px 18px;
-      border-radius: 6px;
-      background: #7C5CE0;
-      color: #FFFFFF;
-      font-weight: 750;
-      text-decoration: none;
-    }
-    .download:hover { background: #322B53; }
-    section { margin-top: 48px; border-top: 1px solid #332C52; padding-top: 28px; }
-    h2 { margin: 0 0 20px; font-size: 1.35rem; }
-    ol { margin: 0; padding-left: 24px; }
-    li { margin: 0 0 14px; padding-left: 7px; line-height: 1.55; }
-    a { color: #C0A6FF; }
-    .note { margin-top: 28px; color: #ABA3C9; line-height: 1.55; }
-    .help { margin-top: 22px; }
-    nav { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 22px; }
+    body { margin: 0; min-width: 320px; }
+    a { color: #8fd8c7; }
+    .wrap { width: min(1040px, calc(100% - 32px)); margin: 0 auto; }
+    header { border-bottom: 1px solid #2b3a3d; }
+    .topbar { min-height: 62px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { color: #f4c969; font-weight: 800; letter-spacing: .08em; text-decoration: none; }
+    nav { display: flex; flex-wrap: wrap; gap: 18px; }
+    nav a { color: #c5d4d3; text-decoration: none; font-size: .94rem; }
+    nav a[aria-current="page"] { color: #f4c969; }
+    .hero { padding: 84px 0 72px; border-bottom: 1px solid #2b3a3d; }
+    .eyebrow { margin: 0 0 14px; color: #8fd8c7; font-weight: 700; font-size: .82rem; letter-spacing: .08em; text-transform: uppercase; }
+    h1 { max-width: 760px; margin: 0; font-size: clamp(2.6rem, 6vw, 5.25rem); line-height: 1; letter-spacing: 0; }
+    .lead { max-width: 650px; margin: 22px 0 30px; color: #c5d4d3; font-size: 1.12rem; line-height: 1.65; }
+    .download { display: inline-flex; align-items: center; min-height: 46px; padding: 0 18px; border: 1px solid #f4c969; border-radius: 6px; background: #f4c969; color: #152022; font-weight: 800; text-decoration: none; }
+    .download:hover { background: #ffe09a; }
+    .meta { margin: 14px 0 0; color: #9cafae; font-size: .92rem; }
+    main { padding: 6px 0 72px; }
+    section { padding: 44px 0; border-bottom: 1px solid #2b3a3d; }
+    h2 { margin: 0 0 14px; font-size: clamp(1.45rem, 3vw, 2rem); letter-spacing: 0; }
+    .section-intro { max-width: 690px; margin: 0 0 24px; color: #c5d4d3; line-height: 1.6; }
+    .steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; counter-reset: step; }
+    .step { position: relative; min-height: 142px; padding: 18px 18px 18px 58px; border: 1px solid #2b3a3d; border-radius: 6px; background: #152023; }
+    .step::before { counter-increment: step; content: counter(step); position: absolute; top: 18px; left: 18px; color: #f4c969; font-weight: 800; }
+    .step h3 { margin: 0 0 8px; font-size: 1rem; }
+    .step p { margin: 0; color: #c5d4d3; line-height: 1.5; }
+    .columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+    .columns h3 { margin: 0 0 9px; font-size: 1rem; color: #f4c969; }
+    .columns p { margin: 0; color: #c5d4d3; line-height: 1.6; }
+    .notice { border-left: 3px solid #8fd8c7; padding: 4px 0 4px 16px; color: #c5d4d3; line-height: 1.6; }
+    footer { padding: 26px 0 46px; color: #9cafae; font-size: .9rem; }
+    @media (max-width: 680px) { .topbar { padding: 14px 0; align-items: flex-start; flex-direction: column; gap: 10px; } .hero { padding: 60px 0 52px; } .steps, .columns { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
-  <main>
-    <h1>Ascendant</h1>
-    <p class="subtitle">Minecraft 1.21.1 | NeoForge</p>
-    <a class="download" href="downloads/Ascendant-Prism.zip?v=2" download>Télécharger le modpack pour Prism Launcher</a>
-
-    <section>
-      <h2>Installation</h2>
-      <ol>
-        <li>Installe et ouvre <a href="https://prismlauncher.org/download/" rel="noreferrer">Prism Launcher</a>.</li>
-        <li>Clique sur <strong>Ajouter une instance</strong>, puis sur <strong>Importer</strong>.</li>
-        <li>Choisis le fichier <strong>Ascendant-Prism.zip</strong> téléchargé ci-dessus.</li>
-        <li>Clique sur <strong>OK</strong>, connecte ton compte Microsoft, puis lance <strong>Ascendant</strong>.</li>
-      </ol>
-      <p class="note">Le premier lancement télécharge le modpack. Les mises à jour suivantes sont vérifiées automatiquement avant chaque démarrage.</p>
-      <nav aria-label="Pages utiles">
-        <a href="performances.html">Guide de performances</a>
-        <a href="mods.html">Mods et guides</a>
-        <a href="quetes.html">Quetes</a>
+  <header>
+    <div class="wrap topbar">
+      <a class="brand" href="index.html">ASCENDANT</a>
+      <nav aria-label="Navigation principale">
+        <a aria-current="page" href="index.html">Installation</a>
+        <a href="quetes.html">Quêtes</a>
+        <a href="mods.html">Mods</a>
+        <a href="performances.html">Performances</a>
       </nav>
+    </div>
+  </header>
+  <div class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Minecraft 1.21.1 · NeoForge 21.1.248</p>
+      <h1>Ascendant</h1>
+      <p class="lead">Un pack coopératif d'exploration, de magie et d'industrie. Installe l'archive dans Prism Launcher : le premier démarrage récupère les fichiers du pack, puis Packwiz vérifie les mises à jour avant les lancements suivants.</p>
+      <a class="download" href="downloads/Ascendant-Prism.zip" download>Télécharger pour Prism Launcher</a>
+      <p class="meta">Version publique 1.0.0 · Java 21 requis</p>
+    </div>
+  </div>
+  <main class="wrap">
+    <section>
+      <h2>Installer le pack</h2>
+      <p class="section-intro">L'archive est prévue pour Prism Launcher. Elle installe l'instance et contient la commande Packwiz nécessaire pour recevoir les futures mises à jour.</p>
+      <div class="steps">
+        <article class="step"><h3>Installer Prism Launcher</h3><p>Télécharge puis ouvre <a href="https://prismlauncher.org/download/" rel="noreferrer">Prism Launcher</a>. Connecte ensuite ton compte Microsoft dans Prism.</p></article>
+        <article class="step"><h3>Importer l'archive</h3><p>Dans Prism, choisis <strong>Ajouter une instance</strong>, puis <strong>Importer</strong>. Sélectionne <strong>Ascendant-Prism.zip</strong>.</p></article>
+        <article class="step"><h3>Lancer Ascendant</h3><p>Valide l'import puis démarre l'instance. Le premier lancement télécharge les fichiers ; laisse-le terminer avant de rejoindre le serveur.</p></article>
+      </div>
+    </section>
+    <section>
+      <h2>Mettre à jour</h2>
+      <div class="columns">
+        <div><h3>Pour les joueurs</h3><p>Ne télécharge pas une nouvelle archive à chaque mise à jour. Lance simplement l'instance : Packwiz compare le pack local à la version publiée et télécharge les fichiers modifiés.</p></div>
+        <div><h3>En cas d'erreur</h3><p>Ferme Prism, attends quelques minutes si une mise à jour vient d'être publiée, puis relance l'instance. Ne supprime pas des mods à la main : cela peut empêcher la connexion au serveur.</p></div>
+      </div>
+    </section>
+    <section>
+      <h2>Avant de jouer</h2>
+      <p class="notice">Le pack démarre avec des réglages graphiques équilibrés. Les shaders sont désactivés par défaut ; consulte le <a href="performances.html">guide de performances</a> seulement si ta machine montre des ralentissements. Le livre de quêtes en jeu reste le guide principal de progression.</p>
     </section>
   </main>
+  <footer class="wrap">Ascendant est distribué avec Packwiz. Les marques et contenus des mods restent la propriété de leurs auteurs respectifs.</footer>
 </body>
 </html>
