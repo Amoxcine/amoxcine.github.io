@@ -11,7 +11,7 @@
 		id: "65C5500000000001"
 		linked_quest: "65C2600000000001"
 		x: 0.0d
-		y: 51.0d
+		y: 33.0d
 	}]
 	quests: [
 		{
@@ -24,7 +24,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -24.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["65C250000000000F"]
@@ -37,7 +37,7 @@
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: -21.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["65C2500000000002"]
@@ -49,7 +49,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -18.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["65C2500000000002"]
@@ -61,7 +61,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -18.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["65C2500000000002"]
@@ -73,7 +73,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -18.0d
+			y: -14.0d
 		}
 		{
 			dependencies: [
@@ -89,7 +89,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -15.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["65C2500000000013"]
@@ -101,7 +101,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -13.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["65C2500000000001"]
@@ -113,7 +113,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -11.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["65C2500000000014"]
@@ -132,7 +132,7 @@
 				value: 1L
 			}]
 			x: 0.0d
-			y: -8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["65C2500000000003"]
@@ -144,7 +144,7 @@
 				item: { count: 1, id: "twilightforest:naga_scale" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -6.0d
 		}
 		{
@@ -157,7 +157,7 @@
 				item: { count: 1, id: "twilightforest:naga_trophy" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -6.0d
 		}
 		{
@@ -191,7 +191,7 @@
 				value: 1L
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["65C2500000000004"]
@@ -203,8 +203,8 @@
 				item: { count: 1, id: "twilightforest:lich_trophy" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["65C2500000000004"]
@@ -218,7 +218,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["65C2500000000019"]
@@ -230,8 +230,8 @@
 				item: { count: 1, id: "twilightforest:maze_map_focus" }
 				type: "item"
 			}]
-			x: -13.0d
-			y: 7.0d
+			x: -8.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["65C250000000001A"]
@@ -243,8 +243,8 @@
 				item: { count: 1, id: "twilightforest:maze_map" }
 				type: "item"
 			}]
-			x: -13.0d
-			y: 9.0d
+			x: -8.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["65C2500000000019"]
@@ -262,8 +262,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -9.0d
-			y: 8.0d
+			x: -5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["65C2500000000005"]
@@ -276,8 +276,8 @@
 				id: "65C350000000001C"
 				type: "advancement"
 			}]
-			x: -9.0d
-			y: 11.0d
+			x: -5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["65C250000000001C"]
@@ -295,8 +295,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -9.0d
-			y: 14.0d
+			x: -5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["65C2500000000006"]
@@ -308,8 +308,8 @@
 				item: { count: 1, id: "twilightforest:fiery_blood" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: 16.0d
+			x: -7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["65C2500000000006"]
@@ -322,8 +322,8 @@
 				id: "65C350000000001E"
 				type: "advancement"
 			}]
-			x: -9.0d
-			y: 18.0d
+			x: -5.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["65C2500000000019"]
@@ -337,7 +337,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["65C250000000001F"]
@@ -356,7 +356,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["65C2500000000007"]
@@ -368,8 +368,8 @@
 				item: { count: 1, id: "twilightforest:knight_phantom_trophy" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 12.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["65C2500000000007"]
@@ -381,7 +381,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 14.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["65C2500000000021"]
@@ -394,7 +394,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 16.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["65C2500000000022"]
@@ -413,7 +413,7 @@
 				value: 1L
 			}]
 			x: 0.0d
-			y: 19.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["65C2500000000008"]
@@ -425,8 +425,8 @@
 				item: { count: 1, id: "twilightforest:ur_ghast_trophy" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 21.0d
+			x: 2.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["65C2500000000008"]
@@ -440,7 +440,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 23.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["65C2500000000019"]
@@ -458,8 +458,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
-			y: 8.0d
+			x: 5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["65C2500000000009"]
@@ -471,8 +471,8 @@
 				item: { count: 1, id: "twilightforest:alpha_yeti_fur" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 10.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["65C2500000000009"]
@@ -485,8 +485,8 @@
 				id: "65C3500000000026"
 				type: "advancement"
 			}]
-			x: 9.0d
-			y: 12.0d
+			x: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["65C2500000000026"]
@@ -504,8 +504,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.0d
-			y: 15.0d
+			x: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["65C250000000000A"]
@@ -517,8 +517,8 @@
 				item: { count: 1, id: "twilightforest:snow_queen_trophy" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 17.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["65C250000000000A"]
@@ -531,8 +531,8 @@
 				id: "65C3500000000028"
 				type: "advancement"
 			}]
-			x: 9.0d
-			y: 19.0d
+			x: 5.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -550,7 +550,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 26.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["65C250000000000B"]
@@ -567,8 +567,8 @@
 				id: "65C3500000000029"
 				type: "advancement"
 			}]
-			x: -6.0d
-			y: 29.0d
+			x: 0.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["65C2500000000029"]
@@ -579,8 +579,8 @@
 				item: { count: 1, id: "twilightforest:magic_beans" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 31.0d
+			x: -1.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["65C2500000000029"]
@@ -591,8 +591,8 @@
 				item: { count: 1, id: "twilightforest:uberous_soil" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 31.0d
+			x: 1.5d
+			y: 18.0d
 		}
 		{
 			dependencies: [
@@ -607,8 +607,8 @@
 				id: "65C350000000002C"
 				type: "advancement"
 			}]
-			x: -6.0d
-			y: 34.0d
+			x: 0.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["65C250000000002C"]
@@ -625,8 +625,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -3.0d
-			y: 36.0d
+			x: 0.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["65C250000000002D"]
@@ -638,7 +638,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 38.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["65C250000000002E"]
@@ -650,8 +650,8 @@
 				item: { count: 1, id: "twilightforest:lamp_of_cinders" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 40.0d
+			x: 0.0d
+			y: 26.0d
 		}
 		{
 			dependencies: ["65C250000000002F"]
@@ -665,7 +665,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 43.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["65C2500000000030"]
@@ -678,8 +678,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -3.0d
-			y: 46.0d
+			x: -2.0d
+			y: 30.0d
 		}
 		{
 			dependencies: ["65C2500000000003"]
@@ -691,7 +691,7 @@
 				type: "checkmark"
 			}]
 			x: 4.0d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["65C2500000000030"]
@@ -704,7 +704,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 48.0d
+			y: 30.0d
 		}
 	]
 }
