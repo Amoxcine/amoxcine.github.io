@@ -54,7 +54,7 @@ hash = "16b2a3bce4afe5ff6276b67b09a51bab3a268f04bf85ed632a145cba293d0358"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "66cb1856ac42eeff981520fd9fff2d7a2a1baa649c15a2c22f4d7a90a3ef1822"
+hash = "e68d4d37c63ceb36b816eb4685b3110a07bd93fafd149db4cc96aefd2245ce17"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/arsenal_armory_relics.snbt"
@@ -66,11 +66,11 @@ hash = "2447ed0b46d692cd0ac71f33178f99a3d5e0da7c761b04b0f11a188f7edea208"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/campagne_technologique.snbt"
-hash = "f912e1eaf8b6ded442d2e5b6bfaf29271afa430934163d5a08143008886bf415"
+hash = "470695ecbb7e66ca761ca01d07f2796cdba2a715a5324fe10ecdac530b0e6e01"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cataclysm.snbt"
-hash = "bb027910354a9d79b33785fb9361952ccc409a00407d2f0fd5b6fb32a057c810"
+hash = "4d07a871d560d7610495ad7b21545450c516b7b3a3127063aab7edf59d5c8cdb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat_et_magie.snbt"
@@ -94,7 +94,7 @@ hash = "89c6a3d3bded098c59530b0918f145341c0f0c5d7e2ce15285fde20ce5ea1a5f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eternal_starlight.snbt"
-hash = "c3ec3c0c6aaf76a832425bade21dcb36ed540898280422452f62bde6b52dccd2"
+hash = "6a3091f4bd14db10e1972ac6332183c4aab715547a1a39f938f1637596f4939c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/extreme_reactors.snbt"
@@ -106,7 +106,7 @@ hash = "9e7b62fb77c05bc36b10e19b0651ace8b0df3bae1d18aaaa4f419081be86166f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells.snbt"
-hash = "29f635441e7cc01c9a0da62390d76f1990999e6f6bfaf5a946d3ea2ba97560e4"
+hash = "f4e7fc1384e89e18b8e6ed0952ace0f67cc373ef38afb04adb6fee5a8293d507"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
@@ -114,7 +114,7 @@ hash = "6385304b5637f923cae17888b67fb005bacd483e9b5a3cefdb8c66a1d7b8e0c0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/minecolonies.snbt"
-hash = "9faad5e2cf2217ee7aec418ce7abc25609ec217365440295acb9d619fffbe364"
+hash = "f88dc0ea85a1ad9f0e602292958c10532c3ea330b3765f0acd33c661948e6a40"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/powah.snbt"
@@ -122,7 +122,7 @@ hash = "e97a6e7c19efa6dc079f6a703d8189dc557e7d86d081950cb80e12263ce1d7a5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/twilight_forest.snbt"
-hash = "77b26ab6d4e1efdba1561a1c478440bcd525f424d8a5fc078800b84dcf9ff77b"
+hash = "be451a6cb75bd0aaa610deb8c8bd4e72efb70de768ec12fccf7b4490f1b3387a"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -130,7 +130,7 @@ hash = "5e6e01ca3246c98911f2d614a6e295565e0c42a5f1141219842faef855797d02"
 
 [[files]]
 file = "config/ftbquests/quests/lang/fr_fr.snbt"
-hash = "450a1bd4d9383f8fb48e40b9c568343fbb51ffa0da56f6753d21b483a7f4f119"
+hash = "f7fe35858f921af29880bb99a40f40b03b80c66afd849b5380ba7c6aa05ed1d7"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/acte_1_armory.snbt"

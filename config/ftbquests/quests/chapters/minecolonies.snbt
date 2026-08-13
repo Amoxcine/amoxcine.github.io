@@ -3,15 +3,19 @@
 	default_quest_shape: ""
 	filename: "minecolonies"
 	group: "65C0000000000104"
+	icon: {
+		id: "minecolonies:blockhuttownhall"
+	}
 	id: "4D43484150544552"
-	icon: { count: 1, id: "minecolonies:blockhuttownhall" }
 	images: [ ]
 	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "structurize:sceptergold"
+			}
 			id: "4D43000000000001"
-			icon: { count: 1, id: "structurize:sceptergold" }
 			shape: "gear"
 			tasks: [{
 				id: "4D43A00000000001"
@@ -22,171 +26,283 @@
 		}
 		{
 			dependencies: ["4D43000000000001"]
+			icon: {
+				id: "structurize:sceptergold"
+			}
 			id: "4D43000000000002"
-			icon: { count: 1, id: "structurize:sceptergold" }
-			tasks: [{
-				id: "4D43A00000000002"
-				item: { count: 1, id: "structurize:sceptergold" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A00000000002"
+					item: { count: 1, id: "structurize:sceptergold" }
+					type: "item"
+				}
+				{
+					id: "4D43B00000000002"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["4D43000000000002"]
+			icon: {
+				id: "minecolonies:blockhuttownhall"
+			}
 			id: "4D43000000000003"
-			icon: { count: 1, id: "minecolonies:blockhuttownhall" }
 			shape: "hexagon"
-			tasks: [{
-				id: "4D43A00000000003"
-				item: { count: 1, id: "minecolonies:blockhuttownhall" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A00000000003"
+					item: { count: 1, id: "minecolonies:blockhuttownhall" }
+					type: "item"
+				}
+				{
+					id: "4D43B00000000003"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["4D43000000000003"]
+			icon: {
+				id: "minecolonies:blockhutbuilder"
+			}
 			id: "4D43000000000004"
-			icon: { count: 1, id: "minecolonies:blockhutbuilder" }
 			shape: "hexagon"
-			tasks: [{
-				id: "4D43A00000000004"
-				item: { count: 1, id: "minecolonies:blockhutbuilder" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A00000000004"
+					item: { count: 1, id: "minecolonies:blockhutbuilder" }
+					type: "item"
+				}
+				{
+					id: "4D43B00000000004"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["4D43000000000004"]
+			icon: {
+				id: "minecolonies:blockhutcitizen"
+			}
 			id: "4D43000000000005"
-			icon: { count: 1, id: "minecolonies:blockhutcitizen" }
-			tasks: [{
-				id: "4D43A00000000005"
-				item: { count: 1, id: "minecolonies:blockhutcitizen" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A00000000005"
+					item: { count: 1, id: "minecolonies:blockhutcitizen" }
+					type: "item"
+				}
+				{
+					id: "4D43B00000000005"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4D43000000000005"]
+			icon: {
+				id: "minecolonies:blockhuttavern"
+			}
 			id: "4D43000000000006"
-			icon: { count: 1, id: "minecolonies:blockhuttavern" }
-			tasks: [{
-				id: "4D43A00000000006"
-				item: { count: 1, id: "minecolonies:blockhuttavern" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A00000000006"
+					item: { count: 1, id: "minecolonies:blockhuttavern" }
+					type: "item"
+				}
+				{
+					id: "4D43B00000000006"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4D43000000000003"]
+			icon: {
+				id: "minecolonies:blockhutguardtower"
+			}
 			id: "4D43000000000007"
-			icon: { count: 1, id: "minecolonies:blockhutguardtower" }
-			tasks: [{
-				id: "4D43A00000000007"
-				item: { count: 1, id: "minecolonies:blockhutguardtower" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A00000000007"
+					item: { count: 1, id: "minecolonies:blockhutguardtower" }
+					type: "item"
+				}
+				{
+					id: "4D43B00000000007"
+					type: "checkmark"
+				}
+			]
 			x: 6.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4D43000000000004"]
+			icon: {
+				id: "minecolonies:blockhutwarehouse"
+			}
 			id: "4D43000000000008"
-			icon: { count: 1, id: "minecolonies:blockhutwarehouse" }
-			tasks: [{
-				id: "4D43A00000000008"
-				item: { count: 1, id: "minecolonies:blockhutwarehouse" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A00000000008"
+					item: { count: 1, id: "minecolonies:blockhutwarehouse" }
+					type: "item"
+				}
+				{
+					id: "4D43B00000000008"
+					type: "checkmark"
+				}
+			]
 			x: -6.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4D43000000000008"]
+			icon: {
+				id: "minecolonies:blockhutdeliveryman"
+			}
 			id: "4D43000000000009"
-			icon: { count: 1, id: "minecolonies:blockhutdeliveryman" }
-			tasks: [{
-				id: "4D43A00000000009"
-				item: { count: 1, id: "minecolonies:blockhutdeliveryman" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A00000000009"
+					item: { count: 1, id: "minecolonies:blockhutdeliveryman" }
+					type: "item"
+				}
+				{
+					id: "4D43B00000000009"
+					type: "checkmark"
+				}
+			]
 			x: -6.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4D43000000000009"]
+			icon: {
+				id: "minecolonies:clipboard"
+			}
 			id: "4D4300000000000A"
-			icon: { count: 1, id: "minecolonies:clipboard" }
-			tasks: [{
-				id: "4D43A0000000000A"
-				item: { count: 1, id: "minecolonies:clipboard" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A0000000000A"
+					item: { count: 1, id: "minecolonies:clipboard" }
+					type: "item"
+				}
+				{
+					id: "4D43B0000000000A"
+					type: "checkmark"
+				}
+			]
 			x: -6.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4D43000000000004"]
+			icon: {
+				id: "minecolonies:blockhutlumberjack"
+			}
 			id: "4D4300000000000B"
-			icon: { count: 1, id: "minecolonies:blockhutlumberjack" }
-			tasks: [{
-				id: "4D43A0000000000B"
-				item: { count: 1, id: "minecolonies:blockhutlumberjack" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A0000000000B"
+					item: { count: 1, id: "minecolonies:blockhutlumberjack" }
+					type: "item"
+				}
+				{
+					id: "4D43B0000000000B"
+					type: "checkmark"
+				}
+			]
 			x: -3.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4D4300000000000B"]
+			icon: {
+				id: "minecolonies:blockhutminer"
+			}
 			id: "4D4300000000000C"
-			icon: { count: 1, id: "minecolonies:blockhutminer" }
-			tasks: [{
-				id: "4D43A0000000000C"
-				item: { count: 1, id: "minecolonies:blockhutminer" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A0000000000C"
+					item: { count: 1, id: "minecolonies:blockhutminer" }
+					type: "item"
+				}
+				{
+					id: "4D43B0000000000C"
+					type: "checkmark"
+				}
+			]
 			x: -3.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4D4300000000000B"]
+			icon: {
+				id: "minecolonies:blockhutfisherman"
+			}
 			id: "4D4300000000000D"
-			icon: { count: 1, id: "minecolonies:blockhutfisherman" }
-			tasks: [{
-				id: "4D43A0000000000D"
-				item: { count: 1, id: "minecolonies:blockhutfisherman" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A0000000000D"
+					item: { count: 1, id: "minecolonies:blockhutfisherman" }
+					type: "item"
+				}
+				{
+					id: "4D43B0000000000D"
+					type: "checkmark"
+				}
+			]
 			x: -4.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4D43000000000005"]
+			icon: {
+				id: "minecolonies:blockhutfarmer"
+			}
 			id: "4D4300000000000E"
-			icon: { count: 1, id: "minecolonies:blockhutfarmer" }
-			tasks: [{
-				id: "4D43A0000000000E"
-				item: { count: 1, id: "minecolonies:blockhutfarmer" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A0000000000E"
+					item: { count: 1, id: "minecolonies:blockhutfarmer" }
+					type: "item"
+				}
+				{
+					id: "4D43B0000000000E"
+					type: "checkmark"
+				}
+			]
 			x: 2.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4D4300000000000E"]
+			icon: {
+				id: "minecolonies:blockhutfield"
+			}
 			id: "4D4300000000000F"
-			icon: { count: 1, id: "minecolonies:blockhutfield" }
-			tasks: [{
-				id: "4D43A0000000000F"
-				item: { count: 1, id: "minecolonies:blockhutfield" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A0000000000F"
+					item: { count: 1, id: "minecolonies:blockhutfield" }
+					type: "item"
+				}
+				{
+					id: "4D43B0000000000F"
+					type: "checkmark"
+				}
+			]
 			x: 1.0d
 			y: 1.0d
 		}
@@ -195,13 +311,21 @@
 				"4D43000000000006"
 				"4D4300000000000E"
 			]
+			icon: {
+				id: "minecolonies:blockhutcook"
+			}
 			id: "4D43000000000010"
-			icon: { count: 1, id: "minecolonies:blockhutcook" }
-			tasks: [{
-				id: "4D43A00000000010"
-				item: { count: 1, id: "minecolonies:blockhutcook" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A00000000010"
+					item: { count: 1, id: "minecolonies:blockhutcook" }
+					type: "item"
+				}
+				{
+					id: "4D43B00000000010"
+					type: "checkmark"
+				}
+			]
 			x: 3.0d
 			y: 1.0d
 		}
@@ -210,13 +334,21 @@
 				"4D4300000000000E"
 				"4D43000000000013"
 			]
+			icon: {
+				id: "minecolonies:blockhutcomposter"
+			}
 			id: "4D43000000000011"
-			icon: { count: 1, id: "minecolonies:blockhutcomposter" }
-			tasks: [{
-				id: "4D43A00000000011"
-				item: { count: 1, id: "minecolonies:blockhutcomposter" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A00000000011"
+					item: { count: 1, id: "minecolonies:blockhutcomposter" }
+					type: "item"
+				}
+				{
+					id: "4D43B00000000011"
+					type: "checkmark"
+				}
+			]
 			x: 1.0d
 			y: 5.5d
 		}
@@ -225,13 +357,21 @@
 				"4D43000000000005"
 				"4D43000000000013"
 			]
+			icon: {
+				id: "minecolonies:blockhutschool"
+			}
 			id: "4D43000000000012"
-			icon: { count: 1, id: "minecolonies:blockhutschool" }
-			tasks: [{
-				id: "4D43A00000000012"
-				item: { count: 1, id: "minecolonies:blockhutschool" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A00000000012"
+					item: { count: 1, id: "minecolonies:blockhutschool" }
+					type: "item"
+				}
+				{
+					id: "4D43B00000000012"
+					type: "checkmark"
+				}
+			]
 			x: -1.5d
 			y: 5.5d
 		}
@@ -241,14 +381,22 @@
 				"4D43000000000008"
 				"4D4300000000000C"
 			]
+			icon: {
+				id: "minecolonies:blockhutuniversity"
+			}
 			id: "4D43000000000013"
-			icon: { count: 1, id: "minecolonies:blockhutuniversity" }
 			shape: "hexagon"
-			tasks: [{
-				id: "4D43A00000000013"
-				item: { count: 1, id: "minecolonies:blockhutuniversity" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A00000000013"
+					item: { count: 1, id: "minecolonies:blockhutuniversity" }
+					type: "item"
+				}
+				{
+					id: "4D43B00000000013"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: 4.0d
 		}
@@ -257,13 +405,21 @@
 				"4D4300000000000B"
 				"4D43000000000013"
 			]
+			icon: {
+				id: "minecolonies:blockhutsawmill"
+			}
 			id: "4D43000000000014"
-			icon: { count: 1, id: "minecolonies:blockhutsawmill" }
-			tasks: [{
-				id: "4D43A00000000014"
-				item: { count: 1, id: "minecolonies:blockhutsawmill" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A00000000014"
+					item: { count: 1, id: "minecolonies:blockhutsawmill" }
+					type: "item"
+				}
+				{
+					id: "4D43B00000000014"
+					type: "checkmark"
+				}
+			]
 			x: -3.0d
 			y: 5.5d
 		}
@@ -272,13 +428,21 @@
 				"4D4300000000000C"
 				"4D43000000000013"
 			]
+			icon: {
+				id: "minecolonies:blockhutstonemason"
+			}
 			id: "4D43000000000015"
-			icon: { count: 1, id: "minecolonies:blockhutstonemason" }
-			tasks: [{
-				id: "4D43A00000000015"
-				item: { count: 1, id: "minecolonies:blockhutstonemason" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A00000000015"
+					item: { count: 1, id: "minecolonies:blockhutstonemason" }
+					type: "item"
+				}
+				{
+					id: "4D43B00000000015"
+					type: "checkmark"
+				}
+			]
 			x: -3.0d
 			y: 7.0d
 		}
@@ -287,13 +451,21 @@
 				"4D4300000000000C"
 				"4D43000000000013"
 			]
+			icon: {
+				id: "minecolonies:blockhutsmeltery"
+			}
 			id: "4D43000000000016"
-			icon: { count: 1, id: "minecolonies:blockhutsmeltery" }
-			tasks: [{
-				id: "4D43A00000000016"
-				item: { count: 1, id: "minecolonies:blockhutsmeltery" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A00000000016"
+					item: { count: 1, id: "minecolonies:blockhutsmeltery" }
+					type: "item"
+				}
+				{
+					id: "4D43B00000000016"
+					type: "checkmark"
+				}
+			]
 			x: -3.0d
 			y: 8.5d
 		}
@@ -302,13 +474,21 @@
 				"4D43000000000007"
 				"4D43000000000013"
 			]
+			icon: {
+				id: "minecolonies:blockhutbarracks"
+			}
 			id: "4D43000000000017"
-			icon: { count: 1, id: "minecolonies:blockhutbarracks" }
-			tasks: [{
-				id: "4D43A00000000017"
-				item: { count: 1, id: "minecolonies:blockhutbarracks" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A00000000017"
+					item: { count: 1, id: "minecolonies:blockhutbarracks" }
+					type: "item"
+				}
+				{
+					id: "4D43B00000000017"
+					type: "checkmark"
+				}
+			]
 			x: 6.0d
 			y: 5.5d
 		}
@@ -317,13 +497,21 @@
 				"4D43000000000013"
 				"4D43000000000017"
 			]
+			icon: {
+				id: "minecolonies:blockhutarchery"
+			}
 			id: "4D43000000000018"
-			icon: { count: 1, id: "minecolonies:blockhutarchery" }
-			tasks: [{
-				id: "4D43A00000000018"
-				item: { count: 1, id: "minecolonies:blockhutarchery" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A00000000018"
+					item: { count: 1, id: "minecolonies:blockhutarchery" }
+					type: "item"
+				}
+				{
+					id: "4D43B00000000018"
+					type: "checkmark"
+				}
+			]
 			x: 5.0d
 			y: 7.0d
 		}
@@ -332,13 +520,21 @@
 				"4D43000000000013"
 				"4D43000000000017"
 			]
+			icon: {
+				id: "minecolonies:blockhutcombatacademy"
+			}
 			id: "4D43000000000019"
-			icon: { count: 1, id: "minecolonies:blockhutcombatacademy" }
-			tasks: [{
-				id: "4D43A00000000019"
-				item: { count: 1, id: "minecolonies:blockhutcombatacademy" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A00000000019"
+					item: { count: 1, id: "minecolonies:blockhutcombatacademy" }
+					type: "item"
+				}
+				{
+					id: "4D43B00000000019"
+					type: "checkmark"
+				}
+			]
 			x: 7.0d
 			y: 7.0d
 		}
@@ -347,37 +543,61 @@
 				"4D43000000000007"
 				"4D43000000000013"
 			]
+			icon: {
+				id: "minecolonies:blockhuthospital"
+			}
 			id: "4D4300000000001A"
-			icon: { count: 1, id: "minecolonies:blockhuthospital" }
-			tasks: [{
-				id: "4D43A0000000001A"
-				item: { count: 1, id: "minecolonies:blockhuthospital" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A0000000001A"
+					item: { count: 1, id: "minecolonies:blockhuthospital" }
+					type: "item"
+				}
+				{
+					id: "4D43B0000000001A"
+					type: "checkmark"
+				}
+			]
 			x: 6.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["4D43000000000010"]
+			icon: {
+				id: "minecolonies:blockhutkitchen"
+			}
 			id: "4D4300000000001B"
-			icon: { count: 1, id: "minecolonies:blockhutkitchen" }
-			tasks: [{
-				id: "4D43A0000000001B"
-				item: { count: 1, id: "minecolonies:blockhutkitchen" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A0000000001B"
+					item: { count: 1, id: "minecolonies:blockhutkitchen" }
+					type: "item"
+				}
+				{
+					id: "4D43B0000000001B"
+					type: "checkmark"
+				}
+			]
 			x: 3.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4D43000000000013"]
+			icon: {
+				id: "minecolonies:blockhutlibrary"
+			}
 			id: "4D4300000000001C"
-			icon: { count: 1, id: "minecolonies:blockhutlibrary" }
-			tasks: [{
-				id: "4D43A0000000001C"
-				item: { count: 1, id: "minecolonies:blockhutlibrary" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A0000000001C"
+					item: { count: 1, id: "minecolonies:blockhutlibrary" }
+					type: "item"
+				}
+				{
+					id: "4D43B0000000001C"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: 5.5d
 		}
@@ -386,13 +606,21 @@
 				"4D43000000000013"
 				"4D4300000000001C"
 			]
+			icon: {
+				id: "minecolonies:blockhutenchanter"
+			}
 			id: "4D4300000000001D"
-			icon: { count: 1, id: "minecolonies:blockhutenchanter" }
-			tasks: [{
-				id: "4D43A0000000001D"
-				item: { count: 1, id: "minecolonies:blockhutenchanter" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A0000000001D"
+					item: { count: 1, id: "minecolonies:blockhutenchanter" }
+					type: "item"
+				}
+				{
+					id: "4D43B0000000001D"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: 7.0d
 		}
@@ -405,14 +633,22 @@
 				"4D4300000000001B"
 				"4D4300000000001D"
 			]
+			icon: {
+				id: "minecolonies:blockhutmysticalsite"
+			}
 			id: "4D4300000000001E"
-			icon: { count: 1, id: "minecolonies:blockhutmysticalsite" }
 			shape: "hexagon"
-			tasks: [{
-				id: "4D43A0000000001E"
-				item: { count: 1, id: "minecolonies:blockhutmysticalsite" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D43A0000000001E"
+					item: { count: 1, id: "minecolonies:blockhutmysticalsite" }
+					type: "item"
+				}
+				{
+					id: "4D43B0000000001E"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: 10.0d
 		}
