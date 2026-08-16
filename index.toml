@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "153918a7c0e512ea32e8988b201b25a344e64d3e0bda139ff0a06bbc1e23b4e5"
+
+[[files]]
 file = "config/Veinminer/blocks.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
@@ -157,8 +161,16 @@ file = "config/waystones-common.toml"
 hash = "056a81f593af8eedf9dbbacfda8313d7cfae2bc860e286adbf5f2fe91950377e"
 
 [[files]]
+file = "downloads/Ascendant-Prism.zip"
+hash = "3b2763e0b709e2db0371140392a21baeecbbc9236ab9322cdfef3d63ddfb30b1"
+
+[[files]]
 file = "licenses/Create-Colony-Logistics-LICENSE.txt"
 hash = "060a37b4e7ba15b46fe61c3fb03ec33fde1fe7484ee2f5982e4664d5c118537a"
+
+[[files]]
+file = "mods.html"
+hash = "5f915dd6770cf8c241ac95ea5ab81ccceb04626fab77ea7236faf180e7da6196"
 
 [[files]]
 file = "mods/accessories.pw.toml"
@@ -188,6 +200,11 @@ metafile = true
 [[files]]
 file = "mods/antixray-forge.pw.toml"
 hash = "efacd037ea07f6f57120e2eb685c88a7212d5d7ddb19475a1aa884edf1ecd3c0"
+metafile = true
+
+[[files]]
+file = "mods/apotheosis-x-irons-spellbooks-compat.pw.toml"
+hash = "718d0e1c9f6ed0adc4710e5f49ebef8c4cde898c28b6a22459217bdfb4a59f2e"
 metafile = true
 
 [[files]]
@@ -286,6 +303,11 @@ hash = "6ba13de15147a3668b8b9272807da65e081dc1516f5581ce050c4aae8c2c109f"
 metafile = true
 
 [[files]]
+file = "mods/c2me-neoforge.pw.toml"
+hash = "2d8e9c1937e1468355f5396ed8a801d3efa3a4bcabfb1a15cb94f638c46c045d"
+metafile = true
+
+[[files]]
 file = "mods/checkyourmods.pw.toml"
 hash = "5fd383da6bd0903cfa599b857b8f49efb17bce003b266f071b96afc43913daad"
 metafile = true
@@ -341,8 +363,13 @@ hash = "4744275b4d8f42696051832986adc4b007fcca77dc3a4dda4bb4cd77a946f544"
 metafile = true
 
 [[files]]
+file = "mods/create-ultimate-factory.pw.toml"
+hash = "34d808989e71221b8e01a44bc8031f20af1c94981acb0cba4669e0e58be69629"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
-hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
+hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
 
 [[files]]
@@ -700,6 +727,11 @@ hash = "6e6d733c5d9fd3d8a02f5002846ddcb82733487552ecf0c613d4ac77a02f254d"
 metafile = true
 
 [[files]]
+file = "mods/scalablelux.pw.toml"
+hash = "eea689d270ad49e8e4548f8fca98b1b1a1a95ffa53ce7cadd99f2b98eac7d87b"
+metafile = true
+
+[[files]]
 file = "mods/servercore.pw.toml"
 hash = "860d3b3e2c407980ece69e51896fb5e2e1ffcdb63b6956d440f331cf73777c83"
 metafile = true
@@ -840,6 +872,11 @@ hash = "7851bb697740495c8fb1905d43c2794ac7f5e954727f0aa66c0a78d59b84470f"
 metafile = true
 
 [[files]]
+file = "mods/veinminer-enchant.pw.toml"
+hash = "65340eee541ace39db80fe534a3eee6c5d7ce921c62e15fe1fbbefdf072d8f41"
+metafile = true
+
+[[files]]
 file = "mods/veinminer-mod.pw.toml"
 hash = "145d0b4173183c599406cbc83a79b80194f71c587399278b4505f8771477bad6"
 metafile = true
@@ -961,6 +998,14 @@ hash = "df52722deeb958b9e516ee36148460d362f6dbcab6a5ceb947d6f5f0524732e1"
 [[files]]
 file = "moonlight-global-datapacks/ascendant_eternal_loot/pack.mcmeta"
 hash = "e04480f1820f3f83a14baa7d2132aba29282dce0a9416cba95a305d778a76e44"
+
+[[files]]
+file = "performances.html"
+hash = "7bb09a410baa7ecf6bcf945ae93be83b44a71d48eaca138b83cb9875178205cd"
+
+[[files]]
+file = "quetes.html"
+hash = "995adf0f80ae461869949aecb5959242600741275ce6b9493ca56d2009e2f6a8"
 
 [[files]]
 file = "shaderpacks/bliss-shader.pw.toml"
