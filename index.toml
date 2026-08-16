@@ -872,11 +872,6 @@ hash = "7851bb697740495c8fb1905d43c2794ac7f5e954727f0aa66c0a78d59b84470f"
 metafile = true
 
 [[files]]
-file = "mods/veinminer-enchant.pw.toml"
-hash = "65340eee541ace39db80fe534a3eee6c5d7ce921c62e15fe1fbbefdf072d8f41"
-metafile = true
-
-[[files]]
 file = "mods/veinminer-mod.pw.toml"
 hash = "145d0b4173183c599406cbc83a79b80194f71c587399278b4505f8771477bad6"
 metafile = true
