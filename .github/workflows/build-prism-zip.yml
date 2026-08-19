@@ -20,27 +20,46 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Build deterministic Prism archive
-        shell: bash
         run: |
-          set -euo pipefail
-          bootstrap_url="https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar"
-          bootstrap_sha256="a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbab6443d116c"
+          python - <<'PY'
+          import hashlib
+          import json
+          import urllib.request
+          import zipfile
+          from pathlib import Path
 
-          mkdir -p build/prism/minecraft
-          cp prism-template/instance.cfg build/prism/instance.cfg
-          cp prism-template/mmc-pack.json build/prism/mmc-pack.json
-          curl --fail --location --retry 3 --output build/prism/minecraft/packwiz-installer-bootstrap.jar "$bootstrap_url"
-          echo "$bootstrap_sha256  build/prism/minecraft/packwiz-installer-bootstrap.jar" | sha256sum --check
+          bootstrap_url = "https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar"
+          bootstrap_sha256 = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
+          bootstrap = urllib.request.urlopen(bootstrap_url, timeout=60).read()
 
-          find build/prism -exec touch -h -t 198001010000 {} +
-          (
-            cd build/prism
-            zip -X -q -r ../../Ascendant-Prism.zip instance.cfg mmc-pack.json minecraft
+          if hashlib.sha256(bootstrap).hexdigest() != bootstrap_sha256:
+              raise SystemExit("Invalid packwiz bootstrap SHA-256")
+
+          instance = Path("prism-template/instance.cfg").read_bytes()
+          mmc_pack = Path("prism-template/mmc-pack.json").read_bytes()
+          json.loads(mmc_pack)
+
+          entries = (
+              ("instance.cfg", instance),
+              ("mmc-pack.json", mmc_pack),
+              ("minecraft/packwiz-installer-bootstrap.jar", bootstrap),
           )
-          unzip -t Ascendant-Prism.zip
+          with zipfile.ZipFile("Ascendant-Prism.zip", "w") as archive:
+              for name, data in entries:
+                  info = zipfile.ZipInfo(name, date_time=(1980, 1, 1, 0, 0, 0))
+                  info.compress_type = zipfile.ZIP_DEFLATED
+                  info.external_attr = 0o100644 << 16
+                  archive.writestr(info, data)
+
+          with zipfile.ZipFile("Ascendant-Prism.zip") as archive:
+              if archive.namelist() != [name for name, _ in entries]:
+                  raise SystemExit("Unexpected Prism archive contents")
+              if archive.testzip() is not None:
+                  raise SystemExit("Corrupt Prism archive")
+          PY
 
       - name: Upload Prism archive
         uses: actions/upload-artifact@v4
