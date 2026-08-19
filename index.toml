@@ -18,7 +18,7 @@ hash = "2d3ec423042fc2f85c6903b10156d53d78d07aae020a69ee85839a788e36074a"
 
 [[files]]
 file = "config/checkyourmods-server.toml"
-hash = "8facf7c0df3499aa20424799ff9d83ed55584d38e50bab3046d5eb6aaf623ef8"
+hash = "f752e1a33ece239f8172ae0e24243788b00076d49629f5b6ae809de6cacb385f"
 
 [[files]]
 file = "config/defaultoptions/extra/config/DistantHorizons.toml"
@@ -889,11 +889,6 @@ metafile = true
 [[files]]
 file = "mods/wizards.pw.toml"
 hash = "716b075b98052d7a69f752b8acf8b357f971282a48df159222ac556af4e9585b"
-metafile = true
-
-[[files]]
-file = "mods/xaeroplus.pw.toml"
-hash = "432fc0476df5159590d903be4fa4f6f261ad6ffcc39dcbc348d2c29f215b0f1a"
 metafile = true
 
 [[files]]
