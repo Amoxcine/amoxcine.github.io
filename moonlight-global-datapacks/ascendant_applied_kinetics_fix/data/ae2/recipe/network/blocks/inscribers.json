@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "createappliedkinetics:ae2_overwrite"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "c:ingots/iron"
+    },
+    "b": {
+      "item": "minecraft:piston"
+    },
+    "c": {
+      "tag": "c:ingots/copper"
+    }
+  },
+  "pattern": [
+    "aba",
+    "c a",
+    "aba"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2:inscriber"
+  }
+}

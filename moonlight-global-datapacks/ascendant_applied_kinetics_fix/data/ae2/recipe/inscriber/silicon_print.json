@@ -1,0 +1,52 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "createappliedkinetics:ae2_overwrite"
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:silicon"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createappliedkinetics:incomplete_silicon_print"
+        },
+        {
+          "item": "ae2:silicon_press"
+        }
+      ],
+      "results": [
+        {
+          "id": "createappliedkinetics:incomplete_silicon_print"
+        }
+      ],
+      "keep_held_item": true
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createappliedkinetics:incomplete_silicon_print"
+        }
+      ],
+      "results": [
+        {
+          "id": "createappliedkinetics:incomplete_silicon_print"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:printed_silicon"
+    }
+  ],
+  "loops": 1,
+  "transitional_item": {
+    "id": "createappliedkinetics:incomplete_silicon_print"
+  }
+}

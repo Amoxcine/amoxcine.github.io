@@ -962,6 +962,78 @@ hash = "f60046584d023aaa0af0e8a1f3f021acb13121f2130f7c66b85e704da4d72643"
 metafile = true
 
 [[files]]
+file = "moonlight-global-datapacks/ascendant_applied_kinetics_fix/README.md"
+hash = "660522efba60225db3b6b238db583248b4de03e3728a069961504112af89e9d8"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_applied_kinetics_fix/data/ae2/recipe/inscriber/calculation_processor.json"
+hash = "6dc13b13d583b494896268322d7635ea4db66f04976dc9ac6c5f8141472d2ca5"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_applied_kinetics_fix/data/ae2/recipe/inscriber/calculation_processor_press.json"
+hash = "db1df44418b18d643aead2de8ea198a035b5ee7f99c4ef05590dc3371dfa880b"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_applied_kinetics_fix/data/ae2/recipe/inscriber/calculation_processor_print.json"
+hash = "2c75ee5dbd4601df531355c2a7dfc6c779b5a35af8a426df3335d3566ba30dd3"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_applied_kinetics_fix/data/ae2/recipe/inscriber/certus_quartz_dust.json"
+hash = "21831f999e662ee765649c0355f404fd7b0bbd28ffb10d157fdb1c3a0f17bd1c"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_applied_kinetics_fix/data/ae2/recipe/inscriber/ender_dust.json"
+hash = "aa4e7367afc9efba50fd1ec80823ce133febea5fd5d5e8efb862783200ba2880"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_applied_kinetics_fix/data/ae2/recipe/inscriber/engineering_processor.json"
+hash = "55270c93134288ac6b11f9837dbe7866a784759c0d0b852cf834cf5fe718a557"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_applied_kinetics_fix/data/ae2/recipe/inscriber/engineering_processor_press.json"
+hash = "ff415673174924c82d7908115459aefe681214c9164cd1938919eabe6a5189ba"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_applied_kinetics_fix/data/ae2/recipe/inscriber/engineering_processor_print.json"
+hash = "d47c2ebf6cc9ef56715edeb1c00e1d225931f6c9d37587dfe6110622a504624b"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_applied_kinetics_fix/data/ae2/recipe/inscriber/fluix_dust.json"
+hash = "30f887329975972200897e4f07801faff60d45ed17256bd616ea16ac0659972e"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_applied_kinetics_fix/data/ae2/recipe/inscriber/logic_processor.json"
+hash = "1eb9a536f97ed5e4259b8953617807fd891dea2627b433d7a0fe3dfcf69d4096"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_applied_kinetics_fix/data/ae2/recipe/inscriber/logic_processor_press.json"
+hash = "adf1c4550c0871acdd20b7874429aa54ae8e32d17b4764ebcd7e2e21b84aa5f6"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_applied_kinetics_fix/data/ae2/recipe/inscriber/logic_processor_print.json"
+hash = "e8ea164fee6810054bd62b16e2647f07aab5e757a9719be076973374f3e0762a"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_applied_kinetics_fix/data/ae2/recipe/inscriber/silicon_press.json"
+hash = "8e197868c0b6dfd1537d8035b96ea5063bbfa2ce3f9bba7b5dff29cfb54b3094"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_applied_kinetics_fix/data/ae2/recipe/inscriber/silicon_print.json"
+hash = "ebf91a6a8e4a2e8708d6a27c2cc084e6a212a96d16d7e6175f85893e4eb18632"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_applied_kinetics_fix/data/ae2/recipe/inscriber/sky_stone_dust.json"
+hash = "4f36ffd776a6d3bd69abbd729eba3a211fb5cbbb294263a8ef4bcfef363edffc"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_applied_kinetics_fix/data/ae2/recipe/network/blocks/inscribers.json"
+hash = "591e8a9fb60851f029c54d7f885a035bc78847ff0f3d4bf445ff646c79fcbaaa"
+
+[[files]]
+file = "moonlight-global-datapacks/ascendant_applied_kinetics_fix/pack.mcmeta"
+hash = "74619f0602bbe26c298354c94af5b299a1a09ac4caa3dfb45c140e2f0a88046d"
+
+[[files]]
 file = "moonlight-global-datapacks/ascendant_eternal_loot/data/eternal_starlight/loot_table/bosses/lunar_monstrosity.json"
 hash = "b0ee38cdf7b1a58bebab28e8ea230cd865ccca5e60991cbbd41449eb6ba496b5"
 

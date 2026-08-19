@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "createappliedkinetics:ae2_overwrite"
+      }
+    }
+  ],
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "ae2:sky_stone_block"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "count": 1,
+    "id": "ae2:sky_dust"
+  }
+}
