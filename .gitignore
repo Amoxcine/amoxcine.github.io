@@ -4,4 +4,5 @@ packwiz-installer.jar
 packwiz-installer-bootstrap.jar
 .idea/
 .vscode/
-
+server-tools/.cache/
+server-tools/server-upload/

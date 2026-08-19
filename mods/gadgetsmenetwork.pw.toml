@@ -1,0 +1,13 @@
+name = "GadgetsmeNetwork"
+filename = "gadgetsme_network-0.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/D8dFzhT2/versions/1cQTKYXN/gadgetsme_network-0.0.1.jar"
+hash-format = "sha512"
+hash = "20e2dc47f465753ac880438e24e651967d0ca30746eefdf358d2dfdc1b9027fc2e82c9afaa441d8497a2d6a9cbb2a81eb7e10ca8e4cc2448e915ad2f69070da1"
+
+[update]
+[update.modrinth]
+mod-id = "D8dFzhT2"
+version = "1cQTKYXN"

@@ -1,0 +1,50 @@
+name: Build Prism archive
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - pack.toml
+      - prism-template/**
+      - .github/workflows/build-prism-zip.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build deterministic Prism archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          bootstrap_url="https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar"
+          bootstrap_sha256="a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbab6443d116c"
+
+          mkdir -p build/prism/minecraft
+          cp prism-template/instance.cfg build/prism/instance.cfg
+          cp prism-template/mmc-pack.json build/prism/mmc-pack.json
+          curl --fail --location --retry 3 --output build/prism/minecraft/packwiz-installer-bootstrap.jar "$bootstrap_url"
+          echo "$bootstrap_sha256  build/prism/minecraft/packwiz-installer-bootstrap.jar" | sha256sum --check
+
+          find build/prism -exec touch -h -t 198001010000 {} +
+          (
+            cd build/prism
+            zip -X -q -r ../../Ascendant-Prism.zip instance.cfg mmc-pack.json minecraft
+          )
+          unzip -t Ascendant-Prism.zip
+
+      - name: Upload Prism archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: Ascendant-Prism
+          path: Ascendant-Prism.zip
+          if-no-files-found: error

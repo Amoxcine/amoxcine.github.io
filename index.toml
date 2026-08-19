@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "README.md"
-hash = "153918a7c0e512ea32e8988b201b25a344e64d3e0bda139ff0a06bbc1e23b4e5"
-
-[[files]]
 file = "config/Veinminer/blocks.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
@@ -18,7 +14,7 @@ hash = "2d3ec423042fc2f85c6903b10156d53d78d07aae020a69ee85839a788e36074a"
 
 [[files]]
 file = "config/checkyourmods-server.toml"
-hash = "f752e1a33ece239f8172ae0e24243788b00076d49629f5b6ae809de6cacb385f"
+hash = "a69c157d6caa2a6ca68242798cfb88e560be6c8c6a52522fc7395a42e086c69f"
 
 [[files]]
 file = "config/defaultoptions/extra/config/DistantHorizons.toml"
@@ -161,20 +157,22 @@ file = "config/waystones-common.toml"
 hash = "056a81f593af8eedf9dbbacfda8313d7cfae2bc860e286adbf5f2fe91950377e"
 
 [[files]]
-file = "downloads/Ascendant-Prism.zip"
-hash = "6a8efc21fdc45b86aa6e494f9a6e7e49391ea20d17fb2b519367c0d75ab4b488"
-
-[[files]]
 file = "licenses/Create-Colony-Logistics-LICENSE.txt"
 hash = "060a37b4e7ba15b46fe61c3fb03ec33fde1fe7484ee2f5982e4664d5c118537a"
 
 [[files]]
-file = "mods.html"
-hash = "4d270659ca96da38d281a64c8fd5c93830522da5f6cc72cdab8bc6c3d56969e1"
-
-[[files]]
 file = "mods/accessories.pw.toml"
 hash = "39ec3cac812f819f45b88a70f6b83eb8c0e6007e9272bbccfb3f364b421d2631"
+metafile = true
+
+[[files]]
+file = "mods/additional-enchanted-miner.pw.toml"
+hash = "8bafc5468bec8981b56f381e9eef66e067aad74c89cd409366f5edfa79c1e588"
+metafile = true
+
+[[files]]
+file = "mods/advancedae.pw.toml"
+hash = "44791600b6d51fed024525689166334f8e3bc97cce2acef9190f244319ea6cf8"
 metafile = true
 
 [[files]]
@@ -238,6 +236,11 @@ hash = "ede3f1a1a9966ecba76bd49ecc839ca1a726fcfa5686d7aad64a46854984db99"
 metafile = true
 
 [[files]]
+file = "mods/applied-mekanistics.pw.toml"
+hash = "bd25db756e368a27d83240e4345e4cc26d0237943ef0ca56603db1de4e0818f3"
+metafile = true
+
+[[files]]
 file = "mods/archers.pw.toml"
 hash = "f351b4578fdce4a21d1f270fd114e9b3468d944dfdbda6716aac3b5057f1be94"
 metafile = true
@@ -290,6 +293,11 @@ metafile = true
 [[files]]
 file = "mods/brandons-core.pw.toml"
 hash = "7904c140247e0d8a87231cf4d36718fc018e0f851dbec2517b673acdc25547df"
+metafile = true
+
+[[files]]
+file = "mods/building-gadgets.pw.toml"
+hash = "88908286eebea979713b5626891f634317fcc4c5a5bd4ec0c9444a33863a4518"
 metafile = true
 
 [[files]]
@@ -479,6 +487,11 @@ metafile = true
 [[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "0b7687a29b0dd4400e6c2db295a81b9543c7275674f8b357f57dc64b9d5f49be"
+metafile = true
+
+[[files]]
+file = "mods/gadgetsmenetwork.pw.toml"
+hash = "f624174e3002cf859d72a52e470c2868904d7f0aa60a64817136b2f5de85670e"
 metafile = true
 
 [[files]]
@@ -714,6 +727,11 @@ metafile = true
 [[files]]
 file = "mods/rune-crafting.pw.toml"
 hash = "6e6d733c5d9fd3d8a02f5002846ddcb82733487552ecf0c613d4ac77a02f254d"
+metafile = true
+
+[[files]]
+file = "mods/scalable-cats-force.pw.toml"
+hash = "9d7d8336694339b4b2146fc183456744f646d1a050ae17f9b9f0b510f33debb5"
 metafile = true
 
 [[files]]
@@ -978,14 +996,6 @@ hash = "df52722deeb958b9e516ee36148460d362f6dbcab6a5ceb947d6f5f0524732e1"
 [[files]]
 file = "moonlight-global-datapacks/ascendant_eternal_loot/pack.mcmeta"
 hash = "e04480f1820f3f83a14baa7d2132aba29282dce0a9416cba95a305d778a76e44"
-
-[[files]]
-file = "performances.html"
-hash = "7bb09a410baa7ecf6bcf945ae93be83b44a71d48eaca138b83cb9875178205cd"
-
-[[files]]
-file = "quetes.html"
-hash = "995adf0f80ae461869949aecb5959242600741275ce6b9493ca56d2009e2f6a8"
 
 [[files]]
 file = "shaderpacks/solas-shader.pw.toml"

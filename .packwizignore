@@ -1,9 +1,13 @@
 .git/
+.github/
 .gitignore
 .nojekyll
-index.html
+*.html
+README.md
+downloads/
+prism-template/
+server-tools/
 *.mrpack
 packwiz.json
 packwiz-installer.jar
 packwiz-installer-bootstrap.jar
-
