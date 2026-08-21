@@ -440,6 +440,11 @@ hash = "a3d47e3c301ed2359820c2083dcddec8240a5d692a016c42a74eecc1193772e1"
 metafile = true
 
 [[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "7f837101645afe275564c75605e3950352db2e3dc18e0ebcf7460bac272afde4"
+metafile = true
+
+[[files]]
 file = "mods/fastsuite.pw.toml"
 hash = "336456ba2dae48ef86917e5777d8ca24a174dd6def2a8631853afe7c1b468baa"
 metafile = true
@@ -487,6 +492,11 @@ metafile = true
 [[files]]
 file = "mods/gadgetsmenetwork.pw.toml"
 hash = "f624174e3002cf859d72a52e470c2868904d7f0aa60a64817136b2f5de85670e"
+metafile = true
+
+[[files]]
+file = "mods/gateways-to-eternity.pw.toml"
+hash = "a918d214c27222c510f6526721a1c41b0111221ac348c7d20b2a28d4691dfdd4"
 metafile = true
 
 [[files]]
