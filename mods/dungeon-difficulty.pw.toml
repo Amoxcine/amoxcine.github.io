@@ -1,13 +1,13 @@
 name = "Dungeon Difficulty"
-filename = "dungeon_difficulty-neoforge-3.6.10+1.21.1.jar"
+filename = "dungeon_difficulty-neoforge-3.7.0+1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "422cd6e12cbfa2670cdc4212501f82b4adcb025b"
+hash = "365c34be56ee09da37ac90a284e767327a938f98"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7310937
+file-id = 8672025
 project-id = 645559

@@ -1,13 +1,13 @@
 name = "Archers (RPG Series)"
-filename = "archers-neoforge-3.0.3+1.21.1.jar"
+filename = "archers-neoforge-3.1.1+1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2200747efbe261fc0561db69ded34aa030468e87"
+hash = "2dbebe6966bd8f9d3b52aba9f5b21a457ea77ac4"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8549422
+file-id = 8695273
 project-id = 932359

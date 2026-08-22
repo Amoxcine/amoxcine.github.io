@@ -1,0 +1,13 @@
+name = "Better Dogs x Doggy Talents Next!"
+filename = "BDxDTN.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/o4c3QI2K/versions/nByt4RFC/BDxDTN.zip"
+hash-format = "sha512"
+hash = "3ac756b5fc71eacedebcd798e8c60e9bce5769a4a5b30e3e8e02a61b449400e329a5dc9d69a334f8121e16f80b7c2084f292c746741e18243c94e4b058994604"
+
+[update]
+[update.modrinth]
+mod-id = "o4c3QI2K"
+version = "nByt4RFC"

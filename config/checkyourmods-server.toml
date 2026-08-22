@@ -1,8 +1,0 @@
-# CheckYourMods - Advanced Security Configuration
-[Detection_Logic_Explanation]
-	# Mods client du pack Ascendant autorises. Tout autre mod absent du serveur est signale.
-	allowed_mod_ids = ["optifine", "oculus", "ambientsounds", "appleskin", "badoptimizations", "defaultoptions", "distanthorizons", "dynamic_fps", "entityculling", "immediatelyfast", "inventoryprofilesnext", "iris", "jadeaddons", "jade", "jei", "libipn", "moreculling", "mousetweaks", "notenoughanimations", "particull", "ssrcamerafixes", "shouldersurfing", "sodium", "sound_physics_remastered", "soundofrain", "travelers-titles", "travelerstitles", "xaerominimap", "xaeroworldmap"]
-
-[Resource_Pack_Detection]
-	# Les packs contenant des indices Xray ou transparents sont automatiquement signales.
-	manual_xray_hashes = []

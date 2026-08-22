@@ -1,0 +1,13 @@
+name = "HailWall"
+filename = "hailwall_1.0.3_neoforge_1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/80oFcizV/versions/xLitGfud/hailwall_1.0.3_neoforge_1.21.1.jar"
+hash-format = "sha512"
+hash = "c8c1a31459e4a2a14d43789c9946cd82d1554c592f947cd9c8c7b8ce46a26bcc527669f504fea651617d5fb5f070d0a2502418b067fd7da205fcbebc47217d5b"
+
+[update]
+[update.modrinth]
+mod-id = "80oFcizV"
+version = "xLitGfud"

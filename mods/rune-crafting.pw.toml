@@ -1,13 +1,13 @@
 name = "Runes"
-filename = "runes-neoforge-1.2.2+1.21.1.jar"
+filename = "runes-neoforge-1.3.2+1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "d92afb6f63815742265bc0c3c8489c20232264f8"
+hash = "9eb165234592574db6d57cc6deb6d252f822e53e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8401012
+file-id = 8702937
 project-id = 775518

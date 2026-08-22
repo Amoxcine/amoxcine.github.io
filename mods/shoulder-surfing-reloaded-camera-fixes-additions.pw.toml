@@ -1,13 +1,13 @@
 name = "Shoulder Surfing Reloaded: Camera Fixes & Additions"
-filename = "ssrcamerafixes-neoforge-1.21.1-2.0.0.jar"
+filename = "ssrcamerafixes-neoforge-1.21.1-2.1.0.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "b332cd3c5caeaedefe588888bd9aaef43762a364"
+hash = "617c226c87c229cf13c0dd0de77a8c9a4e5a2171"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8397682
+file-id = 8612157
 project-id = 1531224

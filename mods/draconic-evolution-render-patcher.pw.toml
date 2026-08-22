@@ -1,0 +1,13 @@
+name = "Draconic Evolution Render Patcher"
+filename = "derenderpatcher-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "10e1d91f894f3afc8657b8080084ebd66c86daf1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8277268
+project-id = 1383702
