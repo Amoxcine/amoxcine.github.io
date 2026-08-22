@@ -256,6 +256,11 @@ hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
 metafile = true
 
 [[files]]
+file = "mods/armor-model-api.pw.toml"
+hash = "b554354fd2004140e409957bef34b14a36a7d7cdb94dccf577a82006a85fd77d"
+metafile = true
+
+[[files]]
 file = "mods/armory-rpg-series.pw.toml"
 hash = "b69c18f34c78830805715053abd706579e556838457656b8dd66034a47050267"
 metafile = true
