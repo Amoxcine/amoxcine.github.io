@@ -1,6 +1,6 @@
 {
   "mode": "whitelist",
-  "enforce": false,
+  "enforce": true,
   "operatorsBypass": false,
   "requireCompanionMod": true,
   "verifySignature": true,

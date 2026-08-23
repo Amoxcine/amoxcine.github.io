@@ -8,6 +8,7 @@ set "SCRIPT_DIR=%~dp0"
 set "OUTPUT_DIR=%SCRIPT_DIR%server-upload"
 set "CACHE_DIR=%SCRIPT_DIR%.cache"
 set "INSTALLER=%CACHE_DIR%\packwiz-installer-bootstrap.jar"
+set "HAILWALL_SERVER_CONFIG=%SCRIPT_DIR%hailwall-server.json"
 set "INSTALLER_URL=https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar"
 set "INSTALLER_SHA256=A8FBB24DC604278E97F4688E82D3D91A318B98EFC08D5DBFCBCBCAB6443D116C"
 
@@ -58,6 +59,19 @@ popd
 if not "%INSTALL_RESULT%"=="0" (
   echo [ERREUR] Packwiz n'a pas pu preparer le dossier serveur.
   exit /b %INSTALL_RESULT%
+)
+
+if not exist "%HAILWALL_SERVER_CONFIG%" (
+  echo [ERREUR] Configuration serveur HailWall introuvable :
+  echo %HAILWALL_SERVER_CONFIG%
+  exit /b 1
+)
+
+if not exist "%OUTPUT_DIR%\config" mkdir "%OUTPUT_DIR%\config"
+copy /y "%HAILWALL_SERVER_CONFIG%" "%OUTPUT_DIR%\config\hailwall.json" >nul
+if errorlevel 1 (
+  echo [ERREUR] Impossible d'installer la configuration serveur HailWall.
+  exit /b 1
 )
 
 echo.

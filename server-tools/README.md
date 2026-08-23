@@ -8,6 +8,7 @@ Le script :
 2. télécharge et contrôle `packwiz-installer-bootstrap` ;
 3. crée ou met à jour le sous-dossier `server-upload` ;
 4. télécharge uniquement les fichiers marqués `both` ou `server` dans Packwiz.
+5. remplace la configuration HailWall inactive du client par `hailwall-server.json`, qui applique le contrôle strict sur le serveur dédié.
 
 Une fois terminé, téléverser avec WinSCP le **contenu** de `server-upload` vers la racine du serveur Minecraft.
 
