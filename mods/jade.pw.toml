@@ -1,6 +1,6 @@
 name = "Jade 🔍"
 filename = "Jade-1.21.1-NeoForge-15.10.6.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"
