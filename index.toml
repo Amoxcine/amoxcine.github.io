@@ -142,7 +142,7 @@ hash = "9b967a21652b28e528e130a7c64a4fd75a30929f72599c842f89f34f9db65eb5"
 
 [[files]]
 file = "config/hailwall.json"
-hash = "42083099fadb91ad5a75f01b0c4cefaeaa7e0b10ed6abd1c358861211e0a45f9"
+hash = "d0f26c58b9c23cf3a8989d5a956f2cd6d96527050133ff702095800a0d765116"
 
 [[files]]
 file = "config/multiplayerbosses-common.toml"
@@ -276,6 +276,11 @@ hash = "eb242c2adfad32936a0240759c6779b9839c4200fed2ba3109d415cc7d4c2d08"
 metafile = true
 
 [[files]]
+file = "mods/ascendant-quarryguard.pw.toml"
+hash = "bf145e95ab58bdb4f07b86753c74f4a0a0479e39456218c810d08c268800708b"
+metafile = true
+
+[[files]]
 file = "mods/azurelib-armor.pw.toml"
 hash = "511fac899163ff32ea85258766515b26981dd419d53d65d211babda1fd9450c5"
 metafile = true
@@ -313,11 +318,6 @@ metafile = true
 [[files]]
 file = "mods/bundle-api.pw.toml"
 hash = "6ba13de15147a3668b8b9272807da65e081dc1516f5581ce050c4aae8c2c109f"
-metafile = true
-
-[[files]]
-file = "mods/c2me-neoforge.pw.toml"
-hash = "2d8e9c1937e1468355f5396ed8a801d3efa3a4bcabfb1a15cb94f638c46c045d"
 metafile = true
 
 [[files]]
@@ -421,7 +421,7 @@ metafile = true
 
 [[files]]
 file = "mods/draconic-evolution-render-patcher.pw.toml"
-hash = "f31cc6e4ae7e29c0deb9bcb904158407ea80bf4ada2879c240c8f374397b5e2d"
+hash = "dbc78480bb0c1e86686273df4ee110c7ca292fce8aec7345b059997832693259"
 metafile = true
 
 [[files]]
@@ -946,7 +946,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "2a1cc1c3d96e65e00ce71cf9ed95067ac6eca1c6f4a9dc70c305033dce448b1b"
+hash = "4c336c9a00838ff5b5bbf6cd8ae35927186fdfa42258ca15513835e1b12ced2f"
 metafile = true
 
 [[files]]

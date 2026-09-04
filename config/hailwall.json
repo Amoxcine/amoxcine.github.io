@@ -234,7 +234,15 @@
     "yet_another_config_lib_v3",
     "yigd",
     "yungsapi",
-    "zerocore"
+    "zerocore",
+    "extendedae",
+    "trade_cycling",
+    "holobuilder",
+    "lambdynlights",
+    "lambdynlights_runtime",
+    "pride",
+    "spruceui",
+    "yumi_mc_core"
   ],
   "blacklist": [
     "meteor-client",
@@ -404,11 +412,13 @@
     "yet_another_config_lib_v3",
     "yigd",
     "yungsapi",
-    "zerocore"
+    "zerocore",
+    "extendedae",
+    "trade_cycling"
   ],
   "messageForbidden": "Connexion refusée : mods non autorisés détectés :",
-  "messageMissingRequired": "Connexion refusée : mods obligatoires manquants :",
-  "messageNoCompanion": "Ce serveur exige HailWall côté client. Mets à jour le modpack Ascendant puis réessaie.",
+  "messageMissingRequired": "Connexion refusée : mods obligatoires manquants, veuillez redémarrer le launcher :",
+  "messageNoCompanion": "Ce serveur exige HailWall côté client. Veuillez mettre à jour le modpack et réessayer.",
   "messageTampered": "Échec de la vérification des mods : signature invalide.",
-  "messageProtocol": "Version de HailWall incompatible : mets à jour le modpack Ascendant."
+  "messageProtocol": "Version de HailWall incompatible : Veuillez mettre à jour le modpack Ascendant."
 }
