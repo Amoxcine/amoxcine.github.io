@@ -301,11 +301,6 @@ hash = "7dba9a4a9894a6bbab3a8c7edcc718499297412247fc0e8ccebf75b760c85140"
 metafile = true
 
 [[files]]
-file = "mods/bandwidthoptimizer.pw.toml"
-hash = "fe57fc3200a3a6a3a40543479d6f7566f879907d21cd6bfab3aa0a5376e22d22"
-metafile = true
-
-[[files]]
 file = "mods/better-advanced-tooltips.pw.toml"
 hash = "9009bd5cdcdbc6bc47a7fbb203844d9a551accdd796877bdba5233ac14bbd513"
 metafile = true
