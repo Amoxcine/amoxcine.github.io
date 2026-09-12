@@ -730,11 +730,6 @@ hash = "3a359acd4ad47c063c2833fa42ece3f3125fb912b7c03dc4e6098d9df3de80ce"
 metafile = true
 
 [[files]]
-file = "mods/particull.pw.toml"
-hash = "f4df05b93b6308d76b3e77fdf86276a439f5b34d73b03ea7c784d8852b6cb4f3"
-metafile = true
-
-[[files]]
 file = "mods/party-hud.pw.toml"
 hash = "bd727b49ef0dddb6631f8d9b9cd60143fd871148ef8c47cecd77863da618c790"
 metafile = true
@@ -816,22 +811,12 @@ metafile = true
 
 [[files]]
 file = "mods/servercore.pw.toml"
-hash = "860d3b3e2c407980ece69e51896fb5e2e1ffcdb63b6956d440f331cf73777c83"
+hash = "33454564d216f62d011ac78fc0aa2a49977ac1161f10f4accb1d33a9934969df"
 metafile = true
 
 [[files]]
 file = "mods/shield-api.pw.toml"
 hash = "f1860e58c21e04e2526abd05ed2af3a2bc7433819af4deb60d0ec0aebb14c938"
-metafile = true
-
-[[files]]
-file = "mods/shoulder-surfing-reloaded-camera-fixes-additions.pw.toml"
-hash = "051ff33d6f42938b380140c886830a674c1fc313d81e6254f3a6f047723afbd5"
-metafile = true
-
-[[files]]
-file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "10a4a1aabcbdebc02dc3c966f6e0d089c1e02bf7b42f50567edeaab2be3a3789"
 metafile = true
 
 [[files]]
