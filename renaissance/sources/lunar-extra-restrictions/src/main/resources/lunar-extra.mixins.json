@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "package": "local.lunar.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EnergyLinkMixin", "EnderCollectionMixin", "SpatialCellMixin", "LinkedGridMixin",
+    "ArsEnderChestMixin", "IronEnderChestMixin", "EnderValidityMixin", "EnderQuickMoveMixin",
+    "BuildingBoundMixin", "BuildingAE2Mixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

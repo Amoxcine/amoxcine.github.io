@@ -1,0 +1,12 @@
+{
+  "enabled": false,
+  "port": 7903,
+  "validator": {
+    "uuids": [],
+    "if": {
+      "password": "CHANGE_BEFORE_ENABLING",
+      "type": "password"
+    },
+    "type": "if"
+  }
+}

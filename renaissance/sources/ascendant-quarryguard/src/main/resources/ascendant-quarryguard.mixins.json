@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fr.ascendant.quarryguard.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ClaimsMixin",
+    "ClaimOwnerMixin",
+    "TeamsLoadMixin",
+    "quarry.BlockItemPlacementMixin",
+    "quarry.QuarryBlockMixin",
+    "quarry.AdvQuarryBlockMixin",
+    "quarry.QuarryEntityMixin",
+    "quarry.AdvQuarryEntityMixin",
+    "quarry.AdvActionSyncMessageMixin",
+    "quarry.AdvActionActionMessageMixin",
+    "quarry.QuarryChunkLoaderLoadMixin",
+    "quarry.FrameBlockMixin",
+    "quarry.MiningNeoForgeMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

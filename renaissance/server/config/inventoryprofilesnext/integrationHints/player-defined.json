@@ -1,0 +1,61 @@
+{
+    "mekanism.client.gui.machine.GuiElectrolyticSeparator": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 36,
+                "bottom": 54
+            },
+            "SORT": {
+                "bottom": 66
+            },
+            "SORT_COLUMNS": {
+                "bottom": 66
+            },
+            "SORT_ROWS": {
+                "bottom": 66
+            },
+            "CONTINUOUS_CRAFTING": {
+                "horizontalOffset": 12,
+                "bottom": 26
+            }
+        }
+    },
+    "com.brandon3055.draconicevolution.client.gui.ReactorGui$Screen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 1,
+                "bottom": -1
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 18,
+                "top": 123
+            },
+            "SORT": {
+                "horizontalOffset": 18,
+                "top": 123
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 18,
+                "top": 123
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 18,
+                "top": 123
+            },
+            "SETTINGS": {
+                "horizontalOffset": -1
+            }
+        }
+    },
+    "mekanism.client.gui.GuiChemicalTank": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -2,
+                "bottom": 55
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -2
+            }
+        }
+    }
+}

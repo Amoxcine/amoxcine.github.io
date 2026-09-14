@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "plugin": "fr.ascendant.renaissance.LunarMixinPlugin",
+  "minVersion": "0.8.7",
+  "package": "fr.ascendant.renaissance.mekanism.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "QuantumEndpointMixin",
+    "QuantumChemicalHolderMixin",
+    "InventoryFrequencyEjectMixin",
+    "CachedHeatProxyMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

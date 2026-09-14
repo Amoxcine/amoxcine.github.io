@@ -1,0 +1,5 @@
+{
+  "type": "neoforge:remove_spawns",
+  "biomes": "#ascendant_lunar:restricted_spawns",
+  "entity_types": "#ascendant_lunar:forbidden_natural_spawns"
+}

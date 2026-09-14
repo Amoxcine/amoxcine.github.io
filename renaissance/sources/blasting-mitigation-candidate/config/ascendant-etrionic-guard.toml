@@ -1,0 +1,3 @@
+# Independent module. Restart server after editing. Default leaves native behavior unchanged.
+# Parent must explicitly enable AND qualify the guard before calling the RC economy blocker mitigated.
+disableEtrionicBlasting = false

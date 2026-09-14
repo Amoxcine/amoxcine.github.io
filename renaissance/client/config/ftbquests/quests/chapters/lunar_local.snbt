@@ -1,0 +1,267 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "lunar_local"
+	group: "6C13000000000001"
+	icon: {
+		id: "ad_astra:oxygen_distributor"
+	}
+	id: "6C13010000000002"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6C13020000000007"]
+			id: "6C13020000000008"
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [
+				{
+					consume_items: false
+					id: "6C1303000000000B"
+					item: { count: 1, id: "minecraft:raw_iron" }
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6C1303000000000C"
+					item: { count: 1, id: "ad_astra:raw_desh" }
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6C1303000000000D"
+					item: { count: 1, id: "ad_astra:ice_shard" }
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C13020000000008"]
+			id: "6C13020000000009"
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "6C1303000000000E"
+				item: { count: 1, id: "ad_astra:coal_generator" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C13020000000009"]
+			id: "6C1302000000000A"
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "6C1303000000000F"
+				item: { count: 1, id: "ad_astra:compressor" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C1302000000000A"]
+			id: "6C1302000000000B"
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "6C13030000000010"
+				item: { count: 1, id: "ad_astra:etrionic_blast_furnace" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C1302000000000B"]
+			id: "6C1302000000000C"
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "6C13030000000011"
+				item: { count: 1, id: "mekanism:ingot_steel" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6C13020000000008"]
+			id: "6C1302000000000D"
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "6C13030000000012"
+				item: { count: 1, id: "minecraft:water_bucket" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C1302000000000C"]
+			id: "6C1302000000000E"
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "6C13030000000013"
+				item: { count: 1, id: "ad_astra:launch_pad" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"6C1302000000000C"
+				"6C1302000000000D"
+			]
+			id: "6C1302000000000F"
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "6C13030000000014"
+				item: { count: 1, id: "ad_astra:oxygen_loader" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6C1302000000000F"]
+			id: "6C13020000000010"
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [
+				{
+					consume_items: false
+					id: "6C13030000000015"
+					item: { count: 1, id: "ad_astra:oxygen_distributor" }
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6C13030000000016"
+					item: { count: 1, id: "ad_astra:water_pump" }
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 16L
+					id: "6C13030000000017"
+					item: { count: 1, id: "ad_astra:steel_cable" }
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6C13020000000010"]
+			icon: {
+				id: "ad_astra:oxygen_distributor"
+			}
+			id: "6C13020000000011"
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [{
+				id: "6C13030000000018"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6C1302000000000B"]
+			id: "6C13020000000012"
+			optional: true
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "6C13030000000019"
+				item: { count: 1, id: "create:brass_ingot" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"6C13020000000011"
+				"6C1302000000000E"
+			]
+			icon: {
+				id: "minecraft:copper_block"
+			}
+			id: "6C13020000000013"
+			progression_mode: "linear"
+			rewards: [{
+				auto: "disabled"
+				count: 8
+				id: "6C13040000000001"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				advancement: "ascendant_lunar_encounter:relay_complete"
+				criterion: "durable_success"
+				id: "6C1303000000001A"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6C13020000000013"]
+			icon: {
+				id: "ad_astra:tier_1_rocket"
+			}
+			id: "6C13020000000014"
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "6C1303000000001B"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 18.0d
+		}
+	]
+}

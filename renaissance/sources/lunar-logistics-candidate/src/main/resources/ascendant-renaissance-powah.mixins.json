@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "plugin": "fr.ascendant.renaissance.LunarMixinPlugin",
+  "minVersion": "0.8",
+  "package": "fr.ascendant.renaissance.powah.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["EnderTileMixin", "EnergyStorageMixin", "PlayerTransmitterMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

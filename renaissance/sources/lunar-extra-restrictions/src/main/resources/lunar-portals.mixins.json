@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "package": "local.lunar.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ArsWarpScrollMixin", "ArsStableScrollMixin", "ArsRitualMixin", "ArsPortalBlockMixin", "ArsPortalTileMixin",
+    "IronFrameMixin", "IronFrameActivationMixin", "IronPortalEntityMixin",
+    "CreatePortalProviderMixin", "CreateAllPortalTracksMixin", "CreateTrackConnectionMixin", "CreateGraphMixin",
+    "CreateTravellingPointMixin", "CreateTrainMixin", "CreateCarriageMixin", "CreateBogeyAccessor"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

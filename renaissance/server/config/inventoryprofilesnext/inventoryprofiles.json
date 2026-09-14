@@ -1,0 +1,17 @@
+{
+    "ModSettings": {
+        "first_run": false,
+        "sort_order": "CUSTOM"
+    },
+    "GuiSettings": {
+        "continuous_crafting_saved_value": false
+    },
+    "SortSettings": {
+        "sort_order": "CUSTOM"
+    },
+    "AutoRefillSettings": {
+        "refill_before_tool_break": {
+            "value": false
+        }
+    }
+}

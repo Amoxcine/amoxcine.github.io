@@ -1,0 +1,23 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "ad_astra:lunar_wastelands",
+  "features": [
+    "ascendant_lunar:local_coal",
+    "ascendant_lunar:local_copper",
+    "ascendant_lunar:local_redstone",
+    "ascendant_lunar:local_gold",
+    "ascendant_lunar:local_diamond",
+    "ascendant_lunar:local_lapis",
+    "ascendant_lunar:local_quartz",
+    "ascendant_lunar:local_zinc",
+    "ascendant_lunar:local_osmium",
+    "ascendant_lunar:local_tin",
+    "ascendant_lunar:local_lead",
+    "ascendant_lunar:local_uranium",
+    "ascendant_lunar:local_fluorite",
+    "ascendant_lunar:local_stone",
+    "ascendant_lunar:local_andesite",
+    "ascendant_lunar:local_sandstone"
+  ],
+  "step": "underground_ores"
+}

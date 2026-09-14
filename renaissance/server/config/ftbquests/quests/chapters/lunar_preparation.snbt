@@ -1,0 +1,189 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "lunar_preparation"
+	group: "6C13000000000001"
+	icon: {
+		id: "ad_astra:space_helmet"
+	}
+	id: "6C13010000000001"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "ad_astra:compressor"
+			}
+			id: "6C13020000000001"
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "6C13030000000001"
+				item: { count: 1, id: "ad_astra:compressor" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "ad_astra:coal_generator"
+			}
+			id: "6C13020000000002"
+			optional: true
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "6C13030000000002"
+				item: { count: 1, id: "ad_astra:coal_generator" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C13020000000001"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "ad_astra:etrionic_blast_furnace"
+			}
+			id: "6C13020000000003"
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "6C13030000000003"
+				item: { count: 1, id: "ad_astra:etrionic_blast_furnace" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C13020000000003"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "ad_astra:space_suit"
+			}
+			id: "6C13020000000004"
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [
+				{
+					consume_items: false
+					id: "6C13030000000004"
+					item: { count: 1, id: "ad_astra:space_helmet" }
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6C13030000000005"
+					item: { count: 1, id: "ad_astra:space_suit" }
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6C13030000000006"
+					item: { count: 1, id: "ad_astra:space_pants" }
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6C13030000000007"
+					item: { count: 1, id: "ad_astra:space_boots" }
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C13020000000003"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "ad_astra:oxygen_loader"
+			}
+			id: "6C13020000000005"
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "6C13030000000008"
+				item: { count: 1, id: "ad_astra:oxygen_loader" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6C13020000000004"
+				"6C13020000000005"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "ad_astra:gas_tank"
+			}
+			id: "6C13020000000006"
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [{
+				id: "6C13030000000009"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C13020000000006"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "ad_astra:moon_stone"
+			}
+			id: "6C13020000000007"
+			progression_mode: "linear"
+			size: 1.0d
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "6C1303000000000A"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+}

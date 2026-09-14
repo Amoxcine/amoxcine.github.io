@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fr.ascendant.lunar.travel.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityTravelMixin", "PlayerTravelMixin", "RocketMixin", "LandPacketMixin", "AdAstraLandMixin", "NativeDecisionMixin", "LaunchHistoryMixin",
+    "StationPacketMixin", "ConstructPacketMixin", "WaystonesMixin", "DislocatorMixin",
+    "AdvancedDislocatorMixin", "PedestalMixin", "ReceptacleMixin",
+    "CuriosCapabilityAccessor", "CuriosInventoryAccessor", "AccessoriesHolderAccessor", "ResourceStackAccessor"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

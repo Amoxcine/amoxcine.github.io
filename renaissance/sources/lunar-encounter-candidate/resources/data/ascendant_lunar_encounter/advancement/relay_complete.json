@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "durable_success": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

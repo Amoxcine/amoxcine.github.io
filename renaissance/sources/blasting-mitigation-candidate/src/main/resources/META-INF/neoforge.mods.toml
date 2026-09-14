@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+[[mods]]
+modId="ascendant_etrionic_guard"
+version="0.0.1-candidate"
+displayName="Ascendant Etrionic Blasting Guard"
+description="Opt-in server-side execution veto for Ad Astra 1.16.24 Etrionic BLASTING only. Native ALLOYING preserved."
+[[dependencies.ascendant_etrionic_guard]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+side="BOTH"
+[[dependencies.ascendant_etrionic_guard]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248]"
+side="BOTH"
+[[dependencies.ascendant_etrionic_guard]]
+modId="ad_astra"
+type="required"
+versionRange="[1.16.24]"
+side="BOTH"
+[[mixins]]
+config="ascendant-etrionic-guard.mixins.json"

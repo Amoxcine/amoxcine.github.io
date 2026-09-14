@@ -1,0 +1,1 @@
+{"jars":[{"identifier":{"group":"org.xerial","artifact":"sqlite-jdbc"},"version":{"range":"[3.53.1.0]","artifactVersion":"3.53.1.0"},"path":"META-INF/jarjar/sqlite-jdbc-3.53.1.0.jar"}]}

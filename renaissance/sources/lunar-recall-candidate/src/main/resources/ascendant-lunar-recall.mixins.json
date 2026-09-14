@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "package": "fr.ascendant.lunar.recall.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["DeathScrollMixin"],
+  "injectors": {"defaultRequire": 1}
+}

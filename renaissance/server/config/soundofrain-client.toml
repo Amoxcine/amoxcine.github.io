@@ -1,0 +1,59 @@
+["sound behaviour"]
+	#The radius in blocks that gets checked for blocks.
+	# Default: 15
+	# Range: 1 ~ 32
+	soundRadius = 15
+	#Interval in ticks between scan passes.
+	# Default: 2
+	# Range: 1 ~ 200
+	soundInterval = 2
+	#Maximum number of material sounds to schedule per scan.
+	# Default: 2
+	# Range: 1 ~ 64
+	maxSoundsPerCycle = 2
+	#Shows scanned and played blocks for debugging.
+	debugShowSoundBlock = false
+
+["sound chances"]
+	#Chance for amethyst blocks to chime.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	amethystChance = 0.1
+	#Chance for lava blocks to sizzle.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	lavaChance = 0.1
+
+["sound options"]
+	EnableThunderSounds = true
+	EnableAmethystRain = true
+	EnableFabricRain = true
+	EnableFoliageRain = true
+	EnableGlassRain = true
+	EnableMetalRain = true
+	EnableSandRain = false
+	EnableWoodRain = true
+	EnableWaterRain = true
+	EnableLavaRain = true
+
+["material rain sound blocks"]
+	amethystTags = [""]
+	amethystBlocks = [""]
+	fabricTags = ["#minecraft:wool", "#minecraft:wool_carpet", "#minecraft:beds", "#minecraft:banners"]
+	fabricBlocks = [""]
+	foliageTags = ["#minecraft:leaves", "#minecraft:flowers"]
+	foliageBlocks = [""]
+	glassTags = ["#c:glass_blocks", "#c:glass_panes"]
+	glassBlocks = [""]
+	metalTags = ["#minecraft:beacon_base_blocks", "#minecraft:anvil"]
+	metalBlocks = ["minecraft:cauldron", "minecraft:hopper"]
+	sandTags = ["#minecraft:sand"]
+	sandBlocks = [""]
+	woodTags = ["#minecraft:logs", "#minecraft:wooden_stairs", "#minecraft:planks", "#minecraft:wooden_slabs", "#minecraft:wooden_fences", "#minecraft:wooden_doors", "#minecraft:wooden_trapdoors", "#minecraft:wooden_pressure_plates", "#minecraft:wooden_buttons"]
+	woodBlocks = [""]
+
+[blacklist]
+	blacklistedMods = ["copycats"]
+	blacklistedTags = [""]
+	blacklistedBlocks = [""]
+	blacklistedBlockNamePatterns = ["Copycat"]

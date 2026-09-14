@@ -1,0 +1,4 @@
+#Restart required. Finite first-arrival cargo and native rocket restrictions.
+enabledSolo = true
+#Restart required. No LAB/IP/world-name requirement.
+enabledDedicated = true

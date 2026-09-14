@@ -1,0 +1,171 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "ars_nouveau"
+	group: "65C0000000000103"
+	icon: {
+		id: "ars_nouveau:novice_spell_book"
+	}
+	id: "65C1000000000008"
+	images: [ ]
+	order_index: 1
+	quest_links: [{
+		id: "65C5800000000001"
+		linked_quest: "65C240000000000A"
+		x: 0.0d
+		y: 6.0d
+	}]
+	quests: [
+		{
+			dependencies: ["65C2400000000004"]
+			icon: {
+				id: "ars_nouveau:novice_spell_book"
+			}
+			id: "65C2800000000001"
+			tasks: [{
+				id: "65C3800000000001"
+				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["65C2800000000001"]
+			icon: {
+				id: "ars_nouveau:scribes_table"
+			}
+			id: "65C2800000000006"
+			tasks: [{
+				id: "65C3800000000007"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65C2800000000001"]
+			icon: {
+				id: "ars_nouveau:imbuement_chamber"
+			}
+			id: "65C2800000000002"
+			tasks: [{
+				id: "65C3800000000002"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65C2800000000001"]
+			icon: {
+				id: "ars_nouveau:source_jar"
+			}
+			id: "65C2800000000003"
+			tasks: [{
+				id: "65C3800000000003"
+				item: { count: 1, id: "ars_nouveau:source_jar" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65C2800000000003"]
+			icon: {
+				id: "ars_nouveau:agronomic_sourcelink"
+			}
+			id: "65C2800000000007"
+			tasks: [{
+				id: "65C3800000000008"
+				item: { count: 1, id: "ars_nouveau:agronomic_sourcelink" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"65C2800000000002"
+				"65C2800000000003"
+			]
+			icon: {
+				id: "ars_nouveau:arcane_core"
+			}
+			id: "65C2800000000004"
+			tasks: [
+				{
+					id: "65C3800000000004"
+					item: { count: 1, id: "ars_nouveau:arcane_core" }
+					type: "item"
+				}
+				{
+					id: "65C3800000000005"
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "65C380000000000A"
+					item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"65C2800000000004"
+				"65C2800000000006"
+			]
+			icon: {
+				id: "ars_nouveau:apprentice_spell_book"
+			}
+			id: "65C2800000000008"
+			tasks: [{
+				id: "65C3800000000009"
+				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"65C2800000000004"
+				"65C2800000000007"
+			]
+			icon: {
+				id: "ars_nouveau:basic_spell_turret"
+			}
+			id: "65C2800000000009"
+			tasks: [{
+				id: "65C380000000000B"
+				item: { count: 1, id: "ars_nouveau:basic_spell_turret" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"65C2800000000008"
+				"65C2800000000009"
+			]
+			icon: {
+				id: "ars_nouveau:enchanting_apparatus"
+			}
+			id: "65C2800000000005"
+			shape: "hexagon"
+			tasks: [{
+				id: "65C3800000000006"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+}

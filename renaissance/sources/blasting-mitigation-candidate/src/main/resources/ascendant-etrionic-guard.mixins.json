@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fr.ascendant.etrionic.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["EtrionicBlastingMixin"],
+  "injectors": {"defaultRequire": 1}
+}

@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "plugin": "fr.ascendant.renaissance.LunarMixinPlugin",
+  "minVersion": "0.8.7",
+  "package": "fr.ascendant.renaissance.qio.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["QioImporterMixin", "QioExporterMixin", "AppliedQioStorageMixin",
+    "QioViewerMixin", "QioManualPacketsMixin", "QioCraftingMixin", "QioClearMixin",
+    "QioMenuValidityMixin", "QioTransferMixin", "QioDriveMixin"],
+  "injectors": {"defaultRequire": 1}
+}

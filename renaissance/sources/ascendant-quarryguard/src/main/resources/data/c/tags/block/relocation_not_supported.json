@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "quarryplus:adv_pump",
+    "quarryplus:adv_quarry",
+    "quarryplus:chunk_marker",
+    "quarryplus:creative_generator",
+    "quarryplus:flexible_marker",
+    "quarryplus:frame",
+    "quarryplus:marker",
+    "quarryplus:mover",
+    "quarryplus:placer_plus",
+    "quarryplus:quarry",
+    "quarryplus:remote_placer"
+  ]
+}

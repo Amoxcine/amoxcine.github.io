@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+[[mods]]
+modId="ascendant_lunar_encounter"
+version="0.1.2-candidate"
+displayName="Ascendant Lunar Encounter Candidate"
+description="Default-off lunar relay with durable success and native FTB quest rewards. No custom item payout or forced server save. Native qualification pending."
+[[dependencies.ascendant_lunar_encounter]]
+modId="ad_astra"
+type="required"
+versionRange="[1.16.24]"
+side="SERVER"
+[[dependencies.ascendant_lunar_encounter]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+side="SERVER"
+[[dependencies.ascendant_lunar_encounter]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248]"
+side="SERVER"
+[[dependencies.ascendant_lunar_encounter]]
+modId="ftbteams"
+type="required"
+versionRange="[2101.1.10]"
+side="SERVER"
+[[dependencies.ascendant_lunar_encounter]]
+modId="ftbchunks"
+type="required"
+versionRange="[2101.1.21]"
+side="SERVER"
+[[dependencies.ascendant_lunar_encounter]]
+modId="playerrevive"
+type="required"
+versionRange="[2.1.2]"
+side="SERVER"

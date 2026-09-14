@@ -1,0 +1,14 @@
+# Copy to <test-world>/serverconfig/lunar-encounter.properties while stopped.
+# Register a prebuilt site once. No per-fight OP command or terrain writes.
+enabled=false
+# Parent-only native scaffold, before the first run. Air-only additions, no clearing.
+allowSiteBootstrap=false
+site=lunar_relay_01
+x=1024
+y=100
+z=1024
+readingTicks=160
+windowTicks=400
+warningTicks=100
+timeoutTicks=12000
+absenceTicks=600

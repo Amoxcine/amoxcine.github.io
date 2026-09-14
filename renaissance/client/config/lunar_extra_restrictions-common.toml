@@ -1,0 +1,2 @@
+#Standalone candidate. Opt in on the server; restart required.
+enabled = true

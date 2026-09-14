@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+[[mods]]
+modId="ascendant_lunar_recall"
+version="0.1.0-candidate"
+displayName="Lunar Recall - bounded candidate"
+description='''Independent default-off Mekanism recall and YIGD scroll/claim guards for Moon and Moon orbit. No world migration. Native qualification pending.'''
+[[mixins]]
+config="ascendant-lunar-recall.mixins.json"
+[[dependencies.ascendant_lunar_recall]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+[[dependencies.ascendant_lunar_recall]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248]"
+ordering="NONE"
+side="BOTH"
+[[dependencies.ascendant_lunar_recall]]
+modId="mekanism"
+type="required"
+versionRange="[10.7.19]"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.ascendant_lunar_recall]]
+modId="yigd"
+type="required"
+versionRange="[2.0.13]"
+ordering="AFTER"
+side="BOTH"

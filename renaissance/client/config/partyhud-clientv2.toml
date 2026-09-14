@@ -1,0 +1,16 @@
+["Party HUD Client"]
+	#Position of the party HUD overlay
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT, CENTER_LEFT, CENTER_RIGHT, TOP_CENTER, BOTTOM_CENTER
+	overlayPosition = "CENTER_LEFT"
+	#Overlay style: STANDARD, MODERN, COMPACT or RPG
+	#Allowed Values: STANDARD, MODERN, COMPACT, RPG
+	overlayStyle = "COMPACT"
+	#Show player names on the party HUD.
+	showNames = true
+	#Health text mode: NONE, VALUE, PERCENT.
+	#Allowed Values: NONE, VALUE, PERCENT
+	healthTextMode = "VALUE"
+	#Global scale for party HUD bars (30-100, as percent of default size).
+	# Default: 100
+	# Range: 30 ~ 100
+	barScale = 100

@@ -1,0 +1,6 @@
+SQLite JDBC 3.53.1.0, org.xerial:sqlite-jdbc
+Embedded unchanged from https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.53.1.0/sqlite-jdbc-3.53.1.0.jar
+SHA-256: 28aceecfcc9535645bd19fa988385703c7b89982c1506a6855f5942b4032eca6
+Upstream project and license: https://github.com/xerial/sqlite-jdbc
+The embedded dependency retains its own LICENSE and native resources.
+The encounter mod's license does not replace third-party licenses.
