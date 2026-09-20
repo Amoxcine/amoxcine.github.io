@@ -1,8 +1,0 @@
-name = "Ascendant QuarryGuard"
-filename = "ascendant-quarryguard-0.1.0-rc3.jar"
-side = "server"
-
-[download]
-url = "https://amoxcine.github.io/server-tools/mods/ascendant-quarryguard-0.1.0-rc3.jar"
-hash-format = "sha256"
-hash = "2469a27765e1493fa0ca91083d72c9069bc0926e67a5e03345a17f72a3198787"

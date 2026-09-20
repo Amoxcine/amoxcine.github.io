@@ -281,11 +281,6 @@ hash = "eb242c2adfad32936a0240759c6779b9839c4200fed2ba3109d415cc7d4c2d08"
 metafile = true
 
 [[files]]
-file = "mods/ascendant-quarryguard.pw.toml"
-hash = "bf145e95ab58bdb4f07b86753c74f4a0a0479e39456218c810d08c268800708b"
-metafile = true
-
-[[files]]
 file = "mods/azurelib-armor.pw.toml"
 hash = "511fac899163ff32ea85258766515b26981dd419d53d65d211babda1fd9450c5"
 metafile = true
