@@ -30,7 +30,7 @@ hash = "b6e4c11f3af09a6d22e52f752d5e1f0aa023d7d74d3c5440cfbed43d4ea95969"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "2f550ed2fa604d8badd2a46e9340c3ded482a993655a3a429ef69d8dd9a600a6"
+hash = "0d4e89a5ae66475d4513edf5936ff6a5bbe9c0d441042ac97f37698ea19d861c"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -142,7 +142,7 @@ hash = "9b967a21652b28e528e130a7c64a4fd75a30929f72599c842f89f34f9db65eb5"
 
 [[files]]
 file = "config/hailwall.json"
-hash = "d0f26c58b9c23cf3a8989d5a956f2cd6d96527050133ff702095800a0d765116"
+hash = "dc1fd05074999cf5ebe04040172543bf1150e81bc607b3e5514919d409ce17a6"
 
 [[files]]
 file = "config/multiplayerbosses-common.toml"
@@ -392,11 +392,6 @@ metafile = true
 [[files]]
 file = "mods/creativecore.pw.toml"
 hash = "83ea88c8687aebdc1b1f09ce6da7241a3d2119574301f597982756d04e6c9e1d"
-metafile = true
-
-[[files]]
-file = "mods/critical-strike.pw.toml"
-hash = "844ede3e52ea9d989d7280e955113c193c9974c5d6eb76a760241b4db3946fb9"
 metafile = true
 
 [[files]]
@@ -932,11 +927,6 @@ metafile = true
 [[files]]
 file = "mods/trade-cycling.pw.toml"
 hash = "4c00caba57fa2aa18ebf941fbe897ab444252f6baf816f5d1fea9430ac5b3779"
-metafile = true
-
-[[files]]
-file = "mods/travelers-titles.pw.toml"
-hash = "01cab903b1a7f77aa4f28c7fab24e7fa09b376b18c77b487b7ba34e0afc57813"
 metafile = true
 
 [[files]]
