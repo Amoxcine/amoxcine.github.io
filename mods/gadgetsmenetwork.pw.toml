@@ -1,13 +1,13 @@
-name = "GadgetsmeNetwork"
-filename = "gadgetsme_network-0.0.1.jar"
+name = "ME Building Gadgets"
+filename = "me_building_gadgets-21.1.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/D8dFzhT2/versions/1cQTKYXN/gadgetsme_network-0.0.1.jar"
+url = "https://cdn.modrinth.com/data/D8dFzhT2/versions/PnjQUKLa/me_building_gadgets-21.1.1.jar"
 hash-format = "sha512"
-hash = "20e2dc47f465753ac880438e24e651967d0ca30746eefdf358d2dfdc1b9027fc2e82c9afaa441d8497a2d6a9cbb2a81eb7e10ca8e4cc2448e915ad2f69070da1"
+hash = "32f9d99437faa2342d17f200bf78c355d2a33e89a473cb01204f95eac8a3baa603abcb2a21bf7dc7b3408003a15e71341531c98f99101fdcfc692bf1fc2c460e"
 
 [update]
 [update.modrinth]
 mod-id = "D8dFzhT2"
-version = "1cQTKYXN"
+version = "PnjQUKLa"

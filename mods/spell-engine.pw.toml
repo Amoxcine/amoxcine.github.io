@@ -1,13 +1,13 @@
 name = "Spell Engine"
-filename = "spell_engine-neoforge-1.10.2+1.21.1.jar"
+filename = "spell_engine-neoforge-1.10.7+1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8f27a4d2c77a83e93a0ac84b80d8b07266f4ea5d"
+hash = "996d0d1812edd9920c96b45169273383cccf9867"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8699781
+file-id = 8918653
 project-id = 807653
