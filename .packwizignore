@@ -11,3 +11,5 @@ server-tools/
 packwiz.json
 packwiz-installer.jar
 packwiz-installer-bootstrap.jar
+tools/
+dependency-graph/

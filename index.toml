@@ -142,7 +142,7 @@ hash = "9b967a21652b28e528e130a7c64a4fd75a30929f72599c842f89f34f9db65eb5"
 
 [[files]]
 file = "config/hailwall.json"
-hash = "282263f9cbc110196c71e5604e179a19ce5c1dc11d429906ae0290aa24f9d826"
+hash = "799bf17c2922546050a5d037028f8b8f0da065397f32894371f863a47f403161"
 
 [[files]]
 file = "config/multiplayerbosses-common.toml"
@@ -273,11 +273,6 @@ metafile = true
 [[files]]
 file = "mods/arsenal-rpg-series.pw.toml"
 hash = "eb242c2adfad32936a0240759c6779b9839c4200fed2ba3109d415cc7d4c2d08"
-metafile = true
-
-[[files]]
-file = "mods/azurelib-armor.pw.toml"
-hash = "511fac899163ff32ea85258766515b26981dd419d53d65d211babda1fd9450c5"
 metafile = true
 
 [[files]]

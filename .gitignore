@@ -6,3 +6,4 @@ packwiz-installer-bootstrap.jar
 .vscode/
 server-tools/.cache/
 server-tools/server-upload/
+dependency-graph/
