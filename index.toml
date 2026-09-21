@@ -840,11 +840,6 @@ hash = "9d7d8336694339b4b2146fc183456744f646d1a050ae17f9b9f0b510f33debb5"
 metafile = true
 
 [[files]]
-file = "mods/scalablelux.pw.toml"
-hash = "eea689d270ad49e8e4548f8fca98b1b1a1a95ffa53ce7cadd99f2b98eac7d87b"
-metafile = true
-
-[[files]]
 file = "mods/schematic-energistics.pw.toml"
 hash = "33cdabe8ed1007f84f45f383a39fa5647275e66416531b441548040cd6d0b9e4"
 metafile = true
