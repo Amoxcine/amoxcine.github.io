@@ -1,0 +1,13 @@
+name = "Continuity: NeoForged"
+filename = "ContinuityNeoForge-3.0.1+1.21.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "9c0c31c5e8108f5d89389687ec07d5241fc8352e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8801951
+project-id = 1679396

@@ -142,7 +142,7 @@ hash = "9b967a21652b28e528e130a7c64a4fd75a30929f72599c842f89f34f9db65eb5"
 
 [[files]]
 file = "config/hailwall.json"
-hash = "799bf17c2922546050a5d037028f8b8f0da065397f32894371f863a47f403161"
+hash = "1395e1bf79789db04624f109d3e724ab08dd8198f7ddbb5ff0937f8056f71df3"
 
 [[files]]
 file = "config/multiplayerbosses-common.toml"
@@ -281,6 +281,11 @@ hash = "dd56ff2bcc4253d1d70c08333632743fb56cdc4cf5518dc6afc024164633145d"
 metafile = true
 
 [[files]]
+file = "mods/baguettelib.pw.toml"
+hash = "b498b881268a41f6e02a9456cb86e0e1289972a35d59540c8487ff924b7da087"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "7dba9a4a9894a6bbab3a8c7edcc718499297412247fc0e8ccebf75b760c85140"
 metafile = true
@@ -351,6 +356,26 @@ hash = "e52e14c05ec085330effde5efdcb0de43afa65cca73e045f5a13516fdfea54eb"
 metafile = true
 
 [[files]]
+file = "mods/continuity-neoforged.pw.toml"
+hash = "105135e6d9507097cdbb7f60161274a5011a248a0fbfc2c4073e9f5efa8adcf1"
+metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
+hash = "616036c38fafbcaf00c0720d947ec39f571d885a014f0c81b5eeeb4193784e0e"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-ftb-chunks.pw.toml"
+hash = "0314ac67daeef11cd9dd2d1b9f959a7161e03a7d41af660992f329c08a16fe3a"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics.pw.toml"
+hash = "efc9a3f8d4d0098687667f5ce7be29262202bcba23b0cec29811dcac1b0799fc"
+metafile = true
+
+[[files]]
 file = "mods/create-dragons-plus.pw.toml"
 hash = "dcbb37e828a2f915e64a2ef839a742761a553a2e3b923b000ffba95db7503ac3"
 metafile = true
@@ -407,6 +432,11 @@ metafile = true
 [[files]]
 file = "mods/default-options.pw.toml"
 hash = "a6967d761dde867ccc1af53dc9f4e530eb9917a9cb21d0fc15708e8cd2c0f2ba"
+metafile = true
+
+[[files]]
+file = "mods/distant-friends.pw.toml"
+hash = "7ecce9723a9ca515c7b7a53b54a8c67b854bc5764f1f1c08592cf895c04cf1ec"
 metafile = true
 
 [[files]]
@@ -482,6 +512,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
+metafile = true
+
+[[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "47d5e204243eb995e32faccd41aaf8dc5c1f1e40b3113720db1dd743dfa2da68"
 metafile = true
 
 [[files]]
@@ -700,6 +735,11 @@ hash = "9916932481402cdfb7a6c4624ba3dfb6b6b65ceb4316b9fd17ef0c4bf4fd5aee"
 metafile = true
 
 [[files]]
+file = "mods/multiworld.pw.toml"
+hash = "402bf8a79be8e3adad465f89c4d351c45dccb616334d0b7a9445758fb3c0403e"
+metafile = true
+
+[[files]]
 file = "mods/noisium.pw.toml"
 hash = "b3e831b3e4d6ddbf23806b0fec6087eca264af1ebc04e747c89024972aaa8607"
 metafile = true
@@ -717,6 +757,11 @@ metafile = true
 [[files]]
 file = "mods/paladins-and-priests.pw.toml"
 hash = "3a359acd4ad47c063c2833fa42ece3f3125fb912b7c03dc4e6098d9df3de80ce"
+metafile = true
+
+[[files]]
+file = "mods/particular-reforged.pw.toml"
+hash = "b4c1580cb726c3d5053aced31cb378e847ac18cb7d58e4c04830f8aaf0b941bb"
 metafile = true
 
 [[files]]
@@ -785,6 +830,11 @@ hash = "dafc4c4162ae0f493b77c42ad065489fbcf7f690d8a2d8ea9f17392805207334"
 metafile = true
 
 [[files]]
+file = "mods/sable.pw.toml"
+hash = "f21e2db6083eb58ee1b96630cf345c38ee7b93296da7990f27155480f3f2b6e1"
+metafile = true
+
+[[files]]
 file = "mods/scalable-cats-force.pw.toml"
 hash = "9d7d8336694339b4b2146fc183456744f646d1a050ae17f9b9f0b510f33debb5"
 metafile = true
@@ -797,6 +847,11 @@ metafile = true
 [[files]]
 file = "mods/schematic-energistics.pw.toml"
 hash = "33cdabe8ed1007f84f45f383a39fa5647275e66416531b441548040cd6d0b9e4"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+hash = "b210b54498abff891f524a0ce32b7b81bfc88043604065bd4ece9e71c36427f4"
 metafile = true
 
 [[files]]
