@@ -3,11 +3,11 @@ filename = "BGuard-0.5-1.21.1-NeoForge.jar"
 side = "server"
 
 [download]
-hash-format = "sha1"
-hash = "1de741e65201965effda51549881366145c3d5ea"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/WSVzg4D0/versions/VUenzC54/BGuard-0.5-1.21.1-NeoForge.jar"
+hash-format = "sha512"
+hash = "244bfa74c1a2b9b4280e420a40dd450fc77e6c7c065ebe9181ab1e5999e1f457f5046bc67adec4aba85f41e0277de119c16c49d2d6dd5da95299ddceafb81ede"
 
 [update]
-[update.curseforge]
-file-id = 8142992
-project-id = 1553047
+[update.modrinth]
+mod-id = "WSVzg4D0"
+version = "VUenzC54"
