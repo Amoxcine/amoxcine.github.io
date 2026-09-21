@@ -1,0 +1,13 @@
+name = "BetterGuard"
+filename = "BGuard-0.5-1.21.1-NeoForge.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "1de741e65201965effda51549881366145c3d5ea"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8142992
+project-id = 1553047

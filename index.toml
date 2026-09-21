@@ -206,11 +206,6 @@ hash = "f3d66527c4f82b44d9409f643332bc15f91b85f033afe147e3d8b421c0ea6d1e"
 metafile = true
 
 [[files]]
-file = "mods/antixray-forge.pw.toml"
-hash = "efacd037ea07f6f57120e2eb685c88a7212d5d7ddb19475a1aa884edf1ecd3c0"
-metafile = true
-
-[[files]]
 file = "mods/apotheosis-x-irons-spellbooks-compat.pw.toml"
 hash = "0f1f7c94290c275f9c58f89e5e86de46b078b61df4236bfc925a99b44dcde4e8"
 metafile = true
@@ -303,6 +298,11 @@ metafile = true
 [[files]]
 file = "mods/better-combat-by-daedelus.pw.toml"
 hash = "f75f946469a16f1640622c2bdecbd8a6dafa0876bf7f1000332abd1328e15ef5"
+metafile = true
+
+[[files]]
+file = "mods/betterguard.pw.toml"
+hash = "a7d5fc9703e5bb5992f58fe58b27cf0b04c8c3af6da16f212f6a6173ed60d050"
 metafile = true
 
 [[files]]
