@@ -301,11 +301,6 @@ hash = "f75f946469a16f1640622c2bdecbd8a6dafa0876bf7f1000332abd1328e15ef5"
 metafile = true
 
 [[files]]
-file = "mods/betterguard.pw.toml"
-hash = "0167c60dbfba432c3d7be8fc379dda4a37131f1b802d2538539d71825587050f"
-metafile = true
-
-[[files]]
 file = "mods/blockui.pw.toml"
 hash = "0dc7230f27f24e0e64a36f5a26a6b430baaf6452a3c533bc7ae8e999f77b549b"
 metafile = true
