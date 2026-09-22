@@ -1,0 +1,13 @@
+name = "ShieldGrid - Create Aeronautics & Big Cannons Compat"
+filename = "shieldgrid-1.1.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qUpUFWgr/versions/pPo9SlSw/shieldgrid-1.1.6.jar"
+hash-format = "sha512"
+hash = "445098ec1c8d3d3b9c438e06184096ef5b86a0eafac126aed3fdc4e0c4c60a100b35ad0fef783200dc84b65585ca1e595735f675c554165b459abefb56e5030c"
+
+[update]
+[update.modrinth]
+mod-id = "qUpUFWgr"
+version = "pPo9SlSw"

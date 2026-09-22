@@ -252,7 +252,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
+hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
 metafile = true
 
 [[files]]
@@ -565,6 +565,11 @@ hash = "4cf7eb494f48576e28895ee5f362878f95c6bad65372666106140fdae82d0c4c"
 metafile = true
 
 [[files]]
+file = "mods/glitchcore.pw.toml"
+hash = "e53646f88aeb6bd54c38db50da972abdac91e83c145a8f974107b0ca103b15bc"
+metafile = true
+
+[[files]]
 file = "mods/glodium.pw.toml"
 hash = "9aafdd83668c1b903caf0245b0bf2de3bb743befaa78d39e74a95c9933d624ac"
 metafile = true
@@ -647,6 +652,11 @@ metafile = true
 [[files]]
 file = "mods/lendercataclysm.pw.toml"
 hash = "0f04f325e69159d49ef7ad0593d9fa2caaca3825bc519b3d54c253bfcb0ae435"
+metafile = true
+
+[[files]]
+file = "mods/lets-do-vinery.pw.toml"
+hash = "7a364d2a3b1f9af1c0b41d2a33a74d24f2bb3e01f89d751c2573e0a28f1f33b1"
 metafile = true
 
 [[files]]
@@ -755,8 +765,8 @@ hash = "3a359acd4ad47c063c2833fa42ece3f3125fb912b7c03dc4e6098d9df3de80ce"
 metafile = true
 
 [[files]]
-file = "mods/particular-reforged.pw.toml"
-hash = "b4c1580cb726c3d5053aced31cb378e847ac18cb7d58e4c04830f8aaf0b941bb"
+file = "mods/particle-rain.pw.toml"
+hash = "70a1250e9612f8194f88e9c14b405907d16e7b2df7742d6b4d1c42473486395e"
 metafile = true
 
 [[files]]
@@ -767,6 +777,11 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "3718e8a37d0dc2939cc350cce74bcb9c36b59f48baf4560e62804f7ca6478185"
+metafile = true
+
+[[files]]
+file = "mods/pf-neoforge.pw.toml"
+hash = "1ef7ce6d5fe6e584914680f5463508996f0dd1c2bdbc051b8b3b050c85e134ff"
 metafile = true
 
 [[files]]
@@ -787,6 +802,11 @@ metafile = true
 [[files]]
 file = "mods/powah.pw.toml"
 hash = "dc9fec9f7c8410ed73c1d9dec65df90b83af5a62a86e6a33b55dec5641f49f17"
+metafile = true
+
+[[files]]
+file = "mods/presence-footsteps-x-sable.pw.toml"
+hash = "b935ef30071e33025010c390655d53c53fc7bf82fecc8ac2b3cad0b98accee0d"
 metafile = true
 
 [[files]]
@@ -845,6 +865,16 @@ hash = "b210b54498abff891f524a0ce32b7b81bfc88043604065bd4ece9e71c36427f4"
 metafile = true
 
 [[files]]
+file = "mods/seasonal-lets-do.pw.toml"
+hash = "ddd75a02997d5856de28bdaf36fc5d08a0d6d6d3401692650f13f04f09d5eaed"
+metafile = true
+
+[[files]]
+file = "mods/serene-seasons.pw.toml"
+hash = "bcaac076ac981463ee57b7469430e5fb7ff99f8e2387681e7ac737ca5d22596b"
+metafile = true
+
+[[files]]
 file = "mods/servercore.pw.toml"
 hash = "33454564d216f62d011ac78fc0aa2a49977ac1161f10f4accb1d33a9934969df"
 metafile = true
@@ -852,6 +882,11 @@ metafile = true
 [[files]]
 file = "mods/shield-api.pw.toml"
 hash = "f1860e58c21e04e2526abd05ed2af3a2bc7433819af4deb60d0ec0aebb14c938"
+metafile = true
+
+[[files]]
+file = "mods/shieldgrid.pw.toml"
+hash = "88876e78723b0180b9917518f9066c24957952436a2c7770231bb5090a58dcce"
 metafile = true
 
 [[files]]
@@ -962,11 +997,6 @@ metafile = true
 [[files]]
 file = "mods/towntalk.pw.toml"
 hash = "a7074e8e499d34f5ce633dbd33f818e376dd1941ec5b1d97a33acd019df69b5a"
-metafile = true
-
-[[files]]
-file = "mods/trade-cycling.pw.toml"
-hash = "a265dc0654050cf736b29ff48e13f647ee07bbb1d8f40f4562b1c4a7f828ff0e"
 metafile = true
 
 [[files]]
