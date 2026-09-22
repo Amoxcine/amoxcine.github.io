@@ -142,7 +142,7 @@ hash = "9b967a21652b28e528e130a7c64a4fd75a30929f72599c842f89f34f9db65eb5"
 
 [[files]]
 file = "config/hailwall.json"
-hash = "1395e1bf79789db04624f109d3e724ab08dd8198f7ddbb5ff0937f8056f71df3"
+hash = "b15a450cfb98bf4e9a03fcb33c774b270214285b1b758e19ab52a4cd0b3546b9"
 
 [[files]]
 file = "config/multiplayerbosses-common.toml"
