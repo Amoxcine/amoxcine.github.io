@@ -1,13 +1,13 @@
 name = "Iron's Lib"
-filename = "irons_lib-1.21.1-2.1.1.jar"
+filename = "irons_lib-1.21.1-2.2.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b655b03b6fa5f93fce8108411512d3007fe2d46f"
+hash = "33ca1a58dc0b384a6de26171f34b3bf608aaeeb2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8940637
+file-id = 8973642
 project-id = 1492763

@@ -1,13 +1,13 @@
 name = "Chunk Sending"
-filename = "chunksending-1.21-3.9.jar"
+filename = "chunksending-1.21-4.1.jar"
 side = "server"
 
 [download]
 hash-format = "sha1"
-hash = "31706585eb19ef540d09fe23631f12489da004c5"
+hash = "bb408feaf8f1e7b9f375475f87a4d96fe781af71"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8752593
+file-id = 9051336
 project-id = 831663
